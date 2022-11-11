@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ¤. Semester
+title: 4. Semester
 nav_order: 1
 ---
 
