@@ -6,15 +6,11 @@ nav_order: 20
 has_children: false
 ---
 
-## Table of contents
-{: .no_toc .text-delta }
-
 <details open markdown="block">
   <summary>
     Table of contents
   </summary>
   {: .text-delta }
-{: .no_toc .text-delta }
 {:toc}
 </details>
 
@@ -24,7 +20,6 @@ Financial performance analysis is a normal task for Power BI.
 
 ![](./image/Financial_Performance_Analysis_Power_BI_Project_Idea.jpg)
 
-## Data
 Refer to the multi-company financial dataset available on Kaggle - [Link](https://www.kaggle.com/qks1lver/financial-data-of-4400-public-companies)
 
 You can leverage Power BI data visualization in this project for three different cases:
