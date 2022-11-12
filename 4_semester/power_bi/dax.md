@@ -253,35 +253,35 @@ DAX includes a set of text functions based on the library of string functions in
 ### CONCATENATE
 This function takes in two arguments which are textual data and concatenates data in it. It adds the contents of the second argument to the first and returns it.
 
-Syntax: CONCATENATE(<text1>, <text2>)
+**Syntax**: *CONCATENATE(<text1>, <text2>)*
   
 ### UPPER, LOWER:
 The UPPER function takes in text or any textual column and converts the text into upper case.
 
 The LOWER function takes in text or any textual column and converts the text into lowercase.
 
-Syntax: UPPER (<text>) , LOWER (<text>)  
+**Syntax**: *UPPER (<text>)* , *LOWER (<text>)*  
   
 ### LEN
 This function takes in any text or text column and returns the number of characters in it.
 
-Syntax: LEN(<text>)
+**Syntax**: *LEN(<text>)*
 
 ### TRIM
 The trim function basically removes the trailing white spaces. It doesn’t remove the white spaces present between the words, but if any white spaces are found at the starting of the string or end are removed.
 
-Syntax: TRIM(<text>)  
+**Syntax**: *TRIM(<text>)*
   
 ### SUBSTITUTE
 This function replaces the specified new text with existing text in specified column. Instance_num talks about the occurrence of old_text you want to replace. If omitted, every instance of old_text is replaced.
 
-Syntax: SUBSTITUTE(<text>, <old_text>, <new_text>, <instance_num>)  
+**Syntax**: *SUBSTITUTE(<text>, <old_text>, <new_text>, <instance_num>) * 
 
 ## Links
 - [docs.microsoft.com/en-us/dax/dax-overview](https://docs.microsoft.com/en-us/dax/dax-overview)
 - [docs.microsoft.com/en-us/power-bi/transform-model/desktop-calculated-columns](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-calculated-columns)
 - [docs.microsoft.com/en-us/dax/aggregation-functions-dax](https://docs.microsoft.com/en-us/dax/aggregation-functions-dax)
 - [docs.microsoft.com/en-us/dax/date-and-time-functions-dax](https://docs.microsoft.com/en-us/dax/date-and-time-functions-dax)
-- [docs.microsoft.com/en-us/dax/filter-functions-dax]https://docs.microsoft.com/en-us/dax/filter-functions-dax()
+- [docs.microsoft.com/en-us/dax/filter-functions-dax](https://docs.microsoft.com/en-us/dax/filter-functions-dax()
 - [docs.microsoft.com/en-us/dax/math-and-trig-functions-dax](https://docs.microsoft.com/en-us/dax/math-and-trig-functions-dax)
 - [docs.microsoft.com/en-us/dax/text-functions-dax](https://docs.microsoft.com/en-us/dax/text-functions-dax)
