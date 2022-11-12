@@ -1,7 +1,8 @@
 ---
 layout: default
 title: DAX
-nav_order: 2
+parent: Microsoft Power BI
+nav_order: 10
 has_children: false
 ---
 

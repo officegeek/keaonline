@@ -1,9 +1,9 @@
----
-layout: default
-title: 4. Semester
-has_children: true
-nav_order: 70
----
+    ---
+    layout: default
+    title: 4. Semester
+    has_children: true
+    nav_order: 20
+    ---
 <span class="fs-1">
 [HOME](../README.md){: .btn .btn-blue }
 </span>
