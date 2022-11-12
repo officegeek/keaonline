@@ -15,6 +15,15 @@ has_children: false
 1. TOC
 {:toc}
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 
 # Financial Performance Analysis
 Financial performance analysis is a normal task for Power BI. 
