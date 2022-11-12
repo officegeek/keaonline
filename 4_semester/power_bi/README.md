@@ -9,3 +9,7 @@ has_children: true
 
 ## DAX
 - [DAX](./dax.md)
+
+## Samples
+- [Microsoft Examples](./microsoft-sampel-financial.md)
+- [Power BI Sample Dataset](power_bi_sample-dataset.md)

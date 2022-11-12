@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DAX
+title: Microsoft Financial Sample
 parent: Microsoft Power BI
 nav_order: 20
 has_children: false
