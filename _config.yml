@@ -1,10 +1,19 @@
 remote_theme: pmarsceill/just-the-docs
-# Enable or disable the site search - Supports true (default) or false
+
 search_enabled: true
+
 compress_html:
   ignore:
     envs: all
+
 kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: true
+
+logo: "/assets/images/logo.jpg"
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
