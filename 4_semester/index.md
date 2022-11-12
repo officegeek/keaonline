@@ -6,7 +6,7 @@
 ---
 
 <span class="fs-1">
-[HOME](../README.md){: .btn .btn-blue }
+[HOME](../index.md){: .btn .btn-blue }
 </span>
 
 # 4. Semester

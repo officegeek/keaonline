@@ -6,6 +6,15 @@ nav_order: 10
 has_children: false
 ---
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # What is DAX?
 DAX stands for **Data Analysis Expressions**, i.e. such expressions or formulas that are used for data analysis and calculations.
 
