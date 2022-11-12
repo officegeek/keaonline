@@ -1,8 +1,10 @@
-title: Tue Hellstern :: Kea
-description: Home for my teachin at Kea
-theme: just-the-docs
-
-url: https://just-the-docs.github.io
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+remote_theme: pmarsceill/just-the-docs
+# Enable or disable the site search - Supports true (default) or false
+search_enabled: true
+compress_html:
+  ignore:
+    envs: all
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true

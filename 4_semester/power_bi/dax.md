@@ -2,6 +2,7 @@
 layout: default
 title: DAX
 nav_order: 2
+has_children: false
 ---
 
 # What is DAX?
