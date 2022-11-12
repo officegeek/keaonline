@@ -6,6 +6,16 @@ nav_order: 20
 has_children: false
 ---
 
+# Navigation Structure
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+
 # Financial Performance Analysis
 Financial performance analysis is a normal task for Power BI. 
 
