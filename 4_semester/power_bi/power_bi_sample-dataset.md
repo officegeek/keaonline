@@ -6,21 +6,15 @@ nav_order: 20
 has_children: false
 ---
 
-# Navigation Structure
-{: .no_toc }
-
 ## Table of contents
 {: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 <details open markdown="block">
   <summary>
     Table of contents
   </summary>
   {: .text-delta }
-1. TOC
+{: .no_toc .text-delta }
 {:toc}
 </details>
 
