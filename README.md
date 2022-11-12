@@ -1,3 +1,9 @@
+---
+    layout: default
+    title: Kea
+    has_children: true
+    nav_order: 1
+---
 # Kea
 
 # 4. Semester

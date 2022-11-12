@@ -2,7 +2,7 @@
     layout: default
     title: Tue Hellstern
     has_children: false
-    nav_order: 10
+    nav_order: 3
 ---
 
 <span class="fs-1">
