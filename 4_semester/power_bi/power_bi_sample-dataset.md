@@ -2,7 +2,7 @@
 layout: default
 title: Power BI sample dataset
 parent: Microsoft Power BI
-nav_order: 20
+nav_order: 40
 ---
 
 <details open markdown="block">
