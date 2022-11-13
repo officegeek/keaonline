@@ -2,6 +2,7 @@
 layout: default
 title: Microsoft Financial Sample
 parent: Microsoft Power BI
+has_children: false
 nav_order: 30
 ---
 

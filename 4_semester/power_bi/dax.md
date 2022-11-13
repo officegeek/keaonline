@@ -2,8 +2,8 @@
 layout: default
 title: DAX
 parent: Microsoft Power BI
-nav_order: 20
 has_children: false
+nav_order: 20
 ---
 
 <details open markdown="block">
