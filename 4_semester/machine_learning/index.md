@@ -18,7 +18,7 @@ has_children: true
 </details>
 
 ## Links
-- [ML in Power BI](./ML_PowerBIPyC.md)
+- [ML in Power BI](./mlpowerbIpyc.md)
 - [PyCaret](./PyCaret.md)
 - [Using Jupyter Lab in a Virtual Environment](https://officegeek.github.io/keaonline/python/Using_Jupyter_Lab_in_Virtual_Environme.html)
 
