@@ -222,27 +222,27 @@ DAX provides almost many Mathematical and trigonometric functions that are avail
 ### ABS
 This function takes in a number or numerical data and returns its absolute value. The absolute value of 1 is 1 and -1 is also 1.
 
-Syntax: ABS(<number>)
+**Syntax**: *ABS(<number>)*
   
 ### CEILING
 Generally, a ceil function rounds a number up to the nearest integer. For example, ceil value of 4.1 would be 5. DAX provides a Ceiling function such that the number can be rounded up, to the nearest integer or to the nearest multiple of significance.
 
-Syntax: CEILING(<number>, <significance>)
+**Syntax**: *CEILING(<number>, <significance>)*
   
 ### FLOOR
 Generally, a floor function rounds a number down to the nearest integer. For example, a floor value of 4.8 would be 4. DAX provides a floor function such that the number can be rounded down, to the nearest integer or to the nearest multiple of significance
 
-Syntax: FLOOR(<number>, <significance>)
+**Syntax**: *FLOOR(<number>, <significance>)*
   
 ### ROUND
 A round function rounds a decimal number to a specified number of digits. For example, a value of 4.13 rounded to two one digit would be 4.1. DAX Provides a ROUND function to round the number to a specified number of digits.
 
-Syntax: ROUND(<number>, <num_digits>)
+**Syntax**: *ROUND(<number>, <num_digits>)*
   
 ### DIVIDE
 Divide function takes column in the first argument as numerator and column in the second argument as the denominator and performs division and returns the alternate result or BLANK() on division by 0.
 
-Syntax: DIVIDE(<numerator>, <denominator> [,<alternateresult>])
+**Syntax**: *DIVIDE(<numerator>, <denominator> [,<alternateresult>])*
 
   
 ## DAX Text Functions

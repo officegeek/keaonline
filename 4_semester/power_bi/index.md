@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Microsoft Power BI
-nav_order: 1
+nav_order: 60
 parent: 4. Semester
 has_children: true
 ---

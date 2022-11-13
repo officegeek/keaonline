@@ -11,7 +11,7 @@ kramdown:
     block:
       line_numbers: true
 
-logo: "/assets/images/logo.jpg"
+logo: "/assets/images/logo.png"
 
 mermaid:
   # Version of mermaid library
