@@ -15,6 +15,7 @@ parent: Microsoft Power BI
 </details>
 
 # Machine Learning in Power BI using PyCaret
+How to use Machine Learning in Microsoft Power BI, with the use og PyCaret.
 
 ## Setting up the Environment
 Before we start using PyCaret’s machine learning capabilities in Power BI we have to create a virtual environment and install PyCaret.
@@ -64,7 +65,7 @@ https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/delaware_anoma
 
 To train an anomaly detector in Power BI, we will need to run a Python script in the Power Query Editor
 
-Power Query Editor → Transform → Run Python script 
+    Power Query Editor → Transform → Run Python script
 
 Run the code below as a Python script:
 
