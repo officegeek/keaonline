@@ -7,6 +7,15 @@ parent: Microsoft Power BI
 
 [HOME](./README.md)
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # Using AI and Machine Learning to Predict Consumer Behavior
 
 Companies understand that predicting customer behavior fills the gap in the markets and identifies products that are needed and which could generate bigger revenue.
@@ -77,11 +86,8 @@ for x in ['Age' , 'Annual Income (k$)' , 'Spending Score (1-100)']:
 plt.show()
 ```
 
-
+![](./image/output_5_0.png)
     
-![png](output_5_0.png)
-    
-
 
 ## Gender analysis
 The second most important thing in deciding the strategy, to analyze the spending patterns based on Gender.
@@ -93,13 +99,9 @@ sns.countplot(y = 'Gender' , data = df)
 plt.show()
 ```
 
+![](./image/output_7_0.png)
 
-    
-![png](output_7_0.png)
-    
-
-
- We find that Females tend to purchase more than Males do.
+We find that Females tend to purchase more than Males do.
 
 # Customer segmentation
 Segmentation helps in dividing a set of large data into groups of smaller observations that are similar in specific ways relevant to marketing.
@@ -127,7 +129,6 @@ for n in range(1 , 11):
 
 ## Visualize as graph
 
-
 ```python
 plt.figure(1 , figsize = (15 ,6))
 plt.plot(np.arange(1 , 11) , inertia , 'o') # Mark the points with a solid circle
@@ -135,19 +136,14 @@ plt.plot(np.arange(1 , 11) , inertia , '-' , alpha = 0.5) # Connect remaining po
 plt.xlabel('Number of Clusters') , plt.ylabel('Inertia')
 plt.show()
 ```
-
-
-    
-![png](output_12_0.png)
-    
-
+  
+![](./image/output_12_0.png)
 
 Notice that after cluster 4, the line graph starts becoming stable.
 
 This method is known as Elbow method.
 
 Explore more with 4 clusters.
-
 
 ```python
 model_2 = (KMeans(n_clusters = 4 ,init='k-means++', n_init = 10 ,max_iter=300, 
@@ -176,7 +172,6 @@ Z = model_2.predict(np.c_[xx.ravel(), yy.ravel()])  # returns flattened 1D array
 ### Plot the graph
 ### KMeans with 4 clusters
 
-
 ```python
 plt.figure(1 , figsize = (15 , 7) )
 plt.clf()
@@ -191,12 +186,8 @@ plt.scatter(x = centroids1[: , 0] , y =  centroids1[: , 1] , s = 300 , c = 'red'
 plt.ylabel('Spending Score (1-100)') , plt.xlabel('Age')
 plt.show()
 ```
-
-
-    
-![png](output_18_0.png)
-    
-
+  
+![](./image/output_18_0.png)
 
 From this plot, we can get information about the spending patterns:
 
