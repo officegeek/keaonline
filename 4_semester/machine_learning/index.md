@@ -8,11 +8,6 @@ has_children: true
 
 [Home](../modul-4-2.md)
 
-## Links
-- [ML in Power BI](./ML_PowerBIPyC.md)
-- [PyCaret](./PyCaret.md)
-- [Using Jupyter Lab in a Virtual Environment](./Using_Jupyter_Lab_in_Virtual_Environme.md)
-
 <details open markdown="block">
   <summary>
     Table of contents
@@ -21,6 +16,12 @@ has_children: true
 1. TOC
 {:toc}
 </details>
+
+## Links
+- [ML in Power BI](./ML_PowerBIPyC.md)
+- [PyCaret](./PyCaret.md)
+- [Using Jupyter Lab in a Virtual Environment]()
+
 
 # Machine Learning
 Machine learning is all around us. From antilock braking systems, to autopilot systems in airplanes and cars, smart speakers, which serve as personal digital assistants, to systems that learn our movie preferences and recommend what to watch next in Netflix.
