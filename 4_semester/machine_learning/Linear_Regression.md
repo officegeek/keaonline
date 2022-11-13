@@ -1,3 +1,10 @@
+---
+layout: default
+title: Machine Learning
+nav_order: 20
+parent: Microsoft Power BI
+---
+
 [HOME](./README.md)
 
 # Linear Regression in Python

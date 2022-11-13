@@ -1,3 +1,10 @@
+---
+layout: default
+title: Exploratory data analysis
+nav_order: 10
+parent: Microsoft Power BI
+---
+
 [HOME](./README.md)
 
 # Exploratory data analysis
@@ -18,7 +25,7 @@ The dataset consists of data from 3 cities or 3 branches in Myanmar:
 - [Supermarket](./data/eda_supermarket.md)
 - [Jupyter Lab file](./data/eda_supermarket.ipynb)
 
-# # Webshop - Assignment
+## Webshop - Assignment
 Purchases distributed on the different age groups, from a webshop
 
 ## Data

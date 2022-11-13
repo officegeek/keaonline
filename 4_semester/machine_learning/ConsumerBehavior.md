@@ -1,3 +1,10 @@
+---
+layout: default
+title: ML Consumer Behavior
+nav_order: 30
+parent: Microsoft Power BI
+---
+
 [HOME](./README.md)
 
 # Using AI and Machine Learning to Predict Consumer Behavior
@@ -43,81 +50,6 @@ import seaborn as sns
 df = pd.read_csv('Mall_Customers.csv')
 df.head()
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>CustomerID</th>
-      <th>Gender</th>
-      <th>Age</th>
-      <th>Annual Income (k$)</th>
-      <th>Spending Score (1-100)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>Male</td>
-      <td>19</td>
-      <td>15</td>
-      <td>39</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>Male</td>
-      <td>21</td>
-      <td>15</td>
-      <td>81</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>Female</td>
-      <td>20</td>
-      <td>16</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>Female</td>
-      <td>23</td>
-      <td>16</td>
-      <td>77</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>Female</td>
-      <td>31</td>
-      <td>17</td>
-      <td>40</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
 
 # Data visualizations
 ## Correlation between Age, Income and Spending scores

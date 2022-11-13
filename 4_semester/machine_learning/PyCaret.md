@@ -1,4 +1,20 @@
+---
+layout: default
+title: PyCaret
+nav_order: 20
+parent: Microsoft Power BI
+---
+
 [Home](../modul-4-2.md)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 # PyCaret
 PyCaret is an open-source, low-code machine learning library in Python that automates machine learning workflows - [pycaret.org](https://pycaret.org)
@@ -52,9 +68,6 @@ data = get_data('diamond')
 
 print(data.head())
 ```
-
-
-
 
 # Links
 - [PyCaret Quickstart](https://pycaret.gitbook.io/docs/get-started/quickstart)

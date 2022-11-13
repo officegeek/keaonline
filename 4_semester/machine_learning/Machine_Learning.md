@@ -1,13 +1,8 @@
 ---
+layout: default
 title: Machine Learning
-theme: gaia
-_class: lead
-paginate: true
-marp: true
-backgroundColor: #fff
-size: 4K
-@auto-scaling true
-markdown.marp.enableHtml
+nav_order: 20
+parent: Microsoft Power BI
 ---
 
 ![bg 125%](https://github.com/officegeek/image/raw/main/ml.jpg)

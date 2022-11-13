@@ -14,7 +14,6 @@ nav_order: 20
 {:toc}
 </details>
 
-
 # Financial Performance Analysis
 Financial performance analysis is a normal task for Power BI. 
 
