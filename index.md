@@ -1,7 +1,7 @@
 ---
     layout: default
     title: Kea
-    has_children: true
+    has_children: false
     nav_order: 1
 ---
 # Kea
