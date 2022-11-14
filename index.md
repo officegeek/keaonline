@@ -13,7 +13,7 @@ Materiale til 4. semester - [Link](./4_semester/README.md)
 # KodeKebab
 Hvad med en podcast episode?
 
-Se mere på [http://www.kodekebab.dk] 
+Se mere på [www.kodekebab.dk](www.kodekebab.dk) 
 
 # Tue Hellstern
 Underviser på Kea - [Link](./Tue-Hellstern/README.md)

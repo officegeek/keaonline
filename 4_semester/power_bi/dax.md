@@ -49,52 +49,52 @@ Same as Measure, Calculated columns can be created in two ways:
 ### COUNT
 The COUNT function counts the number of cells in a column that contain non-blank values.
 
-Syntax: COUNT(<Column Name>)
+**Syntax**: *COUNT(<Column Name>)*
   
 ### COUNTBLANK
 CountBlank function computes the number of cells in the corresponding column of the data which have blank values.
 
-Syntax: COUNTBLANK(<Column Name>)
+**Syntax**: *COUNTBLANK(<Column Name>)*
 
 ### COUNTROWS
 CountRows function computes the number of rows in the corresponding table specified or the table returned as the output of some expression.
 
-Syntax: COUNTROWS([<Table Name>])
+**Syntax**: *COUNTROWS([<Table Name>])*
 
 ### DISTINCTCOUNT
 DistinctCount function computes the number of distinct values in the corresponding column specified. If any blank values are present in the column DISTINCTCOUNT function includes the blank value as one distinct value. This function will not exclude blanks. There is a different function for this.
 
-Syntax: DISTINCTCOUNT(<Column Name>)
+**Syntax**: *DISTINCTCOUNT(<Column Name>)*
 
 ### AVERAGE
 The average function in DAX takes in any column that has Numerical data and computes the average of values present in the column and returns it. If any blank value is present in the column, then the value is neither counted in the number of rows nor in the sum of values. If non-numerical data is present and the average can’t be computed it returns the blank value.
 
-Syntax: AVERAGE(<Column Name>)
+**Syntax**: *AVERAGE(<Column Name>)*
 
 ### SUM
 The sum function in DAX takes in any column that has Numerical data and computes the sum of values present in the column and returns it.
 
-Syntax: SUM(<Column Name>)
+**Syntax**: *SUM(<Column Name>)*
 
 ### SUMX
 The Sumx function basic functionality is to compute the sum like sum function, but SUMX function takes in two arguments. The first argument specifies the table or expression that returns the table, and second argument is a column name that contains numerical data for calculating the sum. Blanks, logical values, and text are ignored.
 
-Syntax: SUMX(<Table>,<Expression>)
+**Syntax**: *SUMX(<Table>,<Expression>)*
 
 ### MAX
 The Max function takes in either a column or two scalar expressions and computes the maximum and returns it. Here True/False values are not supported.
 
-Syntax: MAX(<Column Name>) or MAX(<Expression1>,<Expression2>)
+**Syntax**: *MAX(<Column Name>) or MAX(<Expression1>,<Expression2>)*
 
 ### MINA
 MINA function takes in a column that has numerical data and computes the minimum values. If the column contains no values, MINA returns 0 (zero). Rows in the column that evaluates logical values, such as TRUE and FALSE are treated as 1 if TRUE and 0 (zero) if FALSE. Empty cells are ignored.
 
-Syntax: MINA(<Column Name>)
+**Syntax**: *MINA(<Column Name>)*
 
 ### MIN
 MIN function takes in a column that has not only numerical data but also text, and date data types and computes the minimum of values. TRUE/FALSE values are not supported.
 
-Syntax: MIN(<Column Name>) or MIN(<Expression1>,<Expression2>).
+**Syntax**: *MIN(<Column Name>) or MIN(<Expression1>,<Expression2>)*
 
 ## DAX Filter Functions
 Filter functions in DAX are one of the most complex and powerful functions in DAX. They are extensively used in PowerBI. The filtering functions let you manipulate data context to create dynamic calculations and data masks.
@@ -102,14 +102,14 @@ Filter functions in DAX are one of the most complex and powerful functions in DA
 ### CALCULATE
 This function evaluates the expression in the applied filter context. Suppose you want to calculate the Sum of the Values of the corresponding table where the data belongs to the country Canada, we use calculate function and calculate the sum of values of data filtered by the filter condition applied.
 
-Syntax: CALCULATE(<expression>[, <filter1> [, <filter2> [, …]]])
-  
+**Syntax**: *CALCULATE(<expression>[, <filter1> [, <filter2> [, …]]])*
+
 ### FILTER
 This function takes in the table, and the filter condition or expression by which the specified table is filtered and returns a table filtered by the specified condition.
 
-Syntax: FILTER(<table>,<filter>)
-  
-  
+**Syntax**: *FILTER(<table>,<filter>)*
+
+
 ## DAX Time Intelligence Functions
 Time Intelligence functions in DAX are different from Time and Date functions. 
   
@@ -120,34 +120,34 @@ Let’s have a look at some of the most used Time intelligence functions along w
 ### DATEADD
 This function takes in three arguments, first one being the column that has dates and second argument represents the number of intervals and the third argument specifies the type of interval (day, month, year, quarter). It returns a table of one column that contains dates which are either shifted forward or backward as specified by time interval.
 
-Syntax: DATEADD(<dates>,<number_of_intervals>,<interval>)
+**Syntax**: *DATEADD(<dates>,<number_of_intervals>,<interval>)*
 
 ### DATESBETWEEN
 This function returns a table with one column that contains all the dates between the specified start date and end date range. If BLANK() is passed as the value for the start date, then the start date will be the earliest date in the dates column and if the last date is BLANK() then it will be the latest value.
 
-Syntax: DATESBETWEEN(<dates>,<start_date>,<end_date>)
+**Syntax**: *DATESBETWEEN(<dates>,<start_date>,<end_date>)*
 
 ### NEXTDAY
 This function takes in a dates column as input and returns a table that contains a column of all dates from the next day based on the first date specified in the dates column.
 
-Syntax: NEXTDAY(<dates>)
+**Syntax**: *NEXTDAY(<dates>)*
   
 ### PREVIOUSDAY
 This function takes in a dates column as input and returns a table that contains a column of all dates from the previous day based on the first date specified in dates column.
 
-Syntax: PREVIOUSDAY(<dates>)
+**Syntax**: *PREVIOUSDAY(<dates>)*
   
 ### DATESYTD
 This function takes in a mandatory argument and an optional argument. The mandatory argument is the column that contains dates and the Optional column is a string literal that specifies the year-end date. Its default value is 31st December.
 
 This function returns a table that contains a column of the dates for the year to date.
 
-Syntax: DATESYTD(<dates> [,<year_end_date>])
+**Syntax**: *DATESYTD(<dates> [,<year_end_date>])*
   
 ### DATESMTD
 This function takes in an argument is the column that contains dates and returns a table that contains a column of the dates for the month to date.
 
-Syntax: DATESMTD(<dates>)
+**Syntax**: *DATESMTD(<dates>)*
   
 ## DAX Date and Time Functions
 Date and Time functions in DAX are different from Time Intelligence functions. 
@@ -159,60 +159,60 @@ These functions use the Date Time data type, and the output is always returned i
 ### CALENDAR
 This function takes in start date and end date values as arguments and returns a table with a single column that contains the contiguous set of dates specified by the start date and end date range.
 
-Syntax: CALENDAR(<start_date>, <end_date>)
+**Syntax**: *CALENDAR(<start_date>, <end_date>)*
 
 ### MONTH
 This function takes a date in date time or text format as an argument and returns month number 1(January) to 12 (December).
 
-Syntax: MONTH(<datetime>)
+**Syntax**: *MONTH(<datetime>)*
 
 ### DATEDIFF
 This function takes in three arguments: start date, end date and interval (day, month, quarter, year, week, second, minute, hour). The function computes the difference between the start date and the end date according to the specified interval.
 
-Syntax: DATEDIFF(<start_date>,<end_date>,<interval>)
+**Syntax**: *DATEDIFF(<start_date>,<end_date>,<interval>)*
 
 ### WEEKDAY
 This function takes in a mandatory argument and an optional argument. The mandatory argument is the date in date time format and the optional argument is the return type. WeekDay returns a number from 1 to 7 identifying the day of the week of a date. By default, the day ranges from 1 (Sunday) to 7 (Saturday).
 
-Syntax: WEEKDAY(<date>, <return_type>)
+**Syntax**: *WEEKDAY(<date>, <return_type>)*
   
 ### WEEKNUM
 We all know that there are 52 weeks in a year. WEEKNUM function Returns the week number for the given date according to the return_type value. The week number indicates where the week falls numerically within a year. Return type indicates when the week begins.
 
-Syntax: WEEKNUM(<date>[, <return_type>])
+**Syntax**: *WEEKNUM(<date>[, <return_type>])*
   
 ## DAX Logical Functions
 Logical functions are used in order to test whether a situation is true or false. 
 
-  Depending on the result of that test, you can then elect to do one thing or another. These decisions can be used to display information, perform different calculations, or perform further tests. Logical functions act upon an expression to return information about the values or sets in the expression. 
+Depending on the result of that test, you can then elect to do one thing or another. These decisions can be used to display information, perform different calculations, or perform further tests. Logical functions act upon an expression to return information about the values or sets in the expression. 
 
 For example, you can use the IF function to check the result of an expression and create conditional results.
 
 ### IF
 This function is used to check for a condition and if the condition satisfies return something else and return some other thing. This function takes two mandatory arguments: A conditional expression and returns the value if true, and one optional argument returns the value if false.
 
-Syntax: IF(<logical_test>, <value_if_true>[, <value_if_false>])
+**Syntax**: *IF(<logical_test>, <value_if_true>[, <value_if_false>])*
   
 
 ### AND
 This function represents the same functionality of AND operator but as a function. Checks whether both arguments are true and return TRUE if both arguments are true. Otherwise returns false.
 
-Syntax: AND(<logical1>,<logical2>)
+**Syntax**: *AND(<logical1>,<logical2>)*
   
 ### OR
 This function represents the same functionality of the OR operator but as a function. Checks whether one of the arguments is true to return TRUE. The function returns FALSE if both arguments are false.
 
-Syntax:OR(<logical1>,<logical2>)
+**Syntax**: *OR(<logical1>,<logical2>)*
   
 ### COALESCE
 This function returns the first expression that does not evaluate to blank. If all expressions evaluate as blank, BLANK is returned.
 
-Syntax: COALESCE(<expression>, <expression>[, <expression>]…)
+**Syntax**: *COALESCE(<expression>, <expression>[, <expression>]…)*
   
 ### SWITCH
 This function is like Switch case statements in a programming language. Switch Evaluates an expression against a list of values and returns one of the multiple possible result expressions.
 
-Syntax: SWITCH(<expression>, <value>, <result>[, <value>, <result>]…[, <else>]) 
+**Syntax**: *SWITCH(<expression>, <value>, <result>[, <value>, <result>]…[, <else>])*
   
 ## Mathematical and Trigonometric Functions
 Mathematical and Trigonometric functions are used to perform mathematical calculations on numeric data such as addition, division, getting sine of value etc. 
