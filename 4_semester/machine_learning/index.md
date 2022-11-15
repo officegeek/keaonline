@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Machine Learning
-nav_order: 70
-parent: 4. Semester
-has_children: true
+  layout: default
+  title: Machine Learning
+  nav_order: 70
+  parent: 4. Semester
+  has_children: true
 ---
 
 [Home](../modul-4-2.md)
