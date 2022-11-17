@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Microsoft Power BI
-parent: 4. Semester
+parent: Know Your Data
 has_children: true
 nav_order: 10
 ---
@@ -11,8 +11,6 @@ nav_order: 10
 </span>
 
 # Microsoft Power BI
-
-
 Microsoft Power BI er et interaktivt data visualiserings software udviklet af Microsoft med primært fokus på business intelligence (*BI*).
 
     Skab en datadrevet kultur ved hjælp af business intelligence for alle

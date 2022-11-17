@@ -2,7 +2,7 @@
 layout: default
 title: Machine Learning Power BI with PyCaret
 nav_order: 30
-parent: Microsoft Power BI
+parent: Machine Learning
 ---
 
 <details open markdown="block">

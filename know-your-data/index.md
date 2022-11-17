@@ -1,6 +1,6 @@
 ---
     layout: default
-    title: 4. Semester
+    title: Know Your Data
     has_children: true
     nav_order: 2
 ---
@@ -9,7 +9,7 @@
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
-# 4. Semester
+# Know Your Data
 
 # Power BI
 - [Link](./power_bi/README.md)

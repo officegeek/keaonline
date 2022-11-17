@@ -2,7 +2,7 @@
 layout: default
 title: Machine Learning
 nav_order: 70
-parent: 4. Semester
+parent: Know Your Data
 has_children: true
 ---
 
