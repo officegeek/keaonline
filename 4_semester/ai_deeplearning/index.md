@@ -32,7 +32,6 @@ TensorFlow is an end-to-end open source platform for machine learning. It has a 
 Consider the following sets of **numbers**. **Can you see the relationship between them?**
 
 | X: | -1 | 0 | 1 | 2 | 3  | 4  |
-|----|----|---|---|---|----|----|
 | Y: | -2 | 1 | 4 | 7 | 10 | 13 |
 
 
