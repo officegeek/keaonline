@@ -182,7 +182,7 @@ Example code for K-Modes Clustering with 6 clusters
 
 ```python
 from pycaret.clustering import *
-dataset = get_clusters(dataset, model='kmodes', num_clusters=6, ignore_features=['Country'])
+# dataset = get_clusters(dataset, model='kmodes', num_clusters=6, ignore_features=['Country'])
 ```
 
 A new column which contains the cluster **Label** is attached to the original dataset. 
