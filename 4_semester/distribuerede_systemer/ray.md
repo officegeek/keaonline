@@ -1,3 +1,10 @@
+---
+layout: default
+title: Ray
+parent: Distribuerede systemer
+nav_order: 50
+---
+
 # Ray
 Ray is an open source project that makes it simple to scale any compute-intensive Python workload — *from deep learning to production model serving*
 

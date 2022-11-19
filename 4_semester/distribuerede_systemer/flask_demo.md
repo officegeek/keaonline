@@ -1,3 +1,10 @@
+---
+layout: default
+title: Flask
+parent: Distribuerede systemer
+nav_order: 40
+---
+
 # Flask
 Flask is a micro web framework written in Python.
 

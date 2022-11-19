@@ -1,3 +1,10 @@
+---
+layout: default
+title: Design Pattens
+parent: Distribuerede systemer
+nav_order: 20
+---
+
 # Design Pattens
 In Python, nothing obliges you to write classes and instantiate objects from them.
 

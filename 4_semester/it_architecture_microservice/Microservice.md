@@ -1,3 +1,10 @@
+---
+layout: default
+title: Microservice
+parent: IT architecture & Microservice
+nav_order: 20
+---
+
 # Microservice
 A microservice architecture – A variant of the service-oriented architecture (**SOA**) – arranges an application as a collection of loosely-coupled services.
 
