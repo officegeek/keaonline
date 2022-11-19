@@ -1,3 +1,10 @@
+---
+layout: default
+title: Dash app >> Azure
+parent: Virtualisering
+nav_order: 40
+---
+
 # Dash app >> Azure
 Dash is a powerful software tool for creating dashboards, *but if you need to share your dashboards with other?*
 ![](./image/dash_azure_4.jpg)

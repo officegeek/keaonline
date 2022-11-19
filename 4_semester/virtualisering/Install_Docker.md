@@ -1,3 +1,10 @@
+---
+layout: default
+title: Install Docker
+parent: Virtualisering
+nav_order: 30
+---
+
 # Install Docker
 
 

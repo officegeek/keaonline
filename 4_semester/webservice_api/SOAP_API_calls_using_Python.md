@@ -1,3 +1,10 @@
+---
+layout: default
+title: SOAP API calls using Python
+parent: Web Service API
+nav_order: 40
+---
+
 [Home](./README.md)
 
 # SOAP API calls using Python

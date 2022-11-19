@@ -1,3 +1,10 @@
+---
+layout: default
+title: Create MySQL Database
+parent: Virtualisering
+nav_order: 20
+---
+
 [Home](./README.md)
 # Create MySQL Database
 

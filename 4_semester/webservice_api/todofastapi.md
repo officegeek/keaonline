@@ -1,3 +1,10 @@
+---
+layout: default
+title: FastAPI ToDo - Demo
+parent: Web Service API
+nav_order: 50
+---
+
 [Home](README.md)
 
 # FastAPI ToDo - Demo
@@ -12,7 +19,7 @@ The dome contains 3 file and the structure is:
 
 You can get the files at [github.com/TueHellsternKea/fastapitodo](https://github.com/TueHellsternKea/fastapitodo)
 
-![](./image/fastapitodo.jpg)
+![](./_image/fastapitodo.jpg)
 
 ## main.py
 This is the Python code file
@@ -127,4 +134,4 @@ The file are in the folder **templates**, it is a basic HTML file.
 ```
 
 ## Docs ToDo
-![](./image/tododocs.jpg)
+![](./_image/tododocs.jpg)

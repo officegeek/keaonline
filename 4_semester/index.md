@@ -1,8 +1,8 @@
 ---
-    layout: default
-    title: 4. Semester
-    has_children: true
-    nav_order: 2
+layout: default
+title: 4. Semester
+has_children: true
+nav_order: 2
 ---
 
 <span class="fs-1">

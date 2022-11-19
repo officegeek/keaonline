@@ -11,8 +11,6 @@ nav_order: 60
 </span>
 
 # Microsoft Power BI
-
-
 Microsoft Power BI er et interaktivt data visualiserings software udviklet af Microsoft med primært fokus på business intelligence (*BI*).
 
     Skab en datadrevet kultur ved hjælp af business intelligence for alle
@@ -34,8 +32,7 @@ DAX er
 
 ## Samples
 - [Microsoft Examples](./microsoft-sampel-financial.md)
-- [Power BI Sample Dataset](power_bi_sample-dataset.md)
+- [Power BI Sample Dataset](./power_bi_sample-dataset.md)
 
 # Links
 - [Microsoft Power BI Danmark](https://powerbi.microsoft.com/da-dk/landing/free-account/?&ef_id=EAIaIQobChMI7bifqfKt-wIVl5iyCh1Org0oEAAYASAAEgIN5PD_BwE:G:s&OCID=AIDcmmxhf4ry4i_SEM_EAIaIQobChMI7bifqfKt-wIVl5iyCh1Org0oEAAYASAAEgIN5PD_BwE:G:s&gclid=EAIaIQobChMI7bifqfKt-wIVl5iyCh1Org0oEAAYASAAEgIN5PD_BwE)
-- 

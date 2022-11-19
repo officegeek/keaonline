@@ -1,3 +1,10 @@
+---
+layout: default
+title: ML Consumer Behavior
+parent: Virtualisering
+nav_order: 10
+---
+
 # Jupyter Lab
 Project Jupyter's tools are available for installation via the Python Package Index, the leading repository of software created for the Python programming language.
 

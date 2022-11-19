@@ -1,3 +1,10 @@
+---
+layout: default
+title: Install Docker
+parent: Web Service API
+nav_order: 30
+---
+
 [Home](./README.md)
 
 # FastAPi
@@ -47,18 +54,18 @@ async def root():
 async def function_demo_get():
     return {"message": "This is /newendpoint endpoint"}
 ```
-Get the codefile: [main.py](./codefiles/fastapi/get_started/main.py) 
+Get the codefile: [main.py](./_code/fastapi/get_started/main.py) 
 
 ## Run the server
 To run the server, use this command in the samen foldes as your main.py file
 
     uvicorn main:app --reload
 
-![](./image/uvicorn-1.jpg)
+![](./_image/uvicorn-1.jpg)
 
 The **--reload** flag tells Uvicorn to reload the server whenever new code is added to the application. Next, open your browser and navigate to http://127.0.0.1:8000, where you’ll see a JSON response.
 
-![](./image/uvicorn-2.jpg)
+![](./_image/uvicorn-2.jpg)
 
 ## Interactive API docs
 FastAPI has a 2 automatic interactive API documentation
@@ -67,13 +74,13 @@ First one is - docs
 
     http://127.0.0.1:8000/docs
 
-![](./image/fastapi_1.jpg)
+![](./_image/fastapi_1.jpg)
 
 Second one is - redocs
 
      http://127.0.0.1:8000/redocs    
 
-![](./image/fastapiredocs.jpg)
+![](./_image/fastapiredocs.jpg)
 
 # Links
 - [fastapi.tiangolo.com](https://vfastapi.tiangolo.com/)

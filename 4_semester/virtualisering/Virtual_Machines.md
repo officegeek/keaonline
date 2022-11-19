@@ -1,3 +1,10 @@
+---
+layout: default
+title: Virtual Machine
+parent: Virtualisering
+nav_order: 50
+---
+
 # Virtual Machine
 Azure Virtual Machines are image service instances that provide on-demand and scalable computing resources with usage-based pricing.
 
