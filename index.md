@@ -8,7 +8,7 @@
 Jeg brugere dette site til mit undervisnings materiale.
 
 # 4. Semester
-Materiale til 4. semester - [Link](./4_semester/README.md)
+Materiale til 4. semester - [Link](./4_semester/index.md)
 
 # KodeKebab
 Hvad med en podcast episode?
@@ -16,4 +16,4 @@ Hvad med en podcast episode?
 Se mere på [www.kodekebab.dk](www.kodekebab.dk) 
 
 # Tue Hellstern
-Underviser på Kea - [Link](./Tue-Hellstern/README.md)
+Underviser på Kea - [Link](./Tue-Hellstern/index.md)
