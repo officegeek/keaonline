@@ -1,3 +1,10 @@
+---
+layout: default
+title: Deploying Docker containers on Azure
+parent: Docker
+nav_order: 40
+---
+
 # Deploying Docker containers on Azure
 We are going to deploy a Dash application on Azure using Docker and Azure Web App services.
 

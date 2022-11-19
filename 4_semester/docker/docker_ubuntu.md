@@ -1,3 +1,10 @@
+---
+layout: default
+title: Docker - Virtual Machine Azure
+parent: Docker
+nav_order: 20
+---
+
 # Docker - Virtual Machine Azure
 We are going to install Docker on your Azure Ubuntu Virtual Machine.
 

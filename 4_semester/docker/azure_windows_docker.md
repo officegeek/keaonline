@@ -1,3 +1,10 @@
+---
+layout: default
+title: Azure Virtual Machine - Windows 10
+parent: Docker
+nav_order: 50
+---
+
 # Azure Virtual Machine - Windows 10
 For the use of Docker Desktop, we are creating a Virtual Machine on Azure running Windows 10 Pro.
 
