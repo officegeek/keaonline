@@ -16,6 +16,27 @@
 {:toc}
 </details>
 
+# Deep Learning
+**Deep Learning** is a type of machine learning that imitates the way humans gain certain types of knowledge, and it got more popular over the years compared to standard models. 
+
+While traditional algorithms are linear, Deep Learning models, generally Neural Networks, are stacked in a hierarchy of increasing complexity and abstraction (*therefore the “deep” in Deep Learning*).
+
+![](./_image/dl.gif)
+
+# Neural Networks
+**Neural Networks** are based on a collection of connected units (*neurons*), which, just like the synapses in a brain, can transmit a signal to other neurons, so that, acting like interconnected brain cells, they can learn and make decisions in a more human-like manner.
+
+![](./_image/NeuralNetwork.png)
+
+A neural network has three main layers.
+- **Input Layer**: This layer is responsible for accepting the inputs
+- **Hidden Layer**: This layer processes the input data to find out hidden information and performs feature extraction
+- **Output Layer**: This layer gives the desired output
+
+There are two main libraries for building Neural Networks: **TensorFlow** (*developed by Google*) and **PyTorch** (*developed by Facebook*). 
+
+They can perform similar tasks, but the **TensorFlow** is more production-ready while **PyTorch** is good for building rapid prototypes because it is easier to learn.
+
 # TensorFlow
 TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.
 
@@ -53,6 +74,7 @@ Look at the **0** on **X** and see that **Y** is **1**, and you'd come up with t
 ----
 
 # Predict Churn
+How to predict churn, using deep learning.
 
 ## Customer base churn
 Churn rate, when applied to a customer base, refers to the proportion of contractual customers or subscribers who leave a supplier during a given time period.
