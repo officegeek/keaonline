@@ -1,9 +1,9 @@
 ---
-    layout: default
-    title: IT architecture & Microservice
-    nav_order: 60
-    parent: 4. Semester
-    has_children: true
+layout: default
+title: IT architecture & Microservice
+parent: 4. Semester
+has_children: true
+nav_order: 100
 ---
 
 [Home](../modul-4-2.md)
@@ -16,6 +16,7 @@
 1. TOC
 {:toc}
 </details>
+
 [Home](modul-4-2.md)
 # IT architecture & Microservice
     - 29-10-2022 - Tirsdag

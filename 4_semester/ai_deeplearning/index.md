@@ -2,7 +2,7 @@
     layout: default
     title: AI - Deeplearning
     parent: 4. Semester
-    nav_order: 1
+    nav_order: 80
 ---
 
 [Home](../modul-4-2.md)
