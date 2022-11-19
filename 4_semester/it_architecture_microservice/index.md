@@ -3,7 +3,7 @@ layout: default
 title: IT architecture & Microservice
 parent: 4. Semester
 has_children: true
-nav_order: 100
+nav_order: 80
 ---
 
 [Home](../modul-4-2.md)
