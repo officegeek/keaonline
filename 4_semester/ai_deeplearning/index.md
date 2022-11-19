@@ -1,11 +1,9 @@
 ---
-    layout: default
-    title: AI - Deeplearning
-    parent: 4. Semester
-    nav_order: 80
+layout: default
+title: AI - Deeplearning
+parent: 4. Semester
+nav_order: 80
 ---
-
-[Home](../modul-4-2.md)
 
 <details open markdown="block">
   <summary>
