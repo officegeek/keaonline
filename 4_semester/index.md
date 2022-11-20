@@ -10,9 +10,4 @@ nav_order: 2
 </span>
 
 # 4. Semester
-
-# Power BI
-- [Link](./power_bi/README.md)
-- [DAX](./power_bi/dax.md)
-- [Microsoft Samples](./power_bi/microsoft-sampel-financial.md)
-- [Power Bi Samples dataset](./power_bi/power_bi_sample-dataset.md)
+Undervisnings materiale til modul 4.2 på 4. semester.
