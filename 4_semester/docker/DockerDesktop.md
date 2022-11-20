@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Docker Desktop
-parent: 4. Semester
-grand_parent: Docker
+parent: Docker
+grand_parent: 4. Semester
 nav_order: 10
 ---
 

@@ -2,8 +2,8 @@
 layout: default
 title: Machine Learning
 nav_order: 20
-parent: 4. Semester
-grand_parent: Microsoft Power BI
+parent: Microsoft Power BI
+grand_parent: 4. Semester
 ---
 
 ![bg 125%](https://github.com/officegeek/image/raw/main/ml.jpg)

@@ -2,6 +2,7 @@
 layout: default
 title: Jupyter Lab in a Virtual Environment
 nav_order: 20
+grand_parent: 4. Semester
 parent: Python Guides
 ---
 

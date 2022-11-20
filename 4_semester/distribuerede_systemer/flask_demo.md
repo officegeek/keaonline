@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Flask
-parent: 4. Semester
-grand_parent: Distribuerede systemer
+grand_parent: 4. Semester
+parent: Distribuerede systemer
 nav_order: 40
 ---
 

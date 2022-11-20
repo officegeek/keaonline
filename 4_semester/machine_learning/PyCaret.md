@@ -2,8 +2,8 @@
 layout: default
 title: PyCaret
 nav_order: 20
-parent: 4. Semester
-grand_parent: Microsoft Power BI
+parent: Microsoft Power BI
+grand_parent: 4. Semester
 ---
 
 [Home](../modul-4-2.md)

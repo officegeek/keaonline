@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Create MySQL Database
-parent: 4. Semester
-grand_parent: Virtualisering
+parent: Virtualisering
+grand_parent: 4. Semester
 nav_order: 20
 ---
 
