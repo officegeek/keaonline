@@ -2,7 +2,8 @@
 layout: default
 title: Exploratory data analysis
 nav_order: 10
-parent: Microsoft Power BI
+parent: 4. Semester
+grand_parent: Microsoft Power BI
 ---
 
 [HOME](./README.md)

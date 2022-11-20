@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Docker Visual Studio Extension
-parent: Docker
+parent: 4. Semester
+grand_parent: Docker
 nav_order: 10
 ---
 

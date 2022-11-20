@@ -1,7 +1,8 @@
 ---
 layout: default
 title: ML Consumer Behavior
-parent: Virtualisering
+parent: 4. Semester
+grand_parent: Virtualisering
 nav_order: 10
 ---
 

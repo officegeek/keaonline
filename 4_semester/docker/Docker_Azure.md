@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Deploying Docker containers on Azure
-parent: Docker
+parent: 4. Semester
+grand_parent: Docker
 nav_order: 40
 ---
 

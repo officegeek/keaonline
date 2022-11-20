@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Install Docker
-parent: Virtualisering
+parent: 4. Semester
+grand_parent: Virtualisering
 nav_order: 30
 ---
 

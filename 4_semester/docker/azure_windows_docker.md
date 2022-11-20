@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Azure Virtual Machine - Windows 10
-parent: Docker
+parent: 4. Semester
+grand_parent: Docker
 nav_order: 50
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Docker - Virtual Machine Azure
-parent: Docker
+parent: 4. Semester
+grand_parent: Docker
 nav_order: 20
 ---
 
