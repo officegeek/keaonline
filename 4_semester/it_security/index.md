@@ -6,7 +6,9 @@ has_children: true
 nav_order: 110
 ---
 
-[Home](../modul-4-2.md)
+<span class="fs-1">
+[HOME](../index.md){: .btn .btn-blue }
+</span>
 
 <details open markdown="block">
   <summary>
