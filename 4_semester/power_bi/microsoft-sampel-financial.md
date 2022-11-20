@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Microsoft Financial Sample
-parent: Power-BI
+parent: 4. Semester
+grand_parent: Microsoft Power BI
 has_children: false
 nav_order: 10
 ---
