@@ -5,6 +5,10 @@ parent: Docker
 nav_order: 20
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Docker - Virtual Machine Azure
 We are going to install Docker on your Azure Ubuntu Virtual Machine.
 

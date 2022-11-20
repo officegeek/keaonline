@@ -5,6 +5,10 @@ parent: Distribuerede systemer
 nav_order: 40
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Flask
 Flask is a micro web framework written in Python.
 

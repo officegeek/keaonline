@@ -6,6 +6,10 @@ has_children: false
 nav_order: 10
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Financial Sample Excel workbook
 Microsoft har oprette et eksempel på et dashboard fro nogle finansielle data, den er et godt eksempel på hvordan du kan oprettet en rapport.
 

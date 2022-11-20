@@ -5,6 +5,10 @@ parent: Virtualisering
 nav_order: 40
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Dash app >> Azure
 Dash is a powerful software tool for creating dashboards, *but if you need to share your dashboards with other?*
 ![](./image/dash_azure_4.jpg)

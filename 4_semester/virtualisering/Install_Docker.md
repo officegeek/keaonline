@@ -5,9 +5,11 @@ parent: Virtualisering
 nav_order: 30
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Install Docker
-
-
 
 ## Install Docker Engine
 Update the apt package index, and install the latest version of Docker Engine and containerd, or go to the next step to install a specific version:

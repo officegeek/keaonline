@@ -5,6 +5,10 @@ parent: Distribuerede systemer
 nav_order: 20
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Design Pattens
 In Python, nothing obliges you to write classes and instantiate objects from them.
 

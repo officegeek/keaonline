@@ -5,6 +5,10 @@ parent: Distribuerede systemer
 nav_order: 50
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Ray
 Ray is an open source project that makes it simple to scale any compute-intensive Python workload — *from deep learning to production model serving*
 

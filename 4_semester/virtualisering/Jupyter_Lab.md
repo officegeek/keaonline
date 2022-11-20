@@ -5,6 +5,10 @@ parent: Virtualisering
 nav_order: 10
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Jupyter Lab
 Project Jupyter's tools are available for installation via the Python Package Index, the leading repository of software created for the Python programming language.
 

@@ -5,6 +5,10 @@ parent: Virtualisering
 nav_order: 50
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Virtual Machine
 Azure Virtual Machines are image service instances that provide on-demand and scalable computing resources with usage-based pricing.
 

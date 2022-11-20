@@ -5,6 +5,10 @@ parent: Docker
 nav_order: 50
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Azure Virtual Machine - Windows 10
 For the use of Docker Desktop, we are creating a Virtual Machine on Azure running Windows 10 Pro.
 

@@ -5,7 +5,10 @@ parent: Virtualisering
 nav_order: 20
 ---
 
-[Home](./README.md)
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Create MySQL Database
 
 ## Video

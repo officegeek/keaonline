@@ -5,6 +5,10 @@ parent: Docker
 nav_order: 40
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Deploying Docker containers on Azure
 We are going to deploy a Dash application on Azure using Docker and Azure Web App services.
 
