@@ -22,7 +22,8 @@ nav_order: 60
 # Microsoft Power BI
 Microsoft Power BI er et interaktivt data visualiserings software udviklet af Microsoft med primært fokus på business intelligence (*BI*).
 
-    Skab en datadrevet kultur ved hjælp af business intelligence for alle
+Skab en datadrevet kultur ved hjælp af business intelligence for alle
+{: .label .label-green }
 
 Det er en del af Microsoft Power Platform. Power Bi kan indtastes fra mange forskellige kilder, f.eks. var at læse direkte fra en database, webside eller strukturerede filer såsom Excel, CSV, XML og JSON.
 
