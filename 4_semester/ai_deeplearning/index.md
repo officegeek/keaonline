@@ -23,12 +23,12 @@ nav_order: 80
 
 While traditional algorithms are linear, Deep Learning models, generally Neural Networks, are stacked in a hierarchy of increasing complexity and abstraction (*therefore the “deep” in Deep Learning*).
 
-![](./_image/dl.gif)
+![](./dl.gif)
 
 # Neural Networks
 **Neural Networks** are based on a collection of connected units (*neurons*), which, just like the synapses in a brain, can transmit a signal to other neurons, so that, acting like interconnected brain cells, they can learn and make decisions in a more human-like manner.
 
-![](./_image/NeuralNetwork.png)
+![](./NeuralNetwork.png)
 
 A neural network has three main layers.
 - **Input Layer**: This layer is responsible for accepting the inputs
