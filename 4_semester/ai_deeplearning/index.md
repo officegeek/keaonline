@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AI - Deeplearning
+title: AI - Deep Learning
 parent: 4. Semester
 nav_order: 80
 ---
