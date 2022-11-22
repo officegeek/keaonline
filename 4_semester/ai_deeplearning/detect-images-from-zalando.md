@@ -32,7 +32,7 @@ Each example is a 28x28 grayscale image, associated with a label from 10 classes
 ![](https://tensorflow.org/images/fashion-mnist-sprite.png)
 
 ## JupyterLab file
-Get the Jupyter Lab file her - [classification.ipynb](./_code/classification.ipynb)
+Get the Jupyter Lab file her - [classification.ipynb](./classification.ipynb)
 
 # Data Center - Cause analysis of problems
  The use case to solve relates to root cause analysis of problems found in a data center. 
@@ -70,4 +70,4 @@ It has three possible values:
 
 We want to build a model to **predict the root cause** based on the other values provided.
 
-Get the Jupyter Lab file her - [IncidentRootCauseAnalysis.ipynb](./_code/IncidentRootCauseAnalysis.ipynb)
+Get the Jupyter Lab file her - [IncidentRootCauseAnalysis.ipynb](./IncidentRootCauseAnalysis.ipynb)

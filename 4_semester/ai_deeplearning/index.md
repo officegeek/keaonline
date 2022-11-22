@@ -70,5 +70,4 @@ Look at the **0** on **X** and see that **Y** is **1**, and you'd come up with t
 *By feeding it with a set of X's and a set of Y's, it should be able to figure out the relationship between them.*
 
 ## Jupyter Lab file
-[Simpel_ML.ipynb](./_code/Simpel_ML.ipynb)
-f
+[Simpel_ML.ipynb](./Simpel_ML.ipynb)
