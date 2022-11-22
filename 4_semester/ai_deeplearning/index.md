@@ -71,3 +71,12 @@ Look at the **0** on **X** and see that **Y** is **1**, and you'd come up with t
 
 ## Jupyter Lab file
 [Simpel_ML.ipynb](./Simpel_ML.ipynb)
+
+# Incident Root Cause Analysis 
+Incident Reports in ITOps usually states the symptoms. Identifying the root cause of the symptom quickly is a key determinant to reducing resolution times and improving user satisfaction.
+
+## Jupyter Lab file
+[IncidentRootCauseAnalysis.ipynb](./IncidentRootCauseAnalysis.ipynb)
+
+## Datafile - CSV
+[root_cause_analysis.csv](./root_cause_analysis.csv)
