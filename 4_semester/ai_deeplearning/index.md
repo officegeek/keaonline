@@ -71,3 +71,4 @@ Look at the **0** on **X** and see that **Y** is **1**, and you'd come up with t
 
 ## Jupyter Lab file
 [Simpel_ML.ipynb](./_code/Simpel_ML.ipynb)
+f
