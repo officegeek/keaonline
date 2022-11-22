@@ -23,7 +23,7 @@ nav_order: 20
 # Financial Performance Analysis
 Financial performance analysis is a normal task for Power BI. 
 
-![](./_image/Financial_Performance_Analysis_Power_BI_Project_Idea.jpg)
+![](./image/Financial_Performance_Analysis_Power_BI_Project_Idea.jpg)
 
 Refer to the multi-company financial dataset available on Kaggle - [Link](https://www.kaggle.com/qks1lver/financial-data-of-4400-public-companies)
 
@@ -54,7 +54,7 @@ The Airport Authority Data Analysis project aims to provide a clear picture of a
 
 In case of flight changes, emergencies, or delays, this analysis could assist airport management authorities in making timely data-driven choices.
 
-![](./_image/Airport_Authority_Data_Analysis_Power_BI_Project_Idea.jpg)
+![](./image/Airport_Authority_Data_Analysis_Power_BI_Project_Idea.jpg)
 
 Use the [Airline delays and cancellation dataset](https://www.kaggle.com/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018) available on Kaggle. 
 
