@@ -34,12 +34,12 @@ It is a possible indicator of customer dissatisfaction, cheaper and/or better of
 3. Save your model to disc and reload it to a Jupyter Notebook for reuse
 
 ## Data
-![](./_image/churn.jpg)
+![](./churn.jpg)
 
-Use the data [Churn.csv](./_code/Churn.csv)
+Use the data [Churn.csv](./Churn.csv)
 
 ## Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6_2hzRopPbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Jupyter Lab file
-Get the Jupyter Lab file her - [TensorflowDemo.ipynb](./_code/TensorflowDemo.ipynb)
+Get the Jupyter Lab file her - [TensorflowDemo.ipynb](./TensorflowDemo.ipynb)
