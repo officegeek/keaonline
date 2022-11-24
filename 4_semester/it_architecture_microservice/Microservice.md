@@ -20,6 +20,8 @@ In a microservice architecture, services are **fine-grained and the protocols ar
 
 The goal is that teams can bring their services to life independent of others. **Loose coupling reduces all types of dependencies** and the complexities around it, as service developers do not need to care about the users of the service, they do not force their changes onto users of the service.
 
+![](https://martinfowler.com/articles/microservices/images/sketch.png)
+
 The microservice architecture brings the idea of **decoupling functional parts of software applications into lightweight, deployable solutions, each having its own goal in the general ecosystem**.
 
 ---
