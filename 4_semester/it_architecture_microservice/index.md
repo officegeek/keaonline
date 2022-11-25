@@ -21,7 +21,7 @@ nav_order: 80
 
 [Home](modul-4-2.md)
 # IT architecture & Microservice
-    - 24-11-2022 - Tirsdag
+    - 24-11-2022 - Fredag
 
 # IT Architecture
 - It Architecture
