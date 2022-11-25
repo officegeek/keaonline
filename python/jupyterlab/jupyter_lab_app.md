@@ -2,7 +2,7 @@
 layout: default
 title: Jupyter Lab App
 nav_order: 30
-grand_parent: 4. Semester
+grand_parent: Kes
 parent: Python Guides
 ---
 
