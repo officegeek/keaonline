@@ -1,3 +1,8 @@
+# Nameko
+
+
+https://github.com/nameko/nameko
+
 # Microservice example project using Python, RabbitMQ, Nameko and Flask
 
 This a simple microservice sale and stock management system using:
@@ -8,13 +13,20 @@ This a simple microservice sale and stock management system using:
 - Flask
 
 ## Virtual Environment
-- Python 3.5.1
-- Docker
+- Python
+- Nameko - [www.nameko.io](https://www.nameko.io)
+- Flask
 
 ```shell
 python -m venv microdemo
 microdemo\Scripts\activate
 pip3 install -r requirements.txt
+```
+
+You can run this command to see that all packages are installed.
+
+```shell
+pip3 list
 ```
 
 ## Docker
@@ -38,20 +50,11 @@ You can access the RabbitMQ dashboard on http://localhost:15672/
 
 ![](./image/rabbitmq_dashboard.jpg)
 
-## Install Nameko and Flask
-Run this command in a terminal:
-
-```shell
-pip install nameko
-pip install flask
-```
-
-**Note**: Use **pip** and not **pip3** for *nameko*
 
 ### Run service
-Run this command in a terminal:
+Run this command in the terminal:
 ```shell
-nameko run service --broker amqp://guest:guest@192.168.99.100
+nameko run service --broker amqp://guest:guest@localhost
 ```
 
 You can test the service by nameko shell:
