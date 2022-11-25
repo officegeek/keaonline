@@ -7,11 +7,15 @@ This a simple microservice sale and stock management system using:
 - Nameko
 - Flask
 
-## Build and Run
-
-### Requirements
+## Virtual Environment
 - Python 3.5.1
 - Docker
+
+```shell
+python -m venv microdemo
+microdemo\Scripts\activate
+pip3 install -r requirements.txt
+```
 
 ## Docker
 The Docker Daemon must be startede (*running*) on your computer. You can do that by starting Docker Desktop.
@@ -20,6 +24,7 @@ The Docker Daemon must be startede (*running*) on your computer. You can do that
 
 ### RabbitMQ Docker
 You have to download the RabbitMQ Docker image, run this command in a terminal:
+
 ```shell
 docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 ```
@@ -34,6 +39,8 @@ You can access the RabbitMQ dashboard on http://localhost:15672/
 ![](./image/rabbitmq_dashboard.jpg)
 
 ## Install Nameko and Flask
+Run this command in a terminal:
+
 ```shell
 pip install nameko
 pip install flask
@@ -42,6 +49,7 @@ pip install flask
 **Note**: Use **pip** and not **pip3** for *nameko*
 
 ### Run service
+Run this command in a terminal:
 ```shell
 nameko run service --broker amqp://guest:guest@192.168.99.100
 ```
