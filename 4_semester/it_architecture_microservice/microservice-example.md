@@ -59,7 +59,11 @@ nameko run service --broker amqp://guest:guest@localhost
 
 You can test the service by nameko shell:
 ```shell
-nameko shell --broker amqp://guest:guest@192.168.99.100
+nameko shell --broker amqp://guest:guest@localhost
+```
+
+Then run
+```shell
 n.rpc.sale.sell(1)
 ```
 

@@ -3,7 +3,7 @@ layout: default
 title: Expense Report
 parent: Know Your Data
 has_children: true
-nav_order: 10
+nav_order: 20
 ---
 
 <span class="fs-1">
