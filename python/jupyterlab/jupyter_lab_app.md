@@ -2,7 +2,7 @@
 layout: default
 title: Jupyter Lab App
 nav_order: 30
-grand_parent: Kes
+grand_parent: Kea
 parent: Python Guides
 ---
 

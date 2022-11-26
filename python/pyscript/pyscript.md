@@ -1,8 +1,8 @@
 ---
 layout: default
-title: DAX
-grand_parent: Microsoft Power BI
-parent: Microsoft Power BI
+title: PyScript
+grand_parent: Kea
+parent: Python Guides
 has_children: false
 nav_order: 30
 ---
