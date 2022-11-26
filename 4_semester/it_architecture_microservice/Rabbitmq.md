@@ -29,6 +29,11 @@ RabbitMQ is the most widely deployed open source message broker - [RabbitMQ](htt
 
 ![](https://dzfweb.gitbooks.io/microsoft-microservices-book/content/multi-container-microservice-net-applications/media/image22.png)
 
+## IBM Video
+IBM have made a good video explaining what RabbitMQ is - *It is only 10 minuts long!*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7rkeORD4jSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Install RabbitMQ
 You need to install RabbitMQ. Installations guides:
 
