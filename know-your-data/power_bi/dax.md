@@ -1,7 +1,7 @@
 ---
 layout: default
 title: DAX
-grand_parent: Microsoft Power BI
+grand_parent: Know Your Data
 parent: Microsoft Power BI
 has_children: false
 nav_order: 30

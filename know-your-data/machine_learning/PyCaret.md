@@ -2,7 +2,8 @@
 layout: default
 title: PyCaret
 nav_order: 20
-parent: Microsoft Power BI
+parent: Machine Learning
+grand_parent: Know Your Data
 ---
 
 [Home](../modul-4-2.md)

@@ -2,6 +2,7 @@
 layout: default
 title: Expense Report
 parent: Know Your Data
+grand_parent: Microsoft Power Platform
 has_children: true
 nav_order: 20
 ---

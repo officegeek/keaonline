@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Delivery
+grand_parent: Microsoft Power Platform
 parent: Know Your Data
 has_children: true
 nav_order: 40

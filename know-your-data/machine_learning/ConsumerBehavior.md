@@ -1,9 +1,13 @@
 ---
 layout: default
 title: ML Consumer Behavior
+parent: Machine Learning
+grand_parent: Know Your Data
 nav_order: 30
-parent: Microsoft Power BI
 ---
+
+parent: IT architecture & Microservice
+
 
 [HOME](./README.md)
 

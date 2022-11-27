@@ -2,6 +2,7 @@
 layout: default
 title: Create a business process flow in Power Automate
 parent: Know Your Data
+grand_parent: Microsoft Power Platform
 has_children: true
 nav_order: 10
 ---
