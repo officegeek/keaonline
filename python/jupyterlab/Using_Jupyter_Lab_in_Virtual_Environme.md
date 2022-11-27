@@ -1,10 +1,21 @@
 ---
 layout: default
 title: Jupyter Lab in a Virtual Environment
-nav_order: 20
-grand_parent: Kea
 parent: Python Guides
+has_children: false
+nav_order: 30
 ---
+
+[Home](../modul-4-2.md)
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>s
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 # Using Jupyter Lab in a Virtual Environment
 If you want to use Jupyter Lab in a virtual environment so that only selected packages are available in the scope of the notebook. 
