@@ -1,13 +1,12 @@
 ---
 title: Virtualization
 theme: gaia
-_class: lead
+class: lead
 paginate: true
 marp: true
 backgroundColor: #fff
 size: 4K
 @auto-scaling true
-footer: 'Tue Hellstern - 2022'
 html: true
 ---
 
