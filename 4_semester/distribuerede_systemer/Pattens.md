@@ -10,6 +10,15 @@ nav_order: 20
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # Design Pattens
 In Python, nothing obliges you to write classes and instantiate objects from them.
 

@@ -10,6 +10,15 @@ nav_order: 10
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # Jupyter Lab
 Project Jupyter's tools are available for installation via the Python Package Index, the leading repository of software created for the Python programming language.
 

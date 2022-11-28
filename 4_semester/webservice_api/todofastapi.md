@@ -6,7 +6,18 @@ parent: Web Service API
 nav_order: 50
 ---
 
-[Home](README.md)
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 # FastAPI ToDo - Demo
 This is a smalle demo of a ToDo API cerated with FastApi.

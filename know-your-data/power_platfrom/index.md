@@ -59,7 +59,7 @@ Forrester have made a study on the Microsoft Power Platform - **The Total Econom
 
 ![](./image/question_1.jpg)
 
-![Read the report - The Total Economic Impact of Microsoft Power Platform Premium Capabilities](./Forrester_The_Total-Economic-Impact.pdf)
+[Read the report - The Total Economic Impact of Microsoft Power Platform Premium Capabilities](./Forrester_The_Total-Economic-Impact.pdf)
 
 
 

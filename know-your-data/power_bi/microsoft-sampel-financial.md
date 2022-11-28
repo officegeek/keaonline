@@ -11,6 +11,15 @@ nav_order: 10
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # Financial Sample Excel workbook
 Microsoft har oprette et eksempel på et dashboard fro nogle finansielle data, den er et godt eksempel på hvordan du kan oprettet en rapport.
 

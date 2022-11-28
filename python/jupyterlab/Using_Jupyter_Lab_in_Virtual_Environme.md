@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Jupyter Lab in a Virtual Environment
-parent: Python Guides
+parent: Jupyter Lab
+grand_parent: Python Guides
 has_children: false
 nav_order: 30
 ---

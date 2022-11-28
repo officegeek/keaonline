@@ -6,7 +6,18 @@ parent: Web Service API
 nav_order: 30
 ---
 
-[Home](./README.md)
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 # FastAPi
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.

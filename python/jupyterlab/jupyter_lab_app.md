@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Jupyter Lab App
-parent: Python Guides
+parent: Jupyter Lab
+grand_parent: Python Guides
 has_children: false
 nav_order: 40
 ---
