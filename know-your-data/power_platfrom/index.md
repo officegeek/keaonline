@@ -19,17 +19,14 @@ nav_order: 10
 {:toc}
 </details>
 
+# Slides
+- [PDF Format](./_slide/powerplatform.pdf)
+
 # Microsoft Power Platform
 
 More than 700 premium connectors to third party ERP, CRM, and other systems of 
 record.
-• The ability to build and create customer 
-connectors across Power Platform that
-extend apps, flows, dashboards, virtual 
-agents, and websites by calling a publicly
-available API or a custom API hosted in a 
-cloud provider (such as Azure API 
-Management).
+• The ability to build and create customer connectors across Power Platform that extend apps flows, dashboards, virtual agents, and websites by calling a publicly available API or a custom API hosted in a cloud provider (*such as Azure API Management*).
 • Power Apps model-driven apps.
 • Microsoft Dataverse.
 
@@ -57,7 +54,8 @@ The Microsoft Power Platform consists of 5 parts/*programs*
 # Forrester Study
 Forrester have made a study on the Microsoft Power Platform - **The Total Economic Impact of Microsoft Power Platform Premium Capabilities**
 
-![](./image/question_1.jpg)
+
+![](./_image/question_1.jpg)
 
 [Read the report - The Total Economic Impact of Microsoft Power Platform Premium Capabilities](./Forrester_The_Total-Economic-Impact.pdf)
 
