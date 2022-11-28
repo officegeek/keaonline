@@ -20,6 +20,6 @@ nav_order: 10
 {:toc}
 </details>
 
-FJEN - https://learn.microsoft.com/en-us/training/paths/create-business-process-flow/
-
 # Create a business process flow in Power Automate
+
+- [Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/create-business-process-flow/)
