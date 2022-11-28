@@ -44,7 +44,7 @@ html: true
 
 ---
 
-> An architectural description (AD) is a set of artifacts that documents an architecture in a way its stakeholders can understand and demonstrates that the architecture has met their concerns. 
+> An architectural description (*AD*) is a set of artifacts that documents an architecture in a way its stakeholders can understand and demonstrates that the architecture has met their concerns. 
 
 <!-- _footer: Software Engineering Institute (SEI)  Carnegie-Mellon University in Pittsburgh -->
 

@@ -68,7 +68,7 @@ As such, they should be represented in UML using the Components Diagram, with:
 Ultimately, any size company can benefit from the use of a microservices architecture if they have applications that need frequent updates, experience dynamic traffic patterns, or require near real-time communication.
 
 ## Who Uses Microservices?
-Social media companies like Facebook and Twitter, retailers like Amazon, media provider like Netflix, ride-sharing services like Uber and Lyft, and many of the world’s largest financial services companies all use microservices.
+Social media companies like **Facebook** and **Twitter**, retailers like **Amazon**, media provider like **Netflix**, ride-sharing services like **Uber** and **Lyft**, and many of the world’s largest financial services companies all use microservices.
 
 ## Flask demo
 You can build a Microservice architecture with Flask.
@@ -112,7 +112,7 @@ FastAPI is a modern, fast (high-performance), web framework for building APIs wi
 The key features are:
 - **Fast**: Very high performance, on par with NodeJS and Go (*thanks to Starlette and Pydantic*). One of the fastest Python frameworks available.
 - **Fast to code**: Increase the speed to develop features by about 200% to 300%. *
-- F**ewer bugs**: Reduce about 40% of human (*developer*) induced errors. *
+- **Fewer bugs**: Reduce about 40% of human (*developer*) induced errors. *
 - **Intuitive**: Great editor support. Completion everywhere. Less time debugging.
 - **Easy**: Designed to be easy to use and learn. Less time reading docs.
 - **Short**: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
@@ -176,5 +176,3 @@ Open [127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) in your browser.
 - [microservices.io](https://microservices.io)
 - [fastapi.tiangolo.com](https://fastapi.tiangolo.com)
 - [Flask](https://flask.palletsprojects.com/en/2.1.x/)
-
-
