@@ -11,16 +11,6 @@ footer: 'Tue Hellstern - 2022'
 html: true
 ---
 
-# Agenda
-- It Architecture
-- 4+1 Model
-- ISO/IEC/IEEE 42010
-- Design Steps
-- Quality Attributes - Non Functions Requirements
-
-<!-- _footer: Tue Hellstern © 2022 -->
-
----
 
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
