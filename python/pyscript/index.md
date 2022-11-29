@@ -1,7 +1,6 @@
 ---
 layout: default
 title: PyScript
-grand_parent: Kea
 parent: Python Guides
 has_children: false
 nav_order: 30
