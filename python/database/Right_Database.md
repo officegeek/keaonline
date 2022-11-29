@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Select Database
-parent: Jupyter Lab
-grand_parent: Python Guides
+parent: Python Guides
 has_children: false
 nav_order: 40
 ---
