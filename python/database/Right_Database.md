@@ -4,7 +4,7 @@ title: Select Database
 parent: Jupyter Lab
 grand_parent: Python Guides
 has_children: false
-nav_order: 50
+nav_order: 40
 ---
 
 [Home](../modul-4-2.md)
