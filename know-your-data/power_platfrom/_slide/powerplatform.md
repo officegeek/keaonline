@@ -18,9 +18,8 @@ html: true
 
 ---
 
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-![bg right:50% 95%](../_image/question_1.jpg)
+
+![bg right:50% 94%](../question_1.jpg)
 
 # Microsoft Power Platform <!-- fit -->
 # consists of 5 parts <!-- fit -->
@@ -46,7 +45,7 @@ html: true
 
 ---
 
-![bg right:26% 100%](../_image/play.jpg)
+![bg right:26% 100%](../play.jpg)
 
 # Expense Report - Demo
 - [Open Power Apps](https://make.powerapps.com)
@@ -67,6 +66,14 @@ html: true
 
 ---
 
+<!-- _backgroundColor: black -->
+<!-- _color: white -->
+
+# Data-model <!-- fit -->
+# Take a look at the data-model <!-- fit -->
+
+---
+
 # Power BI
 Based on the data you must create a Power BI interactive Dashboard.
 
@@ -80,6 +87,8 @@ The end user of the dashboard:
 It is very important that you have the different end users in mind when you create the dashboard(*s*)
 
 ---
+
+![bg right:45% 100%](../model-apps.png)
 
 # Power Apps
 - Create the workflow for the app - *Diagram*
