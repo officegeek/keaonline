@@ -2,7 +2,7 @@
 layout: default
 title: ML Consumer Behavior
 nav_order: 30
-parent: Microsoft Power BI
+parent: Machine Learning
 grand_parent: 4. Semester
 ---
 
