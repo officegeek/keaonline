@@ -19,6 +19,20 @@ has_children: true
 {:toc}
 </details>
 
+
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Links
 - [ML in Power BI](./mlpowerbIpyc.md)
 - [PyCaret](./PyCaret.md)
