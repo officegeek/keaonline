@@ -193,12 +193,7 @@ A new column which contains the cluster **Label** is attached to the original da
 
 In Power Pivot you need to make some changes to the data:
 
-```dax
-- **Changed Type** = Table.TransformColumnTypes(dataset,{{"Country", type text}, {"2000", type number}, {"2001", type number}, {"2002", type number}, {"2003", type number}, {"2004", type number}, {"2005", type number}, {"2006", type number}, {"2007", type number}, {"2008", type number}, {"2009", type number}, {"2010", type number}, {"2011", type number}, {"2012", type number}, {"2013", type number}, {"2014", type number}, {"2015", type number}, {"2016", type number}, {"2017", type number}, {"Column1", type text}, {"_1", type text}, {"Cluster", type text}})
-- **Removed Columns** = Table.RemoveColumns(#"Changed Type",{"Column1", "_1"})
-- **Unpivoted Columns** = Table.UnpivotOtherColumns(#"Removed Columns", {"Country", "Cluster"}, "Attribute", "Value")
-- **Renamed Columns** = Table.RenameColumns(#"Unpivoted Columns",{{"Value", "GDP"}, {"Attribute", "Year"}})
-```
+xxxxxx
 
 ![](./image/dax.jpg)
 
