@@ -6,12 +6,14 @@ has_children: false
 nav_order: 20
 ---
 
-[Home](../modul-4-2.md)
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
 
 <details open markdown="block">
   <summary>
     Table of contents
-  </summary>s
+  </summary>
   {: .text-delta }
 1. TOC
 {:toc}
