@@ -37,6 +37,7 @@ has_children: true
 - [ML in Power BI](./mlpowerbIpyc.md)
 - [PyCaret](./PyCaret.md)
 - [Using Jupyter Lab in a Virtual Environment](/python/jupyterlab/Using_Jupyter_Lab_in_Virtual_Environme.md)
+- [Virtual Environment](/python/virtuelenviroment.md)
 
 
 # Machine Learning
