@@ -6,18 +6,7 @@ has_children: false
 nav_order: 20
 ---
 
-<span class="fs-1">
-[HOME](./index.md){: .btn .btn-blue }
-</span>
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
 {:toc}
-</details>
 
 # Create a virtual environment
 Open the directory where you want to create your project. 
