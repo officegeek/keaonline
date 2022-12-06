@@ -3,13 +3,8 @@ layout: default
 title: Jupyter Lab App
 parent: Jupyter Lab
 grand_parent: Python Guides
-has_children: false
 nav_order: 40
 ---
-
-<span class="fs-1">
-  [HOME](./index.md){: .btn .btn-blue }
-</span>
 
 <details open markdown="block">
   <summary>
