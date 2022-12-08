@@ -23,17 +23,12 @@ nav_order: 110
 # IT security
     - 09-12-2022 - Fredag
 
-# Beskrivelse
-**Introduktion to:**
-- Security elements
-- Hashes
-- Caas
-- System security
-- Mobile security
-
 # Slides
 - [HTML](./_slide/IT_Security_Slide.html)
 - [PDF](./_slide/IT_Security_Slide.pdf)
+
+# Code
+[Code Examples](code_examples.md)
 
 # Jupyter Lab
 [Bruteforce_Password.ipynb](./_code/Bruteforce_Password.ipynb)
