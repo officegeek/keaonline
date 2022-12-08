@@ -60,7 +60,7 @@ Criminals often use malware to send spam, obtain personal and financial informat
 
 ---
 
-![bg 80%](./image/Types_of_Malware-A1_EN.webp)
+![bg 80%](../_image/Types_of_Malware-A1_EN.webp)
 
 ---
 
@@ -78,7 +78,7 @@ They may claim there’s a problem with payment information or that they’ve no
 
 ---
 
-![bg right:40% 95%](./image/antivirus.jpg)
+![bg right:40% 95%](../_image//antivirus.jpg)
 
 ## How does antivirus work?
 Antivirus software begins operating by checking your computer programs and files against a database of known types of malware. 
@@ -103,7 +103,7 @@ When the antivirus program finds a file that contains a virus, it will usually q
 
 ---
 
-![bg right:20% 90%](./image/http-httrps.png)
+![bg right:20% 90%](../_image//http-httrps.png)
 
 # HTTPS
 Hypertext Transfer Protocol Secure (*HTTPS*) is an extension of the Hypertext Transfer Protocol (*HTTP*). 
@@ -114,7 +114,7 @@ In HTTPS, the communication protocol is **encrypted** using Transport Layer Secu
 
 ---
 
-![bg right:20% 90%](./image/http-httrps.png)
+![bg right:20% 90%](../_image/http-httrps.png)
 
 # HTTP
 When you connect to a website with regular **HTTP**, your browser looks up the IP address that corresponds to the website, connects to that IP address, and assumes it’s connected to the correct web server. 
@@ -125,7 +125,7 @@ Data is sent over the connection in clear text. An eavesdropper on a Wi-Fi netwo
 
 ---
 
-![bg right:20% 90%](./image/http-httrps.png)
+![bg right:20% 90%](../_image/http-httrps.png)
 
 # HTTPS
 When you connect to an **HTTPS**-secured server—secure sites like your bank’s will automatically redirect you to HTTPS—your web browser checks the website’s security certificate and verifies it was issued by a legitimate certificate authority. 
@@ -138,7 +138,7 @@ When you send sensitive information over an HTTPS connection, **no one can eaves
 
 ---
 
-![bg right:20% 90%](./image/http-httrps.png)
+![bg right:20% 90%](../_image/http-httrps.png)
 
 ## The presence of HTTPS itself isn’t a guarantee a site is legitimate.
 
@@ -156,7 +156,7 @@ In this case, you’re using an **HTTPS** connection, but you’re really connec
 
 ---
 
-![bg right:20% 80%](./image/wifi.png)
+![bg right:20% 80%](../_image/wifi.png)
 # Open Wi-Fi
 It's not safe to connect to an unknown open wireless network, particularly when transferring sensitive data, such as an online banking password. 
 
@@ -172,7 +172,7 @@ It's not safe to connect to an unknown open wireless network, particularly when 
 
 ---
 
-![bg right:20% 150%](./image/vpn.jpg)
+![bg right:20% 150%](../_image//vpn.jpg)
 # VPN
 A **Virtual Private Network** (*VPN*) connects to the internet privately by hiding your *real IP address* and routing your internet traffic and data through a private and securely encrypted tunnel over public networks.
 
@@ -196,7 +196,13 @@ When data is encrypted inside the VPN tunnel, ISPs, search engines, marketers, h
 
 <!-- _color: white -->
 <!-- _backgroundColor: black -->
-# Password Security  <!-- fit -->
+# Password Security<!-- fit -->
+
+---
+
+<!-- _color: white -->
+<!-- _backgroundColor: black -->
+# VPN<!-- fit -->
 
 ---
 
@@ -212,7 +218,7 @@ https://haveibeenpwned.com/Passwords
 
 ---
 
-![bg right:40% 150%](./image/bruteforce.png)
+![bg right:40% 150%](../_image/bruteforce.png)
 
 # Brute-Force attack
 Brute-Force attacks (*just trying out all possible combinations*) have become computationally easy =>  **its simpler to just try out all combinations than to guess something clever**
@@ -245,7 +251,7 @@ Avoid revealing your passwords on GitHub
 
 ---
 
-![bg right:20% 90%](./image/twofactor.png)
+![bg right:20% 90%](../_image/twofactor.png)
 
 # Two-Factor Authentication
 Logging into your accounts with an email address and password is fine, up to a point, but these details can get lost, stolen, guessed, or teased out of you with some clever social engineering.
