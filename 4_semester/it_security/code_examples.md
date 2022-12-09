@@ -71,7 +71,7 @@ for port in range(1, 1025):
         print(f"{GRAY}[!] {host}:{port} is closed    {RESET}", end="\r")
  ```
 
- Get the file: ![fast_port_scanner.py](../it_security/_code/portscanner/fast_port_scanner.py)
+ Get the file: ![fast_port_scanner.py](../it_security/code/portscanner/fast_port_scanner.py)
 
 # Keylogger
 A keylogger is a type of surveillance technology used to monitor and record each keystroke typed on a specific computer's keyboard. It is also considered malware since it can be invisible running in the background, and the user cannot notice the presence of this program.
@@ -230,4 +230,4 @@ if __name__ == "__main__":
     keylogger.start()
  ```
 
- Get the file: ![keylogger.py](../it_security/_code/keylogger/keylogger.py)
+ Get the file: ![keylogger.py](../it_security/code/keylogger/keylogger.py)
