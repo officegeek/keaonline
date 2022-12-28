@@ -24,8 +24,8 @@ nav_order: 110
     - 09-12-2022 - Fredag
 
 # Slides
-- [HTML](./_slide/IT_Security_Slide.html)
-- [PDF](./_slide/IT_Security_Slide.pdf)
+- [HTML](./slide/IT_Security_Slide.html)
+- [PDF](./slide/IT_Security_Slide.pdf)
 
 # Læses DK
 https://issuu.com/dtudk/docs/dynamo71/22
