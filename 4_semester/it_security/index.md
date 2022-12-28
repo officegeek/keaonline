@@ -27,6 +27,10 @@ nav_order: 110
 - [HTML](./_slide/IT_Security_Slide.html)
 - [PDF](./_slide/IT_Security_Slide.pdf)
 
+# Læses DK
+https://issuu.com/dtudk/docs/dynamo71/22
+
+
 # Code
 [Code Examples](code_examples.md)
 
