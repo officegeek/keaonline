@@ -31,8 +31,8 @@ nav_order: 80
 - Quality Attributes - Non Functions Requirements
 
 ## Slides IT Architecture
-- [It_Architecture_Slides.html](./_slides/microservices.html)
-- [It_Architecture_Slides.pdf](./_slides/microservices.pdf)
+- [HTML](./slides/microservices.html)
+- [PDF](./slides/microservices.pdf)
 
 # Microservice
 A microservice architecture – A variant of the service-oriented architecture (**SOA**) – arranges an application as a collection of loosely-coupled services.

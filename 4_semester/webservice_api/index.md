@@ -31,8 +31,8 @@ nav_order: 30
 - API
 
 # Slides
-- [HTML](./_slide/Webservices_API_Slide.html)
-- [PDF](./_slide/Webservices_API_Slide.pdf)
+- [HTML](./slide/Webservices_API_Slide.html)
+- [PDF](./slide/Webservices_API_Slide.pdf)
 
 # Content - [Mindmap](../mindmap.html)
 - [SOAP Python dialing code](#soap-python-dialing-code)

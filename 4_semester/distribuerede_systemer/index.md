@@ -32,8 +32,8 @@ nav_order: 50
 - MVC
 
 # Slides
-- [HTML](./_slide/Distributed_Systems_Docker.html)
-- [PDF](./_slide/Distributed_Systems_Docker.pdf)
+- [HTML](./slide/Distributed_Systems_Docker.html)
+- [PDF](./slide/Distributed_Systems_Docker.pdf)
 
 
 # Flask

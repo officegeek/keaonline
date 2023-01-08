@@ -24,8 +24,8 @@ nav_order: 20
     - 07-10-2022 - Fredag
 
 # Slides
-- [HTML](./Virtualization_Slides.html)
-- [PDF](./Virtualization_Slides.pdf)
+- [HTML](./slide/Virtualization_Slides.html)
+- [PDF](./slide/Virtualization_Slides.pdf)
 
 # Content - [mindmap](../mindmap.html)
 - [Virtualisering (Azure)](#virtualisering-azure)
