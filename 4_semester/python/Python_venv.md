@@ -13,14 +13,16 @@ Python comes with a virtual environment manager called **venv** for Python 3.
 The first thing you need to do when developing your own Python application or library, is to create a virtual environment.
 
 ## Install 
-Depending on your current syatem setup, you might need to install **virtualenv**
+In Python 3 the Virtual Environment are pre installed from the standard library - [venv](https://docs.python.org/3/library/venv.html).
 
 ```
 pip3 install -U pip virtualenv
 ```
 
 ## Create the virtual environment
-This command, will create a virtual environment called **my_venv** which is placed in the current directory.
+Create a new virtual environment, **my_env**, which is placed in the current directory.
+
+By default, this new environment will **not include any of your existing packages**!
 
 ```
 # macOS/Linux
@@ -37,13 +39,13 @@ python3 -m venv path/to/your/venv/.my_venv
 ```
 
 ## Activate a virtual environment
-When you have created a virtual environment, you need to *tell* the Operating System to make use of it.
+Before you can start installing or using packages in your virtual environment you'll need to activate it. Activating a virtual environment will put the virtual environment-specific python and pip executables into your shell's PATH .
 
 To do so, you need to call the activate script which is located under the **bin/** sub-directory in the created tree structure of your virtual environment.
 
 ![](./image/venv_script.jpg)
 
-Ther are different scripts for different OS, this is the Windows scripts.
+There are different scripts for different OS, this is the Windows scripts.
 
 ```
 # macOS/Linux
@@ -72,6 +74,19 @@ where python
 
 It should be in the env directory
 
+## Installing packages
+In your virtual environment you can install all the packages you need, the same way you normally install packages.
+
+```
+pip3 install *package*
+```
+
+## Listing Packages
+To list installed packages
+
+    python -m pip list
+
+![](./image/list.jpg)
 
 ##  Deactivate a virtual environment
 Deactivate a virtual environment, when you are finished using it.
@@ -110,9 +125,19 @@ python -m venv -h
 
 ![](./image/venv_help.jpg)
 
-## Install packages
-When you are in the virtual environment you install the packages as normal.
+## Step by Step
+1. **Create a new virtual environment**
+    - *python3 -m venv venv-name*
+2. **Activate the virtual environment**
+    - macOS - *source env/bin/activate*
+    - Windows - *.\Scripts\activate*
+3. **Packages**
+    - Install 
+        - *pip3 install name*
+    - requirements.txt
+        - pip3 install -r requirements.txt
 
-```
-pip install 'xxx'
-```
+
+# Links
+- [docs.python.org/3/library/venv.html](https://docs.python.org/3/library/venv.html)
+- [installing-using-pip-and-virtual-environments/](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
