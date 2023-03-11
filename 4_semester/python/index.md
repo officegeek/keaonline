@@ -3,7 +3,7 @@ layout: default
 title: Python
 parent: 4. Semester
 has_children: true
-nav_order: 60
+nav_order: 10
 ---
 
 <span class="fs-1">
