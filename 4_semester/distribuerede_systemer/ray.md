@@ -10,6 +10,15 @@ nav_order: 50
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # Ray
 Ray is an open source project that makes it simple to scale any compute-intensive Python workload — *from deep learning to production model serving*
 

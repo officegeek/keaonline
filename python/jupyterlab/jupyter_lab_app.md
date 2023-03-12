@@ -1,10 +1,19 @@
 ---
 layout: default
 title: Jupyter Lab App
-nav_order: 30
-grand_parent: 4. Semester
-parent: Python Guides
+parent: Jupyter Lab
+grand_parent: Python Guides
+nav_order: 40
 ---
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 # Jupyter Lab App
 [JupyterLab App](https://github.com/jupyterlab/jupyterlab_app) is the cross-platform standalone application distribution of [JupyterLab](https://github.com/jupyterlab/jupyterlab). 

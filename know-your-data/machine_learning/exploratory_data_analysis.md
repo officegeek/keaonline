@@ -2,10 +2,22 @@
 layout: default
 title: Exploratory data analysis
 nav_order: 10
-parent: Microsoft Power BI
+parent: Machine Learning
+grand_parent: Know Your Data
 ---
 
-[HOME](./README.md)
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 # Exploratory data analysis
 In statistics, **Exploratory Data Analysis** (*EDA*) is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods.

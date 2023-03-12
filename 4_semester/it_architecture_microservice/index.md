@@ -21,7 +21,7 @@ nav_order: 80
 
 [Home](modul-4-2.md)
 # IT architecture & Microservice
-    - 29-10-2022 - Tirsdag
+    - 24-11-2022 - Fredag
 
 # IT Architecture
 - It Architecture
@@ -31,8 +31,8 @@ nav_order: 80
 - Quality Attributes - Non Functions Requirements
 
 ## Slides IT Architecture
-- [It_Architecture_Slides.html](./_slides/)
-- [It_Architecture_Slides.pdf](./_slides/
+- [HTML](./slides/microservices.html)
+- [PDF](./slides/microservices.pdf)
 
 # Microservice
 A microservice architecture – A variant of the service-oriented architecture (**SOA**) – arranges an application as a collection of loosely-coupled services.

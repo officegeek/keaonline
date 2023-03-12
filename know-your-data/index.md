@@ -2,17 +2,21 @@
     layout: default
     title: Know Your Data
     has_children: true
-    nav_order: 2
+    nav_order: 30
 ---
 
 <span class="fs-1">
-[HOME](../index.md){: .btn .btn-blue }
+[HOME](./index.md){: .btn .btn-blue }
 </span>
 
-# Know Your Data
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
-# Power BI
-- [Link](./power_bi/README.md)
-- [DAX](./power_bi/dax.md)
-- [Microsoft Samples](./power_bi/microsoft-sampel-financial.md)
-- [Power Bi Samples dataset](./power_bi/power_bi_sample-dataset.md)
+# Know Your Data
+Elective 5. semester 2022

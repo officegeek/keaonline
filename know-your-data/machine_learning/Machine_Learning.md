@@ -2,7 +2,8 @@
 layout: default
 title: Machine Learning
 nav_order: 20
-parent: Microsoft Power BI
+parent: Machine Learning
+grand_parent: Know Your Data
 ---
 
 ![bg 125%](https://github.com/officegeek/image/raw/main/ml.jpg)

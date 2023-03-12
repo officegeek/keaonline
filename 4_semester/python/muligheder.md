@@ -1,0 +1,1 @@
+https://medium.com/@nidhivinay24/starbucks-customer-segmentation-b4f82b7a8192

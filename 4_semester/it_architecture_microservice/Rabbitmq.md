@@ -10,6 +10,15 @@ nav_order: 30
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 # RabbitMQ
 Think of a message broker (*RabbitMQ*) like a delivery person who takes mail from a sender and delivers it to the correct destination. 
 
@@ -28,6 +37,21 @@ RabbitMQ is the most widely deployed open source message broker - [RabbitMQ](htt
 *In this analogy, RabbitMQ is a post box, a post office, and a letter carrier.*
 
 ![](https://dzfweb.gitbooks.io/microsoft-microservices-book/content/multi-container-microservice-net-applications/media/image22.png)
+
+## IBM Video
+**What is Rabbit MQ?** And what makes it one of the most popular message brokers out there?
+
+In this lightboard video, Whitney Lee with IBM Cloud, answers these questions and much more as she visually shows the flexibility RabbitMQ provides enterprises as the move their messages through a system as well as the benefits of it being cloud friendly. 
+
+*It is only 10 minuts long!*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7rkeORD4jSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## IBM focused links
+- [Learn more about Message Brokers](http://ibm.biz/message-brokers-guide)
+- [Check out IBM Messages for RabbitMQ](http://ibm.biz/ibm-messages-for-rabbitmq)
+- [Check out IBM MQ](http://ibm.biz/prod-ibm-mq)
+- [Check out IBM Cloud Pak for Integration](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbHM3TW1mNjgzb2ZSSWVkLXA3MG9HMWYzLUVrZ3xBQ3Jtc0tscnVjSTVkSkd2SkFOWThxNkNmWGVRdERZbnlvWmJWRy0tZG5heWQ4WXFPcHM5dEp0bXQtanlXay1UR0FMeVAwOWhfYkNnZTBEZzBSUlB6QkFhb3ZPWjZwV19LdjI1U3NLLXVHb1cxRXYtMVg3bW5kOA&q=http%3A%2F%2Fibm.biz%2Fk8s-interactive-hands-on-labs&v=7rkeORD4jSw)
 
 ## Install RabbitMQ
 You need to install RabbitMQ. Installations guides:

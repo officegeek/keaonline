@@ -2,7 +2,7 @@
 layout: default
 title: 4. Semester
 has_children: true
-nav_order: 2
+nav_order: 20
 ---
 
 <span class="fs-1">

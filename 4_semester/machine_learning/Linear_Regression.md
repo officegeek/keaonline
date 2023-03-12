@@ -2,11 +2,22 @@
 layout: default
 title: Machine Learning
 nav_order: 20
-parent: Microsoft Power BI
+parent: Machine Learning
 grand_parent: 4. Semester
 ---
 
-[HOME](./README.md)
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 # Linear Regression in Python
 

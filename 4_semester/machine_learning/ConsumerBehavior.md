@@ -2,11 +2,13 @@
 layout: default
 title: ML Consumer Behavior
 nav_order: 30
-parent: Microsoft Power BI
+parent: Machine Learning
 grand_parent: 4. Semester
 ---
 
-[HOME](./README.md)
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
 
 <details open markdown="block">
   <summary>
@@ -16,6 +18,7 @@ grand_parent: 4. Semester
 1. TOC
 {:toc}
 </details>
+
 
 # Using AI and Machine Learning to Predict Consumer Behavior
 

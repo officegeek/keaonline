@@ -6,13 +6,11 @@ parent: Know Your Data
 has_children: true
 ---
 
-[Home](../modul-4-2.md)
-
 <details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
 </details>
@@ -20,7 +18,8 @@ has_children: true
 ## Links
 - [ML in Power BI](./mlpowerbIpyc.md)
 - [PyCaret](./PyCaret.md)
-- [Using Jupyter Lab in a Virtual Environment](https://officegeek.github.io/keaonline/python/Using_Jupyter_Lab_in_Virtual_Environme.html)
+- [Using Jupyter Lab in a Virtual Environment](/python/jupyterlab/Using_Jupyter_Lab_in_Virtual_Environme.md)
+- [Virtual Environment](/python/virtuelenviroment.md)
 
 
 # Machine Learning

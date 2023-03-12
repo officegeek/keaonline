@@ -6,13 +6,15 @@ has_children: true
 nav_order: 20
 ---
 
-[Home](../modul-4-2.md)
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
 
 <details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 1. TOC
 {:toc}
 </details>
@@ -22,8 +24,8 @@ nav_order: 20
     - 07-10-2022 - Fredag
 
 # Slides
-- [HTML](./Virtualization_Slides.html)
-- [PDF](./Virtualization_Slides.pdf)
+- [HTML](./slide/Virtualization_Slides.html)
+- [PDF](./slide/Virtualization_Slides.pdf)
 
 # Content - [mindmap](../mindmap.html)
 - [Virtualisering (Azure)](#virtualisering-azure)

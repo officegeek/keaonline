@@ -2,7 +2,7 @@
 layout: default
 title: Machine Learning
 nav_order: 20
-parent: Microsoft Power BI
+parent: Machine Learning
 grand_parent: 4. Semester
 ---
 
