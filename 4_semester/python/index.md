@@ -119,5 +119,5 @@ With Dash apps, data scientists and engineers put complex Python analytics in th
 
 
 # Database MySQL
-- [Python MySQL](Python_MySQL.md)
-- [Northwind SQL File](./codefiles/sql/northwind_kea.sql)
+- [Python MySQL](./Python_MySQL.md)
+- [Northwind SQL File](./northwind_kea.sql)
