@@ -104,7 +104,7 @@ The **venv** module provides support for creating lightweight "*virtual environm
 
 Each virtual environment has its own Python binary (*matches the version of the binary that was used to create this environment*) and can have its own **independent set of installed Python packages** in its site directories.
 
-[Virtual Environment Guide](./)
+[Virtual Environment Guide](./Python_venv.md)
 
 ![](./image/virtual-environment.png)
 

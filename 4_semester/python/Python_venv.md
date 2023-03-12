@@ -4,7 +4,7 @@ title: Virtual environment
 parent: Python
 grand_parent: 4. Semester
 has_children: true
-nav_order: 50
+nav_order: 30
 ---
 
 <span class="fs-1">
