@@ -1,3 +1,15 @@
+---
+layout: default
+title: Python MySQL connection
+parent: Python
+has_children: true
+nav_order: 30
+---
+
+<span class="fs-1">
+[HOME](../index.md){: .btn .btn-blue }
+</span>
+
 # Python MySQL connection
 Python needs a MySQL driver to access the MySQL database.
 
