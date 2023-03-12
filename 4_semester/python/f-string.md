@@ -2,6 +2,7 @@
 layout: default
 title: f-string
 parent: Python
+grand_parent: 4. Semester
 has_children: false
 nav_order: 20
 ---

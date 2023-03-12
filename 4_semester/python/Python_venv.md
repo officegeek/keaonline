@@ -2,6 +2,7 @@
 layout: default
 title: Virtual environment
 parent: Python
+grand_parent: 4. Semester
 has_children: true
 nav_order: 50
 ---

@@ -2,6 +2,7 @@
 layout: default
 title: Python MySQL connection
 parent: Python
+grand_parent: 4. Semester
 has_children: true
 nav_order: 30
 ---
