@@ -32,7 +32,7 @@ _backgroundColor: black
 _color: white
 -->
 
-# Python brushup & Div.<!-- fit -->
+# Python brushup, Database & Div.<!-- fit -->
 ### 2023 - Tue Hellstern
 
 ---

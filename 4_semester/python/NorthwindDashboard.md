@@ -19,9 +19,8 @@ This is a demo of creating a **dashboard** using **Python** and **Dash**
 ## Virtual Environment
 Create and activate a new virtual environment - **northwind**
 
-```
-python3 -m venv northwind
-```
+- python3 -m venv northwind
+
 
 ## Files
 You have to download thise files and place them, in the right folders, in the **nortwind** virtuel Environment 
