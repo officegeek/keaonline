@@ -10,15 +10,6 @@ nav_order: 20
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # Microservice
 A microservice architecture – A variant of the service-oriented architecture (**SOA**) – arranges an application as a collection of loosely-coupled services.
 
@@ -28,8 +19,6 @@ In a microservice architecture, services are **fine-grained and the protocols ar
 ![](./image/mono_micro.png)
 
 The goal is that teams can bring their services to life independent of others. **Loose coupling reduces all types of dependencies** and the complexities around it, as service developers do not need to care about the users of the service, they do not force their changes onto users of the service.
-
-![](https://martinfowler.com/articles/microservices/images/sketch.png)
 
 The microservice architecture brings the idea of **decoupling functional parts of software applications into lightweight, deployable solutions, each having its own goal in the general ecosystem**.
 
@@ -79,13 +68,9 @@ As such, they should be represented in UML using the Components Diagram, with:
 Ultimately, any size company can benefit from the use of a microservices architecture if they have applications that need frequent updates, experience dynamic traffic patterns, or require near real-time communication.
 
 ## Who Uses Microservices?
-Social media companies like Facebook and Twitter, retailers like Amazon, media provider like Netflix, ride-sharing services like Uber and Lyft, and many of the world’s largest financial services companies all use microservices.
+Social media companies like **Facebook** and **Twitter**, retailers like **Amazon**, media provider like **Netflix**, ride-sharing services like **Uber** and **Lyft**, and many of the world’s largest financial services companies all use microservices.
 
-# What is Event Driven Architecture (EDA)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o2HJCGcYwoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# Flask demo
+## Flask demo
 You can build a Microservice architecture with Flask.
 
 ```python
@@ -121,13 +106,13 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
 ```
 
-# FastAPI Demo
+## FastAPI Demo
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
 
 The key features are:
 - **Fast**: Very high performance, on par with NodeJS and Go (*thanks to Starlette and Pydantic*). One of the fastest Python frameworks available.
 - **Fast to code**: Increase the speed to develop features by about 200% to 300%. *
-- F**ewer bugs**: Reduce about 40% of human (*developer*) induced errors. *
+- **Fewer bugs**: Reduce about 40% of human (*developer*) induced errors. *
 - **Intuitive**: Great editor support. Completion everywhere. Less time debugging.
 - **Easy**: Designed to be easy to use and learn. Less time reading docs.
 - **Short**: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
@@ -136,7 +121,7 @@ The key features are:
 
 [fastapi.tiangolo.com](https://fastapi.tiangolo.com)
 
-## Install
+### Install
 You have to install FastAPI and Uvicorn using pip:
 
     python -m pip install fastapi uvicorn[standard]
@@ -171,7 +156,7 @@ async def root():
 
 ![](./image/fastapi_2.jpg)
 
-## Interactive API Documentation
+### Interactive API Documentation
 Now open [127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) in your browser.
 
 You will see the automatic interactive API documentation provided by Swagger UI:
@@ -190,8 +175,4 @@ Open [127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) in your browser.
 - Martin Fowler's [microservices article](http://martinfowler.com/articles/microservices.html)
 - [microservices.io](https://microservices.io)
 - [fastapi.tiangolo.com](https://fastapi.tiangolo.com)
-- [Flask](https://flask.palletsprojects.com/en/2.1.x)
-- [Learn more about EDA](http://ibm.biz/eda-guide)
-- [Reactive Manifesto](https://www.reactivemanifesto.org)
-
-
+- [Flask](https://flask.palletsprojects.com/en/2.1.x/)

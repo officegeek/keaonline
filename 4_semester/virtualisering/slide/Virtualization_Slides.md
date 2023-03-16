@@ -11,7 +11,7 @@ html: true
 ---
 
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
-# Virtualization  07-10-2022
+# Virtualization  15-03-2023
 ### Agenda
 
 - Introduction
@@ -19,7 +19,7 @@ html: true
 - Cloud
 - Azure
 
-<!-- _footer: Tue Hellstern © 2022 -->
+<!-- _footer: Tue Hellstern -->
 
 
 ---
