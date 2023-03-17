@@ -26,10 +26,10 @@ Python comes with a virtual environment manager called **venv** for Python 3.
 The first thing you need to do when developing your own Python application or library, is to create a virtual environment.
 
 ## Install 
-In Python 3 the Virtual Environment are pre installed from the standard library - [venv](https://docs.python.org/3/library/venv.html).
+In **Python 3** and above, the Virtual Environment are pre installed from the standard library - [venv](https://docs.python.org/3/library/venv.html).
 
 ```
-pip3 install -U pip virtualenv
+pip3 install -U pip virtualenv                                                                                      
 ```
 
 ## Create the virtual environment
@@ -39,16 +39,16 @@ By default, this new environment will **not include any of your existing package
 
 ```
 # macOS/Linux
-python3 -m venv .my_venv
+python3 -m venv my_venv
 
 # Windows
-python -m venv .my_venv
+python -m venv my_venv
 ```
 
 If you want to create a virtual environment in a specific directory, then include it with the *venv name*.
 
 ```
-python3 -m venv path/to/your/venv/.my_venv
+python3 -m venv path/to/your/venv/my_venv
 ```
 
 ## Activate a virtual environment
@@ -74,6 +74,14 @@ If you look at the start of the terminal you should that each line begins with (
 
 Once the virtual environment is activated, everything you install or uninstall will only have effect **within that specific environment and nowhere else**.
 
+### Structure
+A virtual environment has 3 directories and potentially a symlink in the virtual environment directory (i.e. within .venv):
+
+- **bin** on *MacOS* - **Scripts** on *Windows*
+- **include** om MacOS - **Include** on *Windows*
+- **lib/pythonX.Y/site-packages** where X.Y is the Python version (Lib/site-packages on Windows)
+- **lib64** symlinked to lib if you're using a 64-bit build of Python that's on a POSIX-based OS that's not macOS
+
 ## Confirm
 You can confirm you’re in the virtual environment by checking the location of your Python interpreter.
 
@@ -85,7 +93,7 @@ which python
 where python
 ```
 
-It should be in the env directory
+**Python** should be in the **env directory**
 
 ## Installing packages
 In your virtual environment you can install all the packages you need, the same way you normally install packages.
