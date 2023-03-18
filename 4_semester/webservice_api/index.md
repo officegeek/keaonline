@@ -22,7 +22,8 @@ nav_order: 30
 
 [Home](../modul-4-2.md)
 # Python, Web Service API
-    - 13-10-2022 - Torsdag
+    - 20-03-2023 - Mandag (DK)
+    - 24-03-2023 - Friday (INT)
 
 # Beskrivelse
 **Introduction to:**

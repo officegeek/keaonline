@@ -11,7 +11,7 @@ markdown.marp.enableHtml
 ---
 
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
-# Web Services  13-10-2022
+# Web Services
 ### Agenda
 
 - Introduction
@@ -22,7 +22,7 @@ markdown.marp.enableHtml
 - Spotify API - *Code*
 - ToDo FastAPI App - *Demo*
 
-<!-- _footer: Tue Hellstern © 2022-->
+<!-- _footer: Tue Hellstern-->
 
 ---
 
