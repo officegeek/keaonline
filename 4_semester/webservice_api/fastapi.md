@@ -10,11 +10,6 @@ nav_order: 30
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-1. TOC
-{:toc}
-</details>
-
 # FastAPi
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
 

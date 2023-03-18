@@ -319,10 +319,10 @@ https://youtu.be/bPNfu0IZhoE
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 
-![bg right:40% 170%](./image/soap_python.jpg)
+![bg right:40% 170%](../_image/soap_python.jpg)
 
 # SOAP Python Demo <!-- fit -->
-- [Python SOAP Country code ](./SOAP_API_calls_using_Python.md)
+- [Python SOAP Country code ](../SOAP_API_calls_using_Python.md)
 
 ---
 
