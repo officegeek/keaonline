@@ -10,21 +10,9 @@ nav_order: 40
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 [Home](../modul-4-2.md)
 # Docker
-    - 24-10-2022 - Mandag
-
-# Topic - [mindmap](../mindmap.html)
-- [Docker - Virtual Machine Azure](./docker_ubuntu.md)
+    - 29. & 30. marts 2023
 
 # What is Docker
 Docker is an open platform for developing, shipping, and running applications.

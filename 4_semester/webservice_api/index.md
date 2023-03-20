@@ -10,16 +10,6 @@ nav_order: 30
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
-
 [Home](../modul-4-2.md)
 # Python, Web Service API
     - 20-03-2023 - Mandag (DK)
@@ -34,10 +24,6 @@ nav_order: 30
 # Slides
 - [HTML](./slide/Webservices_API_Slide.html)
 - [PDF](./slide/Webservices_API_Slide.pdf)
-
-# Content - [Mindmap](../mindmap.html)
-- [SOAP Python dialing code](#soap-python-dialing-code)
-- [Newscatcher API](#newscatcher-api)
 
 # SOAP Python dialing code
 Use SOAP in Python to get the dialing code using a country code
