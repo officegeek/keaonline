@@ -319,10 +319,10 @@ https://youtu.be/bPNfu0IZhoE
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 
-![bg right:40% 170%](./image/soap_python.jpg)
+![bg right:40% 170%](../_image/soap_python.jpg)
 
 # SOAP Python Demo <!-- fit -->
-- [Python SOAP Country code ](./SOAP_API_calls_using_Python.md)
+- [Python SOAP Country code ](../SOAP_API_calls_using_Python.md)
 
 ---
 
@@ -433,7 +433,7 @@ Some companies are packaging API's as products.
 
 ---
 
-![bg right:50% 90%](./image/OpenAPI_Logo.png)
+![bg right:50% 90%](../_image/OpenAPI_Logo.png)
 
 # OpenAPI
 There is the **OpenAPI Specification** (*OAS*), a technical specification that describes certain APIs, and there is the **OpenAPI Initiative** (*OAI*), an organization that enables specifications like OAS to thrive.
@@ -442,7 +442,7 @@ There is the **OpenAPI Specification** (*OAS*), a technical specification that d
 
 ---
 
-![bg right:50% 90%](./image/fastapi.png)
+![bg right:50% 90%](../_image/fastapi.png)
 # FastAPI
 FastAPI is a modern, **fast** (*high-performance*), **web framework** for **building APIs** with Python 3.7+ based on standard Python type hints.
 
@@ -495,7 +495,7 @@ Spotify provides software and app developers access to some of their data about 
 
 ---
 
-![bg right:55% 110%](./image/news.jpg)
+![bg right:55% 110%](../_image/news.jpg)
 # Newscatcher
 
 - [Demo GitHub Reporitory](https://github.com/TueHellsternKea/newsapi)
