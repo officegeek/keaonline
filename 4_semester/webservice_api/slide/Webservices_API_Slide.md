@@ -322,7 +322,7 @@ https://youtu.be/bPNfu0IZhoE
 ![bg right:40% 170%](../_image/soap_python.jpg)
 
 # SOAP Python Demo <!-- fit -->
-- [Python SOAP Country code ](../SOAP_API_calls_using_Python.md)
+- [Python SOAP Country code ](https://kea.officegeek.dk/4_semester/webservice_api/SOAP_API_calls_using_Python.html)
 
 ---
 
