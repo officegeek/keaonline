@@ -10,15 +10,6 @@ nav_order: 50
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # Azure Virtual Machine - Windows 10
 For the use of Docker Desktop, we are creating a Virtual Machine on Azure running Windows 10 Pro.
 
