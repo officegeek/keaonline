@@ -14,9 +14,6 @@ nav_order: 40
 # Docker
     - 29. & 30. marts 2023
 
-# Topic - [mindmap](../mindmap.html)
-- [Docker - Virtual Machine Azure](./docker_ubuntu.md)
-
 # What is Docker
 Docker is an open platform for developing, shipping, and running applications.
 
