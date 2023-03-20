@@ -86,6 +86,5 @@ Second one is - redocs
 ![](./_image/fastapiredocs.jpg)
 
 # Links
-- [fastapi.tiangolo.com](https://vfastapi.tiangolo.com/)
 - [github.com/tiangolo/fastapi](https://github.com/tiangolo/fastapi)
 - [www.uvicorn.org](https://www.uvicorn.org/)
