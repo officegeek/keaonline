@@ -433,7 +433,7 @@ Some companies are packaging API's as products.
 
 ---
 
-![bg right:50% 90%](./image/OpenAPI_Logo.png)
+![bg right:50% 90%](../_image/OpenAPI_Logo.png)
 
 # OpenAPI
 There is the **OpenAPI Specification** (*OAS*), a technical specification that describes certain APIs, and there is the **OpenAPI Initiative** (*OAI*), an organization that enables specifications like OAS to thrive.
@@ -442,9 +442,30 @@ There is the **OpenAPI Specification** (*OAS*), a technical specification that d
 
 ---
 
-![bg right:50% 90%](./image/fastapi.png)
+![bg right:50% 90%](../_image/fastapi.png)
 # FastAPI
 FastAPI is a modern, **fast** (*high-performance*), **web framework** for **building APIs** with Python 3.7+ based on standard Python type hints.
+
+---
+
+<iframe width="1100" height="1000" src="https://www.youtube.com/embed/0RS9W8MtZe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+![bg right:50% 138%](../_image/flask_fastapi.png)
+
+# Flask <> FastAPI 
+## When to use Flask?
+- To develop web applications
+- To develop quick prototypes
+
+## When to use FastAPI?
+- To develop APIs from scratch
+- To lower the number of bugs and errors in code
+
+---
+
+![bg 47%](../_image/Python_Fast_API_vs_Flask.jpg)
 
 ---
 
@@ -467,6 +488,7 @@ Yes, there's **overlap between the two**:
 - **API's are protocol agnostic**. API's can use any protocols or design styles - **Web services** use SOAP, REST, UDDI, XML-RPC
 
 ---
+
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 # API DEMO <!-- fit -->
