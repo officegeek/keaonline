@@ -34,10 +34,6 @@ nav_order: 30
 - [HTML](./slide/Webservices_API_Slide.html)
 - [PDF](./slide/Webservices_API_Slide.pdf)
 
-# Content - [Mindmap](../mindmap.html)
-- [SOAP Python dialing code](#soap-python-dialing-code)
-- [Newscatcher API](#newscatcher-api)
-
 # SOAP Python dialing code
 Use SOAP in Python to get the dialing code using a country code
 
