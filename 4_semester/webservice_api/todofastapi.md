@@ -137,4 +137,15 @@ The file are in the folder **templates**, it is a basic HTML file.
 ```
 
 ## Docs ToDo
+FastAPI has a 2 automatic interactive API documentation
+
+First one is - docs
+
+    http://127.0.0.1:8000/docs
+
+![](./_image/fastapi_1.jpg)
+
+Second one is - redocs
+
+     http://127.0.0.1:8000/redocs    
 ![](./_image/tododocs.jpg)
