@@ -442,6 +442,19 @@ There is the **OpenAPI Specification** (*OAS*), a technical specification that d
 
 ---
 
+# What is the difference between a Web service and an API?
+An **API** is an **interface** that allows you to build on the data and functionality of another application, while a **web service** is a **network-based resource** that fulfills a **specific task**. 
+
+Yes, there's **overlap between the two**: 
+
+- **All** web services are API's
+- **Not all** API's are web services
+- Web services require a network. APIs can be on- or offline, web services must use a network
+- **Web services** are usually associated with **SOA**
+- **API's are protocol agnostic**. API's can use any protocols or design styles - **Web services** use SOAP, REST, UDDI, XML-RPC
+
+---
+
 ![bg right:50% 90%](../_image/fastapi.png)
 # FastAPI
 FastAPI is a modern, **fast** (*high-performance*), **web framework** for **building APIs** with Python 3.7+ based on standard Python type hints.
@@ -476,19 +489,6 @@ FastAPI is a modern, **fast** (*high-performance*), **web framework** for **buil
 
 ---
 
-# What is the difference between a Web service and an API?
-An **API** is an **interface** that allows you to build on the data and functionality of another application, while a **web service** is a **network-based resource** that fulfills a **specific task**. 
-
-Yes, there's **overlap between the two**: 
-
-- **All** web services are API's
-- **Not all** API's are web services
-- Web services require a network. APIs can be on- or offline, web services must use a network
-- **Web services** are usually associated with **SOA**
-- **API's are protocol agnostic**. API's can use any protocols or design styles - **Web services** use SOAP, REST, UDDI, XML-RPC
-
----
-
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 # API DEMO <!-- fit -->
@@ -496,8 +496,8 @@ Yes, there's **overlap between the two**:
 
 ---
 
-![bg right:60% 90%](https://github.com/officegeek/image/raw/main/restcountries_api.jpg)
-# API - restcountries - Demo
+![bg right:66% 108%](https://github.com/officegeek/image/raw/main/restcountries_api.jpg)
+# API - restcountries
 
 - [Python file - .py](https://github.com/officegeek/image/raw/main/code/restcountries.py)
 - [Jupyter Lab - .ipynb](https://github.com/officegeek/image/raw/main/code/restcountries.ipynb)
@@ -517,7 +517,7 @@ Spotify provides software and app developers access to some of their data about 
 
 ---
 
-![bg right:55% 110%](./image/news.jpg)
+![bg right:55% 110%](../_image/news.jpg)
 # Newscatcher
 
 - [Demo GitHub Reporitory](https://github.com/TueHellsternKea/newsapi)
