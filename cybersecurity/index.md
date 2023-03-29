@@ -1,6 +1,6 @@
 ---
     layout: default
-    title: Cybersicetury
+    title: Cybersecurity
     has_children: true
     nav_order: 30
 ---
