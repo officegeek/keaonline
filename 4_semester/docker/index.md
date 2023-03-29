@@ -12,7 +12,11 @@ nav_order: 40
 
 [Home](../modul-4-2.md)
 # Docker
-    - 29. & 30. marts 2023
+- 30. & 31. marts 2023
+
+# Slide
+- [html](./_slide/Docker.html)
+- [PDF](./_slide/Docker.pdf)
 
 # What is Docker
 Docker is an open platform for developing, shipping, and running applications.
