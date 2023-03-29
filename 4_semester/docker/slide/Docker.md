@@ -48,9 +48,11 @@ Docker is container based technology and containers are just user space of the o
 
 **Docker Platform** is Docker’s software that provides the ability to package and run an application in a container on any computer platform. 
 
-Docker Platform bundles code files and dependencies. It promotes **easy scaling** by enabling portability and reproducibility.
+Docker Platform bundles code files and dependencies. 
 
-![bg left:35% 110%](https://github.com/officegeek/image/raw/main/docker_logo.png)
+It promotes **easy scaling** by enabling portability and reproducibility.
+
+![bg right:45% 110%](https://github.com/officegeek/image/raw/main/docker_logo.png)
 
 ---
 
@@ -59,7 +61,7 @@ Docker Platform bundles code files and dependencies. It promotes **easy scaling*
 **Docker Engine** is the client-server application. The Docker company divides the Docker Engine into two products:
 
 - Docker Community Edition (*CE*) is free and largely based on open source tools.
-- Docker Enterprise comes with additional support, management, and security features. *Enterprise is how Docker earns money* - www.docker.com/pricing
+- Docker Enterprise comes with additional support, management, and security features. *Enterprise is how Docker earns money* - [www.docker.com/pricing](www.docker.com/pricing)
 
 ![bg left:35% 110%](https://github.com/officegeek/image/raw/main/docker_engine.png)
 
@@ -283,6 +285,6 @@ sudo apt autoremove
 
 # Links
 
-- www.docker.com
-- www.docker.com/101-tutorial
-- docs.docker.com/get-started
+- [www.docker.com](www.docker.com)
+- [www.docker.com/101-tutorial](www.docker.com/101-tutorial)
+- [docs.docker.com/get-started](docs.docker.com/get-started)
