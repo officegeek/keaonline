@@ -43,7 +43,7 @@ It may *look* like a virtual machine at first, but the functionality is not the 
 Unlike Docker, a **virtual machine will include a complete operating system**. It will work independently and act like a computer.
 **Docker will only share the resources** of the host machine to run its environments.
 
-![](https://www.docker.com/wp-content/uploads/Blog.-Are-containers-..VM-Image-1-1024x435.png)
+![](./_image/docker_vs_wm.jpg)
 
 # Docker architecture
 Docker uses a **client-server architecture**. 
@@ -61,13 +61,6 @@ The Docker daemon (*dockerd*) listens for Docker API requests and manages Docker
 
 ## The Docker client
 The Docker client (*docker*) is the primary way that many Docker users interact with Docker. When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
-
-## Docker Desktop
-**Docker Desktop** is an easy-to-install application for your **Mac** or **Windows** environment that enables you to build and share containerized applications and microservices. 
-
-Docker Desktop includes the Docker daemon (*dockerd*), the Docker client (*docker*), Docker Compose, Docker Content Trust, Kubernetes, and Credential Helper. 
-
-[Docker Desktop](./DockerDesktop.md)
 
 ## Docker registries
 A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry.
@@ -90,7 +83,11 @@ By default, a container is relatively well isolated from other containers and it
 A container is defined by its image as well as any configuration options you provide to it when you create or start it. When a container is removed, any changes to its state that are not stored in persistent storage disappear.
 
 # Docker Desktop
-The Docker Desktop application makes it easy for you to work with Docker. There are versions of Docker Desktop for; *macOS*, *Windows* and *Linux*
+**Docker Desktop** is an easy-to-install application for your **Mac** or **Windows** environment that enables you to build and share containerized applications and microservices. 
+
+Docker Desktop includes the Docker daemon (*dockerd*), the Docker client (*docker*), Docker Compose, Docker Content Trust, Kubernetes, and Credential Helper.
+
+The Docker Desktop application makes it easy for you to work with Docker.
 
 ## Download and Install
 You can download the version you need her: [www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop/)
