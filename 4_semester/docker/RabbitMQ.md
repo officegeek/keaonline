@@ -6,7 +6,7 @@ grand_parent: 4. Semester
 nav_order: 50
 ---
 
-![](./_image/rabitmq.jpg)
+![](./image/rabitmq.jpg)
 
 RabbitMQ is a message-queueing software also known as a message broker or queue manager. 
 
@@ -22,12 +22,14 @@ to pull a RabbitMQ Docker image from DockerHub. After the Docker image is downlo
 
 after start, you can access a rabbitMQ user interface - **localhost:15672**
 
+![](./image/rabbitmqweb.png)
+
 ## Username and password
 - Default username: guest
 - Default password: guest
 
 ## Sender
-Create a simple producer, **sender**, program with python3
+Create a simple producer program with python3: **sender.py**
 
 ```python
 import pika, os, logging, time
@@ -35,7 +37,7 @@ logging.basicConfig()
 
 url = os.environ.get('CLOUDAMQP_URL','amqp://guest:guest@localhost/%2f')
 params = pika.URLParameters(url)
-params.socket_timeout = 5
+params.socket_timeout = 5rabitmq
 
 connection = pika.BlockingConnection(params) # Connect to CloudAMQP
 channel = connection.channel() # start a channel
@@ -52,7 +54,7 @@ for x in range(1000):
 connection.close()
 ```
 
-Create a simple producer to get data from queue
+Create a simple producer to get data from queue: **getdata.py**
 
 ```python
 import pika, sys, os
@@ -81,3 +83,4 @@ if __name__ == '__main__':
         except SystemExit:
             os._exit(0)
 ```
+Run getdata.py and sender.py

@@ -21,7 +21,7 @@ nav_order: 40
 # What is Docker
 Docker is an open platform for developing, shipping, and running applications.
 
-![](./_image/docker.png)
+![](./image/docker.png)
 
 Docker is free software developed by Docker Inc. It was presented to the general public on March 13, 2013, and has become since that day a must in the world of IT development.
 
@@ -36,7 +36,7 @@ Docker Hub is a hosted repository service provided by Docker for finding and sha
 
 **Create an account on Docker Hub.**
 
-![](./_image/docker-hub-1.jpg)
+![](./image/docker-hub-1.jpg)
 
 When you have created the account you can upload your own Docker images and you have access to a lot of different Docker images.
 
@@ -49,7 +49,7 @@ It may *look* like a virtual machine at first, but the functionality is not the 
 Unlike Docker, a **virtual machine will include a complete operating system**. It will work independently and act like a computer.
 **Docker will only share the resources** of the host machine to run its environments.
 
-![](./_image/docker_vs_wm.jpg)
+![](./image/docker_vs_wm.jpg)
 
 # Docker architecture
 Docker uses a **client-server architecture**. 
