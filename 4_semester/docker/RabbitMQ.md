@@ -18,13 +18,13 @@ Assuming the Docker Desktop has been installed, you use the command
 
 to pull a RabbitMQ Docker image from DockerHub. After the Docker image is downloaded and saved locally, you can start a RabbitMQ container using the following command.
 
-    sudo docker run -d -p 5672:5672 -p 15672:15672 
-    rabbitmq:3.8.15-rc.2-management
+    sudo docker run -d -p 5672:5672 -p 15672:15672 rabbitmq:3.8.15-rc.2-management
 
 after start, you can access a rabbitMQ user interface - **localhost:15672**
 
 ## Username and password
-Default username and password is guest:guest
+- Default username: guest
+- Default password: guest
 
 ## Sender
 Create a simple producer, **sender**, program with python3
