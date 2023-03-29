@@ -190,8 +190,6 @@ For many, web services are synonymous with **SOA** (*Services Oriented Architect
 
 The **frontend** or **presentation layer** can be in different programming languages and still have the ability to communicate with the Web Service.
 
-<!-- _footer: MIS - Chapter 5 - Page 225 -->
-
 ---
 
 # What are Web Services?
@@ -328,7 +326,7 @@ https://youtu.be/bPNfu0IZhoE
 
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
-# SOA<!-- fit -->
+# SOA <!-- fit -->
 
 ---
 
