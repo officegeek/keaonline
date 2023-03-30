@@ -31,16 +31,28 @@ nav_order: 40
         restart: "no"
 
 
+## main.py
+```python
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+@app.get("/")
+def hello_world():
+    return {"message": "OK"}
+```
+
 # Deploy with docker compose
 
     docker-compose up -d --build
 
 ## Expected result
-Listing containers must show one container running and the port mapping as below:
+Listing containers must show one container running and the port mapping as below.
 
-    $ docker ps
-    CONTAINER ID   IMAGE          COMMAND       CREATED              STATUS              PORTS                                               NAMES
-    7087a6e79610   5c1778a60cf8   "/start.sh"   About a minute ago   Up About a minute   80/tcp, 0.0.0.0:8000->8000/tcp, :::8000->8000/tcp   fastapi-application
+run: **docker ps**
+
+![](../image/fasapi_demo.jpg)
 
 After the application starts, navigate to http://localhost:8000 in your web browser and you should see the following json response:
 
