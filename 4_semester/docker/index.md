@@ -101,6 +101,15 @@ You can download the version you need her: [www.docker.com/products/docker-deskt
 - [Install Docker Desktop on **Windows**](https://docs.docker.com/desktop/windows/install/)
 - [Install Docker Desktop on **Mac**](https://docs.docker.com/desktop/mac/install/)
 
+
+# Benefits of Using Docker
+There are many advantages of using containers as part of your day-to-day life as a software developer.
+
+- **Consistency** - By using container technology, you can ensure that everyone on your team uses the exact same runtimes and configurations. You also significantly reduce deployment friction as the production environment will be consistent with your development environment.
+- **Lightweight** - Docker containers are quick to start and consume minimal resources compared to virtual machines.
+- **Ephemeral** - Any change in the container file system will be destroyed upon termination. This impermanence ensures a fresh environment at every start.
+
+
 ## Docker demo
 The GitHub Repository - [https://github.com/TueHellsternKea/docker-demo.git](https://github.com/TueHellsternKea/docker-demo.git) - containes different guides on Docker
 
