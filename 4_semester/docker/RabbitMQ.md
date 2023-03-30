@@ -12,13 +12,11 @@ RabbitMQ is a message-queueing software also known as a message broker or queue 
 
 *Simply said*: **it is software where queues are defined, to which applications connect in order to transfer a message or messages. A message can include any kind of information.**
 
-Assuming the Docker Desktop has been installed, you use the command
+Assuming the Docker Desktop has been installed, pull a RabbitMQ Docker image from DockerHub. 
 
-    docker pull rabbitmq:3.8.15-rc.2-management
+After the Docker image is downloaded and saved locally, you can start a RabbitMQ container using the following command.
 
-to pull a RabbitMQ Docker image from DockerHub. After the Docker image is downloaded and saved locally, you can start a RabbitMQ container using the following command.
-
-    sudo docker run -d -p 5672:5672 -p 15672:15672 rabbitmq:3.8.15-rc.2-management
+    docker run -d -p 5672:5672 -p 15672:15672 rabbitmq:latest
 
 after start, you can access a rabbitMQ user interface - **localhost:15672**
 
