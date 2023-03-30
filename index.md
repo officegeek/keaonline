@@ -10,7 +10,12 @@ Jeg brugere dette site til mit undervisnings materiale.
 # 4. Semester
 Materiale til 4. semester - [Link](./4_semester/index.md)
 
-# 5. Semester - Know Your Data
+# 5. Semester
+## Cybersecurity
+Materialle til Cybersecurity
+- [Link](./cybersecurity/index.md)
+
+## Know Your Data
 Materiale til Know Your Data - [Link](./know-your-data/index.md)
 
 # Diverse Guides
