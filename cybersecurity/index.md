@@ -9,15 +9,6 @@
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # Cybersecurity
 The course will provide you with a solid understanding of the technical aspects of cybersecurity, as well as the economic principles that underpin it. 
 
