@@ -81,6 +81,12 @@ An image is a read-only template with instructions for creating a Docker contain
 
 You might create your own images or you might only use those created by others and published in a registry. To build your own image, you create a Dockerfile with a simple syntax for defining the steps needed to create the image and run it. Each instruction in a Dockerfile creates a layer in the image. When you change the Dockerfile and rebuild the image, only those layers which have changed are rebuilt. This is part of what makes images so lightweight, small, and fast, when compared to other virtualization technologies.
 
+### Official Images
+Docker Official Images are a curated set of Docker open source and drop-in solution repositories.
+
+### Why Official Images?
+These images have clear documentation, promote best practices, and are designed for the most common use cases.
+
 ## Containers
 A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.
 
@@ -101,6 +107,12 @@ You can download the version you need her: [www.docker.com/products/docker-deskt
 - [Install Docker Desktop on **Windows**](https://docs.docker.com/desktop/windows/install/)
 - [Install Docker Desktop on **Mac**](https://docs.docker.com/desktop/mac/install/)
 
+# Getting Started
+If you wish to run the tutorial, you can use the following command after installing Docker Desktop:
+
+    docker run -d -p 80:80 docker/getting-started
+
+Once it has started, you can open your browser to http://localhost.
 
 # Benefits of Using Docker
 There are many advantages of using containers as part of your day-to-day life as a software developer.
