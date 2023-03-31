@@ -19,7 +19,7 @@ How to run the open-source document-oriented database MongoDB as docker containe
 
     docker run -d -p 27017:27017 --name test-mongo mongo:latest
 
-Where **-d** flag runs the container in detach (*background*) mode, **-p 27017:27017**  bound container’s port **27017 to 27017**.
+Where **-d** flag runs the container in detach (*background*) mode, **-p 27017:27017**  bound container’s port **27017 to 27017** and **test-mongo** is the name.
 
 ## Verify the state
 
@@ -51,7 +51,6 @@ For details on the different functions that are available from the shell, type *
 
     db.createCollection('kea')
 
-
     show collections
 
 
@@ -61,13 +60,11 @@ For details on the different functions that are available from the shell, type *
         {
             title: "MongoDB Overview",
             description: "MongoDB is no SQL database",
-            by: "tutorials point",
-            url: "http://www.tutorialspoint.com",
+            by: "Tue Hellstern",
+            url: "http://kea.officegeek.dk",
             tags: ["mongodb", "database", "NoSQL"],
-            likes: 100
         }
     ])
-
 
 
 # Advantages of MongoDB over RDBMS
