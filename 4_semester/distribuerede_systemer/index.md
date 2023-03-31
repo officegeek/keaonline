@@ -10,18 +10,11 @@ nav_order: 50
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
-[Home](modul-4-2.md)
 # Distribuerede systemer
-    - 01-10-2022 - Tirsdag
+    - 11-04-2023 - Tirsdag
+
+# Learning Domain-Driven Design
+Read Chapter 8 - page 117-136 in Learning Domain-Driven Design
 
 # Beskrivelse
 **Introduction to:**
