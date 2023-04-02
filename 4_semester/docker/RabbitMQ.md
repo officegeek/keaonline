@@ -23,8 +23,8 @@ after start, you can access a rabbitMQ user interface - **localhost:15672**
 ![](./image/rabbitmqweb.png)
 
 ## Username and password
-- Default username: guest
-- Default password: guest
+- Default username: **guest**
+- Default password: **guest**
 
 ## Sender
 Create a simple producer program with python3: **sender.py**
