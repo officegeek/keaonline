@@ -10,22 +10,15 @@ nav_order: 50
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # Ray
-Ray is an open source project that makes it simple to scale any compute-intensive Python workload — *from deep learning to production model serving*
+Ray is an open source project that makes it simple to scale any compute-intensive Python workload — *from deep learning to production model serving*.
+
+Ray is a fast, simple distributed execution framework that makes it easy to scale your applications and to leverage state of the art machine learning libraries. Using Ray, you can take Python code that runs sequentially and transform it into a distributed application with minimal code changes. 
 
 ## Book - Learning Ray
 Learning Ray is the first and only comprehensive book on Ray and its growing ecosystem. Whether you are new to Ray or looking to go deeper on a specific libraries, this will serve as a helpful resource to jumpstart your learning.
 
-Learning Ray is authored by core members of the Ray engineering team: Max Pumperla, Richard Liaw, and Edward Oakes.
+Learning Ray is authored by core members of the Ray engineering team: *Max Pumperla, Richard Liaw, and Edward Oakes.*
 
 In this book, you’ll learn:
 
@@ -43,6 +36,41 @@ Demo of two Python functions:
 2. Ray cluster
 
 ## Jupyter Lab
+JupyterLab is the latest web-based interactive development environment for notebooks, code, and data.
+
+Try to run this code in Jupyter Lab.
+
+**Jupyter Lab Desktop**
+
+JupyterLab App is the cross-platform standalone application distribution of JupyterLab.
+
+Version are available for:
+
+- Windows
+- macOS
+- Linux
+
+Se moere at [github.com/jupyterlab/jupyterlab-desktop](https://github.com/jupyterlab/jupyterlab-desktop)
+
+
+**Local version af Jupyter Lab**
+
+Jupyter Lab are available for installation via the Python Package Index.
+
+Install JupyterLab with pip:
+```python
+pip install jupyterlab
+```
+
+See more at [jupyter.org/install](https://jupyter.org/install)
+
+**Online version**
+
+You can run Jupyter Lab online at: [jupyter.org/try
+](https://jupyter.org/try) 
+
+**Azure Virtal Machine**
+
 Try to run this code in Jupyter Lab on your Virtual machine on Azure - [Step by Step Guide](https://kea.officegeek.dk/4sem/02-Virtualisering/Jupyter_Lab.html)
 
 - Start the VM on the Azure Portal
@@ -51,9 +79,9 @@ Try to run this code in Jupyter Lab on your Virtual machine on Azure - [Step by 
 
 ## Code
 ```python
-# Install - Only ones!
+# Only first time!
 !pip3 install numpy
-!pip3 install ray
+!pip install -U "ray[default]"
 ```
 
 ```python
@@ -61,12 +89,17 @@ Try to run this code in Jupyter Lab on your Virtual machine on Azure - [Step by 
 import os
 import time
 import logging
+import ray
 
 import numpy as np
 from numpy import loadtxt
-
-import ray
 ```
+
+```python
+# Start Ray
+ray.init()
+```
+
 ```python
 # Local execution 
 def generate_fibonacci(sequence_size):
@@ -77,13 +110,6 @@ def generate_fibonacci(sequence_size):
             continue
         fibonacci.append(fibonacci[i-1]+fibonacci[i-2])
     return len(fibonacci)
-```
-
-```python
-# Remote Task with just a wrapper
-@ray.remote
-def generate_fibonacci_distributed(sequence_size):
-    return generate_fibonacci(sequence_size)
 ```
 
 ```python
@@ -99,6 +125,7 @@ def run_local(sequence_size):
 ```
 
 ```python
+# Run local
 %%time
 run_local(100000)
 ```
@@ -111,8 +138,16 @@ def run_remote(sequence_size):
 ```
 
 ```python
+# Run remote
 %%time
 run_remote(100000)
 ```
+
+```python
+# Close Ray
+ray.shutdown()
+```
+
+## Jupyter Lab file
 [Download the Jupyter Lab file (*ipynb*)](./code/Fibonnaci.ipynb)
 

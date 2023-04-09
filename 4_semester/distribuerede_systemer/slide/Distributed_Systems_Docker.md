@@ -12,9 +12,8 @@ markdown.marp.enableHtml
 
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
 # Distributed Systems
-- 07-04-2022 - DK
-- 08-04-2022 - INT
-- 
+11-04-2022 - DK
+
 ### Agenda
 
 - Distributed Systems
@@ -22,7 +21,6 @@ markdown.marp.enableHtml
 - MVC
 - Design Patterns
 
-<!-- _footer: Tue Hellstern © 2022-->
 
 ---
 
