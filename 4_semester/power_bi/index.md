@@ -10,39 +10,68 @@ nav_order: 60
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # Microsoft Power BI
-Microsoft Power BI er et interaktivt data visualiserings software udviklet af Microsoft med primært fokus på business intelligence (*BI*).
+Power BI is a unified, scalable platform for self-service and enterprise business intelligence (BI). Connect to and visualize any data, and seamlessly infuse the visuals into the apps you use every day.
 
-{: .important }
-> Skab en datadrevet kultur ved hjælp af business intelligence for alle
-
-Det er en del af Microsoft Power Platform. Power Bi kan indtastes fra mange forskellige kilder, f.eks. var at læse direkte fra en database, webside eller strukturerede filer såsom Excel, CSV, XML og JSON.
-
-Microsoft Power BI består af tre dele:
+Microsoft Power BI contains of 3 different programs:
 
 - [Microsoft Power Bi Desktop](https://powerbi.microsoft.com/en-us/desktop/)
 - [Microsoft Power Bi Mobile](https://powerbi.microsoft.com/en-us/mobile/)
-- Microsoft Power Bi Mobile
+- Microsoft Power services
 
 ## Get started building with Power BI
-Microsoft har udviklet en rigtig god oversigt over Microsoft Power BI se den [her](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/)
+Microsoft have created a very good getting startede guide [Get started building with Power BI](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/)
 
-## DAX
-DAX er 
+# DAX
+DAX stands for Data Analysis Expressions, i.e. such expressions or formulas that are used for data analysis and calculations.
+
+DAX formulas are very useful in Power BI, as they help data analysts to use the data sets they have to the fullest potential. DAX is used in Power BI, Excel, Power Pivot and also in Analysis Services.
+
+DAX is a data functional language which has several prebuilt functions, operators and methods which allow us to do calculations on data as well as transformations on it.
+
 - [DAX](./dax.md)
 
-## Samples
+# Supermarket - Demo
+The data for this demo project are from [kaggle.com](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
+
+![](./_image/supermarked_www.jpg)
+
+## Context
+The dataset is one of the historical sales of supermarket company which has recorded in 3 different branches for 3 months data. 
+
+Predictive data analytics methods are easy to apply with this dataset.
+
+The dataset has:
+
+- 16 columns
+- 1.000 rows
+
+![](./_image/supermarked.jpg)
+
+## Information
+There are several question we could get the answers from the dataset:
+
+- How many total purchases were made per branch, and which branch had the highest total purchasing?
+- Show the data about comparison of customer type per branch!
+- Show the data about comparison of gender among customers, and which gender has a higher representation?
+- Show the data about comparison of payment methods used by customer!
+- What are the top 3 best-selling items, and how do the product lines rank based on the highest quantity sold?
+- Sorted the product line based on the highest of total purchasing
+- What is the total purchasing of each product line in every month?
+
+*And proberly more!*
+
+## Files
+I have converted the datafile a little, you can get my version in CSV or Excel:
+
+- [supermarket_sales.csv](./Supermarket/supermarket_sales.csv)
+- [supermarket_sales.xlsx](./Supermarket/supermarket_sales.xlsx)
+
+
+# Microsoft Samples
 - [Microsoft Examples](./microsoft-sampel-financial.md)
 - [Power BI Sample Dataset](./power_bi_sample-dataset.md)
 
 # Links
-- [Microsoft Power BI Danmark](https://powerbi.microsoft.com/da-dk/landing/free-account/?&ef_id=EAIaIQobChMI7bifqfKt-wIVl5iyCh1Org0oEAAYASAAEgIN5PD_BwE:G:s&OCID=AIDcmmxhf4ry4i_SEM_EAIaIQobChMI7bifqfKt-wIVl5iyCh1Org0oEAAYASAAEgIN5PD_BwE:G:s&gclid=EAIaIQobChMI7bifqfKt-wIVl5iyCh1Org0oEAAYASAAEgIN5PD_BwE)
+- [Microsoft Power BI Danmark](https://powerbi.microsoft.com/da-dk)
+- [Power BI get started documentation](https://learn.microsoft.com/en-us/power-bi/fundamentals/)
