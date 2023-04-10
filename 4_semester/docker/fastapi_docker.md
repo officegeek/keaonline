@@ -9,7 +9,7 @@ nav_order: 50
 # FastAPI and Docker
 
 # FastAPI
-Create a simpel FastAPI app.
+Create a simpel FastAPI app, in a new virtuel enviroment .
 
 Create the Python file: app.py
 
