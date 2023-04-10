@@ -11,6 +11,7 @@ markdown.marp.enableHtml
 ---
 
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
+
 # Distributed Systems
 11-04-2022 - DK
 
@@ -20,7 +21,8 @@ markdown.marp.enableHtml
 - Asynchronous/Synchronous - Communication
 - MVC
 - Design Patterns
-
+- Ray
+- Pyro
 
 ---
 
@@ -136,6 +138,7 @@ When this happens, the program run into problems, and this can have some problem
 <!-- _color: white -->
 
 ![bg right:30%](https://github.com/officegeek/image/raw/main/white-question-mark.png)
+
 # Discuss <!-- fit -->
 **What happens when the assumption is** *not* **true?**
 
@@ -152,6 +155,7 @@ When this happens, the program run into problems, and this can have some problem
 ---
 
 ![bg left:40% 297%](https://github.com/officegeek/image/raw/main/designpatterns_words.png)
+
 # Design Patterns
 In software engineering, a design pattern is a **general repeatable solution** to a commonly **occurring problem** in software design. 
 
@@ -227,7 +231,6 @@ Reusing design patterns helps to **prevent** subtle issues that can cause major 
 ---
 
 # Python - HTML - MVC
-
 When building a web app, you define what are known as routes.
 
 Routes are, essentially, URL patterns associated with different pages. So when someone enters a URL, behind the scenes, the application tries to match that URL to one of these predefined routes.
@@ -350,3 +353,13 @@ You can use - https://sourcemaking.com/design_patterns - as a starting point.
 # Understand and debate in the group <!-- fit -->
 
 *This is not an easy assignment. - Don’t panic if you can not understand all details. Try to grab the main idea and then use your common sense.*
+
+---
+
+# Ray
+Ray is an open source project that makes it simple to scale any compute-intensive Python workload — from deep learning to production model serving
+
+---
+
+# Pyro
+Pyro is a library that enables you to build applications in which objects can talk to each other over the network, with minimal programming effort.

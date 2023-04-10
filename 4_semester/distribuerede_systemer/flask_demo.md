@@ -10,15 +10,6 @@ nav_order: 40
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # Flask
 Flask is a micro web framework written in Python.
 
