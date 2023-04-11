@@ -22,6 +22,27 @@ Microsoft Power BI contains of 3 different programs:
 ## Get started building with Power BI
 Microsoft have created a very good getting startede guide [Get started building with Power BI](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/)
 
+# Northwind
+ All the data from the Northwind database are copied into one Excel file.
+
+![](./image/northwind.jpg)
+
+## Excel file
+- [northwind.xlsx](./Northwind/northwind.xlsx)
+
+## Tables
+- Customers
+- Orders
+- Order_Details
+- Products
+- Categories
+- Suppliers
+- Employees
+
+## ER-Diagram
+![](./image/ER_Northwind.png)
+
+
 # Supermarket - Demo
 The data for this demo project are from [kaggle.com](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
 
