@@ -83,8 +83,8 @@ Start this client program - **from a different console window**
 The client code called the greeting maker that was running in the server elsewhere, and printed the resulting greeting string.
 
 ## Pyro files
-- [greeting-server.py](./code/Pyro4_Demo/greeting-server.py)
-- [greeting-client.py](./code/Pyro4_Demo/greeting-client.py)
+- [greeting-server.py](./code-github/Pyro4_Demo/greeting-server.py)
+- [greeting-client.py](./code-github/Pyro4_Demo/greeting-client.py)
 
 # Pyro excamples
 Pyro has created 2 excamples:
@@ -93,6 +93,3 @@ Pyro has created 2 excamples:
 - [Building a Stock market simulator](https://pyro4.readthedocs.io/en/stable/tutorials.html#building-a-stock-market-simulator)
 
 **Pick one and go true the setup procedure!**
-
-
-
