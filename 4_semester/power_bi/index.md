@@ -22,15 +22,6 @@ Microsoft Power BI contains of 3 different programs:
 ## Get started building with Power BI
 Microsoft have created a very good getting startede guide [Get started building with Power BI](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/)
 
-# DAX
-DAX stands for Data Analysis Expressions, i.e. such expressions or formulas that are used for data analysis and calculations.
-
-DAX formulas are very useful in Power BI, as they help data analysts to use the data sets they have to the fullest potential. DAX is used in Power BI, Excel, Power Pivot and also in Analysis Services.
-
-DAX is a data functional language which has several prebuilt functions, operators and methods which allow us to do calculations on data as well as transformations on it.
-
-- [DAX](./dax.md)
-
 # Supermarket - Demo
 The data for this demo project are from [kaggle.com](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
 
@@ -67,6 +58,14 @@ I have converted the datafile a little, you can get my version in CSV or Excel:
 - [supermarket_sales.csv](./Supermarket/supermarket_sales.csv)
 - [supermarket_sales.xlsx](./Supermarket/supermarket_sales.xlsx)
 
+# DAX
+DAX stands for Data Analysis Expressions, i.e. such expressions or formulas that are used for data analysis and calculations.
+
+DAX formulas are very useful in Power BI, as they help data analysts to use the data sets they have to the fullest potential. DAX is used in Power BI, Excel, Power Pivot and also in Analysis Services.
+
+DAX is a data functional language which has several prebuilt functions, operators and methods which allow us to do calculations on data as well as transformations on it.
+
+- [DAX](./dax.md)
 
 # Microsoft Samples
 - [Microsoft Examples](./microsoft-sampel-financial.md)
