@@ -34,7 +34,7 @@ DAX is a data functional language which has several prebuilt functions, operator
 # Supermarket - Demo
 The data for this demo project are from [kaggle.com](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
 
-![](./_image/supermarked_www.jpg)
+![](./image/supermarked_www.jpg)
 
 ## Context
 The dataset is one of the historical sales of supermarket company which has recorded in 3 different branches for 3 months data. 
@@ -46,7 +46,7 @@ The dataset has:
 - 16 columns
 - 1.000 rows
 
-![](./_image/supermarked.jpg)
+![](./image/supermarked.jpg)
 
 ## Information
 There are several question we could get the answers from the dataset:
