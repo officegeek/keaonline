@@ -18,7 +18,7 @@ First you have to create a Virtuel Machine on Azure:
 - Create a resource
 - Select Windows 11 Pro - xxx
 
-![](./_image/azure_1.jpg)
+![](./image/azure_1.jpg)
 
 - Settings
     - Region: North Europe
@@ -31,13 +31,13 @@ First you have to create a Virtuel Machine on Azure:
 
 **Note: Remember the username and password!**
 
-![](./_image/azure_2.jpg)
+![](./image/azure_2.jpg)
 
 - Disk
     - Create and attach a new disk
     - Size: 2048 GiB
 
-![](./_image/azure_3.jpg)
+![](./image/azure_3.jpg)
 
 - Next: Networking
 - Next: Management
@@ -59,7 +59,7 @@ Connect to you Azure Virtuel Machine with the Remote Desktop App.
 ## Power Bi Destop
 Install Microsoft Power Bi Desktop true the Microsoft Store on the Virtuel machine
 
-![](./_image/azure_4.jpg)
+![](./image/azure_4.jpg)
 
 # Links
 - [Microsoft Remote Desktop for Mac](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-mac)
