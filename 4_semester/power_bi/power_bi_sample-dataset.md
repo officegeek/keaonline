@@ -20,6 +20,28 @@ nav_order: 20
 {:toc}
 </details>
 
+# Customer Service Analysis
+Power Bi rapport showing a customer analysis. The report has 5 different view/pages:
+
+- Start
+- CEO-Business Analysis-I
+- CEO-Business Analysis-II
+- Operation Manager-I
+- Operation Manager-II
+
+![](./image/ba.jpg)
+
+
+## Measurers
+You have to create some Measurers to use in the report.
+
+![](./image/dax4.jpg)
+
+
+## Data
+- [Dataset-DV.xlsx](./CustomerServiceAnalysis/Dataset-DV.xlsx)
+- [CustomerServiceAnalysis.pbix](./CustomerServiceAnalysis/CustomerServiceAnalysis.pbix)
+
 # Financial Performance Analysis
 Financial performance analysis is a normal task for Power BI. 
 

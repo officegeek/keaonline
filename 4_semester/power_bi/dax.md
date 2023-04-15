@@ -27,6 +27,25 @@ DAX formulas are very useful in Power BI, as they help data analysts to use the 
 
 DAX is a data functional language which has several prebuilt functions, operators and methods which allow us to do calculations on data as well as transformations on it.
 
+## Syntax
+Before you create your own formulas, let’s take a look at DAX formula syntax. Syntax includes the various elements that make up a formula, or more simply, how the formula is written. For example, here's a simple DAX formula for a measure:
+
+![](./image/dax3.png)
+
+This formula includes the following syntax elements:
+
+**A** The measure name, Total Sales.
+
+**B** The equals sign operator (=), which indicates the beginning of the formula. When calculated, it will return a result.
+
+**C** The DAX function SUM, which adds up all of the numbers in the Sales[SalesAmount] column. You’ll learn more about functions later.
+
+**D** Parenthesis (), which surround an expression that contains one or more arguments. Most functions require at least one argument. An argument passes a value to a function.
+
+**E** The referenced table, Sales.
+
+**F** The referenced column, [SalesAmount], in the Sales table. With this argument, the SUM function knows on which column to aggregate a SUM.
+
 ## Measures
 Measures are useful when you **do not want to compute values for each row**, but, rather you want to aggregate values from many rows in a table. These calculations are measures.
 
@@ -48,6 +67,45 @@ Same as Measure, Calculated columns can be created in two ways:
 
 - Click on the table name in which we want to create a calculated column from the Fields and then select New Column from the Table Tools tab
 - Click on 3 dots beside the table name in the Fields section and select New Column from it
+
+# TutorialsPoint
+Very good guide and overview of Dax
+
+- [TutorialsPoint Dax Guide](https://www.tutorialspoint.com/dax_functions/dax_functions_quick_guide.htm)
+
+# DAX Studio
+The ultimate tool for working with DAX queries - Get it her - [daxstudio.org](https://daxstudio.org)
+
+![](./image/DaxStudio.jpg)
+
+*Only Windows*
+
+# Northwind
+Use the Excel file [northwind.xlsx](./Northwind/northwind.xlsx) and create a Power BI rapport basede on the 7 tables. Check that the different relations are created.
+
+## Calculated Columns
+
+### order_details
+In the **order_details** table you have to create a **Total** column.
+
+### order
+In the order table you have to create tre columns, all basede on the **OrderDate** column.
+
+- Year
+- Month as text
+- Weekday as text
+
+![](./image/dax1.jpg)
+
+### Dax
+Create theis DAX calculated fields:
+
+- Total sales basede on the order_details table
+
+![](./image/dax2.jpg)
+
+
+
 
 ## DAX Aggregation Functions
 
@@ -283,6 +341,8 @@ This function replaces the specified new text with existing text in specified co
 **Syntax**: *SUBSTITUTE(<text>, <old_text>, <new_text>, <instance_num>) * 
 
 ## Links
+- [learn.microsoft.com/en-us/dax](https://learn.microsoft.com/en-us/dax/)
+- [learn.microsoft.com/en-us/training/paths/dax-power-bi/](https://learn.microsoft.com/en-us/training/paths/dax-power-bi/)
 - [docs.microsoft.com/en-us/dax/dax-overview](https://docs.microsoft.com/en-us/dax/dax-overview)
 - [docs.microsoft.com/en-us/power-bi/transform-model/desktop-calculated-columns](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-calculated-columns)
 - [docs.microsoft.com/en-us/dax/aggregation-functions-dax](https://docs.microsoft.com/en-us/dax/aggregation-functions-dax)
