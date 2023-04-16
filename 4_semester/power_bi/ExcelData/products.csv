@@ -1,0 +1,21 @@
+product_id;productname;unitprice;stock;reorder;type
+1;Chai;26.5;104;50.0;standard
+2;Chef Anton Cajun Seasoning;109.0;53;25.0;luxury
+3;Chef Anton Gumbo Mix;87.75;34;20.0;luxury
+4;Tofu;15.0;20;17.75;standard
+5;Sir Rodney Marmalade;99.75;28;30.0;luxury
+6;Sir Rodney Scones;47.75;60;80.0;luxury
+7;Geitost;72.25;230;100.0;luxury
+8;Gravad lax;99.0;147;100.0;luxury
+9;Cte de Blaye;56.5;0;20.0;standard
+10;Chartreuse verte;29.5;9;20.0;standard
+11;Boston Crab Meat;299.75;30;20.0;luxury
+12;Chocolade;140.5;26;20.0;standard
+13;Raclette Courdavault;67.75;0;20.0;luxury
+14;Camembert Pierrot;75.5;89;50.0;luxury
+15;Tarte au sucre;37.75;0;20.0;luxury
+16;Louisiana Hot Spiced Okra;152.0;98;40.0;luxury
+17;Laughing Lumberjack Lager;205.5;54;20.0;luxury
+18;Scottish Longbreads;89.75;19;20.0;luxury
+19;Outback Lager;199.5;24;20.0;standard
+20;Rd Kaviar;299.5;72;20.0;luxury
