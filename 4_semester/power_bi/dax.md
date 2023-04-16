@@ -80,34 +80,7 @@ The ultimate tool for working with DAX queries - Get it her - [daxstudio.org](ht
 
 *Only Windows*
 
-# Northwind
-Use the Excel file [northwind.xlsx](./Northwind/northwind.xlsx) and create a Power BI rapport basede on the 7 tables. Check that the different relations are created.
-
-## Calculated Columns
-
-### order_details
-In the **order_details** table you have to create a **Total** column.
-
-### order
-In the order table you have to create tre columns, all basede on the **OrderDate** column.
-
-- Year
-- Month as text
-- Weekday as text
-
-![](./image/dax1.jpg)
-
-### Dax
-Create theis DAX calculated fields:
-
-- Total sales basede on the order_details table
-
-![](./image/dax2.jpg)
-
-
-
-
-## DAX Aggregation Functions
+# DAX Aggregation Functions
 
 ### COUNT
 The COUNT function counts the number of cells in a column that contain non-blank values.
