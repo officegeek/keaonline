@@ -30,6 +30,8 @@ nav_order: 110
 # Læses DK
 https://issuu.com/dtudk/docs/dynamo71/22
 
+# Lader
+- https://edition.cnn.com/2023/04/12/tech/fbi-public-charging-port-warning/index.html
 
 # Code
 [Code Examples](code_examples.md)

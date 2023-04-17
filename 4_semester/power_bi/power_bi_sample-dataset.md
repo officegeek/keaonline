@@ -20,6 +20,28 @@ nav_order: 20
 {:toc}
 </details>
 
+# Customer Service Analysis
+Power Bi rapport showing a customer analysis. The report has 5 different view/pages:
+
+- Start
+- CEO-Business Analysis-I
+- CEO-Business Analysis-II
+- Operation Manager-I
+- Operation Manager-II
+
+![](./image/ba.jpg)
+
+
+## Measurers
+You have to create some Measurers to use in the report.
+
+![](./image/dax4.jpg)
+
+
+## Data
+- [Dataset-DV.xlsx](./CustomerServiceAnalysis/Dataset-DV.xlsx)
+- [CustomerServiceAnalysis.pbix](./CustomerServiceAnalysis/CustomerServiceAnalysis.pbix)
+
 # Financial Performance Analysis
 Financial performance analysis is a normal task for Power BI. 
 
@@ -69,9 +91,38 @@ The resulting dashboard could display total energy statistics on production, exc
 
 For the dashboard, you can use Power BI visualization types such as Bar Charts, Flow Maps, Cards for the overview page, Ribbon Charts, Treemaps, Bar Charts for the energy production and exchange pages, etc.
 
+# Northwind
+Use the Excel file [northwind.xlsx](./Northwind/northwind.xlsx) and create a Power BI rapport basede on the 7 tables. Check that the different relations are created.
+
+## Calculated Columns
+
+### order_details
+In the **order_details** table you have to create a **Total** column.
+
+### order
+In the order table you have to create tre columns, all basede on the **OrderDate** column.
+
+- Year
+- Month as text
+- Weekday as text
+
+![](./image/dax1.jpg)
+
+### Dax
+Create theis DAX calculated fields:
+
+- Total sales basede on the order_details table
+
+![](./image/dax2.jpg)
+
 # AdventureWorks Database Analysis
 Use the AdventureWorks data available on GitHub for analysis & visualization. 
 
 Use Power BI for the visualization part, use MS Excel and Power BI's query editor for analysis.
 
-[AdventureWorks Database on GitHub](https://github.com/AhmadSabbirChowdhury/Microsoft-AdventureWorks-Database-Analysis-Visualization-with-PowerBI)
+![](./image/AdventureWorks.jpg)
+
+- [AdventureWorks Database on GitHub](https://github.com/AhmadSabbirChowdhury/Microsoft-AdventureWorks-Database-Analysis-Visualization-with-PowerBI)
+- [https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2008/ms124438(v=sql.100)?redirectedfrom=MSDN](https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2008/ms124438(v=sql.100)?redirectedfrom=MSDN)
+
+![](./image/adventureworks2008_schema.gif)
