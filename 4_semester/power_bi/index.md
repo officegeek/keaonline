@@ -17,7 +17,7 @@ Microsoft Power BI contains of 3 different programs:
 
 - [Microsoft Power Bi Desktop](https://powerbi.microsoft.com/en-us/desktop/)
 - [Microsoft Power Bi Mobile](https://powerbi.microsoft.com/en-us/mobile/)
-- Microsoft Power services
+- [Microsoft Power services](https://learn.microsoft.com/en-us/power-bi/fundamentals/power-bi-service-overview)
 
 ## Get started building with Power BI
 Microsoft have created a very good getting startede guide [Get started building with Power BI](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/)
@@ -94,4 +94,5 @@ DAX is a data functional language which has several prebuilt functions, operator
 
 # Links
 - [Microsoft Power BI Danmark](https://powerbi.microsoft.com/da-dk)
+- [Microsoft Power BI US][https://learn.microsoft.com/en-us/power-bi/]
 - [Power BI get started documentation](https://learn.microsoft.com/en-us/power-bi/fundamentals/)
