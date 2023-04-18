@@ -10,7 +10,7 @@ nav_order: 70
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
-## 
+## Link
 - Slide
     - [HTML](./slide/Slide_Machine_Learning.html)
     - [PDF](./slide/Slide_Machine_Learning.pdf)
