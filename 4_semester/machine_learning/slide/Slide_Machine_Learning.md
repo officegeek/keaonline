@@ -114,7 +114,8 @@ When unseen data is passed to the algorithm, it uses the function, calculates an
 ![bg right:60% 100%](https://github.com/officegeek/image/raw/main/Linear-Regression-Example.png)
 # Linear Regression Python
 
-<!-- _footer:   Linear_Regression_Good.ipynb and  Linear_Regression_Bad.ipynb-->
+- [Linear_Regression_Bad.ipynb](../data/linear/Linear_Regression_BAD_1.ipynb)
+- [Linear_Regression_Good.ipynb](../data/linear/Linear_Regression_Good.ipynb)
 
 ---
 
@@ -182,7 +183,8 @@ By leveraging data coming from thousands of houses, their features and prices, *
 ![bg right:60% 80%](https://github.com/officegeek/image/raw/main/Logistic_Regression.png)
 # Logistic Regression Python
 
-<!-- _footer:   Logistic_Regression_Application.ipynb and  Logistic_Regression_Diabetes.ipynb -->
+- [Logistic_Regression_Application.ipynb](../data/linear/Logistic_Regression_Application.ipynb)
+- [Logistic_Regression_Diabetes.ipynb](../data/linear/Logistic_Regression_Diabetes.ipynb)
 
 ---
 
@@ -237,4 +239,3 @@ The platform uses reinforcement learning to optimize large-scale production syst
 
 # Link
 - https://www.ibm.com/cloud/learn/unsupervised-learning
-
