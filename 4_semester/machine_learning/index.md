@@ -24,7 +24,7 @@ nav_order: 70
     - [PDF](./slide/Slide_Machine_Learning.pdf)
 - [ML in Power BI](./mlpowerbIpyc.md)
 - [PyCaret](./PyCaret.md)
-- [Using Jupyter Lab in a Virtual Environment](https://officegeek.github.io/keaonline/python/Using_Jupyter_Lab_in_Virtual_Environme.html)
+- [Using Jupyter Lab in a Virtual Environment](./Using_Jupyter_Lab_in_Virtual_Environme.md)
 
 
 # Machine Learning
