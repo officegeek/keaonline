@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PyJupyter Lab Virtual EnvironmentCaret
-nav_order: 20
+nav_order: 50
 parent: Machine Learning
 grand_parent: 4. Semester
 ---

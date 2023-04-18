@@ -1,7 +1,7 @@
 ---
 layout: default
 title: PyCaret
-nav_order: 20
+nav_order: 40
 parent: Machine Learning
 grand_parent: 4. Semester
 ---
