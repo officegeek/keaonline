@@ -10,15 +10,6 @@ grand_parent: 4. Semester
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # PyCaret
 PyCaret is an open-source, low-code machine learning library in Python that automates machine learning workflows - [pycaret.org](https://pycaret.org)
 
@@ -60,7 +51,7 @@ For this demo you will be using a dataset from a case study by the *Darden Schoo
 The goal of this tutorial is to predict the diamond price based on its attributes like carat weight, cut, color, etc. You can download the dataset from PyCaret’s repository - [https://github.com/pycaret/pycaret/tree/master/datasets](https://github.com/pycaret/pycaret/tree/master/datasets)
 
 ## Load the dataset from PyCaret
-You can get the data in Python by thise code:
+You can get the data in Python by this code:
 
 ```python
 # Imports
