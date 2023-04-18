@@ -116,6 +116,8 @@ You **don’t have any dependent variable**. You just have collection of variabl
 - **Recommender systems**, which involve grouping together users with similar viewing patterns in order to recommend similar content.
 - **Anomaly detection**, including fraud detection or detecting defective mechanical parts - predictive maintenance
 
+Excample with the Iris dataset - [Iris.ipynb](./data/Iris.ipynb)
+
 # Reinforcement Learning
 It is the training of machine learning models to make a sequence of decisions.
 
