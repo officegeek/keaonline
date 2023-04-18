@@ -63,6 +63,8 @@ data = get_data('diamond')
 print(data.head())
 ```
 
+- [Jupyter Lab file - pycaret.ipynb](./pycaret.ipynb)
+
 # Links
 - [PyCaret Quickstart](https://pycaret.gitbook.io/docs/get-started/quickstart)
 - [PyCaret GitHub](https://github.com/pycaret/pycaret)
