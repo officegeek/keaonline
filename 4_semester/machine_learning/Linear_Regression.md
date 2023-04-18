@@ -10,15 +10,6 @@ grand_parent: 4. Semester
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # Linear Regression in Python
 
 ## Regression is?
@@ -36,7 +27,6 @@ Linear regression is the most widely used regression method
 f(x) = b_{0} + b_{1}x_{1} + b_{2}x_{2} + ... b_{r}x_{r}
 
 **scikit-learn** is built on top of NumPy
-
 
 # Salary example
 We will be using salary dataset. 

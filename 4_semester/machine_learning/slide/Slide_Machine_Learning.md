@@ -1,17 +1,17 @@
 ---
-layout: default
-title: Machine Learning
-nav_order: 20
-parent: Machine Learning
-grand_parent: 4. Semester
+title: Machine learning
+theme: gaia
+_class: lead
+paginate: true
+marp: true
+backgroundColor: #fff
+size: 4K
+@auto-scaling true
+markdown.marp.enableHtml
 ---
 
 ![bg 125%](https://github.com/officegeek/image/raw/main/ml.jpg)
 
----
-
-# NEW
-- https://github.com/ryantcullen/stock-bot
 ---
 
 <!-- _class: invert -->
