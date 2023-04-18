@@ -6,7 +6,9 @@ The dataset consists of data from 3 cities or 3 branches in Myanmar:
 - Branch B (*Mandalay*)
 - Branch C (*Naypyitaw*)
 
-Download the data as CSV: [supermarket_sales.csv](./data/supermarket_sales.csv)
+- Download:
+- Data as CSV: [supermarket_sales.csv](./data/supermarket_sales.csv)
+- Jupyter Lab file: [eda_supermarket.ipynb](./eda_supermarket.ipynb)
 
 ## Attribute information
 - **Invoice id**: Computer generated sales slip invoice identification number
@@ -27,7 +29,7 @@ Download the data as CSV: [supermarket_sales.csv](./data/supermarket_sales.csv)
 - **Gross income**: Gross income
 - **Rating**: Customer stratification rating on their overall shopping experience (On a scale of 1 to 10)
 
-![](./image/data_1.jpg)
+![](../image/data_1.jpg)
 
 # Uni-variate analysis
 Uni-variate analysis is the analysis involving a single variable (*uni*) without considering relationships with other variables.
@@ -39,7 +41,7 @@ We will see how a simple uni-variate analysis can help to get more insights into
 ## Question 1
 **What does the customer rating look like and is it skewed?**
 
-![](../06-Machine_Learning_1/data/uni.png)
+![](../image/data/uni.png)
 
 The rating distribution looks uniform and there seems to be no skewness on the left or right side of the distribution.
 
@@ -59,7 +61,7 @@ plt.legend()
 ## Question 2
 *Is there any difference in aggregate sales across branches?*
 
-![](./data/uni2.png)
+![](../image/uni2.png)
 
 There is not much difference in sales across the 3 branches of A, B and C. 
 
@@ -73,7 +75,7 @@ df['Branch'].value_counts()
 ## Question 3
 *Which is the most popular payment method used by customers?*
 
-![](./data/uni3.png)
+![](../image/uni3.png)
 
 The most popular payment method is E-wallet and not credit cards.
 Cash payment is also popular
@@ -91,7 +93,7 @@ Let us consider gross income and try to answer the following questions:
 ## Question 4
 *Does gross income affect the ratings that the customers provide?*
 
-![](./data/uni4.png)
+![](../image/uni4.png)
 
 As you can see from the scatter plot and the trend line which is pretty flat that there is no relationship between gross income of a customer and his rating.
 
@@ -102,7 +104,7 @@ sns.regplot(df['Rating'], df['gross income'])
 ## Question 5: 
 *Which branch is the most profitable?*
 
-![](./data/uni5.png)
+![](../image/uni5.png)
 
 There is not much difference in gross income by branches at an average level. Branch C has a slightly higher income than A or B, As observed earlier, though branch A has slightly higher sales than the rest C is the most profitable branch in terms of gross income.
 
@@ -113,7 +115,7 @@ sns.boxplot(x=df['Branch'], y=df['gross income'])
 ## Question 6
 *What is the relationship between Gender and Gross income?*
 
-![](./data/uni6.png)
+![](../image/uni6.png)
 
 Gross income is similar for both male and female, though female customers spend a bit higher at the 75th percentile.
 
@@ -124,7 +126,7 @@ sns.boxplot(x=df['Gender'], y=df['gross income'])
 ## Question 7
 *Is there any time trend in gross income?*
 
-![](./data/uni7.png)
+![](../image/uni7.png)
 
 
 No particular time trend except for some days the gross income is pretty high and some days it is pretty low. Overall it remains at a certain average level.
@@ -138,7 +140,7 @@ sns.lineplot(x= df.groupby(df.index).mean().index,
 ## Question 8
 *Which product line generates most income?*
 
-![](./data/uni8.png)
+![](../image/uni8.png)
 
 Gross income is highest in sports and travel.
 
@@ -159,7 +161,7 @@ round(np.corrcoef(df['gross income'], df['Rating'])[1][0],2)
 
 ## Pairwise correlations
 
-![](./data/uni9.png)
+![](../image/uni9.png)
 
 ```python
 np.round(df.corr(),2)
@@ -169,7 +171,7 @@ np.round(df.corr(),2)
 ## Question 9
 *What is the spending patterns of females and males and in which category do they spend a lot?*
 
-![](./data/uni10.png)
+![](../image/uni10.png)
 
 Females spend on '*fashion accessories*' the most and for males surprisingly it is 'Health and beauty'. Females also spend more on '*Sports and travel*'.
 
@@ -184,17 +186,17 @@ sns.countplot(df['Product line'], hue = df.Gender)
 gender_dummies  = pd.get_dummies(df['Gender'])
 gender_dummies.head()
 ```
-![](./data/uni11.png)
+![](../image/uni11.png)
 
 
 ```python
 df1 = pd.concat([df, gender_dummies], axis = 1)
 df1.head()
 ```
-![](./data/uni12.png)
+![](../image/uni12.png)
 
 # Spending pattern of Female
-![](./data/uni13.png)
+![](../image/uni13.png)
 
 ```python
 plt.figure(figsize = (12,6))
@@ -203,7 +205,7 @@ sns.barplot(x = 'Product line', y = 'Female', data = df1)
 ## Question 10
 *How many products are bought by customers?*
 
-![](./data/uni14.png)
+![](../image/uni14.png)
 
 Most of the customers buy 10 quantities.
 
@@ -217,7 +219,7 @@ plt.xticks(xdata)
 ## Question 11
 *Which day of the week has maximum sales?*
 
-![](./data/uni15.png)
+![](../image/uni15.png)
 
 Sales is highest on **Saturdays** probably because it is the weekend.
 
@@ -232,7 +234,7 @@ sns.countplot(df['weekday'])
 ## Question 12 
 *Which hour of the day is the busiest?*
 
-![](./data/uni16.png)
+![](../image/uni16.png)
 
 ```python
 df['Time'] = pd.to_datetime(df['Time'])
@@ -246,7 +248,7 @@ df.groupby(['Hour']).size().plot(kind = "bar")
 
 ### Rating of products
 
-![](./data/uni17.png)
+![](../image/uni17.png)
 
 ```python
 xdata = [0,1,2,3,4,5,6,7,8,9,10]
@@ -257,7 +259,7 @@ plt.xticks(xdata)
 
 ### Quantity purchased by product
 
-![](./data/uni18.png)
+![](../image/uni18.png)
 
 Though the rating for 'fashion accessories' and 'food and beverages' is high but quantity purchased is low. Hence, supply for these products need to be increased.
 
@@ -268,7 +270,7 @@ sns.boxenplot(y='Product line', x='Quantity', data=df )
 ## Question 14
 *Which city should be chosen for expansion and which products should it focus on?*
 
-![](./data/uni19.png)
+![](../image/uni19.png)
 
 Naypyitaw is the most profitable city, hence the expansion plan should be based on this city.
 
@@ -281,7 +283,7 @@ plt.ylabel('Gross income', fontsize='16')
 plt.yticks(fontsize='16')
 ```
 
-![](./data/uni19.png)
+![](../image/uni19.png)
 
 Fashion accessories and food and beverages are the most sold product in Naypyitaw and these products should be focused on for expansion along with electronic accessories.
 
