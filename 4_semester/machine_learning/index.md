@@ -10,6 +10,14 @@ nav_order: 70
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
+## Dates
+- DK
+    - 19-04-2023
+    - 25-04-2023
+- INT
+    - 19-04-2023
+    - 26-04-2023 
+
 ## Link
 - Slide
     - [HTML](./slide/Slide_Machine_Learning.html)
@@ -172,24 +180,11 @@ Bernoulli Naive Bayes is one of the variants of the Naive Bayes algorithm in mac
 - It it possible to detect hatefully language on Twitter?
 - Can you use ML to detect spam?
 
-## Example Stress
-Stress detection with machine learning from text strings. The dataset for this task contains data posted on subreddit's related to mental health. 
-
-This dataset contains various mental health problems shared by people about their life. This dataset is labelled as 0 and 1, where 0 indicates no stress and 1 indicates stress.
-
-The data is: [stress_csv.csv](./code/stress_csv.csv)
-
-I have used Jupyter Lab for this - [DetectStress.ipynb](./code/DetectStress.ipynb)
-
-## Example Twitter
-Use the Bernoulli algorithm for detection of the language on Twitter.
-
-Data is in [twitter.csv](../07-Machine_Learning_2/code/twitter.csv)
 
 ## Example Spam
 This example look's at the text in the csv file: [spam.csv](./spam.csv)
 
-The text is labeled in the colum class with:
+The text is labeled in the column class with:
 
 - ham = Not spam
 - spam = Spam
