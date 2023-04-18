@@ -10,7 +10,10 @@ nav_order: 70
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
-## Links
+## 
+- Slide
+    - [HTML](./slide/Slide_Machine_Learning.html)
+    - [PDF](./slide/Slide_Machine_Learning.pdf)
 - [ML in Power BI](./mlpowerbIpyc.md)
 - [PyCaret](./PyCaret.md)
 - [Using Jupyter Lab in a Virtual Environment](https://officegeek.github.io/keaonline/python/Using_Jupyter_Lab_in_Virtual_Environme.html)
