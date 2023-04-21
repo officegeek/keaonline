@@ -122,9 +122,13 @@ Use Power BI for the visualization part, use MS Excel and Power BI's query edito
 
 ![](./image/AdventureWorks.jpg)
 
-- [AdventureWorks pbix - Only Sales data](./AdventureWorks/AdventureWorksSales.pbix)
-- [AdventureWorks Excel - Only Sales data](./AdventureWorks/AdventureWorksSales.xlsx)
 - [AdventureWorks Database on GitHub](https://github.com/AhmadSabbirChowdhury/Microsoft-AdventureWorks-Database-Analysis-Visualization-with-PowerBI)
 - [https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2008/ms124438(v=sql.100)?redirectedfrom=MSDN](https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2008/ms124438(v=sql.100)?redirectedfrom=MSDN)
 
 ![](./image/adventureworks2008_schema.gif)
+
+## Only Sales
+- [AdventureWorks pbix - Only Sales data](./AdventureWorks/AdventureWorksSales.pbix)
+- [AdventureWorks Excel - Only Sales data](./AdventureWorks/AdventureWorksSales.xlsx)
+
+![](./image/adventureworkssaleser.png)
