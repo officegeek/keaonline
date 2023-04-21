@@ -122,6 +122,7 @@ Use Power BI for the visualization part, use MS Excel and Power BI's query edito
 
 ![](./image/AdventureWorks.jpg)
 
+- [AdventureWorks pbix file with data](./AdventureWorks/AdventureWorks2020.pbix)
 - [AdventureWorks Database on GitHub](https://github.com/AhmadSabbirChowdhury/Microsoft-AdventureWorks-Database-Analysis-Visualization-with-PowerBI)
 - [https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2008/ms124438(v=sql.100)?redirectedfrom=MSDN](https://learn.microsoft.com/en-us/previous-versions/sql/sql-server-2008/ms124438(v=sql.100)?redirectedfrom=MSDN)
 
