@@ -94,5 +94,5 @@ DAX is a data functional language which has several prebuilt functions, operator
 
 # Links
 - [Microsoft Power BI Danmark](https://powerbi.microsoft.com/da-dk)
-- [Microsoft Power BI US][https://learn.microsoft.com/en-us/power-bi/]
+- [Microsoft Power BI US](https://learn.microsoft.com/en-us/power-bi)
 - [Power BI get started documentation](https://learn.microsoft.com/en-us/power-bi/fundamentals/)
