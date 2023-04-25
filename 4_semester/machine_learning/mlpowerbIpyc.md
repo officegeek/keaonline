@@ -62,7 +62,7 @@ We will use 2014–2019 Government Employees Credit Card Processing for the U.S.
 The first step is to import the dataset into Power BI Desktop. 
 
 You can upload data using a web connector.
-From Power BI Desktop use:  Get Data → Web
+From Power BI Desktop use:  **Get Data → Web**
 
 https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/delaware_anomaly.csv
 
@@ -91,7 +91,7 @@ PyCaret allows you to hide unnecessary columns from a dataset instead of leaving
 
 For example, in this case we don’t want to use the transaction history (TRANS_DT) to train an algorithm and therefore we have stored it as ignore_features.
 
-There are o12 ready-to-use anomaly detection algorithms in PyCaret:
+There are 12 ready-to-use anomaly detection algorithms in PyCaret:
 
 - **abod** - Angle-base Outlier Detection
 - **cluster** - Clustering-Based Local Outlier
@@ -136,9 +136,9 @@ Now you can add som calculations and create a Power BI Dashboard.
 # Clustering in Power BI
 Clustering is a machine learning technique that groups data points with similar characteristics. These groupings are useful for exploring data, identifying patterns and analyzing a subset of data. Some common business use cases for clustering are:
 
-- Customer segmentation for the purpose of marketing.
-- Customer purchasing behavior analysis for promotions and discounts.
-- Identifying geo-clusters
+- *Customer segmentation for the purpose of marketing*
+- *Customer purchasing behavior analysis for promotions and discounts*
+- *Identifying geo-clusters*
 
 We will implementing a clustering analysis in Power BI using PyCaret using the K-Means algorithm which is one of the simplest and most popular unsupervised machine learning algorithms. 
 
@@ -156,16 +156,16 @@ Our objective is to find patterns and groups in this data by using a K-Means clu
 ## Import data Power BI
 The first step is importing the dataset into Power BI Desktop. You can load the data using a web connector
 
-    Power BI Desktop → Get Data → From Web
+**Power BI Desktop → Get Data → From Web**
 
-Link to SCV file: https://github.com/pycaret/powerbi-clustering/blob/master/clustering.csv
+Link to SCV file: [https://github.com/pycaret/powerbi-clustering/blob/master/clustering.csv](https://github.com/pycaret/powerbi-clustering/blob/master/clustering.csv)
 
 Run the following code as a Python script
 
 # Model Training
 Train a clustering model in Power BI we will have to execute a Python script in Power Query Editor.
 
-    Power Query Editor → Transform → Run python script
+**Power Query Editor → Transform → Run python script**
 
 ```python
 from pycaret.clustering import *
@@ -174,9 +174,9 @@ dataset = get_clusters(dataset, num_clusters=5, ignore_features=['Country'])
 
 There are over 8 ready-to-use clustering algorithms available in PyCaret.
 
-![](./clustering_8.png)
+![](./image/clustering_8.png)
 
-By default, PyCaret trains a **K-Means Clustering model **with 4 clusters. Default values can be changed easily:
+By default, PyCaret trains a **K-Means Clustering model** with 4 clusters. Default values can be changed easily:
 
 - To change the model type use the **model** parameter within get_clusters().
 
@@ -203,7 +203,7 @@ In Power Pivot you need to make some changes to the data:
 ### New measurer
 Add new measurer:
 
-    Average GDP = CALCULATE(AVERAGE(clustering[GDP]))
+**Average GDP = CALCULATE(AVERAGE(clustering[GDP]))**
 
 ## Dashboard
 Once you have cluster labels in Power BI, here’s an example of how you can visualize it in dashboard to generate insights:
@@ -217,7 +217,7 @@ In this demo we will use **jewellery.csv** file that is available on PyCaret’s
 
 You can load the data using a web connector. 
 
-    Power BI Desktop → Get Data → From Web
+**Power BI Desktop → Get Data → From Web**
 
 Link to csv File: https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/jewellery.csv
 
@@ -241,7 +241,8 @@ dataset = get_clusters(dataset, model = 'kmodes', num_clusters = 6)
 A new column **Cluster** containing label is attached to the original table.
 
 Apply the query
-    Power Query Editor → Home → Close & Apply)
+
+**Power Query Editor → Home → Close & Apply**
 
 # More
 [Have a look at more examples](https://pycaret.gitbook.io/docs/learn-pycaret/official-blog/machine-learning-in-power-bi-using-pycaret)
