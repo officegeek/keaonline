@@ -215,6 +215,17 @@ model.fit(xtrain, ytrain)
 print(model.score(xtest, ytest))
 ```
 
+# Bank Churn
+We will try to predict whether or not a bank customer will churn in the future, base on the data.
+
+[Predicting Bank Customer Churn](./bank-churn/bankchurn.md)
+
+
+# Machine Learning in Power BI using PyCaret
+How to use Machine Learning in Microsoft Power BI, with the use og PyCaret.
+
+[](./mlpowerbIpyc.md)
+
 # Links
 - [tensorflow.org](https://www.tensorflow.org)
 - [scipy.org](https://scipy.org/)
