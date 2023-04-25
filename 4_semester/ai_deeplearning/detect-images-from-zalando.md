@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Detect Images from Zalando
+title: Zalando and Data Center
 has_children: true
 parent: AI - Deep Learning
 grand_parent: 4. Semester
