@@ -10,15 +10,6 @@ grand_parent: 4. Semester
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # Machine Learning in Power BI using PyCaret
 How to use Machine Learning in Microsoft Power BI, with the use og PyCaret.
 
@@ -64,13 +55,12 @@ The first step is to import the dataset into Power BI Desktop.
 You can upload data using a web connector.
 From Power BI Desktop use:  **Get Data → Web**
 
-https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/delaware_anomaly.csv
+[https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/delaware_anomaly.csv](https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/delaware_anomaly.csv)
 
 ## Model Training
-
 To train an anomaly detector in Power BI, we will need to run a Python script in the Power Query Editor
 
-    Power Query Editor → Transform → Run Python script
+**Power Query Editor → Transform → Run Python script**
 
 Run the code below as a Python script:
 
@@ -189,7 +179,7 @@ from pycaret.clustering import *
 dataset = get_clusters(dataset, model='kmodes', num_clusters=6, ignore_features=['Country'])
 ```
 
-A new column which contains the cluster **Label** is attached to the original dataset. 
+A new column which contains the **cluster Label** is attached to the original dataset. 
 
 In Power Pivot you need to make some changes to the data:
 
@@ -227,7 +217,7 @@ Link to csv File: https://raw.githubusercontent.com/pycaret/pycaret/master/datas
 ## K-Means Clustering
 To train a clustering model we will execute Python script in Power Query Editor
 
-    Power Query Editor → Transform → Run python script
+**Power Query Editor → Transform → Run python script**
 
 ![](./image/powerquery_python.jpg)
 
