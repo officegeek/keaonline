@@ -7,7 +7,7 @@ marp: true
 backgroundColor: #fff
 size: 4K
 @auto-scaling true
-footer: 'Tue Hellstern - 2022'
+footer: 'Tue Hellstern - 2023'
 html: true
 ---
 

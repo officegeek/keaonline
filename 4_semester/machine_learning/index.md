@@ -224,7 +224,7 @@ We will try to predict whether or not a bank customer will churn in the future, 
 # Machine Learning in Power BI using PyCaret
 How to use Machine Learning in Microsoft Power BI, with the use og PyCaret.
 
-[](./mlpowerbIpyc.md)
+[Machine Learning - Power BI](./mlpowerbIpyc.md)
 
 # Links
 - [tensorflow.org](https://www.tensorflow.org)
