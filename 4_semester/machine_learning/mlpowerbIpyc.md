@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Machine Learning in Power BI using PyCaret
-nav_order: 30
-parent: Microsoft Power BI
-grand_parent: Know Your Data
+nav_order: 99
+parent: Machine Learning
+grand_parent: 4. Semester
 ---
 
 <span class="fs-1">
