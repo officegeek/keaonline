@@ -28,7 +28,7 @@ You can do a **pip list** to see all the modules installed.
 ## Set Python Directory in Power BI
 The virtual environment created must be linked with Power BI. This can be done using Global Settings in Power BI Desktop:
 
-    File → Options → Global → Python scripting
+**File → Options → Global → Python scripting**
 
 Use the path from the Virtuel Environment you just created.
 
@@ -151,6 +151,11 @@ The first step is importing the dataset into Power BI Desktop. You can load the 
 Link to SCV file: [https://github.com/pycaret/powerbi-clustering/blob/master/clustering.csv](https://github.com/pycaret/powerbi-clustering/blob/master/clustering.csv)
 
 Run the following code as a Python script
+
+```python
+from pycaret.clustering import *
+dataset = get_clusters(dataset, model='kmodes', num_clusters=6, ignore_features=['Country'])
+```
 
 # Model Training
 Train a clustering model in Power BI we will have to execute a Python script in Power Query Editor.
