@@ -1,3 +1,11 @@
+---
+layout: default
+title: Supermarket sales
+nav_order: 35
+parent: Machine Learning
+grand_parent: 4. Semester
+---
+
 # Data - Supermarket sales
 We are using a data set from [www.kaggle.com](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales) with historical record of sales data in 3 different supermarkets.
 
