@@ -52,3 +52,19 @@ You can create an *requirements.txt* file and list the modules in that file, the
 After you are done with the project and no longer need the kernel you can uninstall it by running the following code:
 
     jupyter-kernelspec uninstall venv
+
+# Python 3.7
+If you need a special version of Python in your Virtuel Enviroment. In this case Python 3.7
+
+## Steps
+1. Download Python 7 from: [https://www.python.org/downloads/release/python-379/](https://www.python.org/downloads/release/python-379/)
+
+Download the
+
+![](./image/python37.png)
+
+2. Place the unzipede file 
+
+2. Create the virtuel enverioment with the command:
+
+    virtualenv -p .\python-3.7.9\python.exe powerbi
