@@ -63,8 +63,12 @@ Download the
 
 ![](./image/python37.png)
 
-2. Place the unzipede file 
+2. Place the unzipede file in the folder where you are creating the venv
 
-2. Create the virtuel enverioment with the command:
+3. Create the virtuel enverioment with the command:
 
     virtualenv -p .\python-3.7.9\python.exe powerbi
+
+4. Check you Python versin with:
+
+    python -V
