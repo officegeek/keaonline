@@ -40,4 +40,4 @@ The microservice architecture brings the idea of **decoupling functional parts o
 # RabbitMQ
 Think of a message broker (*RabbitMQ*) like a delivery person who takes mail from a sender and delivers it to the correct destination.
 
-[RabbitMQ](Rabbitmq.md)
+[RabbitMQ](./Rabbitmq.md)
