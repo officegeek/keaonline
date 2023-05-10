@@ -1,3 +1,11 @@
+---
+layout: default
+title: Webshop
+nav_order: 36
+parent: Machine Learning
+grand_parent: 4. Semester
+---
+
 # Webshop - Assignment
 Purchases distributed on the different age groups, from a webshop
 

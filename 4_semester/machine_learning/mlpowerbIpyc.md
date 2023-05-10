@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Machine Learning in Power BI using PyCaret
-nav_order: 80
+nav_order: 90
 parent: Machine Learning
 grand_parent: 4. Semester
 ---
@@ -10,15 +10,6 @@ grand_parent: 4. Semester
 <span class="fs-1">
 [HOME](./index.md){: .btn .btn-blue }
 </span>
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
 
 # Machine Learning in Power BI using PyCaret
 How to use Machine Learning in Microsoft Power BI, with the use og PyCaret.
@@ -38,7 +29,7 @@ You can do a **pip list** to see all the modules installed.
 ## Set Python Directory in Power BI
 The virtual environment created must be linked with Power BI. This can be done using Global Settings in Power BI Desktop:
 
-    File → Options → Global → Python scripting
+**File → Options → Global → Python scripting**
 
 Use the path from the Virtuel Environment you just created.
 
@@ -63,15 +54,14 @@ We will use 2014–2019 Government Employees Credit Card Processing for the U.S.
 The first step is to import the dataset into Power BI Desktop. 
 
 You can upload data using a web connector.
-From Power BI Desktop use:  Get Data → Web
+From Power BI Desktop use:  **Get Data → Web**
 
-https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/delaware_anomaly.csv
+[https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/delaware_anomaly.csv](https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/delaware_anomaly.csv)
 
 ## Model Training
-
 To train an anomaly detector in Power BI, we will need to run a Python script in the Power Query Editor
 
-    Power Query Editor → Transform → Run Python script
+**Power Query Editor → Transform → Run Python script**
 
 Run the code below as a Python script:
 
@@ -137,9 +127,9 @@ Now you can add som calculations and create a Power BI Dashboard.
 # Clustering in Power BI
 Clustering is a machine learning technique that groups data points with similar characteristics. These groupings are useful for exploring data, identifying patterns and analyzing a subset of data. Some common business use cases for clustering are:
 
-- Customer segmentation for the purpose of marketing.
-- Customer purchasing behavior analysis for promotions and discounts.
-- Identifying geo-clusters
+- *Customer segmentation for the purpose of marketing*
+- *Customer purchasing behavior analysis for promotions and discounts*
+- *Identifying geo-clusters*
 
 We will implementing a clustering analysis in Power BI using PyCaret using the K-Means algorithm which is one of the simplest and most popular unsupervised machine learning algorithms. 
 
@@ -157,11 +147,16 @@ Our objective is to find patterns and groups in this data by using a K-Means clu
 ## Import data Power BI
 The first step is importing the dataset into Power BI Desktop. You can load the data using a web connector
 
-    Power BI Desktop → Get Data → From Web
+**Power BI Desktop → Get Data → From Web**
 
-Link to SCV file: https://github.com/pycaret/powerbi-clustering/blob/master/clustering.csv
+Link to SCV file: [https://github.com/pycaret/powerbi-clustering/blob/master/clustering.csv](https://github.com/pycaret/powerbi-clustering/blob/master/clustering.csv)
 
 Run the following code as a Python script
+
+```python
+from pycaret.clustering import *
+dataset = get_clusters(dataset, model='kmodes', num_clusters=6, ignore_features=['Country'])
+```
 
 # Model Training
 Train a clustering model in Power BI we will have to execute a Python script in Power Query Editor.
@@ -177,7 +172,7 @@ There are over 8 ready-to-use clustering algorithms available in PyCaret.
 
 ![](./image/clustering_8.png)
 
-By default, PyCaret trains a **K-Means Clustering model **with 4 clusters. Default values can be changed easily:
+By default, PyCaret trains a **K-Means Clustering model** with 4 clusters. Default values can be changed easily:
 
 - To change the model type use the **model** parameter within get_clusters().
 
@@ -190,7 +185,7 @@ from pycaret.clustering import *
 dataset = get_clusters(dataset, model='kmodes', num_clusters=6, ignore_features=['Country'])
 ```
 
-A new column which contains the cluster **Label** is attached to the original dataset. 
+A new column which contains the **cluster Label** is attached to the original dataset. 
 
 In Power Pivot you need to make some changes to the data:
 
@@ -204,7 +199,7 @@ In Power Pivot you need to make some changes to the data:
 ### New measurer
 Add new measurer:
 
-    Average GDP = CALCULATE(AVERAGE(clustering[GDP]))
+**Average GDP = CALCULATE(AVERAGE(clustering[GDP]))**
 
 ## Dashboard
 Once you have cluster labels in Power BI, here’s an example of how you can visualize it in dashboard to generate insights:
@@ -218,7 +213,7 @@ In this demo we will use **jewellery.csv** file that is available on PyCaret’s
 
 You can load the data using a web connector. 
 
-    Power BI Desktop → Get Data → From Web
+**Power BI Desktop → Get Data → From Web**
 
 Link to csv File: https://raw.githubusercontent.com/pycaret/pycaret/master/datasets/jewellery.csv
 
@@ -228,7 +223,7 @@ Link to csv File: https://raw.githubusercontent.com/pycaret/pycaret/master/datas
 ## K-Means Clustering
 To train a clustering model we will execute Python script in Power Query Editor
 
-    Power Query Editor → Transform → Run python script
+**Power Query Editor → Transform → Run python script**
 
 ![](./image/powerquery_python.jpg)
 
@@ -242,7 +237,8 @@ dataset = get_clusters(dataset, model = 'kmodes', num_clusters = 6)
 A new column **Cluster** containing label is attached to the original table.
 
 Apply the query
-    Power Query Editor → Home → Close & Apply)
+
+**Power Query Editor → Home → Close & Apply**
 
 # More
 [Have a look at more examples](https://pycaret.gitbook.io/docs/learn-pycaret/official-blog/machine-learning-in-power-bi-using-pycaret)
