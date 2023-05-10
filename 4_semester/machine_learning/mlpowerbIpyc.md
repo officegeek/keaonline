@@ -1,10 +1,11 @@
 ---
 layout: default
 title: Machine Learning in Power BI using PyCaret
-nav_order: 30
-parent: Microsoft Power BI
-grand_parent: Know Your Data
+nav_order: 80
+parent: Machine Learning
+grand_parent: 4. Semester
 ---
+
 
 <span class="fs-1">
 [HOME](./index.md){: .btn .btn-blue }
@@ -91,7 +92,7 @@ PyCaret allows you to hide unnecessary columns from a dataset instead of leaving
 
 For example, in this case we don’t want to use the transaction history (TRANS_DT) to train an algorithm and therefore we have stored it as ignore_features.
 
-There are o12 ready-to-use anomaly detection algorithms in PyCaret:
+There are 12 ready-to-use anomaly detection algorithms in PyCaret:
 
 - **abod** - Angle-base Outlier Detection
 - **cluster** - Clustering-Based Local Outlier
@@ -165,7 +166,7 @@ Run the following code as a Python script
 # Model Training
 Train a clustering model in Power BI we will have to execute a Python script in Power Query Editor.
 
-    Power Query Editor → Transform → Run python script
+**Power Query Editor → Transform → Run python script**
 
 ```python
 from pycaret.clustering import *
@@ -174,7 +175,7 @@ dataset = get_clusters(dataset, num_clusters=5, ignore_features=['Country'])
 
 There are over 8 ready-to-use clustering algorithms available in PyCaret.
 
-![](./clustering_8.png)
+![](./image/clustering_8.png)
 
 By default, PyCaret trains a **K-Means Clustering model **with 4 clusters. Default values can be changed easily:
 
