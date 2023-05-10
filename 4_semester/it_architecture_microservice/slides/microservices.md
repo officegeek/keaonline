@@ -175,7 +175,7 @@ UML diagrams used to represent the physical view include the **Deployment diagra
 
 ---
 
-![bg 65%](https://github.com/officegeek/image/raw/main/Views_Viewpoints.jpg)
+![bg 50%](https://github.com/officegeek/image/raw/main/Views_Viewpoints.jpg)
 
 ---
 
@@ -285,8 +285,7 @@ An architecture framework establishes a common practice for creating, interpreti
 ---
 
 ![bg right:54% 98%](https://github.com/officegeek/image/raw/main/iso_42010_diagram_2.png)
-# Exercise
-## Inventory example
+# Exercise - Inventory example
 **As Architects You must**
 - Identify what IT components are actively participating in the scenario above.
 - Decide: **Where in the system do you decide to store the stock-count?**
@@ -306,22 +305,27 @@ Quality is how well an architecture satisfies **Functional** and **NON-Functiona
 
 NFRs can be divided into two main categories:
 
-- Attributes that affect system behavior, design, and user interface during work.
-- Attributes that affect the development and support of the system.
+- <span style="color:blue;">Attributes that affect system behavior, design, and user interface during work</span>
+- <span style="color:green;">Attributes that affect the development and support of the system</span>
+
 
 ---
 
-## Functional requirements
-- Things that can be captured in a use-case.
-- Things that can be analyzed in diagrams
-- Most likely translate to code somewhere in a program
+![bg right:40% 80%](../image/Functional_Requirements.jpg)
+
+# Functional requirements
+- Things that can be <span style="color:green;">captured in a use-case</span>
+- Things that can be <span style="color:blue;">analyzed in diagrams</span>
+- Most likely <span style="color:red;">translate to code</span> somewhere in a program
 
 ---
 
-## NON-functional requirements
-- Development constraints like:
+![bg right:38% 80%](../image/Non_Functional_Requirements.jpg)
+
+# NON-functional requirements
+- **Development constraints like:**
   - Development cost, time, operational cost, performance
-- Many dynamic qualities like:
+- **Many dynamic qualities like:**
   - maintainability, testability, usability, etc.
   - Is seldom to be found in a single part of a program
   - Also known as Quality attributes
@@ -381,17 +385,17 @@ This definition of a domain is very fuzzy. What is an area of interest? It can b
 # Sub Domains
 **In DDD, a subdomain is a relative term.**
 
-Domain and subdomain can be used interchangeably.
+Domain and subdomain can be **used interchangeably.**
 
 When we use the word subdomain, we are emphasizing that the domain we are talking about is a child of another higher-level domain which we have identified.
 
-Every subdomain is, therefore, a domain, and most domains are a subdomain. 
+**Every subdomain is, therefore, a domain, and most domains are a subdomain.**
 
 ---
 
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
-# Subdomain vs Bounded Context
+# Subdomain vs Bounded Context<!-- fit -->
 
 ---
 
@@ -400,8 +404,8 @@ Every subdomain is, therefore, a domain, and most domains are a subdomain.
 ---
 
 # Aggregates
-Aggregate is a pattern in Domain-Driven Design.
+Aggregate is a **pattern** in Domain-Driven Design.
 
-A DDD aggregate is a cluster of domain objects that can be treated as a single unit.
+A DDD aggregate is a **cluster of domain objects** that can be treated as a **single unit**.
 
-*An example may be an order and its line-items, these will be separate objects, but it's useful to treat the order (together with its line items) as a single aggregate.*
+<span style="color:blue;">*An example may be an order and its line-items, these will be separate objects, but it's useful to treat the order (together with its line items) as a single aggregate.*</span>
