@@ -18,8 +18,6 @@ html: true
 - Design Steps
 - Quality Attributes - Non Functions Requirements
 
-<!-- _footer: Tue Hellstern © 2022 -->
-
 ---
 
 <!-- _backgroundColor: black -->
