@@ -28,23 +28,23 @@ html: true
 
 ---
 
-> The architecture of a software-intensive system is the structure or structures of the system, which comprise software elements, the externally visible properties of those elements, and the relationships among them.
+> <span style="color:blue;">The architecture of a software-intensive system is the structure or structures of the system, which comprise software elements, the externally visible properties of those elements, and the relationships among them.</span>
 
 <!-- _footer: Software Engineering Institute (SEI)  Carnegie-Mellon University in Pittsburgh -->
 
 ---
 
 # The Problem of Architectural Description 
-- What are the main functional elements of your architecture? 
-- How will these elements interact with one another and with the outside world? 
-- What information will be managed, stored, and presented? 
-- What physical hardware and software elements will be required to support these functional and information elements? 
-- What operational features and capabilities will be provided? 
-- What development, test, support, and training environments will be provided?
+- What are the **main functional elements** of your architecture? 
+- How will these elements **interact with one another** and with the outside world? 
+- What **information** will be managed, stored, and presented? 
+- What *physical* **hardware** and **software** elements will be required to support these functional and information elements? 
+- What **operational** features and capabilities will be provided? 
+- What **development**, test, support, and training environments will be provided?
 
 ---
 
-> An architectural description (*AD*) is a set of artifacts that documents an architecture in a way its stakeholders can understand and demonstrates that the architecture has met their concerns. 
+> An architectural description (<span style="color:green;">**AD**</span>) is a set of artifacts that documents an architecture in a way its stakeholders can understand and demonstrates that the architecture has met their concerns. 
 
 <!-- _footer: Software Engineering Institute (SEI)  Carnegie-Mellon University in Pittsburgh -->
 
@@ -63,17 +63,17 @@ Company wide (or Business wide) system Architecture
 ---
 
 # Architecture Definition
-Software architecture refers to the fundamental structures of a software system and the discipline of creating such structures and systems.
+**Software architecture** refers to the fundamental structures of a software system and the discipline of creating such structures and systems.
 
 Each structure comprises software elements, relations among them, and properties of both elements and relations.
 
-The architecture of a software system is a metaphor, analogous to the architecture of a building.
+*The architecture of a software system is a metaphor, analogous to the architecture of a building.*
 
 It functions as a blueprint for the system and the developing project, laying out the tasks necessary to be executed by the design teams.
 
 ---
 
-# What is bad architecture and how to recognize it?
+# What is <span style="color:red;">bad</span> architecture and how to recognize it?
 - **Unnecessarily Complex** — It is easy to write complex code, anyone can do it, but it is hard to write simple code.
 - **Rigid/Brittle** — Since it is unnecessarily complex, it is not easy to understand and therefore making it non-maintainable, easy to break for even a small code change.
 - **Untestable** — Such code will be tightly coupled, will typically not follow the single responsibility principle, will be difficult to test.
@@ -81,7 +81,7 @@ It functions as a blueprint for the system and the developing project, laying ou
 
 ---
 
-# What is good architecture and what properties do they exhibit?
+# What is <span style="color:green;">good</span> architecture and what properties do they exhibit?
 - **Simple** — Easy to understand.
 - **Modularity/Layering/Clarity** — This is important so that one layer is able to change independently of the others with as minimum coupling between the layers
 - **Flexible/Extendable** — Can be easily adapted to new evolving requirements
@@ -99,7 +99,7 @@ It functions as a blueprint for the system and the developing project, laying ou
 # 4+1 Model
 Designed by - **Philippe Kruchten**
 
-Describing the architecture of software-intensive systems, based on the use of 4, concurrent views.
+Describing the architecture of <span style="color:blue;">software-intensive</span> systems, based on the use of 4, concurrent views.
 
 - **Logical** (*End user*)
 - **Process** (*Integrator*)
@@ -118,19 +118,19 @@ Architectural Blueprints - The "4+1" View Model of Software Architecture**
 ---
 
 # Scenarios
-The description of an architecture is illustrated using a small set of use cases, or scenarios, which become a fifth view. 
+<span style="color:blue;">The description of an architecture is illustrated using a small set of use cases, or scenarios, which become a fifth view.</span> 
 
 The scenarios describe sequences of interactions between objects and between processes. They are used to identify architectural elements and to illustrate and validate the architecture design. 
 
 They also serve as a starting point for tests of an architecture prototype. 
 
-This view is also known as the **Use Case** view.
+This view is also known as the <span style="color:blue;">**Use Case** view</span>.
 
 ---
 
 ![bg right:40% 100%](https://github.com/officegeek/image/raw/main/4_1_Architectural.png)
 # Logical View (*End user*)
-The logical view is concerned with the functionality that the system provides to end-users.
+The logical view is concerned with the <span style="color:blue;">functionality</span> that the system provides to end-users.
 
 UML diagrams are used to represent the logical view, and include **Class diagrams**, **Object diagram** and **State diagrams**.
 
@@ -138,7 +138,7 @@ UML diagrams are used to represent the logical view, and include **Class diagram
 
 ![bg right:40% 100%](https://github.com/officegeek/image/raw/main/4_1_Architectural.png)
 # Process View (*Integrator*)
-The process view deals with the dynamic aspects of the system, explains the system processes and how they communicate, and focuses on the run time behavior of the system.
+The process view deals with the <span style="color:blue;">dynamic</span> aspects of the system, explains the system processes and how they communicate, and focuses on the run time behavior of the system.
 
 The process view addresses concurrency, distribution, integrator, performance, and scalability, etc. 
 
@@ -148,7 +148,7 @@ UML diagrams to represent process view include the **Sequence diagram, Communica
 
 ![bg right:40% 100%](https://github.com/officegeek/image/raw/main/4_1_Architectural.png)
 # Development View (*Programmers*)
-The development view illustrates a system from a programmer's perspective and is concerned with software management.
+The development view illustrates a system from a <span style="color:blue;">programmer's perspective</span> and is concerned with software management.
 
 This view is also known as the implementation view. It uses the UML Component diagram to describe system components.
 
@@ -158,7 +158,7 @@ UML Diagrams used to represent the development view include the **Package diagra
 
 ![bg right:40% 100%](https://github.com/officegeek/image/raw/main/4_1_Architectural.png)
 # Physical View (*System engineer*)
-The physical view depicts the system from a system engineer's point of view.
+The physical view depicts the system from a <span style="color:blue;">system engineer's</span> point of view.
 
 It is concerned with the topology of software components on the physical layer as well as the physical connections between these components. This view is also known as the deployment view.
 
@@ -168,10 +168,10 @@ UML diagrams used to represent the physical view include the **Deployment diagra
 
 ![bg right:60% 95%](https://github.com/officegeek/image/raw/main/OverviewUML.png)
 
-- Logical - *Green*
-- Process - *Blue*
-- Development - *Orange*
-- Physical - *Brown*
+- Logical - <span style="color:green;">*Green*</span>
+- Process - <span style="color:blue;">*Blue*</span>
+- Development - <span style="color:orange;">*Orange*</span>
+- Physical - <span style="color:brown;">*Brown*</span>
 
 ---
 
@@ -183,13 +183,13 @@ UML diagrams used to represent the physical view include the **Deployment diagra
 - A **system** is built to address the needs, concerns, goals and objectives of its **stakeholders**. 
 - The **architecture** of a **system** is characterized by its static and dynamic structures, and its externally-visible behavior and properties. 
 - The **architecture** of a **system** is comprised of a number of architectural **elements** and their interrelationships. 
-- The **architecture** of a **system** can potentially be documented by an **architectural description** (fully, partly or not at all). In fact, there are many potential ADs for a given architecture, some good, some bad.
+- The **architecture** of a **system** can potentially be documented by an **architectural description** (*fully, partly or not at all*). In fact, there are many potential ADs for a given architecture, some good, some bad.
 
 ---
 
 - An **architectural description** documents an architecture for its **stakeholders**, and demonstrates to them that it has met their needs.
 - A **viewpoint** defines the aims, intended audience, and content of a class of **views** and defines the concerns that views of this class will address. 
-- A **view** conforms to a **viewpoint** and so communicates the resolution of a number of concerns (and a resolution of a concern may be communicated in a number of views). 
+- A **view** conforms to a **viewpoint** and so communicates the resolution of a number of concerns (*and a resolution of a concern may be communicated in a number of views*). 
 - An **architectural description** comprises a number of **views**.
 
 ---
@@ -221,16 +221,16 @@ The conceptual model is presented in the Standard using UML class diagrams to re
 - An **Architecture Description** is used to express an Architecture of a System
 - **System** is used as a placeholder – e.g., it could refer to an enterprise, a system of systems, a product line, a service, a subsystem, or software
 - Every System inhabits its **Environment**
-- Systems have architectures
+- Systems have **architectures**
 - An **Architecture Description** (*AD*) is an artifact that expresses an Architecture
 
 ---
 
 ![bg right:60% 99%](https://github.com/officegeek/image/raw/main/Core-Realm.png)
 # Core of AD
-The Standard is organized around the terms and concepts of this diagram
+<span style="color:blue;">The Standard is organized around the terms and concepts of this diagram</span>
 
-It depicts the contents of an AD and the relations between those content items when applying the Standard to produce an Architecture Description to express an Architecture for some System of Interest.
+It depicts the contents of an **AD and the relations** between those content items when applying the Standard to produce an Architecture Description to express an Architecture for some System of Interest.
 
 ---
 
@@ -247,7 +247,7 @@ Correspondences and Correspondence Rules are used to express and enforce archite
 # Architecture Decisions and Rationale
 ![bg right:50% 98%](https://github.com/officegeek/image/raw/main/Rationale-Realm.png)
 Architecture Decisions and Rationale
-Creating an Architecture involves making Architecture Decisions.
+Creating an Architecture involves making **Architecture Decisions**.
 
 ---
 
@@ -322,13 +322,13 @@ NFRs can be divided into two main categories:
 
 ![bg right:38% 80%](../image/Non_Functional_Requirements.jpg)
 
-# NON-functional requirements
+# <span style="color:red;">NON</span>-functional requirements
 - **Development constraints like:**
   - Development cost, time, operational cost, performance
 - **Many dynamic qualities like:**
   - maintainability, testability, usability, etc.
   - Is seldom to be found in a single part of a program
-  - Also known as Quality attributes
+  - Also known as **Quality attributes**
 
 ---
 
