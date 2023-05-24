@@ -21,17 +21,11 @@ nav_order: 110
 
 [Home](modul-4-2.md)
 # IT security
-    - 09-12-2022 - Fredag
+    - 24-05-2023
 
 # Slides
 - [HTML](./slide/IT_Security_Slide.html)
 - [PDF](./slide/IT_Security_Slide.pdf)
-
-# Læses DK
-https://issuu.com/dtudk/docs/dynamo71/22
-
-# Lader
-- https://edition.cnn.com/2023/04/12/tech/fbi-public-charging-port-warning/index.html
 
 # Code
 [Code Examples](code_examples.md)
