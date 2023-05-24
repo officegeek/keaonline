@@ -60,25 +60,37 @@ Criminals often use malware to send spam, obtain personal and financial informat
 
 ---
 
-![bg 80%](../_image/Types_of_Malware-A1_EN.webp)
+![bg 80%](./image/Types_of_Malware.jpg)
 
 ---
+
+![bg right:45% 105%](./image/spyware.jpg)
 
 # Spyware
-Spyware is a type of **malware** that attaches itself and hides on a computer’s operating system without your permission to make unwanted changes to your user experience.
+Spyware is a type of **malware** that attaches itself and hides on a computer’s operating system without your permission to make unwanted **changes to your user experience**.
 
-It can be used to spy on your online activity and may generate unwanted advertisements or make your browser display certain website sites or search results.
+It can be used to **spy** on your online activity and may generate **unwanted advertisements** or make your browser display certain website sites, search results og **encrypt your data**.
 
 ---
+
+![bg right:43% 145%](./image/Phishing.jpg)
 
 # Phishing
-Phishing attacks use email or fraudulent websites to try to trick you into providing personal or financial information to compromise an account or steal money by posing as a trustworthy entity.
+**Phishing** attacks use **email** or **fraudulent** websites to try to trick you into providing personal or financial information to compromise an account or steal money by posing as a trustworthy entity.
 
-They may claim there’s a problem with payment information or that they’ve noticed activity on an account and ask you to click on a link or attachment and provide personal information.
+*They may claim there’s a problem with payment information or that they’ve noticed activity on an account and ask you to click on a link or attachment and provide personal information.*
 
 ---
 
-![bg right:40% 95%](../_image//antivirus.jpg)
+![bg right:63% 100%](./image/email.jpg)
+
+- I know the company
+- I'm during business with the company
+    - **QUQUQ GmbH**
+
+---
+
+![bg right:40% 95%](./image/antivirus.jpg)
 
 ## How does antivirus work?
 Antivirus software begins operating by checking your computer programs and files against a database of known types of malware. 
@@ -103,18 +115,18 @@ When the antivirus program finds a file that contains a virus, it will usually q
 
 ---
 
-![bg right:20% 90%](../_image//http-httrps.png)
+![bg right:20% 90%](./image//http-httrps.png)
 
 # HTTPS
 Hypertext Transfer Protocol Secure (*HTTPS*) is an extension of the Hypertext Transfer Protocol (*HTTP*). 
 
 It is used for secure communication over a computer network, and is widely used on the Internet.
 
-In HTTPS, the communication protocol is **encrypted** using Transport Layer Security (*TLS*) or, formerly, Secure Sockets Layer (*SSL*)
+In **HTTPS**, the communication protocol is **encrypted** using Transport Layer Security (*TLS*) or, formerly, Secure Sockets Layer (*SSL*)
 
 ---
 
-![bg right:20% 90%](../_image/http-httrps.png)
+![bg right:20% 90%](./image/http-httrps.png)
 
 # HTTP
 When you connect to a website with regular **HTTP**, your browser looks up the IP address that corresponds to the website, connects to that IP address, and assumes it’s connected to the correct web server. 
@@ -125,7 +137,7 @@ Data is sent over the connection in clear text. An eavesdropper on a Wi-Fi netwo
 
 ---
 
-![bg right:20% 90%](../_image/http-httrps.png)
+![bg right:20% 90%](./image/http-httrps.png)
 
 # HTTPS
 When you connect to an **HTTPS**-secured server—secure sites like your bank’s will automatically redirect you to HTTPS—your web browser checks the website’s security certificate and verifies it was issued by a legitimate certificate authority. 
@@ -138,7 +150,7 @@ When you send sensitive information over an HTTPS connection, **no one can eaves
 
 ---
 
-![bg right:20% 90%](../_image/http-httrps.png)
+![bg right:20% 90%](./image/http-httrps.png)
 
 ## The presence of HTTPS itself isn’t a guarantee a site is legitimate.
 
@@ -156,11 +168,11 @@ In this case, you’re using an **HTTPS** connection, but you’re really connec
 
 ---
 
-![bg right:20% 80%](../_image/wifi.png)
+![bg right:20% 80%](./image/wifi.png)
 # Open Wi-Fi
 It's not safe to connect to an unknown open wireless network, particularly when transferring sensitive data, such as an online banking password. 
 
-**All information** sent over an unsecured wireless network—one that doesn't require a Wi-Fi Protected Access (*WPA*) or *WPA2* security code—is sent in plain text for anyone to intercept. 
+**All information** sent over an unsecured wireless network—one that doesn't require a Wi-Fi Protected Access (*WPA*) or *WPA2* security code is sent in plain text for anyone to intercept. 
 
 **Connecting to an open network potentially opens your device to anyone else on that same wireless network.**
 
@@ -172,7 +184,7 @@ It's not safe to connect to an unknown open wireless network, particularly when 
 
 ---
 
-![bg right:20% 150%](../_image//vpn.jpg)
+![bg right:20% 150%](./image/vpn.jpg)
 # VPN
 A **Virtual Private Network** (*VPN*) connects to the internet privately by hiding your *real IP address* and routing your internet traffic and data through a private and securely encrypted tunnel over public networks.
 
@@ -182,7 +194,7 @@ When data is encrypted inside the VPN tunnel, ISPs, search engines, marketers, h
 
 ---
 
-![bg 90%](https://www.yellowstonecomputing.net/uploads/2/2/1/6/22165724/how-a-vpn-works-infographic-730x484_orig.png)
+![bg 90%](./image/how-vpn-works.png)
 
 ---
 
@@ -200,13 +212,27 @@ When data is encrypted inside the VPN tunnel, ISPs, search engines, marketers, h
 
 ---
 
-<!-- _color: white -->
-<!-- _backgroundColor: black -->
-# VPN<!-- fit -->
+![bg right:33% 270%](./image/Password.jpg)
+# Password Security
+
+- How many of you reuse passwords?
+- How long is your password normally?
+- How many of you are using a password manager?
+- How many of you are using multi factor?
 
 ---
 
-![bg 65%](https://github.com/officegeek/image/raw/main/password.png)
+![bg right:63% 100%](./image/how_safe_password.jpeg)
+
+[https://www.security.org/how-secure-is-my-password/](https://www.security.org/how-secure-is-my-password)
+
+---
+
+![bg 80%](./image/Password-Infographic.png)
+
+---
+
+![bg 62%](./image/safe_password.jpeg)
 
 ---
 
@@ -218,10 +244,12 @@ https://haveibeenpwned.com/Passwords
 
 ---
 
-![bg right:40% 150%](../_image/bruteforce.png)
+![bg right:40% 150%](./image/bruteforce.png)
 
 # Brute-Force attack
-Brute-Force attacks (*just trying out all possible combinations*) have become computationally easy =>  **its simpler to just try out all combinations than to guess something clever**
+Brute-Force attacks (*just trying out all possible combinations*) have become computationally easy.
+
+**Its simpler to just try out all combinations than to guess something clever**
 
 ---
 
@@ -251,7 +279,7 @@ Avoid revealing your passwords on GitHub
 
 ---
 
-![bg right:20% 90%](../_image/twofactor.png)
+![bg right:20% 90%](./image/twofactor.png)
 
 # Two-Factor Authentication
 Logging into your accounts with an email address and password is fine, up to a point, but these details can get lost, stolen, guessed, or teased out of you with some clever social engineering.
