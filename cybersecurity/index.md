@@ -24,7 +24,7 @@
 | **[20-11-2023](20-11-2023.md)** | Monday      |                                                                 |
 
 ## Exam dates
-The exam is in groups
+The exam are in groups:
 - 20 min presentation per group
 - 10 minutes per Student
 
