@@ -16,8 +16,8 @@
 | **[28-08-2023](28-08-2023.md)** | Monday      | Introduction                                                    |
 | **[04-09-2023](04-09-2023.md)** | Monday      |                                                                 |
 | **[11-09-2023](11-09-2023.md)** | Monday      |                                                                 |
-| **[20-09-2023](20-09-2023.md)** | Wednesday   | Cloud Fair - Computerworld                                      |
-| **[21-09-2023](21-09-2023.md)** | Thursday    | Cloud Fair - Computerworld                                      |
+| **[20-09-2023](cloudfair.md)** | Wednesday   | Cloud Fair - Computerworld                                      |
+| **[21-09-2023](cloudfair.md)** | Thursday    | Cloud Fair - Computerworld                                      |
 | **[25-09-2023](25-09-2023.md)** | Monday      | Presentation from the fair - DK class presents to the INT class |
 | **[02-10-2023](02-10-2023.md)** | Monday      |                                                                 |
 | **[13-10-2023](13-10-2023.md)** | Friday      |                                                                 |

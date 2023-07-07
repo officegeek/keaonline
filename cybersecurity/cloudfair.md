@@ -1,13 +1,13 @@
 ---
     layout: default
-    title: 21-09-2023
+    title: Cloud Fair
     parent: Cybersecurity
-    has_children: truee
-    nav_order: 60
+    has_children: true
+    nav_order: 50
 ---
 
 <span class="fs-1">
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-# 21-09-2023
+# Cloud Fair - Computerworld
