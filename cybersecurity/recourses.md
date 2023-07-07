@@ -1,7 +1,8 @@
 ---
     layout: default
     title: Recourses
-    has_children: false
+    parent: Cybersecurity
+    has_children: true
     nav_order: 110
 ---
 
