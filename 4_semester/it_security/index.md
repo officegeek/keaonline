@@ -10,14 +10,6 @@ nav_order: 110
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
 
 [Home](modul-4-2.md)
 # IT security
@@ -31,7 +23,7 @@ nav_order: 110
 [Code Examples](code_examples.md)
 
 # Jupyter Lab
-[Bruteforce_Password.ipynb](./_code/Bruteforce_Password.ipynb)
+[Bruteforce_Password.ipynb](./code/code/Bruteforce_Password.ipynb)
 
 # Links
 - [Ethical Hacking Tutorials](https://www.thepythoncode.com/topic/ethical-hacking)
