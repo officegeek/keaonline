@@ -11,20 +11,20 @@
 
 # Dates
 
-| **Date**                        | **Weekday** | **Emne**                                                        |
-|---------------------------------|-------------|-----------------------------------------------------------------|
-| **[28-08-2023](28-08-2023.md)** | Monday      | Introduction                                                    |
-| **[04-09-2023](04-09-2023.md)** | Monday      |                                                                 |
-| **[11-09-2023](11-09-2023.md)** | Monday      |                                                                 |
-| **[20-09-2023](cloudfair.md)** | Wednesday   | Cloud Fair - Computerworld                                      |
-| **[21-09-2023](cloudfair.md)** | Thursday    | Cloud Fair - Computerworld                                      |
-| **[25-09-2023](25-09-2023.md)** | Monday      | Presentation from the fair - DK class presents to the INT class |
-| **[02-10-2023](02-10-2023.md)** | Monday      |                                                                 |
-| **[13-10-2023](13-10-2023.md)** | Friday      |                                                                 |
-| **[20-11-2023](20-11-2023.md)** | Monday      |                                                                 |
+| **Date**                        | **Weekday** | **Emne**                        |
+|---------------------------------|-------------|---------------------------------|
+| **[28-08-2023](28-08-2023.md)** | Monday      | Introduction                    |
+| **[04-09-2023](04-09-2023.md)** | Monday      |                                 |
+| **[11-09-2023](11-09-2023.md)** | Monday      | FJERNES!                        |
+| **[20-09-2023](cloudfair.md)**  | Wednesday   | Cloud Fair 2023 - Computerworld |
+| **[21-09-2023](cloudfair.md)**  | Thursday    | Cloud Fair 2023 - Computerworld |
+| **[25-09-2023](25-09-2023.md)** | Monday      | Presentation from the fair      |
+| **[02-10-2023](02-10-2023.md)** | Monday      |                                 |
+| **[13-10-2023](13-10-2023.md)** | Friday      |                                 |
+| **[20-11-2023](20-11-2023.md)** | Monday      |                                 |
 
 ## Exam dates
-The exam are in groups:
+The exam are in groups basede on a written group report, max 4 pages:
 - 20 min presentation per group
 - 10 minutes per Student
 
@@ -42,9 +42,7 @@ The exam are in groups:
 # Cybersecurity
 The course will provide you with a solid understanding of the technical aspects of cybersecurity, as well as the economic principles that underpin it. 
 
-After this elective you will have the knowledge and skills needed to protect computer systems, networks, and data 
-from cyber threats and attacks, and to develop effective cybersecurity strategies for organizations there are following 
-the current regulations. 
+After this elective you will have the knowledge and skills needed to protect computer systems, networks, and data from cyber threats and attacks, and to develop effective cybersecurity strategies for organizations there are following the current regulations. 
 
 Cybersecurity is a rapidly growing field with a high demand for skilled professionals in all levels. During the elective course, there will be presentations from various people from the business world. Their presentation will support the theory and put it into perspective
 
