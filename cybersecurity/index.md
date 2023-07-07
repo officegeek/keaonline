@@ -11,17 +11,21 @@
 
 # Dates
 
-| **Date**                        | **Weekday** | **Emne**                        |
-|---------------------------------|-------------|---------------------------------|
-| **[28-08-2023](28-08-2023.md)** | Monday      | Introduction                    |
-| **[04-09-2023](04-09-2023.md)** | Monday      |                                 |
-| **[11-09-2023](11-09-2023.md)** | Monday      | FJERNES!                        |
-| **[20-09-2023](cloudfair.md)**  | Wednesday   | Cloud Fair 2023 - Computerworld |
-| **[21-09-2023](cloudfair.md)**  | Thursday    | Cloud Fair 2023 - Computerworld |
-| **[25-09-2023](25-09-2023.md)** | Monday      | Presentation from the fair      |
-| **[02-10-2023](02-10-2023.md)** | Monday      |                                 |
-| **[13-10-2023](13-10-2023.md)** | Friday      |                                 |
-| **[20-11-2023](20-11-2023.md)** | Monday      |                                 |
+| **Date**                        | **Weekday** | **Emne**                                    |
+|---------------------------------|-------------|---------------------------------------------|
+| **[28-08-2023](28-08-2023.md)** | Monday      | Introduction                                |
+| **[04-09-2023](04-09-2023.md)** | Monday      |                                             |
+| **[11-09-2023](11-09-2023.md)** | Monday      |                                             |
+| **[20-09-2023](cloudfair.md)**  | Wednesday   | Cloud Fair 2023 - Computerworld             |
+| **[21-09-2023](cloudfair.md)**  | Thursday    | Cloud Fair 2023 - Computerworld             |
+| **[25-09-2023](25-09-2023.md)** | Monday      | Presentation from the fair, LinkIn Learning |
+| **[02-10-2023](02-10-2023.md)** | Monday      |                                             |
+| **[13-10-2023](13-10-2023.md)** | Friday      |                                             |
+| **[20-11-2023](20-11-2023.md)** | Monday      |                                             |
+| **[23-11-2023](23-11-2023.md)** | Thursday    |                                             |
+| **[01-12-2023](01-12-2023.md)** | Friday      |                                             |
+| **[15-12-2023](15-12-2023.md)** | Friday      |                                             |
+| **[20-12-2023](20-12-2023.md)** | Wednesday   | Removed because of the 20-09-2023           |
 
 ## Exam dates
 The exam are in groups basede on a written group report, max 4 pages:
