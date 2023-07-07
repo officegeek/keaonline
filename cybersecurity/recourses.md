@@ -10,6 +10,12 @@
 </span>
 
 # Recourses
+
+## The Bits and Bytes of Computer Networking
+This course is part of the Google IT Support Professional Certificate offered by Coursera.
+
+This course is designed to provide a full overview of computer networking. We’ll cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting - [The Bits and Bytes of Computer Networking](https://www.coursera.org/learn/computer-networking?irclickid=TEs3y30S1xyPWT%3AQ-OUPCU2lUkF2qMQCl2zeXE0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=1193463&utm_content=b2c#syllabus)
+
 ## OWASP (Open Web Application Security Project)
 OWASP is a non-profit organization that provides numerous free resources related to web application security. They offer guides, cheat sheets, tools, and best practices for securing web applications - [owasp.org](https://owasp.org)
 
@@ -20,9 +26,6 @@ NIST publishes a wide range of cybersecurity resources that are available for fr
 
 
 # Courses
-
-## Networking Essentials
-This course, offered by Microsoft, covers the basics of networking, including network architecture, protocols, addressing, and troubleshooting. It is available for free on the edX platform: Networking Essentials
 
 ## MIT OpenCourseWare
 Computer Science and Artificial Intelligence Laboratory (CSAIL)
