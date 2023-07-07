@@ -2,12 +2,42 @@
     layout: default
     title: Cybersecurity
     has_children: true
-    nav_order: 30
+    nav_order: 10
 ---
 
 <span class="fs-1">
 [HOME](./index.md){: .btn .btn-blue }
 </span>
+
+# Dates
+
+| **Date**                        | **Weekday** | **Emne**                                                        |
+|---------------------------------|-------------|-----------------------------------------------------------------|
+| **[28-08-2023](28-08-2023.md)** | Monday      | Introduction                                                    |
+| **[04-09-2023](04-09-2023.md)** | Monday      |                                                                 |
+| **[11-09-2023](11-09-2023.md)** | Monday      |                                                                 |
+| **[20-09-2023](20-09-2023.md)** | Wednesday   | Cloud Fair - Computerworld                                      |
+| **[21-09-2023](21-09-2023.md)** | Thursday    | Cloud Fair - Computerworld                                      |
+| **[25-09-2023](25-09-2023.md)** | Monday      | Presentation from the fair - DK class presents to the INT class |
+| **[02-10-2023](02-10-2023.md)** | Monday      |                                                                 |
+| **[13-10-2023](13-10-2023.md)** | Friday      |                                                                 |
+| **[20-11-2023](20-11-2023.md)** | Monday      |                                                                 |
+
+## Exam dates
+The exam is in groups
+- 20 min presentation per group
+- 10 minutes per Student
+
+| **Dates**  |  **Weekday** |
+|:----------:|:------------:|
+| 08-01-2024 |  Monday      |
+| 09-01-2024 |  Tuesday     |
+| 10-01-2024 |  Wednesday   |
+
+[Link to exam](exam.md)
+
+# Recourses 
+[Different recourses](recourses.md)
 
 # Cybersecurity
 The course will provide you with a solid understanding of the technical aspects of cybersecurity, as well as the economic principles that underpin it. 
