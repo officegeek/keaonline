@@ -68,7 +68,11 @@ The ultimate framework for your Cyber Security operations
 ## OWASP SAMM
 **SAMM stands for Software Assurance Maturity Model**
 
-Our mission is to provide an effective and measurable way for all types of organizations to analyze and improve their software security posture. We want to raise awareness and educate organizations on how to design, develop, and deploy secure software through our self-assessment model. SAMM supports the complete software lifecycle and is technology and process agnostic. We built SAMM to be evolutive and risk-driven in nature, as there is no single recipe that works for all organizations.
+Our mission is to provide an effective and measurable way for all types of organizations to analyze and improve their software security posture. We want to raise awareness and educate organizations on how to design, develop, and deploy secure software through our self-assessment model. 
+
+SAMM supports the complete software lifecycle and is technology and process agnostic. 
+
+We built SAMM to be evolutive and risk-driven in nature, as there is no single recipe that works for all organizations.
 
 [owaspsamm.org](https://owaspsamm.org)
 
