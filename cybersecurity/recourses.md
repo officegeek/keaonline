@@ -98,24 +98,32 @@ Cryptography is an indispensable tool used to protect information in computing s
 [Download Book version 0.6](https://toc.cryptobook.us/book.pdf)
 
 
-# Books 24x7
+# Books
 
 ## The Ransomware Threat Landscape: Prepare for, recognise and survive ransomware attacks
 Ransomware will cost companies around the world $20 billion in 2021. Prepare for, recognise, and survive ransomware attacks with this essential guide, which sets out clearly how ransomware works, to help business leaders better understand the strategic risks, and explores measures that can be put in place to protect the organisation.
 
-You can get it as an Audio book - 1 Hour, 36 minutes
+You can get it as an Audio book on Books 24x7 - 1 Hour, 36 minutes
 
 ## NIST Cybersecurity Framework: A Pocket Guide
 The NIST CSF is a framework for organizations to manage and mitigate cybersecurity risk based on existing standards, guidelines, and practices. This audio guide aims to help you take a structured, sensible, risk-based approach to cybersecurity - [Link](https://2masteritezproxy.skillport.com/skillportfe/main.action#summary/BOOKS/RW$11275:_ss_book:143662)
 
-You can get it a an Audio book - 1 Hour, 22 Minutes
+You can get it a an Audio book on Books 24x7 - 1 Hour, 22 Minutes
 
 ## Cybersecurity All-in-One For Dummies
-Cybersecurity All-in-One For Dummies covers a lot of ground in the world of keeping computer systems safe from those who want to break in.
+Cybersecurity All-in-One For Dummies covers a lot of ground in the world of keeping computer systems safe from those who want to break in. You can get it on Books 24x7.
 
 [Link](https://2masteritezproxy.skillport.com/skillportfe/main.action#summary/BOOKS/RW$106472:_ss_book:164739)
 
+
 ## Hacking for Dummies, 7th Edition
-Hacking For Dummies takes you on an easy-to-follow cybersecurity voyage that will teach you the essentials of vulnerability and penetration testing so that you can find the holes in your network before the bad guys exploit them.
+Hacking For Dummies takes you on an easy-to-follow cybersecurity voyage that will teach you the essentials of vulnerability and penetration testing so that you can find the holes in your network before the bad guys exploit them. You can get it on Books 24x7.
 
 [Link](https://2masteritezproxy.skillport.com/skillportfe/main.action#summary/BOOKS/RW$80928:_ss_book:159486)
+
+## IT sikkerhed i praksis
+It-sikkerhedsbogen er en bog, som ruster dig til alle aspekter af arbejdet med it-sikkerhed: Beskyttelse mod og bekæmpelse af cyberangreb i virksomheder og organisationer, både teknisk og organisatorisk.
+
+Dansk bog der koster 485,-
+
+[www.it-sikkerhedsbogen.dk](https://www.it-sikkerhedsbogen.dk)
