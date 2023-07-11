@@ -33,7 +33,7 @@ Preemptive security
 
 Outmatch cybercriminals with a legion of ethical hackers who work for you to continuously protect your attack surface.
 
-[www.hackerone.com](https://www.hackerone.com)
+- [www.hackerone.com](https://www.hackerone.com)
 
 
 ## The #1 cybersecurity upskilling platform
@@ -42,6 +42,14 @@ Hack The Box gives individuals, businesses and universities the tools they need 
 
 - [www.hackthebox.com](https://www.hackthebox.com)
 - [academy.hackthebox.com](https://academy.hackthebox.com)
+- [Hacking Glossary](https://resources.hackthebox.com/hacking-glossary)
+
+
+## Hacker101
+Hacker101 is a free class for web security. Whether you’re a programmer with an interest in bug bounties or a seasoned security professional, Hacker101 has something to teach you.
+
+[www.hacker101.com](https://www.hacker101.com)
+
 
 ## OPENVPN
 Secure access and network connectivity reimagined
@@ -55,15 +63,17 @@ Kali Linux is an open-source, Debian-based Linux distribution geared towards var
 
 [www.kali.org](https://www.kali.org)
 
+
+## PARROTSEC
+Parrot Security provides a huge arsenal of tools, utilities and libraries that IT and security professionals can use to test and assess the security of their assets in a reliable, compliant and reproducible way. From information gathering to the final report. The Parrot system gets you covered with the most flexible environment.
+
+[www.parrotsec.org](https://www.parrotsec.org)
+
+
 ## ROOT ME
 The fast, easy, and affordable way to train your hacking skills.
 
 [www.root-me.org](https://www.root-me.org/?lang=en)
-
-## PARROTSEC
-The ultimate framework for your Cyber Security operations
-
-[www.parrotsec.org](https://www.parrotsec.org)
 
 
 ## OWASP SAMM
