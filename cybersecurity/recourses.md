@@ -87,7 +87,39 @@ We built SAMM to be evolutive and risk-driven in nature, as there is no single r
 
 [owaspsamm.org](https://owaspsamm.org)
 
+
+## 247CTF
+Join a free capture the flag hacking environment
+
+[247ctf.com](https://247ctf.com)
+
 # Courses
+
+## Cybersecurity 101
+[www.khanacademy.org/partner-content/nova/nova-labs-topic/cyber/v/cybersecurity-101](https://www.khanacademy.org/partner-content/nova/nova-labs-topic/cyber/v/cybersecurity-101)
+
+## Capture The Flag 101
+Capture The Flags, or CTFs, are a kind of computer security competition.
+
+Teams of competitors (or just individuals) are pitted against each other in a test of computer security skill.
+
+Very often CTFs are the beginning of one's cyber security career due to their team building nature and competetive aspect. In addition, there isn't a lot of commitment required beyond a weekend.
+
+In this guide/wiki/handbook you'll learn the techniques, thought processes, and methodologies you need to succeed in Capture the Flag competitions.
+
+[ctf101.org](https://ctf101.org)
+
+## OpenSecurityTraining2
+OpenSecurityTraining2's mission is to provide the world's deepest and best cybersecurity training. 
+
+That our classes are free is just a bonus!
+
+[opensecuritytraining.info](https://opensecuritytraining.info/Home.html)
+
+## Learn Cybersecurity
+The most beginner-friendly way to get into hacking.
+
+[ctflearn.com](https://ctflearn.com)
 
 ## MIT OpenCourseWare
 Computer Science and Artificial Intelligence Laboratory (CSAIL)
