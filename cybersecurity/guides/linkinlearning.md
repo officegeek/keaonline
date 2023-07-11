@@ -16,7 +16,7 @@
 ![](../image/linkinlearning.png)
 
 ## Cybersecurity Fundamentals
-This learning path teaches fundamental networking and security operations concepts.
+This learning path teaches fundamental networking and security operations concepts - [Cybersecurity Fundamentals](https://www.linkedin.com/learning/paths/cybersecurity-fundamentals)
 
 It is a prerequisite as part of the admissions process for the Microsoft Software and Systems Academy (MSSA) program, Cybersecurity Operations (CSO) learning path.
 
@@ -25,8 +25,6 @@ To learn more about the MSSA program, visit [aka.ms/mssa](https://aka.ms/mssa)
 - **Understand** the principles of computer science
 - **Learn** the principles of IT security and cybersecurity
 - **Develop** practical skills for securing networks
-
-[Cybersecurity Fundamentals](https://www.linkedin.com/learning/paths/cybersecurity-fundamentals?u=36836804)
 
 ## Courses in the part
 You must have completed these 4 courses in the learning path:
