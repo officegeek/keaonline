@@ -37,6 +37,7 @@ Outmatch cybercriminals with a legion of ethical hackers who work for you to con
 
 
 ## The #1 cybersecurity upskilling platform
+![](./image/hackthebox.jpg)
 Hack The Box gives individuals, businesses and universities the tools they need to continuously improve their cybersecurity capabilities.
 
 - [www.hackthebox.com](https://www.hackthebox.com)
