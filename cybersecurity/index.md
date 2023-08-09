@@ -15,11 +15,11 @@
 |:-----------------------------------:|:-----------:|:-------------------------------------------------:|
 | **[28-08-2023](28-08-2023.md)**     | Monday      | Introduction                                      |
 | **[04-09-2023](04-09-2023.md)**     | Monday      | IBM                                               |
-| **[11-09-2023](11-09-2023.md)**     | Monday      | Digital Lead                                      |
+| **[11-09-2023](11-09-2023.md)**     | Monday      | Advokat                                           |
 | **[20-09-2023](cloudfair.md)**      | Wednesday   | Cloud Fair 2023 - Computerworld                   |
 | **[21-09-2023](cloudfair.md)**      | Thursday    | Cloud Fair 2023 - Computerworld                   |
 | **[25-09-2023](25-09-2023.md)**     | Monday      | Presentation from the Cloud Fair, LinkIn Learning |
-| **[02-10-2023](02-10-2023.md)**     | Monday      | Advokat                                           |
+| **[02-10-2023](02-10-2023.md)**     | Monday      | Digital Lead                                      |
 | **[13-10-2023](13-10-2023.md)**     | Friday      | Virksomhed                                        |
 | **[20-11-2023](20-11-2023.md)**     | Monday      | Hacking - IBM (Pablo)                             |
 | **[23-11-2023](23-11-2023.md)**     | Thursday    | NIS2                                              |
