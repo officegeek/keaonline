@@ -26,7 +26,7 @@ html: true
 
 ---
 
-> <span style="color:blue;">The architecture of a software-intensive system is the structure or structures of the system, which comprise software elements, the externally visible properties of those elements, and the relationships among them.</span>
+<span style="color:blue;">The architecture of a software-intensive system is the structure or structures of the system, which comprise software elements, the externally visible properties of those elements, and the relationships among them.</span>
 
 <!-- _footer: Software Engineering Institute (SEI)  Carnegie-Mellon University in Pittsburgh -->
 
