@@ -10,15 +10,19 @@
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-# Exam
+## Exam
 The exam are in groups basede on a written group report, max 4 pages:
-- 20 min presentation per group
+- 15 min presentation per group
 - 10 minutes per Student
 
-**Hand in xx-12-2023 at 12:00 at WiseFlow**
+**Hand in 22-12-2023 at 12:00 in WiseFlow**
 
 | **Dates**  |  **Weekday** |
 |:----------:|:------------:|
-| 08-01-2024 |  Monday      |
-| 09-01-2024 |  Tuesday     |
-| 10-01-2024 |  Wednesday   |
+| 03-01-2024 |  Wednesday   |
+| 04-01-2024 |  Thursday    |
+| 05-01-2024 |  Friday      |
+|            |              |
+|**Re-Exam** |              |
+| 22-01-2024 |  Monday      |
+| 05-02-2024 |  Monday      |
