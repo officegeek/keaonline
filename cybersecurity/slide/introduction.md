@@ -10,7 +10,6 @@ size: 4K
 markdown.marp.enableHtml
 ---
 
-![bg right:40% 120%](../image/excel_logo.jpg)
 <!-- _backgroundColor: black -->
 <!-- _color: white -->
 # Cybersecurity <!--fit-->
