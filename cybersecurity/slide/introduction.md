@@ -57,6 +57,12 @@ markdown.marp.enableHtml
 
 ---
 
+![bg right:60% 160%](../image/ibm.jpg)
+# IBM Certificeringer
+
+---
+
+
 ![bg right:45% ](../image/cloudfestival_2.png)
 
 # [cloud-festival.dk](https://cloud-festival.dk) <!-- fit -->
