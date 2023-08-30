@@ -14,8 +14,8 @@
 | **Date**                            | **Weekday** | **Emne**                                          |
 |:-----------------------------------:|:-----------:|:-------------------------------------------------:|
 | **[28-08-2023](28-08-2023.md)**     | Monday      | Introduction                                      |
-| **[04-09-2023](04-09-2023.md)**     | Monday      | IBM                                               |
-| **[11-09-2023](11-09-2023.md)**     | Monday      | Advokat                                           |
+| **[04-09-2023](04-09-2023.md)**     | Monday      | IBM Certificeringer                               |
+| **[11-09-2023](11-09-2023.md)**     | Monday      | Jon Lauritzen, Partner DLA Piper                  |
 | **[20-09-2023](cloudfair.md)**      | Wednesday   | Cloud Fair 2023 - Computerworld                   |
 | **[21-09-2023](cloudfair.md)**      | Thursday    | Cloud Fair 2023 - Computerworld                   |
 | **[25-09-2023](25-09-2023.md)**     | Monday      | Presentation from the Cloud Fair, LinkIn Learning |
@@ -28,7 +28,7 @@
 | **[20-12-2023](./exam-project.md)** | Wednesday   | Exam Project                                      |
 
 ## Exam dates
-The exam are in groups basede on a written group report, max 4 pages:
+The exam are in groups basede on a written group report:
 - 15 min presentation per group
 - 10 minutes per Student
 
