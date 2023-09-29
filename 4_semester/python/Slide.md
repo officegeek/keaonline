@@ -15,25 +15,13 @@ _backgroundColor: black
 _color: white
 -->
 
-# 4.2 - My Topics
-- Python
-- Virtualisering
-- Docker
-- Distribuerede systems
-- Microsoft Power BI
-- Microservices
-- AI - Deep Learning
-- IT-security
-
----
-
 <!--
 _backgroundColor: black
 _color: white
 -->
 
 # Python brushup, Database & Div.<!-- fit -->
-### 2023 - Tue Hellstern
+### Tue Hellstern
 
 ---
 
