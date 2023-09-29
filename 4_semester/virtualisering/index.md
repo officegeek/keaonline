@@ -21,8 +21,6 @@ nav_order: 20
 
 [Home](../modul-4-2.md)
 # Virtualisering (Azure)
-    - 15-03-2023 - Onsdag
-    - 17-03-2023 - Friday
 
 # Slides
 - [HTML](./slide/Virtualization_Slides.html)

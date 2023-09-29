@@ -11,7 +11,6 @@ nav_order: 50
 </span>
 
 # Distribuerede systemer
-    - 11-04-2023 - Tirsdag
 
 # Learning Domain-Driven Design
 Read Chapter 8 - page 117-136 in Learning Domain-Driven Design

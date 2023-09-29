@@ -12,7 +12,6 @@ nav_order: 40
 
 [Home](../modul-4-2.md)
 # Docker
-    30. & 31. marts 2023
 
 # Slide
 - [html](./slide/Docker.html)

@@ -13,7 +13,6 @@ nav_order: 110
 
 [Home](modul-4-2.md)
 # IT security
-    - 24-05-2023
 
 # Slides
 - [HTML](./slide/IT_Security_Slide.html)
