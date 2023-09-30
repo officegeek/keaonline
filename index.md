@@ -7,8 +7,11 @@
 # Kea
 Jeg brugere dette site til mit undervisnings materiale.
 
+# 1. Semester
+Materialle til 1. semester - [Link](./1_semester/index.md)
+
 # 4. Semester
-Materiale til 4. semester - [Link](./4_semester/index.md)
+Materialle til 4. semester - [Link](./4_semester/index.md)
 
 # 5. Semester
 ## Cybersecurity
