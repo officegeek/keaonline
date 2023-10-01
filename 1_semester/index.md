@@ -10,7 +10,9 @@ nav_order: 10
 </span>
 
 # 1. Semester
-Undervisnings materiale 1. semester 2023.
+Undervisnings materiale 1. semester 2023 for hold:
+- BE-IT A23 DA1
+- BE-IT A23 DA2
 
 ## 1.3
 - [26-10-2023 - Databaser](./Forløb%201-3/26102023.md)
@@ -21,7 +23,7 @@ Undervisnings materiale 1. semester 2023.
 
 ## 1.4
 - [15-11-2023 - Workshop](./Forløb%201-4/15112023.md)
-- [24.11.2023 - Skalerede IT systemer](./Forløb%201-4/24112023.md)
+- [24.11.2023 - Skalerede IT systemer & Agile Metoder](./Forløb%201-4/24112023.md)
 - [28-11-2023 - Dashboards & Visualisering](./Forløb%201-4/28112023.md)
 - [29-11-2023 - Workshop](./Forløb%201-4/29112023.md)
 - [30-11-2023 - Konsolidering & præsentation af findings](./Forløb%201-4/30112023.md)
