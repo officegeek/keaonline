@@ -26,7 +26,7 @@ nav_order: 20
 - [HTML](./slide/Virtualization_Slides.html)
 - [PDF](./slide/Virtualization_Slides.pdf)
 
-# Content - [mindmap](../mindmap.html)
+# Content
 - [Virtualisering (Azure)](#virtualisering-azure)
 - [Slides](#slides)
 - [Content - mindmap](#content---mindmap)
