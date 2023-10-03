@@ -74,6 +74,12 @@ If you look at the start of the terminal you should that each line begins with (
 
 Once the virtual environment is activated, everything you install or uninstall will only have effect **within that specific environment and nowhere else**.
 
+Hvis der på Windows opstår et problem med at afvikle **aktiverings** kommandoen er det fordi ExecutionPolicy af sikkerheds årsager blokere for dette. Kør denne kommando i en **Administrator** terminal:
+
+```
+Set-ExecutionPolicy -ExecutionPolicy AllSigned
+```
+
 ### Structure
 A virtual environment has 3 directories and potentially a symlink in the virtual environment directory (i.e. within .venv):
 
