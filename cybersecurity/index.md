@@ -21,8 +21,8 @@
 | **[25-09-2023](25-09-2023.md)**     | Monday      | Presentation from the Cloud Fair, LinkIn Learning |
 | **[02-10-2023](02-10-2023.md)**     | Monday      | Digital Lead                                      |
 | **[13-10-2023](13-10-2023.md)**     | Friday      | Virksomhed                                        |
-| **[20-11-2023](20-11-2023.md)**     | Monday      | Hacking - IBM (Pablo)                             |
-| **[23-11-2023](23-11-2023.md)**     | Thursday    | NIS2                                              |
+| **[20-11-2023](20-11-2023.md)**     | Monday      | Removed because of the Cloud Fair                            |
+| **[23-11-2023](23-11-2023.md)**     | Thursday    | IBM (Pablo) and  NIS2                                              |
 | **[01-12-2023](./exam-project.md)** | Friday      | Exam Project                                      |
 | **[15-12-2023](./exam-project.md)** | Friday      | Exam Project                                      |
 | **[20-12-2023](./exam-project.md)** | Wednesday   | Exam Project                                      |
