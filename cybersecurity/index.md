@@ -20,7 +20,7 @@
 | **[21-09-2023](cloudfair.md)**      | Thursday    | Cloud Fair 2023 - Computerworld                   |
 | **[25-09-2023](25-09-2023.md)**     | Monday      | Presentation from the Cloud Fair, LinkIn Learning |
 | **[02-10-2023](02-10-2023.md)**     | Monday      | Digital Lead                                      |
-| **[13-10-2023](13-10-2023.md)**     | Friday      | Virksomhed                                        |
+| **[13-10-2023](13-10-2023.md)**     | Friday      |                                          |
 | **[20-11-2023](20-11-2023.md)**     | Monday      | Removed because of the Cloud Fair                            |
 | **[23-11-2023](23-11-2023.md)**     | Thursday    | IBM (Pablo) and  NIS2                                              |
 | **[01-12-2023](./exam-project.md)** | Friday      | Exam Project                                      |
