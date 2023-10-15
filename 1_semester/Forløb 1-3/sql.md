@@ -29,7 +29,7 @@ fra en tabel ved navn "orders"*
 
 ```sql
 SELECT
-	OrderID,
+    OrderID,
     CustomerID,
     OrderDate
 FROM orders;
