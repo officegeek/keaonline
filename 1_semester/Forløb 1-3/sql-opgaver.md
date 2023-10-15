@@ -1,10 +1,10 @@
 ---
 layout: default
 title: SQL Opgaver
-parent: 26-10-2023 - Databaser
-grand_parent: Forløb 1.3
+parent: Forløb 1.3
+grand_parent: 1. Semester
 has_children: false
-nav_order: 30
+nav_order: 16
 ---
 
 <span class="fs-1">
