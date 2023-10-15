@@ -15,6 +15,9 @@ nav_order: 20
 
 ![](./image/logo-sql.png)
 
+# SELECT
+Bruges til at hente data fra en database.
 
+Eksempel: Hente alle kolonner fra en tabel ved navn "Studerende".
 
 # Relationer

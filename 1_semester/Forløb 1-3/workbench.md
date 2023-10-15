@@ -18,7 +18,7 @@ nav_order: 10
 
 ![](./image/MySQL_Workbench_Editor_General_Windows.gif)
 
-## Kernefunktioner i MySQL Workbench
+## Funktioner i MySQL Workbench
 - **Visuel Design**: Workbench tillader brugere at visuelt designe databasemodeller, skabe og redigere tabeller, views, stored procedures, triggers og meget mere ved hjælp af et grafisk interface, hvilket gør det nemmere at forstå databasens struktur og design.
 - **SQL Udvikling**: Det leverer avanceret SQL-editorfunktionalitet, som hjælper med at oprette, udføre og optimere SQL-forespørgsler.
 - **Databaseadministration**: Workbench indeholder værktøjer til håndtering og overvågning af MySQL-serverinstanser samt til at foretage backup og recovery af databasedata. Administrationskomponenten tillader også brugere at konfigurere brugeradgang, servervariabler og andre serverrelaterede opgaver.
@@ -41,7 +41,7 @@ Installation af MySQL Workbench kan variere lidt afhængigt af dit operativsyste
 - Vælg og download den version af MySQL Workbench, der er kompatibel med din version af Windows (32-bit eller 64-bit).
 - Installation: Åbn den downloadede fil og følg vejledningen i installationsguiden. Accepter licensaftalen og vælg din installationstype (typisk "Developer Default" for de fleste brugere).
 - Klik "Next" og "Install" for at starte installationsprocessen.
-- Efter installationen er afsluttet, kan du vælge at starte MySQL Workbench direkte eller finde det i dine programmer.
+- Åben MySQL Workbench.
 
 ## macOS
 - Download Installationsfilen: [Åben den officielle MySQL-downloadside](https://dev.mysql.com/downloads/workbench/).
@@ -53,3 +53,22 @@ Installation af MySQL Workbench kan variere lidt afhængigt af dit operativsyste
 Når du har installeret MySQL Workbench, kan du begynde at oprette forbindelse til MySQL-serverinstanser og udføre forskellige databaseudviklings- og administrationsopgaver. 
 
 *Brug den officielle MySQL-dokumentation for de mest opdaterede og detaljerede instruktioner - [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/)*
+
+# Forbindelse til Azure MySQL
+Oprettelse af forbindelse til min MySQL installation på Azure.
+
+- **Connection Name**: *BEIT-1-sem*
+- **Connection Method**: *Standard (TCP/IP)*
+- **Hostname**: *beit-4-sem-2023-tue.mysql.database.azure.com*
+- **Port**: *3306*
+- **Username**: *Udlevers i klassen*
+- **Password**: *Udleveres i klassen*
+-**Default Schema**: northwind
+
+![](./image/mysql-connection.jpg)
+
+
+# ER Diagram
+ER Diagram over Northwind databasen
+
+![](./image/er-northwind.jpg)
