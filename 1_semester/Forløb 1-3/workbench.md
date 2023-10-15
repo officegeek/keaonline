@@ -16,6 +16,8 @@ nav_order: 10
 
 [MySQL officiel side](https://www.mysql.com/products/workbench/)
 
+![](./image/MySQL_Workbench_Editor_General_Windows.gif)
+
 ## Kernefunktioner i MySQL Workbench
 - **Visuel Design**: Workbench tillader brugere at visuelt designe databasemodeller, skabe og redigere tabeller, views, stored procedures, triggers og meget mere ved hjælp af et grafisk interface, hvilket gør det nemmere at forstå databasens struktur og design.
 - **SQL Udvikling**: Det leverer avanceret SQL-editorfunktionalitet, som hjælper med at oprette, udføre og optimere SQL-forespørgsler.
