@@ -15,7 +15,7 @@ Undervisnings materiale 1. semester 2023 for hold:
 - BE-IT A23 DA2
 
 ## 1.3
-- [26-10-2023 - Databaser](./Forløb%201-3/26102023.md)
+- [26-10-2023 - Databaser](../1_semester/Forløb%201-3/26102023.md)
 - [31-10-2023 - Datamodeller, specielt I Power BI](./Forløb%201-3/31102023.md)
 - [02-11-2023 - Databehandling, specielt I Power Query](./Forløb%201-3/02112023.md)
 - [09-11-2023 - Dataopsamling og model opbygning](./Forløb%201-3/09112023.md)
