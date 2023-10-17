@@ -51,21 +51,24 @@ CREATE TABLE StuderendeKurser (
 INSERT INTO Klasser (KlasseNavn) VALUES
 ('1.A'),
 ('2.B'),
-('3.C');
+('3.C'),
+('4.D');
 
 -- Indsætter data i Studerende-tabellen
 INSERT INTO Studerende (Navn, KlasseID) VALUES
 ('Peter Jensen', 1),
 ('Maria Nielsen', 1),
 ('Lars Mikkelsen', 2),
-('Anna Jørgensen', 3);
+('Anna Jørgensen', 3),
+('Ole Hansen', 4);
 
 -- Indsætter data i StuderendeDetaljer-tabellen
 INSERT INTO StuderendeDetaljer (StuderendeID, Email) VALUES
 (1, 'peter@skole.dk'),
 (2, 'maria@skole.dk'),
 (3, 'lars@skole.dk'),
-(4, 'anna@skole.dk');
+(4, 'anna@skole.dk'),
+(5, 'ole@skole.dk');
 
 
 -- Indsætter data i Kurser-tabellen
@@ -73,7 +76,8 @@ INSERT INTO Kurser (KursusNavn) VALUES
 ('Matematik'),
 ('Dansk'),
 ('Engelsk'),
-('Naturfag');
+('Naturfag'),
+('Fransk');
 
 -- Indsætter data i StuderendeKurser-tabellen
 INSERT INTO StuderendeKurser (StuderendeID, KursusID) VALUES
