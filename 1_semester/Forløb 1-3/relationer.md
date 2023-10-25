@@ -61,3 +61,49 @@ Dette forhold kan repræsenteres ved hjælp af en mellemliggende tabel, **Studer
 Her kan du hente en SQL kode fil der opretter databasen og indsætter eksempel data.
 
 [Skoledatabase.sql](./sql/skoledabase.sql)
+
+# JOIN Typer
+I relationelle databasesystemer som MySQL er JOIN-operationer vitale, når man ønsker at kombinere rækker fra to eller flere tabeller baseret på en relateret kolonne mellem dem. 
+
+Her er en beskrivelse af de 3 mest almindelige JOIN-typer i MySQL.
+
+## INNER JOIN (eller JOIN)
+Returnerer rækker, når der er en **match i begge tabeller**.
+
+![](./image/join.jpg)
+
+```sql
+SELECT 
+	Studerende.Navn,
+    StuderendeKurser.KursusID 
+FROM Studerende INNER JOIN StuderendeKurser
+ON Studerende.StuderendeID = StuderendeKurser.StuderendeID;
+```
+
+## LEFT JOIN (eller LEFT OUTER JOIN)
+Returnerer **alle rækker fra den venstre tabel** og de **matchende rækker fra den højre tabel**. Hvis der ikke er et match, vil resultatet fra den højre tabel være NULL.
+
+![](./image/left-join.jpg)
+
+```sql
+SELECT 
+	Studerende.Navn,
+    StuderendeKurser.KursusID 
+FROM Studerende LEFT JOIN StuderendeKurser
+ON Studerende.StuderendeID = StuderendeKurser.StuderendeID;
+```
+
+## RIGHT JOIN (eller RIGHT OUTER JOIN)
+Returnerer **alle rækker fra den højre tabel** og de **matchende rækker fra den venstre tabel**. Hvis der ikke er et match, vil resultatet fra den venstre tabel være NULL.
+
+![](./image/right-join.jpg)
+
+```sql
+SELECT 
+	Studerende.Navn,
+    StuderendeKurser.KursusID 
+FROM Studerende RIGHT JOIN StuderendeKurser
+ON Studerende.StuderendeID = StuderendeKurser.StuderendeID;
+```
+
+Vælg den rette JOIN type ud fra dit specifikke behov for at sikre, at din forespørgsel returnerer de ønskede resultater.
