@@ -52,3 +52,64 @@ where EmployeeID in (2, 5, 8)
 and ShipRegion <> ''
 and ShipVia in (1, 3)
 order by EmployeeID asc, ShipVia asc;
+
+-- 12
+SELECT 
+	Products.ProductID,
+	Products.ProductName,
+	Categories.CategoryName
+FROM Products INNER JOIN Categories
+ON Products.CategoryID = Categories.CategoryID;
+
+-- 13
+SELECT 
+	Products.ProductID,
+	Products.ProductName,
+	Suppliers.CompanyName
+FROM Products INNER JOIN Suppliers
+ON Products.SupplierID = Suppliers.SupplierID;
+
+-- 14
+SELECT
+	Orders.OrderID,
+	Customers.CompanyName,
+	Employees.LastName + ' ' + Employees.FirstName AS Name
+FROM Employees INNER JOIN Orders 
+ON Employees.EmployeeID = Orders.EmployeeID 
+INNER JOIN Customers 
+ON Orders.CustomerID = Customers.CustomerID;
+
+
+-- 15
+SELECT 
+	Employees.EmployeeID,
+	Territories.TerritoryID,
+	Territories.TerritoryDescription
+FROM Employees INNER JOIN EmployeeTerritories 
+ON Employees.EmployeeID = EmployeeTerritories.EmployeeID 
+RIGHT JOIN Territories 
+ON EmployeeTerritories.TerritoryID = Territories.TerritoryID
+WHERE Employees.EmployeeID IS NULL;
+
+-- 16
+SELECT 
+	Products.ProductID,
+	Products.ProductName
+FROM Products INNER JOIN orderdetails
+ON Products.ProductID = orderdetails.ProductID
+INNER JOIN Orders
+ON orderdetails.OrderID = Orders.OrderID
+WHERE YEAR(OrderDate) = 1997
+AND MONTH(OrderDate) = 5;
+
+-- 17
+SELECT
+	Orders.OrderID,
+    Customers.CompanyName,
+    Products.ProductName
+FROM Orders INNER JOIN Customers
+ON Orders.CustomerID = Customers.CustomerID
+INNER JOIN orderdetails
+ON Orders.OrderID = orderdetails.OrderID
+INNER JOIN Products
+ON orderdetails.ProductID = Products.ProductID;

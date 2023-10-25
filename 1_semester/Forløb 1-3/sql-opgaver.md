@@ -131,3 +131,8 @@ Opret en SELECT sætning der viser følgende felter:
 - Products.ProductName
 
 **Resultat**: 1.000 Rows
+
+## Løsningsfil
+Prøv nu selv før du henter denne fil.
+
+[Opgave_Losning.sql](./sql/Opgave_Losning.sql)
