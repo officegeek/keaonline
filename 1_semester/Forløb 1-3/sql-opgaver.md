@@ -140,7 +140,7 @@ Prøv nu selv før du henter denne fil.
 # Normaliserings opgave - Boghandel
 
 ## Baggrund
-Du arbejder for en boghandel, der ønsker at organisere deres database for at forbedre *effektiviteten* og *reducere redundans*. Databasen indeholder information om **bøger**, **forfattere**, og **kunder**, der køber bøger.
+Du arbejder for en boghandel, der ønsker at organisere deres database for at forbedre *effektiviteten* og *reducere redundans*. Databasen indeholder information om **bøger**, **forfattere**, **kunder** og **salg af bøger**.
 
 ## Opgave 1 - Uopdelte Data
 Givet følgende uopdelte tabel, **BogSalg**:
@@ -165,3 +165,8 @@ Givet følgende uopdelte tabel, **BogSalg**:
 
 ## Opgave 3 - ER-Diagram
 Tegn et ER-diagram, der repræsenterer de normaliserede tabeller og deres relationer.
+
+## Løsning
+Her er et eksempel på hvordan opgaven kan løses, **men prøv nu først selv**.
+
+[Boghandel løsning](./løsning_boghandel.md)
