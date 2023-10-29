@@ -11,6 +11,7 @@ nav_order: 5
 </span>
 
 # Projekt - Twentyfour
+![](./image/24.png)
 ## Vi kan bygge stort set alt, der er digitalt
 Hos Twentyfour er vi en masse dygtige medarbejdere med teknologisk know-how og en stor passion for at hjælpe virksomheder med at forbedre deres resultat og brugeroplevelser.
 
@@ -20,9 +21,11 @@ Vores succes er bygget på, at vi skaber værdi for vores kunder, og vores kunde
 
 [Twentyfour](https://twentyfour.dk)
 
+## Data
+
 ## Datoer
 - 07-11-2023 - Projekt opstart med Twentyfour
-- Aflevering del 1
-- Aflevering del 2
-- Aflevering del 3
-- Samlet aflevering på WiseFlow
+- xx-xx-2023 - Aflevering del 1 (*Fronter*)
+- xx-xx-2023 - Aflevering del 2 (*Fronter*)
+- xx-xx-2023 - Aflevering del 3 (*Fronter*)
+- xx-xx-2023 - Samlet aflevering (*WiseFlow*)
