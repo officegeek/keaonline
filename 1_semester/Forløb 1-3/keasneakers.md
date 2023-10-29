@@ -4,7 +4,7 @@ title: KEAsneakers
 parent: Forløb 1.3
 grand_parent: 1. Semester
 has_children: false
-nav_order: 30
+nav_order: 50
 ---
 
 # KEAsneakers

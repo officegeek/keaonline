@@ -4,7 +4,7 @@ title: SQL Opgaver
 parent: Forløb 1.3
 grand_parent: 1. Semester
 has_children: false
-nav_order: 18
+nav_order: 31
 ---
 
 <span class="fs-1">

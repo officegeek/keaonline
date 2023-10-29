@@ -4,7 +4,7 @@ title: MySQL Workbench
 parent: Forløb 1.3
 grand_parent: 1. Semester
 has_children: false
-nav_order: 12
+nav_order: 29
 ---
 
 <span class="fs-1">

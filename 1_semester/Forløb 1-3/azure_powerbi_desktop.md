@@ -4,7 +4,7 @@ title: Power BI Desktop Azure
 grand_parent: 1. Semester
 parent: Forløb 1.3
 has_children: false
-nav_order: 40
+nav_order: 60
 ---
 
 # Run Power Bi Desktop on Azure
