@@ -13,7 +13,6 @@ markdown.marp.enableHtml
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
 
 # Distributed Systems
-11-04-2022 - DK
 
 ### Agenda
 
