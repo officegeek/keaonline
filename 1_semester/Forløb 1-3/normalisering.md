@@ -15,12 +15,12 @@ nav_order: 19
 Normalisering er en proces i databasedesign, der har til formål at reducere **redundans** og forbedre **dataintegritet**. Processen indebærer organisering af data i en database, således at det bliver lettere at vedligeholde og mere effektivt at hente data. Normalisering opnås gennem en række regler og principper, der leder designet af databasen.
 
 ## Formål med Normalisering
-Reducer Redundans: Undgå gentagelse af data i forskellige tabeller, hvilket sparer lagerplads og reducerer risikoen for inkonsistente data.
-Forbedr Dataintegritet: Sikrer, at data er nøjagtige, pålidelige og konsistente over hele databasen.
-Forenkl Datahåndtering: Gør det lettere at indsætte, opdatere og slette data i databasen.
+- **Reducer Redundans**: Undgå gentagelse af data i forskellige tabeller, hvilket sparer lagerplads og reducerer risikoen for inkonsistente data.
+- **Forbedr Dataintegritet**: Sikrer, at data er nøjagtige, pålidelige og konsistente over hele databasen.
+- **Forenkl Datahåndtering**: Gør det lettere at indsætte, opdatere og slette data i databasen.
 
 ## Normalformer
-Normalisering opdeles i flere "normalformer", hver med sine egne regler og krav. De mest almindelige normalformer er:
+Normalisering opdeles i flere "*normalformer*", hver med sine egne regler og krav. De mest almindelige normalformer er:
 
 - **Første Normalform** (*1NF*): Kræver, at alle værdier i en tabel er atomiske (ikke-delelige) og at hver kolonne har en unik navn.
 - **Anden Normalform** (*2NF*): Opnås, når tabellen er i 1NF, og alle ikke-nøgleattributter er fuldt funktionelt afhængige af primærnøglen.
@@ -83,6 +83,7 @@ For at opnå 2NF, opretter vi separate tabeller for **Medarbejdere**, **Afdeling
 
 ### **Tredje Normalform** (*3NF*)
 For at opnå 3NF, sikrer vi, at alle felter i tabellerne kun er afhængige af primærnøglen, og ikke af andre felter. I dette tilfælde er vi allerede i 3NF, da alle ikke-nøgleattributter kun er afhængige af primærnøglen i deres respektive tabeller.
+
 Dette design reducerer redundans, forbedrer dataintegriteten, og gør det lettere at vedligeholde databasen.
 
 **Medarbejdere**
