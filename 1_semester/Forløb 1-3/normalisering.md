@@ -26,7 +26,7 @@ Normalisering opdeles i flere "*normalformer*", hver med sine egne regler og kra
 - **Anden Normalform** (*2NF*): Opnås, når tabellen er i 1NF, og alle ikke-nøgleattributter er fuldt funktionelt afhængige af primærnøglen.
 - **Tredje Normalform** (*3NF*): Opnås, når tabellen er i 2NF, og alle attributter er kun afhængige af primærnøglen.
 
-Der findes også højere normalformer som **BCNF**, **4NF** og *5NF*, men for mange praktiske anvendelser er **3NF ofte tilstrækkeligt**.
+Der findes også højere normalformer som **BCNF**, **4NF** og **5NF**, men for mange praktiske anvendelser er **3NF ofte tilstrækkeligt**.
 
 ## Eksempel - Medarbejderdatabase
 Forestil dig en virksomhed, der har en database for at holde styr på deres medarbejdere, deres afdelinger, og hvilke projekter de arbejder på. I starten har de alle disse informationer i en enkelt tabel:
