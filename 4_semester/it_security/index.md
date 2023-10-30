@@ -10,8 +10,6 @@ nav_order: 110
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
-
-[Home](modul-4-2.md)
 # IT security
 
 # Slides
