@@ -3,7 +3,7 @@ layout: default
 title: Boghandel
 parent: Power-BI
 has_children: false
-nav_order: 60
+nav_order: 99
 ---
 # Normaliserings opgave - Boghandel
 

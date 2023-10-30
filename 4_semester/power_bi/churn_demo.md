@@ -3,7 +3,7 @@ layout: default
 title: Churn Dashboard
 parent: Power-BI
 has_children: false
-nav_order: 50
+nav_order: 99
 ---
 
 # Churn Dashboard
