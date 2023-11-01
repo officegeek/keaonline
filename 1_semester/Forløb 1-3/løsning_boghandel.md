@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Løsning boghandel
+title: Løsning Boghandel
 parent: Forløb 1.3
 grand_parent: 1. Semester
 has_children: false
