@@ -1,4 +1,5 @@
-"ForfatterID";"Navn"
-1;"J.K. Rowling"
-2;"George Orwell"
-3;"F. Scott Fitzgerald"
+ForfatterID;ForfatterNavn
+1;John Doe
+2;Mary Johnson
+3;Sarah White
+4;Michael Johnson
