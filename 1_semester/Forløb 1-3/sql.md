@@ -23,6 +23,9 @@ nav_order: 30
 ### ER-diagram Northwind
 ![](./image/er-northwind.jpg)
 
+### Power BI
+Du kan hente Power BI fil med forbindelse til MySQL Server - [northwind.pbix](./sql/northwind.pbix)
+
 ### SQL File Northwind
 Du kan hente SQL file for oprettelse og indsætning af data: []()
 
