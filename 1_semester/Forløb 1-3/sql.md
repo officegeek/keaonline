@@ -29,7 +29,7 @@ Du kan hente Power BI fil med forbindelse til MySQL Server - [northwind.pbix](./
 ### SQL File Northwind
 Du kan hente SQL file for oprettelse og indsætning af data: []()
 
-## "Skole" eksempel
+# "Skole" eksempel
 Forestil dig en database for en skole. En tabel, Studerende, indeholder generel studerende information, mens en anden tabel, StuderendeDetaljer, indeholder mere dybdegående information som Email for hver studerende. Hver studerende i Studerende-tabellen korresponderer til præcis én post i StuderendeDetaljer.
 
 ### ER-diagram "Skole"
