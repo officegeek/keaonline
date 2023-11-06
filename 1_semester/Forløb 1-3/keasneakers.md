@@ -13,17 +13,17 @@ KEA.sneakers har 3 år på bagen og har på nuværende tidspunkt 36 medarbejdere
 Kea.sneakers designer, producerer og sælger sneakers til unge imellem 18-25 som er miljø- og genbrugsbeviste og sætter pris på høj komfort og kvalitet.   ​
 
 ## Excel
-Du kan hente min tilpassede Excel fil her: [keasneakers_data.xlsm](./sql/keasneakers_data.xlsm)
+Du kan hente min tilpassede Excel fil her: [keasneakers_data.xlsm](./sql/KEAsneakers/keasneakers_data.xlsm)
 
 Den indeholder desuden VBA kode til eksport af alle Ark som CSV filer.
 
 ## CSV
 Du kan hente CSV filer til import i MySQL her:
 
-- [Kunde.csv](./sql/Kunde.csv)
-- [Personale.csv](./sql/Personale.csv)
-- [Produkter.csv](./sql/Produkter.csv)
-- [SalgsOrdre.csv](./sql/SalgsOrdre.csv)
+- [Kunde.csv](./sql/KEAsneakers/Kunde.csv)
+- [Personale.csv](./sql/KEAsneakers/Personale.csv)
+- [Produkter.csv](./sql/KEAsneakers/Produkter.csv)
+- [SalgsOrdre.csv](./sql/KEAsneakers/SalgsOrdre.csv)
 
 ## ER-diagram
 
