@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Opgaver
-parent: Forløb 1.3
-grand_parent: 1. Semester
+parent: Microsoft Power BI
+grand_parent: 4. Semester
 has_children: false
 nav_order: 32
 ---
