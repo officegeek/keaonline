@@ -21,7 +21,14 @@ Vores succes er bygget på, at vi skaber værdi for vores kunder, og vores kunde
 
 [Twentyfour](https://twentyfour.dk)
 
+## Materialle
+- [Opgaveramme](./Twentyfour%20opgaveramme.pdf)
+- [Aflevering 1](./Twentyfour%20aflevering%201.pdf)
+- [Aflevering 2](./Twentyfour%20aflevering%202.pdf)
+- [Datoer PowerPoint](./CASE%20datoer.pptx)
+
 ## Data
+- [Deals-anonomyzed-data.xlsx](./Deals-anonomyzed-data.xlsx)
 
 ## Datoer
 - 07-11-2023 - Projekt opstart med Twentyfour
