@@ -52,64 +52,68 @@ Det er et kraftfuldt værktøj til at skabe komplekse beregninger, som er nødve
 
 ### DAX Formler Adventure Works
 
+<img src="../image/dax-formler.jpg" style="width: 150px">
+
 ```dax
 All Orders = CALCULATE( [Total Orders], ALL( Sales))
 ```
+
 ```dax
 Average Retail Price = AVERAGE( 'Product'[Price] )
 ```
+
 ```dax
 % of All Orders = DIVIDE( [Total Orders], [All Orders] )
 ```
+
 ```dax
 Total Orders = DISTINCTCOUNT( Sales[Order Number] )
 ```
+
 ```dax
 Total Profit = [Total Revenue] - [Total Cost]
 ```
+
 ```dax
 Total Revenue = SUM( Sales[Extended Price])
 ```
+
 ```dax
 Total Cost = SUMX( Sales, Sales[Order Quantity] * RELATED( 'Product'[Cost] ))
 ```
+
 ```dax
 Quantity Sold = SUM( Sales[Order Quantity])
 ```
+
 ```dax
 90-day Rolling Profit = CALCULATE ( [Total Profit] , DATESINPERIOD ( Calendar[Date] , MAX ( Calendar[Date] ) , -90 , DAY ) )
 ```
+
 ```dax
 Bulk Orders = CALCULATE( [Total Orders], Sales[Order Quantity] > 1 )
 ```
+
 ```dax
 High Ticket Orders = CALCULATE( [Total Orders], FILTER( 'Product', 'Product'[Price] > [Overall Avg Price]))
 ```
+
 ```dax
 Order Target = [Prev Month Orders] * 1.1
 ```
+
 ```dax
 Overall Avg Price = CALCULATE( [Average Retail Price], ALL( 'Product' ))
 ```
+
 ```dax
 Prev Month Orders = IF( MAX( 'Calendar'[Date] ) <= MAX( Sales[Order Date] ), CALCULATE ( [Total Orders], DATEADD (Calendar[Date], -1, MONTH ) ) )
 ```
+
 ```dax
 Prev Month Revenue = IF( MAX( 'Calendar'[Date] ) <= MAX( Sales[Order Date] ), CALCULATE( [Total Revenue], DATEADD( 'Calendar'[Date], -1, MONTH )))
 ```
-```daxRevenue Target = 
-IF ( 
-    ISBLANK( MAX ( Sales[Extended Price] ) ),
-    BLANK(),
-    [Prev Month Revenue] * 1.1
-)
-```
-```dax
-Total Revenue YTD = TOTALYTD( [Total Revenue], 'Calendar'[Date] )
-```
-```dax
-Weekend Orders = CALCULATE( [Total Orders], 'Calendar'[Type of Day] = "Weekend" )
-```
+
 ```dax
 Revenue Target = 
 IF ( 
@@ -118,6 +122,24 @@ IF (
     [Prev Month Revenue] * 1.1
 )
 ```
+
+```dax
+Total Revenue YTD = TOTALYTD( [Total Revenue], 'Calendar'[Date] )
+```
+
+```dax
+Weekend Orders = CALCULATE( [Total Orders], 'Calendar'[Type of Day] = "Weekend" )
+```
+
+```dax
+Revenue Target = 
+IF ( 
+    ISBLANK( MAX ( Sales[Extended Price] ) ),
+    BLANK(),
+    [Prev Month Revenue] * 1.1
+)
+```
+
 ```dax
 YTD Revenue = 
     VAR IsItFiltered = ISFILTERED ( 'Calendar'[Start of Month] )
@@ -131,8 +153,6 @@ RETURN
 		)
 	)
 ```
-
-<img src="../image/dax-formler.jpg" style="width: 150px">
 
 ## Power BI Rapport
 ### Executive Summary
