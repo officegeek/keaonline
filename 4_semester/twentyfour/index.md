@@ -36,3 +36,7 @@ Vores succes er bygget på, at vi skaber værdi for vores kunder, og vores kunde
 - xx-xx-2023 - Aflevering del 2 (*Fronter*)
 - xx-xx-2023 - Aflevering del 3 (*Fronter*)
 - xx-xx-2023 - Samlet aflevering (*WiseFlow*)
+
+
+- 01-12-2023 - Event storm hos Twentyfour kl. 10 til 12
+- 15-12-2023 - Præsentation for Twentyfour kl. 10 til 12 
