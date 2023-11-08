@@ -19,6 +19,7 @@ Den omfatter oplysninger om virksomhedens ansatte, produkter, salg, køb og mang
 Den indeholder typisk data for en række forskellige afdelinger, herunder *Human Resources*, *Production*, *Sales*, *Marketing* og *Finance*.
 
 ## ER-Diagram
+
 ![](../image/awc_er.jpg)
 
 ## Datafiler
@@ -50,7 +51,8 @@ Det er et kraftfuldt værktøj til at skabe komplekse beregninger, som er nødve
 **DAX** er en essentiel del af Power BI, der giver dig mulighed for at tilføje avanceret funktionalitet til rapporter og dashboards, hvilket gør det muligt at udføre dybdegående dataanalyse og opnå indsigt, der ikke er umiddelbart tilgængelige gennem standard visualiseringer og dataopsætninger.
 
 ### DAX Formler Adventure Works
-![](../image/dax-formler.jpg)
+
+<img src="../image/dax-formler.jpg" style="width: 150px">
 
 ```dax
 All Orders = CALCULATE( [Total Orders], ALL( Sales))
