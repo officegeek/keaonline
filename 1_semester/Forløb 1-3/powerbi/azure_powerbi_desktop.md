@@ -52,8 +52,6 @@ Det er et kraftfuldt værktøj til at skabe komplekse beregninger, som er nødve
 
 ### DAX Formler Adventure Works
 
-<img src="../image/dax-formler.jpg" style="width: 150px">
-
 ```dax
 All Orders = CALCULATE( [Total Orders], ALL( Sales))
 ```
@@ -133,6 +131,8 @@ RETURN
 		)
 	)
 ```
+
+<img src="../image/dax-formler.jpg" style="width: 150px">
 
 ## Power BI Rapport
 ### Executive Summary
