@@ -103,4 +103,4 @@ Du kan hente data som **CSV filer** her:
 - Opret PowerPoint med live data
 
 ## Løsning
-Her kan du finde ER-Diagram og eksempler på DAX formler. [Løsning Onlinebutik](./sql/Løsning_Onlinebutik) - *Kommer når i selv har prøvet* :-)
+Her kan du finde ER-Diagram og eksempler på DAX formler. [Løsning Onlinebutik](./sql/onlinebutik/Løsning_Onlinebutik.md) - *Kommer når i selv har prøvet* :-)
