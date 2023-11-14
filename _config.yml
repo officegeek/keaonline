@@ -1,6 +1,7 @@
 remote_theme: pmarsceill/just-the-docs
 
 search_enabled: true
+search.button: true
 
 compress_html:
   ignore:

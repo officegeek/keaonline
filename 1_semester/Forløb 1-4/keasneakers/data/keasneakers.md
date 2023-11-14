@@ -17,33 +17,57 @@ nav_order: 80
 - [keasneakers_data_studerende.xlsm](./keasneakers_data_studerende.xlsm)
 - [Personale.csv](./Personale.csv)
 
+## Transform data
+Er der problemer med de data du har fået fra KEAsneakers?
+
+Det kunne være:
+- Dubletter i primærnøgler
+- Datatyper
+- Tomme rækker
+- Tomme kolonner
+
+## Beregnede felter
+
 ## ER Diagram
 ![](./keasneakers_ER.jpg)
 
 ## DAX & Diagram forslag
 Her er nogle forslag til DAX beregninger og diagrammer.
 
-### Salgsanalyse (Salgsdata)
+### Salgsanalyse
 - Analyser samlet salg over tid (månedligt/årligt).
 - DAX-formel for samlet salg:
 
 ```dax
-Total Sales = SUM(Salgsdata[Salgsbeløb])
+Total Salg = SUM(Salgsdata[Pris])
 ```
 
-- Lav et linjediagram for at vise salgstrends over tid.
+- Lav et diagram for at vise salgstrends over tid.
 
 ### Kundeanalyse (Kunder)
-- Segmenter kunder baseret på købshistorik, geografi, eller andre demografiske data.
-- DAX-formel for kundesegmentering: 
+- Segmenter kunder baseret på købshistorik, geografi, eller andre demografiske data. Her antal medlemmer.
+- DAX-formel for kundesegmentering antal medlemmer:
 
 ```dax
-Customer Segment = CALCULATE(COUNTROWS(Kunder), Kunder[Segment] = "Specifikt Segment")
+Total Salg = SUMX(tblSalgsdata, RELATED(tblProdukter[SalgsPris DKK]))
 ```
 
-- Brug et søjlediagram til at vise fordelingen af kundesegmenter.
+### Genemsnitlig salg pr. kunde
+- Find hvad vi i snit sælger til hver kunde
 
-### Produktanalyse (Produkter)
+```dax
+Gens. antal salg pr. kunde = DIVIDE([Total Salg], DISTINCTCOUNT(Salgsdata[Kundenummer]))
+```
+
+### Produktanalyse (Nye vs. Refb.)
+- Salg af nye og salg af Refb. som to selvstændige målinger
+
+```dax
+Salg af Nye = SUMX(FILTER(Salgsdata, Salgsdata[Type] = "Ny"), Salgsdata[Pris])
+Salg af Refb = SUMX(FILTER(Salgsdata, AND(Salgsdata[Type] = "Refb", Salgsdata[Status]= "Salg")), Salgsdata[Pris])
+```
+
+### Top produkter
 - Analyser hvilke produkter der sælger bedst, og hvilke der underpræsterer.
 - DAX-formel for top-sælgende produkter:
 
