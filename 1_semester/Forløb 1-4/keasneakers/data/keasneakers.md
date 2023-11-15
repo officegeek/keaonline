@@ -56,7 +56,7 @@ Total Salg = SUMX(tblSalgsdata, RELATED(tblProdukter[SalgsPris DKK]))
 - Find hvad vi i snit sælger til hver kunde
 
 ```dax
-Gens. antal salg pr. kunde = DIVIDE([Total Salg], DISTINCTCOUNT(Salgsdata[Kundenummer]))
+Gens. antal salg pr. kunde = DIVIDE([Total Salg], DISTINCTCOUNT(Salgsdata[Kundenummer]))Salgsdata[Kundenummer]))
 ```
 
 ### Produktanalyse (Nye vs. Refb.)
@@ -69,77 +69,11 @@ Salg af Refb = SUMX(FILTER(Salgsdata, AND(Salgsdata[Type] = "Refb", Salgsdata[St
 
 ### Top produkter
 - Analyser hvilke produkter der sælger bedst, og hvilke der underpræsterer.
-- DAX-formel for top-sælgende produkter:
-
-```dax
-Top Products = TOPN(10, SUMMARIZE(Produkter, Produkter[ProduktNavn], "Total Sales", SUM(Salgsdata[Salgsbeløb])), [Total Sales], DESC)
-```
-
 - Brug et søjlediagram eller et pie chart til at illustrere salgsfordelingen mellem forskellige produkter.
 
 ### Personale Performance Analyse (Personale)
 - Analyser salgsperformance for hvert medlem af salgsteamet.
-- DAX-formel for salgsperformance:
-
-```dax
-Sales by Employee = SUMX(RELATEDTABLE(Salgsdata), Salgsdata[Salgsbeløb])
-```
-
 - Brug et søjlediagram til at sammenligne performance mellem forskellige medarbejder
-
-### Årlig Vækstrate
-- Beregn den årlige vækstrate i salg.
-- DAX-formel:
-
-```dax
-Yearly Growth Rate = DIVIDE([Total Sales This Year] - [Total Sales Last Year], [Total Sales Last Year])
-```
 
 ### Gennemsnitligt Salg per Kunde
 - Find det gennemsnitlige salgsbeløb per kunde.
-- DAX-formel:
-
-```dax
-Average Sale per Customer = DIVIDE([Total Sales], DISTINCTCOUNT(Kunder[KundeID]))
-```
-
-### Aldersbaseret Kundeanalyse
-- Segmenter kunder baseret på alder, hvis du har aldersdata.
-- DAX-formel:
-
-```dax
-Customers by Age Group = CALCULATE(COUNTROWS(Kunder), Kunder[Alder] >= 20 && Kunder[Alder] < 30)
-```
-
-### Lagerstatus for Produkter
-- Beregn den aktuelle lagerstatus for hvert produkt.
-- DAX-formel:
-
-```dax
-Current Stock = SUM(Produkter[StartLager]) - SUM(Salgsdata[AntalSolgt])
-```
-
-### Return on Investment (ROI)
-- Hvis du har omkostningsdata, kan du beregne ROI for forskellige produkter eller markedsføringskampagner.
-- DAX-formel: 
-
-```dax
-ROI = (Net Profit / Total Investment) * 100
-```
-
-### Måned-til-Dato og År-til-Dato Analyser
-- Beregn salg for den aktuelle måned eller år til dato.
-- DAX-formler:
-
-```dax
-MTD Sales = TOTALMTD(SUM(Salgsdata[Salgsbeløb]), 'Date'[Date])
-YTD Sales = TOTALYTD(SUM(Salgsdata[Salgsbeløb]), 'Date'[Date])
-```
-
-### Procentdel af Totalt Salg
-- Beregn hvert produkts eller kategoris bidrag til det samlede salg.
-- DAX-formel:
-
-```dax
-Percent of Total Sales = DIVIDE(SUM(Salgsdata[Salgsbeløb]), [Total Sales])
-```
