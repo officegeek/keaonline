@@ -20,9 +20,8 @@
 | **[21-09-2023](cloudfair.md)**      | Thursday    | Cloud Fair 2023 - Computerworld                   |
 | **[25-09-2023](25-09-2023.md)**     | Monday      | Presentation from the Cloud Fair, LinkIn Learning |
 | **[02-10-2023](02-10-2023.md)**     | Monday      | Digital Lead                                      |
-| **[13-10-2023](13-10-2023.md)**     | Friday      |                                          |
-| **[20-11-2023](20-11-2023.md)**     | Monday      | Removed because of the Cloud Fair                            |
-| **[23-11-2023](23-11-2023.md)**     | Thursday    | IBM (Pablo) and  NIS2                                              |
+| **[20-11-2023](20-11-2023.md)**     | Monday      | Removed because of the Cloud Fair                 |
+| **[23-11-2023](./exam-project.md)** | Thursday    | [Exam Project start](./exam-project.md)           |
 | **[01-12-2023](./exam-project.md)** | Friday      | Exam Project                                      |
 | **[15-12-2023](./exam-project.md)** | Friday      | Exam Project                                      |
 | **[20-12-2023](./exam-project.md)** | Wednesday   | Exam Project                                      |
@@ -34,17 +33,16 @@ The exam are in groups basede on a written group report:
 
 **Hand in 22-12-2023 at 12:00 in WiseFlow**
 
-| **Dates**  |  **Weekday** |
+| **Dates**  |              |
 |:----------:|:------------:|
+| 02-01-2024 |  Tuesday     |
 | 03-01-2024 |  Wednesday   |
-| 04-01-2024 |  Thursday    |
-| 05-01-2024 |  Friday      |
-|            |              |
+
+
 |**Re-Exam** |              |
+|:----------:|:------------:|
 | 22-01-2024 |  Monday      |
 | 05-02-2024 |  Monday      |
-
-[Link to exam](exam.md)
 
 # Recourses 
 [Different recourses](recourses.md)
