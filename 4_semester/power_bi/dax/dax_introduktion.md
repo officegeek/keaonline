@@ -1,3 +1,16 @@
+---
+layout: default
+title: Introduktion DAX
+grand_parent: 4. Semester
+parent: Microsoft Power BI
+has_children: false
+nav_order: 30
+---
+
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
+
 # Introduktion til DAX
 **DAX** (*Data Analysis Expressions*) er et sprog af formler og udtryk, der bruges i Power Pivot og Power BI.
 
@@ -68,13 +81,26 @@ DATESBETWEEN(DateColumn, StartDate, EndDate)
 - **StartDate**: Udtrykket, der definerer startdatoen for intervallet. Dette kan være en fast dato, en formel, der returnerer en dato, eller en reference til en dato i en anden tabel.
 - **EndDate**: Ligesom *StartDate*, definerer dette udtryk slutdatoen for intervallet.
 
+**Salg Denne Mdr**
 ```dax
-SalgDenneMdr = CALCULATE(
+Salg Denne Mdr = CALCULATE(
     SUM(alle_data[Totalpris]),
     DATESBETWEEN(
         KalenderTabel_3[Date],
         TODAY()-DAY(TODAY())+1,
         EOMONTH(TODAY(), 0)
+    )
+)
+```
+
+**Salg Sidste Mdr**
+```dax
+Salg Sidste Mdr = CALCULATE(
+    SUM(alle_data[Totalpris]),
+    DATESBETWEEN(
+        KalenderTabel_3[Date],
+        STARTOFMONTH(DATEADD(LASTDATE(KalenderTabel_3[Date]),-2,MONTH)),
+        ENDOFMONTH(DATEADD(KalenderTabel_3[Date],-2,MONTH))
     )
 )
 ```

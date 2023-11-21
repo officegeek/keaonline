@@ -1,10 +1,10 @@
 ---
 layout: default
-title: DAX
+title: DAX UK
 grand_parent: 4. Semester
 parent: Microsoft Power BI
 has_children: false
-nav_order: 30
+nav_order: 35
 ---
 
 <span class="fs-1">
@@ -85,52 +85,52 @@ The ultimate tool for working with DAX queries - Get it her - [daxstudio.org](ht
 ### COUNT
 The COUNT function counts the number of cells in a column that contain non-blank values.
 
-**Syntax**: *COUNT(<Column Name>)*
+**Syntax**: COUNT(Column Name)
   
 ### COUNTBLANK
 CountBlank function computes the number of cells in the corresponding column of the data which have blank values.
 
-**Syntax**: *COUNTBLANK(<Column Name>)*
+**Syntax**: COUNTBLANK(Column Name)
 
 ### COUNTROWS
 CountRows function computes the number of rows in the corresponding table specified or the table returned as the output of some expression.
 
-**Syntax**: *COUNTROWS([<Table Name>])*
+**Syntax**: COUNTROWS([<Table Name>])
 
 ### DISTINCTCOUNT
 DistinctCount function computes the number of distinct values in the corresponding column specified. If any blank values are present in the column DISTINCTCOUNT function includes the blank value as one distinct value. This function will not exclude blanks. There is a different function for this.
 
-**Syntax**: *DISTINCTCOUNT(<Column Name>)*
+**Syntax**: DISTINCTCOUNT(Column Name)
 
 ### AVERAGE
 The average function in DAX takes in any column that has Numerical data and computes the average of values present in the column and returns it. If any blank value is present in the column, then the value is neither counted in the number of rows nor in the sum of values. If non-numerical data is present and the average can’t be computed it returns the blank value.
 
-**Syntax**: *AVERAGE(<Column Name>)*
+**Syntax**: AVERAGE(Column Name)
 
 ### SUM
 The sum function in DAX takes in any column that has Numerical data and computes the sum of values present in the column and returns it.
 
-**Syntax**: *SUM(<Column Name>)*
+**Syntax**: SUM(Column Name)
 
 ### SUMX
 The Sumx function basic functionality is to compute the sum like sum function, but SUMX function takes in two arguments. The first argument specifies the table or expression that returns the table, and second argument is a column name that contains numerical data for calculating the sum. Blanks, logical values, and text are ignored.
 
-**Syntax**: *SUMX(<Table>,<Expression>)*
+**Syntax**: SUMX(Table, Expression)
 
 ### MAX
 The Max function takes in either a column or two scalar expressions and computes the maximum and returns it. Here True/False values are not supported.
 
-**Syntax**: *MAX(<Column Name>) or MAX(<Expression1>,<Expression2>)*
+**Syntax**: MAX(Column Name) or MAX(Expression1,Expression2)
 
 ### MINA
 MINA function takes in a column that has numerical data and computes the minimum values. If the column contains no values, MINA returns 0 (zero). Rows in the column that evaluates logical values, such as TRUE and FALSE are treated as 1 if TRUE and 0 (zero) if FALSE. Empty cells are ignored.
 
-**Syntax**: *MINA(<Column Name>)*
+**Syntax**: MINA(Column Name)
 
 ### MIN
 MIN function takes in a column that has not only numerical data but also text, and date data types and computes the minimum of values. TRUE/FALSE values are not supported.
 
-**Syntax**: *MIN(<Column Name>) or MIN(<Expression1>,<Expression2>)*
+**Syntax**: MIN(Column Name) or MIN(Expression1,Expression2)
 
 ## DAX Filter Functions
 Filter functions in DAX are one of the most complex and powerful functions in DAX. They are extensively used in PowerBI. The filtering functions let you manipulate data context to create dynamic calculations and data masks.
@@ -138,12 +138,12 @@ Filter functions in DAX are one of the most complex and powerful functions in DA
 ### CALCULATE
 This function evaluates the expression in the applied filter context. Suppose you want to calculate the Sum of the Values of the corresponding table where the data belongs to the country Canada, we use calculate function and calculate the sum of values of data filtered by the filter condition applied.
 
-**Syntax**: *CALCULATE(<expression>[, <filter1> [, <filter2> [, …]]])*
+**Syntax**: CALCULATE(expression[, <filter1> [, <filter2> [, …]]])
 
 ### FILTER
 This function takes in the table, and the filter condition or expression by which the specified table is filtered and returns a table filtered by the specified condition.
 
-**Syntax**: *FILTER(<table>,<filter>)*
+**Syntax**: FILTER(table, filter)
 
 
 ## DAX Time Intelligence Functions
@@ -156,7 +156,7 @@ Let’s have a look at some of the most used Time intelligence functions along w
 ### DATEADD
 This function takes in three arguments, first one being the column that has dates and second argument represents the number of intervals and the third argument specifies the type of interval (day, month, year, quarter). It returns a table of one column that contains dates which are either shifted forward or backward as specified by time interval.
 
-**Syntax**: *DATEADD(<dates>,<number_of_intervals>,<interval>)*
+**Syntax**: DATEADD(dates, number_of_intervals, interval)
 
 ### DATESBETWEEN
 This function returns a table with one column that contains all the dates between the specified start date and end date range. If BLANK() is passed as the value for the start date, then the start date will be the earliest date in the dates column and if the last date is BLANK() then it will be the latest value.
