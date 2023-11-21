@@ -142,14 +142,14 @@ HardwareSalg = CALCULATE(sum(alle_data[Totalpris]), FILTER(
 Bruges til at returnere de øverste N rækker fra en tabel baseret på en given udtryksværdi.
 Resultatet bliver retuneret som en ny tabel.
 
-**Eksempel**: Find de top 5 måneder med det højeste salgsbeløb.
+**Eksempel**: Find de top 3 måneder med det højeste salgsbeløb.
 
 ```dax
-Top5Mdr = TOPN(
-    5, 
+Top3Mdr = TOPN(
+    3, 
     SUMMARIZE(
         alle_data, 
-        alle_data[Dato], 
+        KalenderTabel_3[Date].[Måned], 
         "TotalSalg", SUM(alle_data[Totalpris])
     ), 
     [TotalSalg], 
