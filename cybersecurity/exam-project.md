@@ -15,7 +15,7 @@ Look at the description and the questions, if there are other questions that you
 
 You have to hand in a 4 page "*report*" based on this and make a 20-minute presentation for the exam. The presentations are very important, and you can include extra actions and answers for the company.
 
-*The project is based on, inspired from a real project.*
+*The project is inspired from a real project.*
 
 ## Extra material
 We have some extra material that you can have a look at:
