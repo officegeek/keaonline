@@ -21,7 +21,8 @@ The exam are in groups basede on a written group report, max 4 pages:
 |:----------:|:------------:|
 | 03-01-2024 |  Wednesday   |
 | 04-01-2024 |  Thursday    |
-| 05-01-2024 |  Friday      |
+
+
 |            |              |
 |**Re-Exam** |              |
 | 22-01-2024 |  Monday      |

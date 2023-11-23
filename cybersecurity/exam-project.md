@@ -57,6 +57,15 @@ Outline a basic incident response plan for CyberSecure Inc. that aligns with the
 ### Future Preparedness
 Suggest two long-term strategies that CyberSecure Inc. should adopt to stay compliant with evolving cybersecurity regulations, leveraging internationally recognized frameworks like IEC 62443 and ISO 27001/27002.
 
+# Guidance
+Guidance are **mostly** done via Teams.
+
+**Dates for guidance**:
+- 01-12-2023
+- 06-12-2023
+- 15-12-2023
+- 20-12-2023
+
 # Exam dates
 The exam are in groups basede on a written group report, **max 4 pages**:
 - 20 min presentation per group
@@ -66,8 +75,8 @@ The exam are in groups basede on a written group report, **max 4 pages**:
 
 | **Dates**  |              |
 |:----------:|:------------:|
-| 02-01-2024 |  Tuesday     |
 | 03-01-2024 |  Wednesday   |
+| 04-01-2024 |  Thursday    |
 
 
 |**Re-Exam** |              |
