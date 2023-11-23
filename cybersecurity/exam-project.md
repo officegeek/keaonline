@@ -66,6 +66,13 @@ Guidance are **mostly** done via Teams.
 - 15-12-2023
 - 20-12-2023
 
+# Groups
+You have to be in a group for the hand in and the exam.
+
+Link to Excel file with the groups:
+- [Groups](https://studkea-my.sharepoint.com/:x:/g/personal/tueh_kea_dk/EblL50e5zVtDjV0JCUSp_mUBOr9tN4WgkzgndOCdryprkw?e=aDYSLI)
+
+
 # Exam dates
 The exam are in groups basede on a written group report, **max 4 pages**:
 - 20 min presentation per group
