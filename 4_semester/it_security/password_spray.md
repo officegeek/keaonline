@@ -2,9 +2,8 @@
 ---
 layout: default
 title: Password Spray Attack
-parent: 4. Semester
-has_children: false
-nav_order: 120
+parent: IT security
+nav_order: 40
 ---
 
 <span class="fs-1">
