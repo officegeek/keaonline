@@ -24,3 +24,15 @@ For at beskytte sig mod password spray-angreb anbefales det at bruge stærke, un
 Microsoft hævder at være blevet hacket af russiskstøttet gruppe.
 
 - https://nyheder.tv2.dk/udland/2024-01-20-microsoft-haevder-at-vaere-blevet-hacket-af-russiskstoettet-gruppe
+- https://msrc.microsoft.com/blog/2024/01/microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/#:~:text=Beginning%20in%20late%20November%202023,of%20our%20senior%20leadership%20team
+- https://amp.cnn.com/cnn/2024/01/19/tech/microsoft-russian-hacking-executives/index.html
+
+
+## HSBC Bank 2018
+I 2018 rapporterede HSBC Bank om et forsøg på password spray-angreb, hvor angriberne forsøgte at få adgang til kundeoplysninger ved at anvende almindeligt brugte adgangskoder.
+
+## Zoom
+Under COVID-19-pandemien, da brugen af videokonferenceplatformen Zoom steg dramatisk, blev Zoom mål for en række sikkerhedsangreb, herunder password spraying.
+
+## GitHub
+GitHub har også rapporteret om password spray-angreb.
