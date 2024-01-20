@@ -1,8 +1,8 @@
 # Password Spray Attack
 
-Et "password spray attack" kan beskrives som et cyberangreb, hvor angriberen forsøger at opnå uautoriseret adgang til flere brugerkonti ved at anvende almindelige adgangskoder. 
+Et "**Password Spray Attack**" kan beskrives som et cyberangreb, hvor angriberen forsøger at opnå uautoriseret adgang til flere brugerkonti ved at anvende almindelige adgangskoder. 
 
-Forskellen fra traditionelle brute-force angreb er, at i stedet for at forsøge mange forskellige adgangskoder på én konto, "sprayer" angriberen samme adgangskode (eller få forskellige adgangskoder) mod mange brugerkonti. 
+Forskellen fra traditionelle brute-force angreb er, at i stedet for at forsøge mange forskellige adgangskoder på én konto, "**sprayer" angriberen samme adgangskode** (*eller få forskellige adgangskoder*) mod mange brugerkonti. 
 
 Dette mindsker risikoen for at udløse sikkerhedsforanstaltninger som låser konti efter for mange mislykkede loginforsøg.
 
@@ -18,12 +18,16 @@ Dette mindsker risikoen for at udløse sikkerhedsforanstaltninger som låser kon
 
 4. **Udnyttelse af Succesfulde Logins** Hvis angriberen lykkes med at få adgang til en eller flere konti, kan de udnytte dette til yderligere ondsindet aktivitet, såsom datatyveri, installation af malware eller yderligere angreb inden for netværket.
 
-For at beskytte sig mod password spray-angreb anbefales det at bruge stærke, unikke adgangskoder til hver konto, aktivere tofaktorautentificering hvor det er muligt, og implementere sikkerhedspolitikker, der kan opdage og reagere på unormal loginaktivitet.
+For at beskytte sig mod password spray-angreb anbefales det at bruge stærke, unikke adgangskoder til hver konto, **aktivere tofaktorautentificering** hvor det er muligt, og implementere sikkerhedspolitikker, der kan opdage og reagere på unormal loginaktivitet.
+
+# YouTube demo
+
+https://youtu.be/UPFG-fvIOLw?si=3pZmvWSR34QWw685
 
 # Eksempler
 
 ## Microsoft 2024
-Microsoft hævder at være blevet hacket af russiskstøttet gruppe.
+Microsoft *hævder* at være blevet hacket af russiskstøttet gruppe.
 
 - https://nyheder.tv2.dk/udland/2024-01-20-microsoft-haevder-at-vaere-blevet-hacket-af-russiskstoettet-gruppe
 - https://msrc.microsoft.com/blog/2024/01/microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/#:~:text=Beginning%20in%20late%20November%202023,of%20our%20senior%20leadership%20team
