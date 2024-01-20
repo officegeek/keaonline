@@ -1,3 +1,16 @@
+
+---
+layout: default
+title: Password Spray Attack
+parent: 4. Semester
+has_children: false
+nav_order: 120
+---
+
+<span class="fs-1">
+[HOME](../index.md){: .btn .btn-blue }
+</span>
+
 # Password Spray Attack
 
 Et "**Password Spray Attack**" kan beskrives som et cyberangreb, hvor angriberen forsøger at opnå uautoriseret adgang til flere brugerkonti ved at anvende almindelige adgangskoder. 
