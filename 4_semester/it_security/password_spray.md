@@ -3,6 +3,7 @@
 layout: default
 title: Password Spray Attack
 parent: IT security
+grand_parent: 4. Semester
 nav_order: 40
 ---
 
