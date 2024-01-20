@@ -10,9 +10,7 @@ Dette mindsker risikoen for at udløse sikkerhedsforanstaltninger som låser kon
 
 1. **Indsamling af Brugernavne** Angriberen starter med at samle en liste over brugernavne fra målorganisationen. Dette kan gøres gennem phishing-kampagner, offentligt tilgængelig information eller andre metoder.
 
-2. **Valg af Almindelige Adgangskoder** Angriberen vælger derefter almindelige adgangskoder, som ofte anvendes, såsom "123456", "password", "sommer2024" osv.
-
-[Se top 100 Passwords](https://en.m.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords)
+2. **Valg af Almindelige Adgangskoder** Angriberen vælger derefter almindelige adgangskoder, som ofte anvendes, såsom "123456", "password", "sommer2024" osv.- [Se top 100 Passwords](https://en.m.wikipedia.org/wiki/Wikipedia:10,000_most_common_passwords)
 
 3. **Udførelse af Angrebet** Med denne information forsøger angriberen at logge ind på hver konto med hver af de valgte adgangskoder. Dette sker normalt over en periode for at undgå opdagelse.
 
