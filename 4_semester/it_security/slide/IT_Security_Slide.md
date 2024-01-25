@@ -292,6 +292,24 @@ Two-factor authentication—and the similar two-step authentication, which is so
 
 <!-- _color: white -->
 <!-- _backgroundColor: black -->
+# IT-Universitet  <!-- fit -->
+
+---
+
+**IT-Universitet** har oprette en serie af online kurser i it-sikkerhed rettet med medarbejdere i små og mellemstore virksomheder - [sikkercyber.dk](sikkercyber.dk)
+
+## Der er 3 hovedområder
+- Grundlæggende IT-sikkerhed – 7 moduler
+- Defensiv IT-sikkerhed – 3 moduler
+- Offensiv IT-sikkerhed – 3 moduler
+
+
+Hvert område er opdelt i moduler og en afsluttende quiz. Hvert modul tager ca. 20 minutter at gennemføre. For at tilgå kurserne skal i oprette en konto på [sikkercyber.dk](https://sikkercyber.dk/) – *Hvilket er gratis*.
+
+---
+
+<!-- _color: white -->
+<!-- _backgroundColor: black -->
 # Links  <!-- fit -->
 
 ---
