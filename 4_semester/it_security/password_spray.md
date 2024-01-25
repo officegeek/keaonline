@@ -31,8 +31,7 @@ Dette mindsker risikoen for at udløse sikkerhedsforanstaltninger som låser kon
 For at beskytte sig mod password spray-angreb anbefales det at bruge stærke, unikke adgangskoder til hver konto, **aktivere tofaktorautentificering** hvor det er muligt, og implementere sikkerhedspolitikker, der kan opdage og reagere på unormal loginaktivitet.
 
 # YouTube demo
-
-https://youtu.be/UPFG-fvIOLw?si=3pZmvWSR34QWw685
+[Password Spray Demo with Kevin Mitnick](https://youtu.be/UPFG-fvIOLw?si=3pZmvWSR34QWw685)
 
 # Eksempler
 
