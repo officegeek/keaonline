@@ -22,6 +22,9 @@ nav_order: 110
 # Jupyter Lab
 [Bruteforce_Password.ipynb](./code/code/Bruteforce_Password.ipynb)
 
+# Password spray case
+[Password Spray](./password_spray.md)
+
 # Links
 - [Ethical Hacking Tutorials](https://www.thepythoncode.com/topic/ethical-hacking)
 - [How to Brute Force ZIP File Passwords in Python](https://www.thepythoncode.com/article/crack-zip-file-password-in-python)
