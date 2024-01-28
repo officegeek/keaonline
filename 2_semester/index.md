@@ -10,6 +10,6 @@ nav_order: 10
 </span>
 
 # 2. Semester
-Undervisnings materiale 2. semester 2024 for hold:
-- BE-IT A23 DA1
-- BE-IT A23 DA2
+Undervisnings materiale 2. semester:
+
+- [2024 - Forår](./2024_1/index.md)
