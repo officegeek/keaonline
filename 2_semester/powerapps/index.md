@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Power Apps
-grand_parent: 2. Semester
 parent: 2. Semester
 has_children: false
-nav_order: 10
+nav_order: 20
 ---
 
 <span class="fs-1">
@@ -12,6 +11,11 @@ nav_order: 10
 </span>
 
 # Power Apps
+Microsoft Power Apps er en del af Microsofts Power Platform, som gør det muligt for brugere at bygge brugerdefinerede applikationer uden behov for avanceret kodningsfærdigheder. 
+
+Det tilbyder en brugervenlig grænseflade og træk-og-slip-funktionalitet, hvilket gør det lettere at skabe apps til forretningsbehov. 
+
+Power Apps understøtter integration med andre Microsoft-tjenester som Power BI og Power Automate, samt med forskellige databaser og systemer, hvilket giver fleksibilitet i appudviklingen. Dette værktøj er særligt nyttigt for virksomheder, der ønsker at hurtigt udvikle og implementere forretningsapplikationer tilpasset deres specifikke processer og behov.
 
 ## LinkedIn Learning
 - Microsoft Power Apps Essential Training: The Basics - Tid 1:33

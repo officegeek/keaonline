@@ -1,5 +1,10 @@
-
-
+---
+layout: default
+title: Linear Regression
+parent: 2. Semester
+has_children: false
+nav_order: 10
+---
 
 # Linear Regression
 Lineær regression er en statistisk metode, der bruges til at modellere forholdet mellem en afhængig variabel og en eller flere uafhængige variabler ved at tilpasse en lineær ligning til observerede data.
