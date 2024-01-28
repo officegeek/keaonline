@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Power Apps
-has_children: true
+grand_parent: 2. Semester
+parent: 2. Semester
+has_children: false
 nav_order: 10
 ---
 

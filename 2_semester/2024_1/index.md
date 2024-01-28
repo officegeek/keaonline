@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2. Semester 2024
-grand_parent: 4. Semester
+grand_parent: 2. Semester
 parent: 2. Semester
 has_children: false
 nav_order: 10
