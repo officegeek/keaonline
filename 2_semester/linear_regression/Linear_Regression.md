@@ -18,20 +18,16 @@ De grundlæggende elementer i lineær regression kan opsummeres således:
 2. **Uafhængige variabler** (*X*): Disse er variablerne, som vi tror påvirker eller bestemmer værdien af den afhængige variabel. I simpel lineær regression er der kun én uafhængig variabel, mens der i multipel lineær regression er to eller flere.
 3. **Lineær ligning**: Modellen udtrykker et lineært forhold mellem de afhængige og uafhængige variabler. I sin enkleste form (*simpel lineær regression*) har ligningen formen: 
 
-
     **Y = &#x3B1; + &#x3B2;X**
-
-	
-    
 
 hvor:
 
 - **Y** er den afhængige variabel.
 - **X** er den uafhængige variabel.
-&#x3B1; a (*skæringen med y-aksen*) er konstanten, der repræsenterer værdien af **Y**, når **X** er **0**.
-- &#x3B2; (*hældningskoefficienten*) angiver ændringen i **Y** for en enhedsændring i **X**.
+- **&#x3B1;** (*skæringen med y-aksen*) er konstanten, der repræsenterer værdien af **Y**, når **X** er **0**.
+- **&#x3B2;** (*hældningskoefficienten*) angiver ændringen i **Y** for en enhedsændring i **X**.
 4. **Mindste kvadraters metode**: Dette er den mest almindelige metode til at finde de bedste estimater for koefficienterne 
-&#x3B1; og &#x3B2;. Målet er at minimere summen af kvadraterne af forskellene mellem de observerede værdier og de værdier, der forudsiges af modellen.
+**&#x3B1;** og **&#x3B2;**. Målet er at minimere summen af kvadraterne af forskellene mellem de observerede værdier og de værdier, der forudsiges af modellen.
 
 5. **"Kvaliteten" af tilpasning**: For at vurdere, hvor godt modellen passer til dataene, bruges forskellige statistikker, såsom R-kvadrat, som måler andelen af variansen i den afhængige variabel, der kan forklares af de uafhængige variabler.
 
@@ -54,3 +50,6 @@ Du kan oprette et diagram i Excel der viser den lineær regression mellem X og Y
 # Python
 
 ## Deepnote
+![](../slide/image/paraplyerexcel.png)
+
+[Deepnote Workspace](https://deepnote.com/workspace/tue_hellstern-9dbbf77c-5ba3-47b4-8076-45f48827bd4a/project/Linear-Regression-6abf011b-bf52-49b3-a892-c19a51868696/notebook/70510c878d384ec6b74c1566ff33dda3)
