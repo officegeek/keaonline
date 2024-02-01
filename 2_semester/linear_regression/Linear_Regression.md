@@ -18,24 +18,26 @@ De grundlæggende elementer i lineær regression kan opsummeres således:
 2. **Uafhængige variabler** (*X*): Disse er variablerne, som vi tror påvirker eller bestemmer værdien af den afhængige variabel. I simpel lineær regression er der kun én uafhængig variabel, mens der i multipel lineær regression er to eller flere.
 3. **Lineær ligning**: Modellen udtrykker et lineært forhold mellem de afhængige og uafhængige variabler. I sin enkleste form (*simpel lineær regression*) har ligningen formen: 
 
-    **Y=$\alpha$ + $\beta$ X**
+
+    **Y = a + bX**
+
+	&#x3B1;
 
 hvor:
 
 - **Y** er den afhængige variabel.
 - **X** er den uafhængige variabel.
-- $\alpha$ (*skæringen med y-aksen*) er konstanten, der repræsenterer værdien af **Y**, når **X** er **0**.
-- $\beta$ (*hældningskoefficienten*) angiver ændringen i **Y** for en enhedsændring i **X**.
+- a (*skæringen med y-aksen*) er konstanten, der repræsenterer værdien af **Y**, når **X** er **0**.
+- b (*hældningskoefficienten*) angiver ændringen i **Y** for en enhedsændring i **X**.
 4. **Mindste kvadraters metode**: Dette er den mest almindelige metode til at finde de bedste estimater for koefficienterne 
 a og b. Målet er at minimere summen af kvadraterne af forskellene mellem de observerede værdier og de værdier, der forudsiges af modellen.
 
 5. **"Kvaliteten" af tilpasning**: For at vurdere, hvor godt modellen passer til dataene, bruges forskellige statistikker, såsom R-kvadrat, som måler andelen af variansen i den afhængige variabel, der kan forklares af de uafhængige variabler.
 
-# Data
-
-
-
 # Excel
+- [paraplyer.xlsx](./paraplyer.xlsx)
+- [gradedata.xlsx](./gradedata.xlsx)
+
 Du kan oprette et diagram i Excel der viser den lineær regression mellem X og Y.
 
 - **Åben Excel filen med data**: Data er i to kolonner i Excel filen
