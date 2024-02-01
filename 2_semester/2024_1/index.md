@@ -17,6 +17,8 @@ Undervisnings materiale 2. semester 2024 for hold:
 - BE-IT A23 DA2
 - [Opstart 29-01-2024 Slide HTML](../slide/Opstart_29012024.html)
 - [Opstart 29-01-2024 Slide PDF](../slide/Opstart_29012024.pdf)
+- [02-02-2024 Slide HTML](../slide/02022024.html)
+- [02-02-2024 Slide HTML](../slide/02022024.pdf)
 
 # SimCorp
 - [SimCorp](../simcorp/index.md)
