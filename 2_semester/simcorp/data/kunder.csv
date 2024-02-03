@@ -1,0 +1,101 @@
+KundeID,Firmanavn,Adresse,Postnummer,By,Antal medarbejder
+K1000,Kjeldsen A/S,"Skjulhøjvej 348, 5499 Hejnsvig",7256,Bevtoft,77
+K1001,Svensson AB,"Järnvägsvägen 4, 92644 Varberg",56844,Halmstad,141
+K1002,Ellingsen RFH,"Bergeroa 5, 5575 Arnedal",9965,Benteodden,144
+K1003,Alatalo Tmi,"Eduskuntakuja 2, 78084 Joroinen",28315,Pielavesi,53
+K1004,Holm & Schmidt A/S,"Åløkkestræde 713, 3501 Lejre",6905,Slagelse,38
+K1005,Skoglund & Lundgren HB,"Bäckgatan 09, 10965 Sandviken",73515,Södertälje,62
+K1006,"Næss, Vik og Halvorsen","Eliassenhagen 53, 5823 Janmark",4965,Larsen,134
+K1007,Aho ry,"Benktantie 74, 95465 Lieksa",58975,Lahti,123
+K1008,Jessen & Christoffersen A/S,"Langkær Allé 23, 4638 Store Fuglede",7064,Spøttrup,98
+K1009,Karlsson Andersson AB,"Storvägen 86, 52674 Borås",74096,Malmö,80
+K1010,Haug RFH,"Knutsenlia 35G, 5452 Marieøy",4199,Johansen,108
+K1011,Anttila,"Ehrensvärdinpolku 586, 96919 Viitasaari",91737,Reisjärvi,68
+K1012,Bruun & Søn A/S,"Kreta Allé 37, 4041 Ans by",9751,Holsted,115
+K1013,Eliasson AB,"Björkgatan 28, 18344 Motala",69702,Örnsköldsvik,58
+K1014,Hansen-Johnsen & co.,"Henriksenberget 6, 8492 Ahmed",1709,Torstrøm,50
+K1015,Tamminen Helminen Oy,"Ilotulituspolku 58, 35374 Hirvensalmi",33198,Lemland,131
+K1016,Karlsen A/S,"Carl Nielsensvej 71, 7607 Snedsted",9765,Gedsted,32
+K1017,Holmberg & Holmström HB,"Gengatan 497, 61385 Falun",21627,Karlskrona,138
+K1018,"Martinsen, Nguyen og Thorsen","Pettersenekra 2A, 9717 Simonsen",6827,Sigridø,141
+K1019,Peltonen,"Wavulininkatu 5, 76195 Muonio",63845,Valkeakoski,140
+K1020,Lind & Søn A/S,"Sluse Allé 5, 1725 Vallensbæk Strand",8619,Torrig,94
+K1021,Börjesson Eriksson AB,"Grangränd 867, 78074 Östersund",54636,Umeå,28
+K1022,Birkeland ASA,"Abrahamsentjernet 29, 2275 Dagvåg",3839,Dahl,48
+K1023,Turunen,"Yrttimaankuja 67, 29838 Pöytyä",50403,Korsnäs,88
+K1024,Hansen ApS,"Kattegatvej 494, 5891 Galten",9308,Bogø By,135
+K1025,Larsson Lindberg HB,"Ekgatan 44, 55253 Borlänge",31187,Halmstad,85
+K1026,Antonsen & co.,"Jenssenekra 74A, 1080 Marenhelle",7272,Christensen,69
+K1027,Tiihonen,"Jäkäläkatu 714, 00138 Mänttä-Vilppula",19872,Jämsä,112
+K1028,Nilsson & Søndergaard ApS,"Bedfordgade 990, 7393 Herlev",9707,Jerup,77
+K1029,Petersson AB,"Strandgatan 2, 97197 Varberg",63714,Varberg,90
+K1030,Kristiansen-Jakobsen,"Dahlbråten 724, 4148 Eide",2082,Olsen,56
+K1031,Partanen Männistö As Oy,"Ilkanbulevardi 58, 10271 Siilinjärvi",76979,Parainen,77
+K1032,Thomsen A/S,"Engskiftevej 34, 8943 Fakse Ladeplads",6052,Lystrup,89
+K1033,Jonsson Holmström HB,"Stationsstigen 733, 29914 Luleå",52682,Stockholm,49
+K1034,Karlsen ASA,"Knudsenlia 7, 4450 Abrahamsen",7566,Engen,133
+K1035,Lassila Väisänen ry,"Louhikkopolku 9, 30228 Kemijärvi",49911,Karijoki,117
+K1036,Jørgensen & Søn ApS,"Zinns Allé 62, 8061 Bandholm",2368,Askeby,137
+K1037,Karlsson AB,"Ekgatan 050, 69241 Varberg",25551,Västerås,57
+K1038,Ali-Sæther,"Vikrøa 24, 9223 Sondrehamn",9909,Paulsen,125
+K1039,Nurminen,"Haravakatu 361, 68735 Pietarsaari",50587,Keitele,143
+K1040,Rasmussen & Vestergaard ApS,"Oxfordstræde 267, 9765 Gudbjerg",5420,Vojens,115
+K1041,Persson Nilsson AB,"Ektorget 926, 16730 Mölndal",85803,Södertälje,71
+K1042,Rønning-Paulsen Gruppen,"Solheimstien 1A, 0422 Hannastrøm",6489,Moe,125
+K1043,Sipilä Rinne Tmi,"Fahlanderin puistobulevardi 575, 37525 Kuusamo",82826,Ähtäri,32
+K1044,Brandt A/S,"Amsterdamgade 187, 4506 Frørup",6855,Veflinge,125
+K1045,Karlsson HB,"Backstigen 47, 82129 Sundsvall",67403,Örnsköldsvik,82
+K1046,Bakken-Fredriksen,"Haugenstykket 959, 2381 Danielvåg",8891,Haugen,147
+K1047,Vainio,"Rapolanpolku 98, 98098 Utajärvi",47810,Pyhäjärvi,79
+K1048,Karlsen ApS,"Persillestræde 83, 5951 Væggerløse",1211,Bindslev,143
+K1049,Larsson AB,"Idrottsgatan 76, 55658 Lund",32022,Uddevalla,81
+K1050,"Berntsen, Ahmed og Edvardsen","Lundskrenten 91, 1937 Kristiansen",6426,Cathrinesjøen,131
+K1051,Viitala Kärki As Oy,"Laurinniitynkuja 173, 24268 Hollola",84621,Suomussalmi,130
+K1052,Vestergaard & Schultz ApS,"Freundsstræde 58, 7569 Klippinge",1497,Vamdrup,120
+K1053,Nyman HB,"Skolgatan 364, 97580 Linköping",70297,Skövde,65
+K1054,Ahmed-Vik,"Eliassentoppen 95, 3251 Bakke",5119,Thomaseid,107
+K1055,Aaltonen Lindfors Oy,"Järkälekatu 64, 92265 Tervo",62045,Kuhmoinen,126
+K1056,Larsen ApS,"Fakse Allé 58, 1158 Lynge",2536,Skjern,73
+K1057,Olsson HB,"Gengatan 0, 84228 Piteå",40865,Uppsala,65
+K1058,Nilsen-Haug ASA,"Karlsenengen 6, 7790 Berg",2182,Antonsen,113
+K1059,Eloranta,"Graniittitie 70, 92149 Kökar",96107,Ii,73
+K1060,Frederiksen & Søn ApS,"Bissensvej 6, 1842 Mårslet",8519,Jyderup,125
+K1061,Eklund Jonasson AB,"Idrottsstigen 192, 38790 Eskilstuna",18113,Uppsala,133
+K1062,Antonsen og Sønner,"Hagenjordet 57, 6660 Joakimodden",5625,Åseodden,147
+K1063,Ojala Juntunen Oy,"Pohjolankatu 20, 03594 Huittinen",65915,Kristiinankaupunki,72
+K1064,Ravn & Søn ApS,"Danneskiold-Samsøes Allé 628, 5722 Gråsten",2009,Vipperød,27
+K1065,Nilsson AB,"Nyvägen 09, 87702 Helsingborg",98904,Uppsala,133
+K1066,Aune-Nguyen ASA,"Halvorsengropa 11, 6159 Malingrunn",6385,Strøm,66
+K1067,Sirviö Hyvärinen ry,"Agroksenkuja 47, 29773 Lemi",11705,Muonio,120
+K1068,Jakobsen & Mikkelsen A/S,"Weidekampsvej 7, 5250 Helsinge",7988,Knebel,83
+K1069,Andersson AB,"Åkertorget 9, 96429 Norrköping",93462,Eskilstuna,118
+K1070,Eliassen-Brekke Gruppen,"Christensenlyngen 8A, 9437 Mathisen",2826,Strand,105
+K1071,Rantala Oyj,"Zaidankuja 68, 65046 Juva",30088,Pornainen,59
+K1072,Jensen & Søn A/S,"Emdrupgårdsvej 8, 9108 Ebeltoft",5709,Greve,92
+K1073,Pettersson Svensson HB,"Björkstigen 7, 42701 Lund",25690,Örebro,63
+K1074,Tangen Gruppen,"Hansenkollen 87, 3333 Hegenes",8503,Christianvik,74
+K1075,Ketola,"Salavakuja 1, 19916 Luhanka",49054,Jämijärvi,27
+K1076,Johansen & Søn A/S,"Ballum Allé 681, 8834 Skagen",9632,Nørresundby,104
+K1077,Svensson & Blom AB,"Parkgatan 390, 66905 Borlänge",84396,Trelleborg,29
+K1078,Gulbrandsen Gruppen,"Nguyenmoen 06, 1836 Olavodden",0570,Øysteinsjøen,104
+K1079,Lehtonen,"Tahtibulevardi 00, 67441 Lieto",14630,Uurainen,71
+K1080,Olsen A/S,"Helgolandsvej 90, 1448 Skørping",4565,Tilst,57
+K1081,Johansson & Ståhl AB,"Parkstigen 61, 49887 Umeå",18592,Lund,98
+K1082,Simonsen-Halvorsen,"Thomassenhaugen 482, 6323 Johannessen",6269,Heidiø,117
+K1083,Laurila Nyman Oyj,"Zaidanbulevardi 896, 84487 Kristiinankaupunki",58590,Merijärvi,104
+K1084,Henriksen ApS,"Rørmosegade 720, 8371 Thorsø",9167,Broager,103
+K1085,Lundström HB,"Kyrkovägen 01, 70966 Piteå",45582,Kristianstad,147
+K1086,Fredriksen-Bøe,"Dahlstykket 9, 9233 Berg",6235,Sandvik,31
+K1087,Heiskanen Rauhala Ky,"Elimäenpolku 793, 35982 Imatra",51328,Merijärvi,48
+K1088,Rasmussen A/S,"Gørtlerstræde 59, 9529 Næstved",7933,Kirke Hyllinge,67
+K1089,Andersson & Håkansson AB,"Ringgränd 091, 54097 Karlstad",46163,Borlänge,116
+K1090,Kristoffersen og Sønner,"Johannessentoppen 4, 8721 Hauge",4059,Mariaby,108
+K1091,Aho Hänninen Osk,"Ormusbulevardi 7, 53135 Karstula",02499,Rantasalmi,118
+K1092,Thorsen ApS,"Trepkas Allé 634, 3194 Stenløse",4162,Nørre Snede,44
+K1093,Johansson HB,"Fabriksgatan 791, 75047 Gävle",64602,Östersund,49
+K1094,Thomassen-Tveit,"Solheimberget 00, 1662 Heidihamn",3305,Amundsen,81
+K1095,Salminen,"Franzéninkatu 557, 78689 Lieksa",13063,Karijoki,136
+K1096,Kjær & Schultz ApS,"Staldvej 673, 1799 Ringe",6181,Birkerød,55
+K1097,Andersson Lind AB,"Ängsvägen 1, 40964 Mölndal",50952,Varberg,135
+K1098,Edvardsen ASA,"Andreassengata 14C, 9452 Arnesen",7268,Gretesjøen,61
+K1099,Tuominen Tmi,"Wallininbulevardi 936, 56067 Joutsa",89293,Seinäjoki,133
