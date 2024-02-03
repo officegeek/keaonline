@@ -20,3 +20,11 @@ SimCorp er kendt for deres flagskibsprodukt, **SimCorp Dimension**, som er en in
 SimCorp betjener primært kunder inden for **finanssektoren**, herunder pensionsfonde, forsikringsselskaber, banker og kapitalforvaltere. Virksomheden opererer globalt og har kunder og kontorer rundt om i verden.
 
 - [SimCorp White Paper Machine Learning](./SimCorp_Machine_learning_white_paper.pdf)
+- [Case 2.1](./Case%202.1%20-%20SimCorp.pdf)
+
+## Data
+- [kunder.csv](./data/kunder.csv)
+- [medarbejdere.csv](./data/medarbejdere.csv)
+- [produkter.csv](./data/produkter.csv)
+- [salgsdata.csv](./data/salgsdata.csv)
+- [tidsdata.csv](./data/tidsdata.csv)
