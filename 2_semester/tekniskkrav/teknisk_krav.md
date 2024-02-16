@@ -43,7 +43,7 @@ Detaljerede beskrivelser af systemets funktioner og tjenester.
 Her under **Sikkerhedskrav** som:
 - Autentifikation og autorisation.
 - Datakryptering og beskyttelse af personlige oplysninger.
-- Compliance med relevante sikkerhedsstandarder og lovgivning (f.eks. GDPR).
+- Compliance med relevante sikkerhedsstandarder og lovgivning (*f.eks. GDPR*).
 
 ## Ikke-funktionelle krav
 Performance, sikkerhed, brugervenlighed, pålidelighed, tilgængelighed, og vedligeholdelseskrav.
@@ -51,14 +51,14 @@ Performance, sikkerhed, brugervenlighed, pålidelighed, tilgængelighed, og vedl
 For eksempel, i stedet for at sige "*systemet skal være hurtigt*", specificer "**systemet skal indlæse sider indenfor 2 sekunder.**"
 
 ## Grænseflader
-- Brugergrænseflade (UI) design og brugeroplevelse (UX) krav.
+- Brugergrænseflade (*UI*) design og brugeroplevelse (*UX*) krav.
 - System-til-system interfacekrav, inklusiv API-specifikationer.
 
 # Målbar:
 ## **Performance og Ikke-funktionelle Krav**
 Det skal være muligt at måle, om kravene er opfyldt. 
 
-For eksempel, hvis der er et krav om systemtilgængelighed på 99,9%, skal dette kunne bekræftes gennem test eller overvågning.
+*For eksempel, hvis der er et krav om systemtilgængelighed på 99,9%, skal dette kunne bekræftes gennem test eller overvågning.*
 
 ## **Testkrav**
 Definer klare kriterier for accepttest, så det kan måles, om leverede løsninger opfylder kravspecifikationerne.
@@ -90,6 +90,38 @@ For at integrere **SMART-kriterierne** effektivt i **tekniske kravspecifikatione
 - Sikre accept fra alle stakeholders ved at inkludere dem i processen med at definere og godkende kravene
 - Vurder realisme ved at tage højde for eksisterende teknologier, teamkompetencer og andre ressourcer
 - Planlægge med tidsrammer for hvert krav og for projektet som helhed, med klare deadlines og checkpunkter
+
+# Opgave
+I er en del af et softwareudviklingsteam, der er blevet bedt om at udvikle en "**Smart Studieplanlægger**" app til studerende. Appen har til formål at hjælpe studerende med bedre at organisere deres studietid, kursusopgaver, eksamensforberedelser og gruppeprojekter.
+
+## Opgave 1
+### **Definer Målene med SMART-kriterier**
+Brug SMART-kriterierne til at definere klare og målbare mål for "*Smart Studieplanlægger*" appen. 
+Dette kunne inkludere funktioner som automatisk planlægning baseret på deadlines, påmindelser om opgaver, integration med universitetets kursusdatabaser, og tilpassede studieanbefalinger. 
+
+**HUSK** hvert mål skal være:
+
+- **S**pecifik: *Hvad præcist appen skal gøre*
+- **M**ålbar: *Hvordan succes vil blive målt*
+- **O**pnåelig: *Sikre, at målene er realistiske med de ressourcer, der er til rådighed*
+- **R**elevant: *Målene skal være relevante for de studerendes behov*
+- **T**idsbestemt: *Fastlæg en frist for, hvornår disse mål skal være opnået*
+
+## Opgave 2
+### **Skriv User Stories**
+Ud fra de definerede **SMART**-mål, skriv mindst 4 user stories, der illustrerer, hvordan forskellige brugere vil interagere med appen. 
+
+### Inkluder
+- En titel for hver story for at opsummere dens essens
+- Beskrivelse af brugeren (persona) for hver story.
+- Brugerens behov og den værdi, appen tilbyder, formuleret som: "**Som en** [*type bruger*], **ønsker jeg** [*et behov eller en funktion*], **så jeg kan** [*opnået fordel*]."
+- Acceptkriterier, der specificerer de betingelser, som skal opfyldes, for at user storyen anses for at være fuldført.
+
+## Opgave 3
+### **Feedback og Revision**
+- Præsenter user stories for klassen eller en anden gruppe
+- Modtag feedback og foreslå forbedringer baseret på feedbacken
+- Revider jeres user stories og SMART-mål baseret på den modtagne feedback
 
 # Links
 - [Officielle Scrum Guides og Dokumentation - scrumguides.org](https://scrumguides.org). Tilbyder den officielle Scrum Guide gratis, hvilket er en essentiel læsning for alle, der arbejder med Scrum.
