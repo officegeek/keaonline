@@ -11,11 +11,40 @@ nav_order: 60
 </span>
 
 # Dataanalyse og Databaser
+Dataanalyse og Databaser indeholder disse områder:
+
+- **Programmering til Dataanalyse**
+    - Grundlæggende Python eller R for dataanalyse
+    - Avanceret datahåndtering og manipulation med pandas (*Python*) eller dplyr (*R*)
+    - Datarensning og forberedelse
+- **Databaser og Datahåndtering**
+    - Grundlæggende i databaser (*SQL*)
+    - Dataopbevaring og -håndtering
+    - Big Data teknologier og værktøjer  (**f.eks. [Hadoop](https://hadoop.apache.org), [Spark](https://spark.apache.org)**
+- **Data Visualisering**
+    - Principper for effektiv data visualisering
+    - Brug af *værktøjer* Power BI, eller biblioteker i Python (*matplotlib, seaborn*) for visualisering
+- **Machine Learning og Predictive Analytics**
+    - Supervised vs. Unsupervised
+    - Regression, klassifikation, og klusteringsalgoritmer
+    - Anvendelse af machine learning i økonomi og finans
+- **Dataetik og Databeskyttelse**
+    - Principper for dataetik
+    - Lovgivning om databeskyttelse (*f.eks. [GDPR](https://gdpr.dk))*
+    - Anonymisering og pseudonymisering af data
+- **Anvendt Dataanalyse i Økonomi**
+    - Finansiel modelbygning og risikoanalyse
+    - Markedsanalyse og forbrugeradfærdsanalyse
+    - Investering og porteføljestyring ved hjælp af kvantitative metoder
+- **Business Intelligence og Beslutningsstøttesystemer**
+    - Grundlæggende i Business Intelligence
+    - Data Warehousing og OLAP (*Online Analytical Processing*) kan f.eks. være [Apache Kylin](https://kylin.apache.org)
+    - Dashboards og rapporteringsværktøjer
 
 # Database
 De data du kommer til at arbejde med vil i mange tilfælde ligge i en Database.
 
-Du kan enten tilgå dem direkte eller ved at data er eksporteret ud af databasen, f.eks. som en eller flere CSV filer.
+Du kan enten tilgå dem direkte eller ved at data er eksporteret ud af databasen, f.eks. som en eller flere CSV/Excel filer.
 
 For at arbejde effektiv med data er det nødvendigt at forstå hvordan en database er opbygget - Hvordan de forskellige tabeller "*hænger*" sammen og hvordan man kan kombinere data fra flere forskellige tabeller.
 
