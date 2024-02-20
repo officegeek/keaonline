@@ -24,7 +24,7 @@ Undervisnings materiale 2. semester 2024 for hold:
 - [SimCorp](../simcorp/index.md)
 
 # Admire
-- [-Admire](../admire/index.md)
+- [Admire](../admire/index.md)
 
 # DeepNote
 - [Deepnote](../deepnote/index.md)
