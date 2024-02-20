@@ -3,7 +3,7 @@ layout: default
 title: Power Apps
 parent: 2. Semester
 has_children: false
-nav_order: 20
+nav_order: 60
 ---
 
 <span class="fs-1">
