@@ -2,7 +2,7 @@
     layout: default
     title: Know Your Data
     has_children: true
-    nav_order: 40
+    nav_order: 60
 ---
 
 <span class="fs-1">

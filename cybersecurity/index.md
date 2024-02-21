@@ -2,7 +2,7 @@
     layout: default
     title: Cybersecurity
     has_children: true
-    nav_order: 30
+    nav_order: 50
 ---
 
 <span class="fs-1">
