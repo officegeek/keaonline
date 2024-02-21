@@ -20,6 +20,19 @@ Undervisnings materiale 2. semester 2024 for hold:
 - [02-02-2024 Slide HTML](../slide/02022024.html)
 - [02-02-2024 Slide HTML](../slide/02022024.pdf)
 
+# 2.1 - Dage
+
+# 2.2 - Dage
+- Mandag - 19-02-2024 - Opstart [Case](../admire/index.md)
+- Fredag - 23-02-2024 - [Dataanalyse og database](../
+dataanalyse_databaser/index.md)
+- Mandag - 26-02-2024 - [Indsamling af behov og teknisk kravspecificering](../tekniskkrav/index.md)
+- Torsdag - 29-02-2024 - [Database, programmering og UI](../dataanalyse_databaser/index.md)
+- Fredag - 01-03-2024 - [Database, programmering og UI](../dataanalyse_databaser/index.md)
+- 11-03-2024 - 
+
+# 2.3 - Dage
+
 # SimCorp
 - [SimCorp](../simcorp/index.md)
 
