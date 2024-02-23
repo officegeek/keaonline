@@ -454,3 +454,42 @@ CASE
 END AS 'Antal ordre'
 FROM Order_Details;
 ```
+
+
+# Opret database
+For at oprette en database i MySQL, kan du bruge følgende SQL-kommando:
+
+sql
+CREATE DATABASE databasenavn;
+
+Erstat databasenavn med det navn, du ønsker at give din database. **Husk**, at SQL-kommandoer i MySQL er case-insensitive, men det er en god praksis at holde sig til enten kun store eller kun små bogstaver for at undgå forvirring.
+
+## Datatyper
+MySQL understøtter en række forskellige datatyper, som kan kategoriseres i følgende grupper:
+
+### Numeriske Datatyper
+- **INT** / **INTEGER**: Et heltal.
+- **BIGINT**: Et større heltal.
+- **SMALLINT**: Et mindre heltal.
+- **TINYINT**: Et meget lille heltal.
+- **DECIMAL(M, D)**: Et eksakt decimaltal, hvor M er det totale antal cifre, og D er antallet af decimaler.
+- **FLOAT(M, D)**: Et approksimativt tal med en flydende decimal. M angiver præcision, og D angiver skala.
+- **DOUBLE(M, D)**: Dobbelt præcision flydende decimaltal.
+
+### Dato- og Tidstyper
+- **DATE**: En dato uden tidsangivelse.
+- **DATETIME**: Dato og tid.
+- **TIMESTAMP**: Tidsstempel, typisk brugt til at gemme et punkt i tid.
+- **TIME**: Kun tid.
+- **YEAR**: Et år, enten som 2 eller 4 cifre.
+
+### Strengdatatyper
+- **CHAR(M)**: En fast længde streng, op til 255 tegn.
+- **VARCHAR(M)**: En variabel længde streng, op til 65,535 tegn.
+- **TEXT**: En lang tekst op til 65,535 tegn.
+- **MEDIUMTEXT**: En længere tekst op til 16,777,215 tegn.
+- **LONGTEXT**: En meget lang tekst op til 4,294,967,295 tegn.
+- **BLOB**: Et Binary Large Object, bruges til at gemme binære data som billeder eller lyd.
+
+### Logiske Datatyper
+- **BOOLEAN** / **BOOL**: Sandt eller falsk.

@@ -38,7 +38,7 @@ Dataanalyse og Databaser indeholder disse områder:
     - Investering og porteføljestyring ved hjælp af kvantitative metoder
 - **Business Intelligence og Beslutningsstøttesystemer**
     - Grundlæggende i Business Intelligence
-    - Data Warehousing og OLAP (*Online Analytical Processing*) kan f.eks. være [Apache Kylin](https://kylin.apache.org)
+    - Data Warehousing og **OLAP** (*Online Analytical Processing*) kan f.eks. være [Apache Kylin](https://kylin.apache.org)
     - Dashboards og rapporteringsværktøjer
 
 # Database
@@ -48,10 +48,52 @@ Du kan enten tilgå dem direkte eller ved at data er eksporteret ud af databasen
 
 For at arbejde effektiv med data er det nødvendigt at forstå hvordan en database er opbygget - Hvordan de forskellige tabeller "*hænger*" sammen og hvordan man kan kombinere data fra flere forskellige tabeller.
 
+## Databaseoperationer
+Databaseoperationer, især i relationelle databaser som MySQL, PostgreSQL, Oracle, osv., kan typisk deles op i flere kategorier baseret på det formål, de tjener. 
+
+### Transaktionshåndtering
+Transaktioner er vigtige for at sikre dataintegritet og konsistens, især i systemer, hvor flere operationer skal udføres sammen som en enkelt enhed.
+
+- **BEGIN TRANSACTION**: Starter en transaktion.
+- **COMMIT**: Gemmer ændringer foretaget i transaktionen til databasen.
+- **ROLLBACK**: Annullerer alle ændringer foretaget i transaktionen, hvis der opstår en fejl.
+
+### DDL (Data Definition Language)
+DDL-operationer definerer og modificerer databasens struktur.
+
+- **CREATE**: Bruges til at skabe nye tabeller, databaser, indekser osv.
+- **ALTER**: Modificerer strukturen af en eksisterende databaseobjekt.
+- **DROP**: Sletter databaseobjekter.
+
+### DML (Data Manipulation Language)
+- DML-operationer håndterer manipulation og håndtering af data inden for tabeller.
+
+Indeholder
+- **INSERT**
+- **UPDATE**
+- **DELETE** 
+- osv.
+
+### DCL (Data Control Language)
+DCL-operationer kontrollerer adgangen til data i databasen.
+
+- **GRANT**: Giver brugere rettigheder til databasen.
+- **REVOKE**: Fjerner brugeres rettigheder fra databasen.
+
+### TCL (Transaction Control Language)
+TCL-operationer håndterer transaktioner i databasen.
+
+Indeholder
+- **COMMIT**
+- **ROLLBACK**
+- **SAVEPOINT** 
+- osv.
+
 ## Database program
 Det er databasen MySQL vi skal bruge og programmet MySQL Workbench.
 
-[Download MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+- [Download MySQL Server](https://dev.mysql.com/downloads/mysql/)
+- [Download MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
 ## Northwind
 *The Northwind database is a sample database used by Microsoft to demonstrate the features of some of its products, including SQL Server and Microsoft Access. The database contains the sales data for Northwind Traders, a fictitious specialty foods exportimport company.*
@@ -90,7 +132,7 @@ Typisk fortager man kun en **normalisering op til den tredje normalform**.
 - Der skal være en primærnøgle
 
 
-**3. normalform (NF3)**
+**3. Normalform (NF3)**
 
 **Definition:** *En relation er på tredje normalform, hvis den er på anden normalform og det gælder, at ingen ikke-nøgle-attribut er transitivt afhængig af nogen kandidatnøgle i relationen.*
 
