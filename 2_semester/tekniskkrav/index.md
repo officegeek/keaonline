@@ -92,7 +92,7 @@ For at integrere **SMART-kriterierne** effektivt i **tekniske kravspecifikatione
 - Planlægge med tidsrammer for hvert krav og for projektet som helhed, med klare deadlines og checkpunkter
 
 # **Opgave** - Studieplanlægger
-I er en del af et softwareudviklingsteam, der er blevet bedt om at udvikle en "**Smart Studieplanlægger**" app til studerende. Appen har til formål at hjælpe studerende med bedre at organisere deres studietid, kursusopgaver, eksamensforberedelser og gruppeprojekter.
+I er en del af et softwareudviklingsteam, der er blevet bedt om at udvikle en "**Smart Studieplanlægger**" app til studerende. Appen har til formål at hjælpe studerende med bedre at organisere deres studietid, kursusopgaver, eksamensforberedelser, gruppeprojekter og lign.
 
 ## Opgave 1 - Definer Mål
 ### **Definer Målene med SMART-kriterier**
@@ -127,7 +127,7 @@ Dette kunne inkludere funktioner som:
 "**Som en** [*type bruger*], **ønsker jeg** [*et behov eller en funktion*], **så jeg kan** [*opnået fordel*]."
 
 - Acceptkriterier, der specificerer de betingelser, som skal opfyldes, for at user storyen anses for at være fuldført
-- Nedbryd én af disse User Stories i task
+- Nedbryd **én** af disse User Stories i task
 
 ## Opgave 3 - Feedback
 ### **Feedback og Revision**
