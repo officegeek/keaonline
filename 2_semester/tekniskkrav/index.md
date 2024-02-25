@@ -35,15 +35,15 @@ eller på engelsk:
 
 # Specifik
 ## **Brugerkrav og Systemkrav**
-Kravene skal være klart definerede og detaljerede. I stedet for vage beskrivelser, brug præcise angivelser af, hvad systemet skal gøre. 
+Kravene skal være klart definerede og detaljerede. I stedet for **vage** beskrivelser, brug **præcise** angivelser af, hvad systemet skal gøre. 
 
 ## Funktionelle krav
 Detaljerede beskrivelser af systemets funktioner og tjenester.
 
 Her under **Sikkerhedskrav** som:
-- Autentifikation og autorisation.
-- Datakryptering og beskyttelse af personlige oplysninger.
-- Compliance med relevante sikkerhedsstandarder og lovgivning (*f.eks. GDPR*).
+- Autentifikation og autorisation
+- Datakryptering og beskyttelse af personlige oplysninger
+- Compliance med relevante sikkerhedsstandarder og lovgivning (*f.eks. GDPR*)
 
 ## Ikke-funktionelle krav
 Performance, sikkerhed, brugervenlighed, pålidelighed, tilgængelighed, og vedligeholdelseskrav.
@@ -51,8 +51,8 @@ Performance, sikkerhed, brugervenlighed, pålidelighed, tilgængelighed, og vedl
 For eksempel, i stedet for at sige "*systemet skal være hurtigt*", specificer "**systemet skal indlæse sider indenfor 2 sekunder.**"
 
 ## Grænseflader
-- Brugergrænseflade (*UI*) design og brugeroplevelse (*UX*) krav.
-- System-til-system interfacekrav, inklusiv API-specifikationer.
+- Brugergrænseflade (*UI*) design og brugeroplevelse (*UX*) krav
+- System-til-system interfacekrav, inklusiv API-specifikationer
 
 # Målbar:
 ## **Performance og Ikke-funktionelle Krav**
@@ -91,13 +91,20 @@ For at integrere **SMART-kriterierne** effektivt i **tekniske kravspecifikatione
 - Vurder realisme ved at tage højde for eksisterende teknologier, teamkompetencer og andre ressourcer
 - Planlægge med tidsrammer for hvert krav og for projektet som helhed, med klare deadlines og checkpunkter
 
-# Opgave
+# **Opgave** - Studieplanlægger
 I er en del af et softwareudviklingsteam, der er blevet bedt om at udvikle en "**Smart Studieplanlægger**" app til studerende. Appen har til formål at hjælpe studerende med bedre at organisere deres studietid, kursusopgaver, eksamensforberedelser og gruppeprojekter.
 
-## Opgave 1
+## Opgave 1 - Definer Mål
 ### **Definer Målene med SMART-kriterier**
 Brug SMART-kriterierne til at definere klare og målbare mål for "*Smart Studieplanlægger*" appen. 
-Dette kunne inkludere funktioner som automatisk planlægning baseret på deadlines, påmindelser om opgaver, integration med universitetets kursusdatabaser, og tilpassede studieanbefalinger. 
+
+Dette kunne inkludere funktioner som:
+- automatisk planlægning baseret på deadlines
+- påmindelser om opgaver
+- integration med skolens kursusdatabaser (*Fronter*)
+- tilpassede studieanbefalinger
+- overførsel til Outlook/Office 365
+- osv.
 
 **HUSK** hvert mål skal være:
 
@@ -107,17 +114,22 @@ Dette kunne inkludere funktioner som automatisk planlægning baseret på deadlin
 - **R**elevant: *Målene skal være relevante for de studerendes behov*
 - **T**idsbestemt: *Fastlæg en frist for, hvornår disse mål skal være opnået*
 
-## Opgave 2
+## Opgave 2 - User Stories
 ### **Skriv User Stories**
-Ud fra de definerede **SMART**-mål, skriv mindst 4 user stories, der illustrerer, hvordan forskellige brugere vil interagere med appen. 
+- Ud fra de definerede **SMART**-mål, skriv mindst 4 user stories, der illustrerer, hvordan forskellige brugere vil interagere med appen.
+- Prioriter disse User Stories
 
 ### Inkluder
 - En titel for hver story for at opsummere dens essens
-- Beskrivelse af brugeren (persona) for hver story.
-- Brugerens behov og den værdi, appen tilbyder, formuleret som: "**Som en** [*type bruger*], **ønsker jeg** [*et behov eller en funktion*], **så jeg kan** [*opnået fordel*]."
-- Acceptkriterier, der specificerer de betingelser, som skal opfyldes, for at user storyen anses for at være fuldført.
+- Beskrivelse af brugeren (*persona*) for hver story
+- Brugerens **behov** og den **værdi**, appen tilbyder, formuleret som: 
 
-## Opgave 3
+"**Som en** [*type bruger*], **ønsker jeg** [*et behov eller en funktion*], **så jeg kan** [*opnået fordel*]."
+
+- Acceptkriterier, der specificerer de betingelser, som skal opfyldes, for at user storyen anses for at være fuldført
+- Nedbryd én af disse User Stories i task
+
+## Opgave 3 - Feedback
 ### **Feedback og Revision**
 - Præsenter user stories for klassen eller en anden gruppe
 - Modtag feedback og foreslå forbedringer baseret på feedbacken
@@ -128,3 +140,4 @@ Ud fra de definerede **SMART**-mål, skriv mindst 4 user stories, der illustrere
 - [www.agilealliance.org](https://www.agilealliance.org). En organisation dedikeret til fremme af agile udviklingsmetoder, som ofte afholder webinars og tilbyder ressourcer om agile praksis.
 - [Scrum.org Blog](https://www.scrum.org)
 - [The Mountain Goat Software Blog - https://www.mountaingoatsoftware.com/blog](https://www.mountaingoatsoftware.com/blog). En fremragende kilde til indsigt i agile metoder og praktisk rådgivning om brug af user stories og SMART-kriterier.
+- [Learn Scrum in simple terms](https://github.com/imalitavakoli/learn-scrum)

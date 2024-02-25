@@ -10,18 +10,20 @@ nav_order: 50
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
-# IT-arkitektur (16-04-2024)
-Introduktion til IT-arkitektur
+# Introduktion til IT-arkitektur
+- 16-04-2024
+
 
 - Grundlæggende IT-arkitekturkoncepter
 - Oversigt over arkitekturrammer (f.eks. TOGAF, Zachman)
 - Introduktion til systemintegration og middleware
 
-## **Case**: Analyser en virksomheds IT-arkitektur baseret på en casebeskrivelse.
+## **Case**: [Analyser en virksomheds IT-arkitektur baseret på en casebeskrivelse](./case_virksomhedsanalyse.md)
 
 
-# IT-arkitektur og datahåndtering (22-04-2024 - sammen med JENR)
-Datahåndtering og Databaser
+# IT-arkitektur og datahåndtering
+- 22-04-2024 - sammen med JENR
+- Datahåndtering og Databaser
 
 - Grundlæggende om databaser og datalagring
 - Datamodellering og design
