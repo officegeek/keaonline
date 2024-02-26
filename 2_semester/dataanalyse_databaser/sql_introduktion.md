@@ -4,7 +4,7 @@ title: SQL - Introduktion
 parent: 2. Semester
 parent: 2. Semester
 has_children: false
-nav_order: 60
+nav_order: 20
 ---
 
 <span class="fs-1">

@@ -30,3 +30,4 @@ Power Apps understøtter integration med andre Microsoft-tjenester som Power BI 
 - [Officiel Microsoft Power Apps dokumentation](https://docs.microsoft.com/en-us/powerapps)
 [Power Apps vejledninger og kurser](https://learn.microsoft.com/en-us/training/powerplatform/power-apps)
 - [Forståelse af Power Apps formularer og dataforbindelser](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/working-with-forms)
+- [Create a Power app with Azure Database for MySQL - Flexible Server](https://learn.microsoft.com/en-us/azure/mysql/flexible-server/tutorial-create-power-app-with-mysql)
