@@ -308,4 +308,148 @@ Et **VIEW** vil altid vises de **nyeste** data.
 ```
 Du finder **VIEW** i en selvstændig mappe i MySQL.
 
-***
+# Normalform eksempel
+For at illustrere processen fra 1. normalform (1NF) til 3. normalform (3NF), har vi en database, der holder styr på studerendes kurser og instruktører.
+
+Dette eksempel vil tage dig gennem hvert trin, inklusive design af et ER-diagram og SQL-kode til at oprette tabeller samt indsættelse af data.
+
+## 1NF
+Tabellen **Studiekursus** indeholder følgende kolonner:
+- StuderendeID
+- StuderendeNavn
+- KursusID
+- KursusNavn
+- InstruktørID
+- InstruktørNavn
+
+Hver række repræsenterer en *studerendes tilmelding til et kursus sammen med information om kurset og instruktøren*.
+
+For at **opfylde 1NF**, skal hver kolonne indeholde **atomiske værdier uden gentagelser i rækkerne**.
+
+## 2NF
+For at opfylde **2NF**, opdeler vi dataene i flere tabeller for at undgå partielle afhængigheder:
+
+### Studerende tabellen
+- StuderendeID (*PK*)
+- StuderendeNavn
+### Kursus tabellen
+- KursusID (*PK*)
+- KursusNavn
+- InstruktørID (*FK*)
+### Instruktør tabellen
+- InstruktørID (*PK*)
+- InstruktørNavn
+### StuderendeKursus tabellen
+For at håndtere **mange-til-mange relationen** mellem studerende og kurser, indeholdender:
+- StuderendeID (*FK*)
+- KursusID (*FK*)
+
+## 3NF
+For at opnå 3NF, sikrer vi, at alle felter i en tabel kun afhænger af nøglen. 
+
+Antag at **InstruktørNavn** afhænger af **InstruktørID**, som allerede findes i Kursus tabellen, skaber dette en transitiv afhængighed.
+
+Derfor, beholdes **Instruktør tabellen** som den er, men sikrer at Kursus tabellen ikke indeholder direkte instruktør information, bortset fra **InstruktørID**.
+
+## SQL Kode
+SQL-kode til oprettelse af **tabellerne**
+
+```sql
+CREATE TABLE Studerende (
+    StuderendeID INT AUTO_INCREMENT PRIMARY KEY,
+    StuderendeNavn VARCHAR(60) NOT NULL
+);
+
+CREATE TABLE Instruktør (
+    InstruktørID INT AUTO_INCREMENT PRIMARY KEY,
+    InstruktørNavn VARCHAR(60) NOT NULL
+);
+
+CREATE TABLE Kursus (
+    KursusID INT AUTO_INCREMENT PRIMARY KEY,
+    KursusNavn VARCHAR(50) NOT NULL,
+    InstruktørID INT,
+    FOREIGN KEY (InstruktørID) REFERENCES Instruktør(InstruktørID)
+);
+
+CREATE TABLE StuderendeKursus (
+    StuderendeID INT,
+    KursusID INT,
+    PRIMARY KEY (StuderendeID, KursusID),
+    FOREIGN KEY (StuderendeID) REFERENCES Studerende(StuderendeID),
+    FOREIGN KEY (KursusID) REFERENCES Kursus(KursusID)
+);
+```
+
+SQL-kode til at **indsætte data**
+
+```sql
+-- Indsæt data i Studerende
+INSERT INTO Studerende (StuderendeNavn) VALUES ('Anna'), ('Bertil'), ('Carla');
+
+-- Indsæt data i Instruktør
+INSERT INTO Instruktør (InstruktørNavn) VALUES ('Professor Eik'), ('Lektor Lind');
+
+-- Indsæt data i Kursus
+INSERT INTO Kursus (KursusNavn, InstruktørID) VALUES ('Databaser', 1), ('Algoritmer', 2);
+
+-- Indsæt data i StuderendeKursus
+INSERT INTO StuderendeKursus (StuderendeID, KursusID) VALUES (1, 1), (2, 1), (3, 2);
+```
+
+## Er-diagram
+![](../image/studdb_er.jpg)
+
+Dette eksempel illustrerer hvordan man transformerer data fra **1NF** gennem **2NF** til **3NF**, opretter de nødvendige tabeller i MySQL og indsætter nogle eksempeldata.
+
+Hver trin sikrer, at databasen er normaliseret for at reducere redundans og forbedre dataintegriteten.
+
+## Yderligere SQL kode
+Denne SQL kode viser, **InstruktørNavn** og tilhørende **KursusNavn** og **antallet** af **studerende**.
+
+![](../image/studdb_sql_1.jpg)
+
+```sql
+SELECT 
+    Instruktør.InstruktørNavn,
+    Kursus.KursusNavn,
+    COUNT(Studerende.StuderendeID) AS AntalStuderende
+FROM 
+    StuderendeKursus
+JOIN 
+    Studerende ON StuderendeKursus.StuderendeID = Studerende.StuderendeID
+JOIN 
+    Kursus ON StuderendeKursus.KursusID = Kursus.KursusID
+JOIN 
+    Instruktør ON Kursus.InstruktørID = Instruktør.InstruktørID
+GROUP BY 
+    Kursus.KursusID, Instruktør.InstruktørID
+ORDER BY 
+    Instruktør.InstruktørNavn, Kursus.KursusNavn;
+```
+
+## VIEW
+Denne SQL kode kan med fordel oprettes som et VIEW.
+
+```sql
+CREATE VIEW InstruktørKursusAntal AS
+    SELECT 
+        Instruktør.InstruktørNavn,
+        Kursus.KursusNavn,
+        COUNT(Studerende.StuderendeID) AS AntalStuderende
+    FROM 
+        StuderendeKursus
+    JOIN 
+        Studerende ON StuderendeKursus.StuderendeID = Studerende.StuderendeID
+    JOIN 
+        Kursus ON StuderendeKursus.KursusID = Kursus.KursusID
+    JOIN 
+        Instruktør ON Kursus.InstruktørID = Instruktør.InstruktørID
+    GROUP BY 
+        Kursus.KursusID, Instruktør.InstruktørID
+    ORDER BY 
+        Instruktør.InstruktørNavn, Kursus.KursusNavn;
+```
+
+## SQL kodefil
+Du kan hente den samlede SQL kode fil her: [StudDB.sql](../dataanalyse_databaser/filer/StudDB.sql)

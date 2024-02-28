@@ -21,10 +21,10 @@ Når **secure-file-priv** er sat, kan MySQL-serveren kun importere filer fra og 
 - Hvis indstillingen er **tom**, er filimport og -eksportoperationer deaktiveret
 - Hvis indstillingen **ikke er angivet** i konfigurationsfilen (*my.cnf eller my.ini*), kan serveren potentielt få adgang til filer i hele filsystemet, afhængigt af serverens andre sikkerhedsindstillinger og operativsystemets tilladelser.
 
-Her er nogle eksempler på, hvordan secure-file-priv kan anvendes:
+Her er nogle eksempler på, hvordan **secure-file-priv** kan anvendes:
 
-- **Forhindre enhver filoperation**: Sæt secure-file-priv til en tom streng for at deaktivere evnen til at importere fra og eksportere til filer helt.
-- **Begrænse filoperationer til en bestemt mappe**: Sæt secure-file-priv til stien til en mappe, hvor du ønsker at tillade filoperationer. MySQL-serveren vil kun kunne importere og eksportere filer fra denne mappe. Det betyder altså at det er her du skal placere de CSV filer du vil importere.
+- **Forhindre enhver filoperation**: Sæt **secure-file-priv** til en tom streng for at deaktivere evnen til at importere fra og eksportere til filer helt.
+- **Begrænse filoperationer til en bestemt mappe**: Sæt **secure-file-priv** til stien til en mappe, hvor du ønsker at tillade filoperationer. MySQL-serveren vil kun kunne importere og eksportere filer fra denne mappe. Det betyder altså at det er her du skal placere de CSV filer du vil importere.
 
 Du kan konfigurere secure-file-priv i din **my.cnf** eller **my.ini** fil under **[mysqld]** sektionen, for eksempel:
 
