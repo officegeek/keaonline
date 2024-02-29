@@ -40,7 +40,7 @@ Vi vil oprette en Stored Procedure, der tillader os at indsætte en ny bruger i 
 ```sql
 DELIMITER $$
 
-CREATE PROCEDURE TilføjBruger(IN brugerNavn VARCHAR(100), IN brugerEmail VARCHAR(100))
+CREATE PROCEDURE TilfojBruger(IN brugerNavn VARCHAR(100), IN brugerEmail VARCHAR(100))
 BEGIN
   INSERT INTO brugere (navn, email) VALUES (brugerNavn, brugerEmail);
 END $$
@@ -48,14 +48,14 @@ END $$
 DELIMITER ;
 ```
 
-Denne kode ændrer først DELIMITER til $$, så MySQL forstår, at hele blokken indtil $$ skal behandles som en enkelt kommando. 
+Denne kode ændrer først DELIMITER til "**$$**", så MySQL forstår, at hele blokken indtil "**$$**" skal behandles som en enkelt kommando. 
 
 Derefter oprettes en Stored Procedure ved navn **TilføjBruger**, som tager to **inputparametre**: 
 
 - brugerNavn
 - brugerEmail
 
-Indenfor BEGIN og END blokken udføres en INSERT kommando, som tilføjer en ny bruger med de givne parametre til brugere tabellen. 
+Indenfor **BEGIN** og **END** blokken udføres en **INSERT** kommando, som tilføjer en ny bruger med de givne parametre til brugere tabellen. 
 
 Efter proceduren sættes DELIMITER tilbage til **;**.
 
@@ -63,10 +63,10 @@ Efter proceduren sættes DELIMITER tilbage til **;**.
 For at afvikle denne Stored Procedure og tilføje en ny bruger, skal du bruge følgende SQL-kommando:
 
 ```sql
-CALL TilføjBruger('Tue Hellstern', 'tueh@kea.dk');
+CALL TilfojBruger('Tue Hellstern', 'tueh@kea.dk');
 ```
 
-Dette kald til TilføjBruger Stored Procedure vil indsætte en ny bruger med navnet "**Tue Hellstern**" og e-mailen "**tueh@kea.dk**" i brugere tabellen.
+Dette kald til TilfojBruger Stored Procedure vil indsætte en ny bruger med navnet "**Tue Hellstern**" og e-mailen "**tueh@kea.dk**" i brugere tabellen.
 
 Stored Procedures kan være meget mere komplekse og indeholde logik for fejlhåndtering, transaktioner og meget mere, men dette eksempel giver en grundlæggende forståelse af, hvordan man opretter og bruger dem i MySQL.
 
@@ -85,7 +85,7 @@ Triggers er nyttige til at **automatisere** databehandling, sikre **dataintegrit
 Vi har en tabel **ordrer** med kolonnerne
 
 - id
-- ordre_mængde
+- ordre_maengde
 - ordre_dato
 
 en anden tabel **ordre_log** designet til at logge hver gang en **ny ordre** bliver tilføjet til **ordrer** tabellen. 
@@ -96,7 +96,7 @@ Vi ønsker at oprette en Trigger, der automatisk indsætter en logpost i **ordre
 ```sql
 CREATE TABLE ordrer (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    ordre_mængde DECIMAL(10,2),
+    ordre_maengde DECIMAL(10,2),
     ordre_dato DATE
 );
 
@@ -111,7 +111,7 @@ CREATE TABLE ordre_log (
 ```sql
 DELIMITER $$
 
-CREATE TRIGGER efterOrdreIndsættelse
+CREATE TRIGGER efterOrdreIndsaettelse
 AFTER INSERT ON ordrer
 FOR EACH ROW
 BEGIN
@@ -121,7 +121,7 @@ END $$
 DELIMITER ;
 ```
 
-I dette eksempel er **efterOrdreIndsættelse** navnet på Triggeren.
+I dette eksempel er **efterOrdreIndsaettelse** navnet på Triggeren.
 
 Triggeren er sat til at køre **AFTER INSERT** på ordrer tabellen, hvilket betyder, at den udføres lige efter en ny post er succesfuldt indsat.
 
@@ -135,7 +135,7 @@ Indenfor **BEGIN** og **END** blokken, indsættes en ny post i **ordre_lo**g tab
 For at teste Triggeren, kan du indsætte en ny ordre i ordrer tabellen:
 
 ```sql
-INSERT INTO ordrer (ordre_mængde, ordre_dato) 
+INSERT INTO ordrer (ordre_maengde, ordre_dato) 
 VALUES (100, '2024-02-28');
 ```
 
