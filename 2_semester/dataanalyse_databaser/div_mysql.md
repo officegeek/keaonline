@@ -11,6 +11,138 @@ nav_order: 40
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
+# Indhold
+- [Stored Procedure](#stored-procedure)
+- [Trigger](#trigger)
+- [secure-file-priv](#secure-file-priv)
+
+
+# Stored Procedure
+En **Stored Procedure** i MySQL er en *foruddefineret* sekvens af SQL-kommandoer, som gemmes i databasen. 
+
+Den kan afvikles efter behov for at udføre en særlig opgave, som kan involvere at *læse*, *skrive*, *opdatere* eller *slette* data i databasen. 
+
+Stored Procedures er nyttige for at genbruge SQL-kode, sikre konsistent implementering af operationer og reducere netværkstrafik mellem en applikation og databaseserveren.
+
+I Stored Procedures kan du anvende variable.
+
+## Oprettelse
+Her er et grundlæggende eksempel på en Stored Procedure i MySQL.
+
+Vi har en database med en tabel brugere, som indeholder kolonnerne:
+- id
+- navn
+- email
+
+Vi vil oprette en Stored Procedure, der tillader os at indsætte en ny bruger i denne tabel.
+
+```sql
+DELIMITER $$
+
+CREATE PROCEDURE TilføjBruger(IN brugerNavn VARCHAR(100), IN brugerEmail VARCHAR(100))
+BEGIN
+  INSERT INTO brugere (navn, email) VALUES (brugerNavn, brugerEmail);
+END $$
+
+DELIMITER ;
+```
+
+Denne kode ændrer først DELIMITER til $$, så MySQL forstår, at hele blokken indtil $$ skal behandles som en enkelt kommando. 
+
+Derefter oprettes en Stored Procedure ved navn **TilføjBruger**, som tager to **inputparametre**: 
+
+- brugerNavn
+- brugerEmail
+
+Indenfor BEGIN og END blokken udføres en INSERT kommando, som tilføjer en ny bruger med de givne parametre til brugere tabellen. 
+
+Efter proceduren sættes DELIMITER tilbage til **;**.
+
+## Afvikling
+For at afvikle denne Stored Procedure og tilføje en ny bruger, skal du bruge følgende SQL-kommando:
+
+```sql
+CALL TilføjBruger('Tue Hellstern', 'tueh@kea.dk');
+```
+
+Dette kald til TilføjBruger Stored Procedure vil indsætte en ny bruger med navnet "**Tue Hellstern**" og e-mailen "**tueh@kea.dk**" i brugere tabellen.
+
+Stored Procedures kan være meget mere komplekse og indeholde logik for fejlhåndtering, transaktioner og meget mere, men dette eksempel giver en grundlæggende forståelse af, hvordan man opretter og bruger dem i MySQL.
+
+
+# Trigger
+En **Trigger** i MySQL er en databasefunktion, der **automatisk** udfører en foruddefineret SQL-instruktion eller et sæt af instruktioner i reaktion på bestemte hændelser i databasen. 
+
+Disse hændelser kan være
+- INSERT
+- UPDATE
+- DELETE
+
+Triggers er nyttige til at **automatisere** databehandling, sikre **dataintegritet**, og **implementere komplekse forretningsregler** direkte på **databaseniveau**.
+
+## Oprettelse
+Vi har en tabel **ordrer** med kolonnerne
+
+- id
+- ordre_mængde
+- ordre_dato
+
+en anden tabel **ordre_log** designet til at logge hver gang en **ny ordre** bliver tilføjet til **ordrer** tabellen. 
+
+Vi ønsker at oprette en Trigger, der automatisk indsætter en logpost i **ordre_log** tabellen hver gang en ny ordre indsættes i **ordrer** tabellen.
+
+## Oprettelse af tabeller
+```sql
+CREATE TABLE ordrer (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ordre_mængde DECIMAL(10,2),
+    ordre_dato DATE
+);
+
+CREATE TABLE ordre_log (
+    log_id INT AUTO_INCREMENT PRIMARY KEY,
+    ordre_id INT,
+    log_dato TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+## Oprettelse af Trigger
+```sql
+DELIMITER $$
+
+CREATE TRIGGER efterOrdreIndsættelse
+AFTER INSERT ON ordrer
+FOR EACH ROW
+BEGIN
+    INSERT INTO ordre_log (ordre_id) VALUES (NEW.id);
+END $$
+
+DELIMITER ;
+```
+
+I dette eksempel er **efterOrdreIndsættelse** navnet på Triggeren.
+
+Triggeren er sat til at køre **AFTER INSERT** på ordrer tabellen, hvilket betyder, at den udføres lige efter en ny post er succesfuldt indsat.
+
+FOR **EACH ROW** angiver, at Trigger-handlingen skal udføres for hver række, der påvirkes af den oprindelige operation (i* dette tilfælde, for hver ny ordre der indsættes*).
+
+Indenfor **BEGIN** og **END** blokken, indsættes en ny post i **ordre_lo**g tabellen. 
+
+**NEW.id** refererer til **id** kolonnen af den række, der lige er blevet indsat i ordrer tabellen.
+
+## Test af Trigger
+For at teste Triggeren, kan du indsætte en ny ordre i ordrer tabellen:
+
+```sql
+INSERT INTO ordrer (ordre_mængde, ordre_dato) 
+VALUES (100, '2024-02-28');
+```
+
+Efter denne indsættelse, vil **Triggeren automatisk** tilføje en tilsvarende post i **ordre_log** tabellen, der logger denne hændelse. 
+
+Triggers i MySQL tillader automatisk udførelse af komplekse operationer og sikrer dataintegritet ved at reagere på ændringer i databasen.
+
+
 # secure-file-priv
 **secure-file-priv** er en indstilling i MySQL, der begrænse hvilke filer serveren kan læse fra og skrive til, når den udfører filbaserede operationer som f.eks. import.
 
