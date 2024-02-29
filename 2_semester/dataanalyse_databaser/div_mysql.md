@@ -14,6 +14,7 @@ nav_order: 40
 # Indhold
 - [Stored Procedure](#stored-procedure)
 - [Trigger](#trigger)
+- [e-handelsplatform](#e-handelsplatform)
 - [secure-file-priv](#secure-file-priv)
 
 
@@ -141,6 +142,125 @@ VALUES (100, '2024-02-28');
 Efter denne indsættelse, vil **Triggeren automatisk** tilføje en tilsvarende post i **ordre_log** tabellen, der logger denne hændelse. 
 
 Triggers i MySQL tillader automatisk udførelse af komplekse operationer og sikrer dataintegritet ved at reagere på ændringer i databasen.
+
+# e-handelsplatform
+Demoeksempel på en database for en simpel e-handelsplatform. Denne demo indeholder:
+
+**To tabeller**
+- **produkter**
+    - produkt_id
+    - navn
+    - pris
+    - lagerbeholdning
+- **ordrer**
+    - ordre_id
+    - produkt_id INT
+    - antal INT
+    - ordre_dato
+
+**En Stored Procedure**
+- Til at tilføje en ny ordre.
+
+**En Trigger**
+- Til automatisk at opdatere lagerbeholdningen i produkter tabellen, når en ny ordre tilføjes.
+
+## Oprettelse af Tabeller
+```sql
+CREATE DATABASE IF NOT EXISTS eHandelsDemo;
+USE eHandelsDemo;
+
+CREATE TABLE produkter (
+    produkt_id INT AUTO_INCREMENT PRIMARY KEY,
+    navn VARCHAR(255) NOT NULL,
+    pris DECIMAL(10, 2) NOT NULL,
+    lagerbeholdning INT DEFAULT 0
+);
+
+CREATE TABLE ordrer (
+    ordre_id INT AUTO_INCREMENT PRIMARY KEY,
+    produkt_id INT,
+    antal INT,
+    ordre_dato TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (produkt_id) REFERENCES produkter(produkt_id)
+);
+```
+
+## Oprettelse af Stored Procedure
+Denne Stored Procedure vil tage **produkt_id** og **antal** som parametre for at tilføje en **ny ordre**.
+
+```sql
+DELIMITER $$
+
+CREATE PROCEDURE TilføjOrdre(IN produktID INT, IN antal INT)
+BEGIN
+    INSERT INTO ordrer (produkt_id, antal) VALUES (produktID, antal);
+END $$
+
+DELIMITER ;
+```
+
+## Oprettelse af Trigger
+Denne Trigger vil **automatisk** **opdatere** lagerbeholdning i produkter tabellen, når en **ny ordre** tilføjes.
+
+```sql
+DELIMITER $$
+
+CREATE TRIGGER OpdaterLagerEfterOrdre
+AFTER INSERT ON ordrer
+FOR EACH ROW
+BEGIN
+    UPDATE produkter
+    SET lagerbeholdning = lagerbeholdning - NEW.antal
+    WHERE produkt_id = NEW.produkt_id;
+END $$
+
+DELIMITER ;
+```
+
+## Samlet SQL-kode
+Nedenstående SQL-kode inkluderer oprettelsen af database, tabeller, Stored Procedure, og Trigger som beskrevet ovenfor. Denne kode vil oprette et komplet demoeksempel i MySQL.
+
+```sql
+CREATE DATABASE IF NOT EXISTS eHandelsDemo;
+USE eHandelsDemo;
+
+CREATE TABLE produkter (
+    produkt_id INT AUTO_INCREMENT PRIMARY KEY,
+    navn VARCHAR(255) NOT NULL,
+    pris DECIMAL(10, 2) NOT NULL,
+    lagerbeholdning INT DEFAULT 0
+);
+
+CREATE TABLE ordrer (
+    ordre_id INT AUTO_INCREMENT PRIMARY KEY,
+    produkt_id INT,
+    antal INT,
+    ordre_dato TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (produkt_id) REFERENCES produkter(produkt_id)
+);
+
+DELIMITER $$
+
+CREATE PROCEDURE TilføjOrdre(IN produktID INT, IN antal INT)
+BEGIN
+    INSERT INTO ordrer (produkt_id, antal) VALUES (produktID, antal);
+END $$
+
+CREATE TRIGGER OpdaterLagerEfterOrdre
+AFTER INSERT ON ordrer
+FOR EACH ROW
+BEGIN
+    UPDATE produkter
+    SET lagerbeholdning = lagerbeholdning - NEW.antal
+    WHERE produkt_id = NEW.produkt_id;
+END $$
+
+DELIMITER ;
+```
+
+Du skal køre disse kommandoer i din MySQL-database for at oprette demoeksemplet. 
+
+Husk, at du skal tilpasse denne kode, hvis du allerede har en database ved navn eHandelsDemo, eller hvis du ønsker at bruge en anden database.
 
 
 # secure-file-priv
