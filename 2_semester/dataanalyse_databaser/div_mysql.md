@@ -48,7 +48,7 @@ END $$
 DELIMITER ;
 ```
 
-Denne kode ændrer først DELIMITER til "**$$**", så MySQL forstår, at hele blokken indtil "**$$**" skal behandles som en enkelt kommando. 
+Denne kode ændrer først DELIMITER til "$$", så MySQL forstår, at hele blokken indtil "$$" skal behandles som en enkelt kommando. 
 
 Derefter oprettes en Stored Procedure ved navn **TilføjBruger**, som tager to **inputparametre**: 
 
