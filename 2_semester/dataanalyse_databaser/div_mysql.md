@@ -40,7 +40,7 @@ Vi vil oprette en **Stored Procedure**, der indsætter en ny bruger i denne tabe
 ```sql
 DELIMITER $$
 
-CREATE PROCEDURE TilfojBruger(IN brugerNavn VARCHAR(100), IN brugerEmail VARCHAR(100))
+CREATE PROCEDURE TilfojBruger(IN brugerNavn VARCHAR(50), IN brugerEmail VARCHAR(50))
 BEGIN
   INSERT INTO brugere (navn, email) VALUES (brugerNavn, brugerEmail);
 END $$
@@ -68,13 +68,15 @@ CALL TilfojBruger('Tue Hellstern', 'tueh@kea.dk');
 
 Dette kald til TilfojBruger Stored Procedure vil indsætte en ny bruger med navnet "**Tue Hellstern**" og e-mailen "**tueh@kea.dk**" i brugere tabellen.
 
+Du kan hente den samlede SQL-fil her: [demo_sp.sql](./filer/demo_sp.sql)
+
 Stored Procedures kan være meget mere komplekse og indeholde logik for fejlhåndtering, transaktioner og meget mere, men dette eksempel giver en grundlæggende forståelse af, hvordan man opretter og bruger dem i MySQL.
 
 
 # Trigger
 En **Trigger** i MySQL er en databasefunktion, der **automatisk** udfører en foruddefineret SQL-instruktion eller et sæt af instruktioner i reaktion på bestemte hændelser i databasen. 
 
-Disse hændelser kan være
+Disse hændelser kan være:
 - INSERT
 - UPDATE
 - DELETE
@@ -82,7 +84,7 @@ Disse hændelser kan være
 Triggers er nyttige til at **automatisere** databehandling, sikre **dataintegritet**, og **implementere komplekse forretningsregler** direkte på **databaseniveau**.
 
 ## Oprettelse
-Vi har en tabel **ordrer** med kolonnerne
+Vi har en tabel **ordrer** med kolonnerne:
 
 - id
 - ordre_maengde
@@ -141,6 +143,8 @@ VALUES (100, '2024-02-28');
 
 Efter denne indsættelse, vil **Triggeren automatisk** tilføje en tilsvarende post i **ordre_log** tabellen, der logger denne hændelse. 
 
+Du kan hente SQL-filen her: [demo_trigger.sql](./filer/demo_trigger.sql)
+
 Triggers i MySQL tillader automatisk udførelse af komplekse operationer og sikrer dataintegritet ved at reagere på ændringer i databasen.
 
 # e-handelsplatform
@@ -162,7 +166,7 @@ Demoeksempel på en database for en simpel e-handelsplatform. Denne demo indehol
 - Til at tilføje en ny ordre.
 
 **En Trigger**
-- Til automatisk at opdatere lagerbeholdningen i produkter tabellen, når en ny ordre tilføjes.
+- Til automatisk at opdatere lagerbeholdningen i **produkter** tabellen, når en **ny ordre tilføjes**.
 
 ## Oprettelse af Tabeller
 ```sql
