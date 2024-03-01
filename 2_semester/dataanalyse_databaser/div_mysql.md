@@ -185,6 +185,28 @@ CREATE TABLE ordrer (
 );
 ```
 
+## Indsæt data
+```sql
+insert into produkter (navn, pris, lagerbeholdning)
+values 	('Hammer', 98.75, 20),
+		('Boremaskine', 1646, 15),
+		('Sav', 75.25, 200),
+		('Skruetrækker', 18.75, 120);
+    
+insert into ordrer (produkt_id, antal)
+values 	(1, 5),
+		(2, 10),
+        (3, 1),
+        (4, 20),
+        (4, 5),
+        (3, 3),
+        (2, 1),
+        (1, 2),
+        (2, 3),
+        (4, 10),
+        (3, 25);
+```
+
 ## Oprettelse af Stored Procedure
 Denne Stored Procedure vil tage **produkt_id** og **antal** som parametre for at tilføje en **ny ordre**.
 
@@ -218,49 +240,9 @@ DELIMITER ;
 ```
 
 ## Samlet SQL-kode
-Nedenstående SQL-kode inkluderer oprettelsen af database, tabeller, Stored Procedure, og Trigger som beskrevet ovenfor. Denne kode vil oprette et komplet demoeksempel i MySQL.
+Nedenstående SQL-kodefil inkluderer oprettelsen af database, tabeller, indsættelse af data, Stored Procedure, og Trigger som beskrevet ovenfor. 
 
-```sql
-CREATE DATABASE IF NOT EXISTS eHandelsDemo;
-USE eHandelsDemo;
-
-CREATE TABLE produkter (
-    produkt_id INT AUTO_INCREMENT PRIMARY KEY,
-    navn VARCHAR(255) NOT NULL,
-    pris DECIMAL(10, 2) NOT NULL,
-    lagerbeholdning INT DEFAULT 0
-);
-
-CREATE TABLE ordrer (
-    ordre_id INT AUTO_INCREMENT PRIMARY KEY,
-    produkt_id INT,
-    antal INT,
-    ordre_dato TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (produkt_id) REFERENCES produkter(produkt_id)
-);
-
-DELIMITER $$
-
-CREATE PROCEDURE TilføjOrdre(IN produktID INT, IN antal INT)
-BEGIN
-    INSERT INTO ordrer (produkt_id, antal) VALUES (produktID, antal);
-END $$
-
-CREATE TRIGGER OpdaterLagerEfterOrdre
-AFTER INSERT ON ordrer
-FOR EACH ROW
-BEGIN
-    UPDATE produkter
-    SET lagerbeholdning = lagerbeholdning - NEW.antal
-    WHERE produkt_id = NEW.produkt_id;
-END $$
-
-DELIMITER ;
-```
-
-Du skal køre disse kommandoer i din MySQL-database for at oprette demoeksemplet. 
-
-Husk, at du skal tilpasse denne kode, hvis du allerede har en database ved navn eHandelsDemo, eller hvis du ønsker at bruge en anden database.
+Hent SQL-fil her: [ehandelsplatform.sql](./filer/ehandelsplatform.sql)
 
 
 # secure-file-priv
