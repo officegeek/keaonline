@@ -30,12 +30,12 @@ I Stored Procedures kan du anvende variable.
 ## Oprettelse
 Her er et grundlæggende eksempel på en Stored Procedure i MySQL.
 
-Vi har en database med en tabel brugere, som indeholder kolonnerne:
+Vi har en database med en tabel **brugere**, som indeholder kolonnerne:
 - id
 - navn
 - email
 
-Vi vil oprette en Stored Procedure, der tillader os at indsætte en ny bruger i denne tabel.
+Vi vil oprette en **Stored Procedure**, der indsætter en ny bruger i denne tabel.
 
 ```sql
 DELIMITER $$
@@ -125,9 +125,9 @@ I dette eksempel er **efterOrdreIndsaettelse** navnet på Triggeren.
 
 Triggeren er sat til at køre **AFTER INSERT** på ordrer tabellen, hvilket betyder, at den udføres lige efter en ny post er succesfuldt indsat.
 
-FOR **EACH ROW** angiver, at Trigger-handlingen skal udføres for hver række, der påvirkes af den oprindelige operation (i* dette tilfælde, for hver ny ordre der indsættes*).
+FOR **EACH ROW** angiver, at Trigger-handlingen skal udføres for hver række, der påvirkes af den oprindelige operation (*i dette tilfælde, for hver ny ordre der indsættes*).
 
-Indenfor **BEGIN** og **END** blokken, indsættes en ny post i **ordre_lo**g tabellen. 
+Indenfor **BEGIN** og **END** blokken, indsættes en ny post i **ordre_log** tabellen. 
 
 **NEW.id** refererer til **id** kolonnen af den række, der lige er blevet indsat i ordrer tabellen.
 
@@ -171,7 +171,7 @@ USE eHandelsDemo;
 
 CREATE TABLE produkter (
     produkt_id INT AUTO_INCREMENT PRIMARY KEY,
-    navn VARCHAR(255) NOT NULL,
+    navn VARCHAR(60) NOT NULL,
     pris DECIMAL(10, 2) NOT NULL,
     lagerbeholdning INT DEFAULT 0
 );
