@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: keapassword
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "3310" # Replace "your_port" with the desired port number other than 3306
+    restart: always
+
+  app:
+    build: ./app
+    depends_on:
+      - mysql
+    environment:
+      DB_HOST: localhost
+      DB_USER: mysql
+      DB_PASSWORD: keapassword
+      DB_DATABASE: dockerdemo

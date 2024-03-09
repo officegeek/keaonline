@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Admire
-parent: 2. Semester
+parent: cases
+grand_parent: 2. Semester 2024
 has_children: false
 nav_order: 40
 ---
