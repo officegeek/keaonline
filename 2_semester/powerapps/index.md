@@ -82,3 +82,4 @@ Valget mellem Canvas Apps og Model-driven Apps afhænger af dine specifikke proj
 - [Create a Power app with Azure Database for MySQL - Flexible Server](https://learn.microsoft.com/en-us/azure/mysql/flexible-server/tutorial-create-power-app-with-mysql)
 - [Power Apps Community](https://powerusers.microsoft.com/en-us/community)
 - [Power Apps Blog](https://powerapps.microsoft.com/en-us/blog/)
+- [Create a canvas app with data from an Excel file](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/get-started-create-from-data)
