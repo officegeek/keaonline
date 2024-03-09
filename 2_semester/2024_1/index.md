@@ -29,15 +29,16 @@ dataanalyse_databaser/index.md)
 - Mandag - 26-02-2024 - [Indsamling af behov og teknisk kravspecificering](../tekniskkrav/index.md)
 - Torsdag - 29-02-2024 - [Database, programmering og UI](../dataanalyse_databaser/index.md)
 - Fredag - 01-03-2024 - [Database, programmering og UI](../dataanalyse_databaser/index.md)
-- 11-03-2024 - 
+- Mandag - 11-03-2024 - [Introduktion til Power Apps](../powerapps/index.md)
+- Tirsdag - 12-03-2024 - [Introduktion til Power Apps](../powerapps/index.md)
 
 # 2.3 - Dage
 
 # SimCorp
-- [SimCorp](../simcorp/index.md)
+- [SimCorp](../2024_1/cases/simcorp/index.md)
 
 # Admire
-- [Admire](../admire/index.md)
+- [Admire](../2024_1/cases/admire/index.md)
 
 # DeepNote
 - [Deepnote](../deepnote/index.md)
