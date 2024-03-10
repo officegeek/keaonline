@@ -34,7 +34,7 @@ Du skal/kan bruge disse link for at oprette Power Apps på Kea:
 Loginin med dit brugernavn@power.kea.dk og dit password. Brugernavnet og Password er det samme, som du bruger på dit KEA-login.
 
 # App typer
-Canvas Apps og Model-driven Apps er to primære typer af applikationer, som du kan udvikle med Microsoft Power Apps. 
+**Canvas** Apps og **Model-driven** Apps er to primære typer af applikationer, som du kan udvikle med Microsoft Power Apps. 
 
 De har forskellige formål og forskellige tilgange til app-udvikling, afhængigt af behov og den specifikke anvendelseskontekst.
 
@@ -67,6 +67,9 @@ Begge typer apps spiller en væsentlig rolle i Power Apps-økosystemet og kan en
 
 Valget mellem Canvas Apps og Model-driven Apps afhænger af dine specifikke projektbehov, de data du arbejder med, og den brugeroplevelse, du ønsker at skabe.
 
+# Excel file
+- [navne.xlsx](../powerapps/filer/navne.xlsx)
+
 # Opgaver
 - [Canvas Apps](./OpgaverCanvasApp.md)
 - [Model-driven Apps](./OpgaverModelApp.md)
@@ -83,3 +86,5 @@ Valget mellem Canvas Apps og Model-driven Apps afhænger af dine specifikke proj
 - [Power Apps Community](https://powerusers.microsoft.com/en-us/community)
 - [Power Apps Blog](https://powerapps.microsoft.com/en-us/blog/)
 - [Create a canvas app with data from an Excel file](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/get-started-create-from-data)
+- [Build a Power Apps canvas app for a real estate solution with data from Excel](https://learn.microsoft.com/en-us/training/modules/build-canvas-app-real-estate-excel/?source=recommendations)
+- [Get started with Power Apps canvas apps](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps/?WT.mc_id=powerapps_inproduct_makerportal)
