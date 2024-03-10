@@ -2,6 +2,7 @@
 layout: default
 title: Opgaver Model-driven App
 parent: Power Apps
+grand_parent: 2. Semester
 has_children: false
 nav_order: 20
 ---

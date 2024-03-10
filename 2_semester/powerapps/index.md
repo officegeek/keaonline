@@ -10,6 +10,10 @@ nav_order: 60
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
+### Slides
+- [Power Apps HTML](./slide/powerapps.html)
+- [Power Apps PDF](./slide/powerapps.pdf)
+
 # Power Apps
 Microsoft Power Apps er en del af Microsofts Power Platform, som gør det muligt for brugere at bygge brugerdefinerede applikationer uden behov for avanceret kodningsfærdigheder. 
 

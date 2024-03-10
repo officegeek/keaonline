@@ -2,6 +2,7 @@
 layout: default
 title: Opgaver Canvas App
 parent: Power Apps
+grand_parent: 2. Semester
 has_children: false
 nav_order: 10
 ---
