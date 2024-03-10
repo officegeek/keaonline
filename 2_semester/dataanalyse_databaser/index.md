@@ -2,7 +2,7 @@
 layout: default
 title: Dataanalyse og Databaser
 parent: 2. Semester
-has_children: false
+has_children: true
 nav_order: 60
 ---
 

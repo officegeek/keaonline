@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Cases
-grand_parent: 2. Semester
-parent: 2. Semester 2024
+parent: 2. Semester
 has_children: true
 nav_order: 10
 ---

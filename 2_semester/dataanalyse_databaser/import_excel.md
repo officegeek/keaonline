@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Import Excel Data
-parent: 2. Semester
-parent: 2. Semester
+grand_parent: 2. Semester
+parent: Dataanalyse og Databaser
 has_children: false
 nav_order: 30
 ---

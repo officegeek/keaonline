@@ -1,7 +1,8 @@
 ---
 layout: default
 title: SimCorp
-parent: 2. Semester
+parent: Cases
+grand_parent: 2. Semester
 has_children: false
 nav_order: 20
 ---
