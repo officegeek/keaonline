@@ -10,14 +10,6 @@ nav_order: 40
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
 
 # Dash app >> Azure
 Dash is a powerful software tool for creating dashboards, *but if you need to share your dashboards with other?*

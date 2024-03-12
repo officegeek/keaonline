@@ -6,6 +6,9 @@ grand_parent: 4. Semester
 nav_order: 30
 ---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
 
 # RabbitMQ
 Think of a message broker (*RabbitMQ*) like a delivery person who takes mail from a sender and delivers it to the correct destination. 

@@ -10,15 +10,6 @@ nav_order: 40
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 # SOAP API calls using Python
 SOAP stands for [Simple Object Access Protocol](https://www.geeksforgeeks.org/basics-of-soap-simple-object-access-protocol/), as the name suggests nothing but a protocol for exchanging structured data between nodes. It uses XML instead of JSON.
 
