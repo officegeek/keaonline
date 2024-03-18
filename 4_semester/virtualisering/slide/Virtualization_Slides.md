@@ -11,7 +11,7 @@ html: true
 ---
 
 ![bg right:40% 181%](https://github.com/officegeek/image/raw/main/agenda.jpg)
-# Virtualization  15-03-2023
+# Virtualization
 ### Agenda
 
 - Introduction
@@ -209,12 +209,6 @@ https://www.youtube.com/embed/KgL3BfAc9Cs
 
 ---
 
-![bg 70%](https://github.com/officegeek/image/raw/main/Pizza-as-a-Service-Microsoft-Azure.jpg)
-
-<!-- _footer: Microsoft Azure Service-->
-
----
-
 ![bg 80%](https://github.com/officegeek/image/raw/main/The_Cloud_Stack.png)
 
 <!-- _footer: Different ways to manage the stack-->
@@ -259,21 +253,6 @@ https://www.youtube.com/embed/KgL3BfAc9Cs
 
 [E-conomic Developer](http://www.e-conomic.com)
 [E-conomic DK](http://www.e-conomic.dk)
-
----
-
-<!-- _backgroundColor: black -->
-<!-- _color: white -->
-
-![bg right:30%](https://github.com/officegeek/image/raw/main/white-question-mark.png)
-# Assignment
-## NIST Definition of Cloud Computing
-
----
-
-Fill in the blanks - Read NIST Definition of Cloud Computing - https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
-
-![width:950px](https://github.com/officegeek/image/raw/main/cloudservices_2.jpg)
 
 ---
 
