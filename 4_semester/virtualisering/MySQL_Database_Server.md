@@ -90,6 +90,16 @@ When you activate the connection you have access to the MySQL server in the same
 ### Northwind
 If you want to create a database on the server you can upload and run the [northwind_kea.sql](../01-Python-brushup_and_Docker_1/codefiles/sql/northwind_kea.sql) file.
 
+## Create user on MySQL
+How To Create a New User and Grant Permissions in MySQL.
+
+Create user
+
+  CREATE USER 'username'@'host' IDENTIFIED BY 'password';
+
+Granting a User Permissions
+
+  GRANT PRIVILEGE ON database.table TO 'username'@'host';
 
 # Links
 - [Azure documation MySQL Server](https://docs.microsoft.com/en-us/azure/mysql/)
