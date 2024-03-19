@@ -29,6 +29,10 @@ Use **pip install** and install each module one at the time
     pip3 install "module name"
 
 ## requirements.txt
-You can create an *requirements.txt* file and list the modules in that file, then install all the modules:
+You can create an *requirements.txt* file and list the modules in that file
+
+    pip3 freeze > requirements.txt
+
+then install all the modules:
 
     pip3 install -r requirements.txt
