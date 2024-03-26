@@ -1,0 +1,101 @@
+customer_id;first_name;last_name;address;postcode;city;country;date_of_birth
+1;Tyler;Smith;"979 Lynn Points Apt. 034
+West Kathrynburgh, NV 03563";03741;North Scott;Namibia;25-04-1974
+2;Jennifer;Hughes;"919 Davis Motorway Apt. 529
+Port Marthaside, NY 80917";25367;Khanport;Ecuador;22-01-1996
+3;Kathryn;Hughes;"665 Michael Mission
+West Thomaston, RI 34659";86435;Perezstad;Belgium;27-06-1995
+4;Angela;Smith;"76425 Brittany Crest Suite 087
+Lopeztown, MD 35558";84922;Larrymouth;Madagascar;04-08-1990
+5;Michelle;Burnett;"8819 Adam Land
+East Elizabeth, MT 58394";02365;Josephmouth;Timor-Leste;31-03-1978
+6;Shawn;Stein;"4883 May Knoll Suite 263
+Port Rachelville, MS 71918";79374;Port Laurieport;Yemen;15-12-1957
+7;Regina;Wilkerson;"01172 Karen Camp
+New Andrew, SD 75130";96477;South Nicole;Fiji;08-03-1966
+8;Ruben;Campos;"980 Simpson Crossing Suite 035
+Sanderston, UT 05567";11665;Randyborough;Turkmenistan;16-07-1975
+9;Michele;Salazar;"92619 Katherine Trafficway Apt. 452
+Port Josephton, OR 60062";55786;Richardsview;Comoros;19-01-1956
+10;Nicholas;Jordan;"611 Jesse Run Apt. 103
+West Josephton, NM 41315";55960;Joelfurt;Equatorial Guinea;31-10-2000
+11;Rita;Arnold;"4662 Jesse Circle Suite 537
+North Ryan, IA 73318";71891;Robertberg;Norway;29-03-1997
+12;Elijah;Cook;"739 Hardin Via Apt. 802
+Perrybury, MA 94968";10756;East Alan;Andorra;29-11-1992
+13;Dawn;Parks;"084 Hawkins Station Apt. 879
+Port Barbaraberg, SD 94675";29165;Riggsfort;Cayman Islands;02-09-1960
+14;Rhonda;Pierce;"568 Susan Park Suite 535
+Nicholasside, NC 00593";88270;Millerchester;Luxembourg;24-08-1987
+15;Ashley;Wilson;"15646 Fitzgerald Avenue
+West Sherrihaven, TX 42594";30790;Mackenzieland;Palau;11-05-1965
+16;Anthony;Miller;"Unit 9737 Box 6315
+DPO AE 75256";87682;Marshstad;El Salvador;09-06-1977
+17;Aaron;Dillon;"461 Garza Fords
+North Ashley, MA 99923";21020;Lake Mirandastad;Isle of Man;27-02-1992
+18;Jason;Brown;"49084 Scott Views Suite 899
+North Dustin, WA 06407";65368;New Mark;Canada;08-02-1987
+19;Kathryn;Snyder;"4144 Bautista Union
+South Richard, GA 92370";79080;Josephmouth;Myanmar;04-11-1979
+20;Beverly;Morris;"7680 Danielle Port Apt. 879
+Lake Amy, MD 14393";82972;Danielside;Panama;04-04-1987
+21;Seth;Kennedy;"994 Alice Lakes
+New Grant, OK 16539";13024;Allenfort;Paraguay;01-01-1981
+22;Steven;Hooper;"401 Gonzalez Plaza Suite 623
+Lake Kimberlyburgh, WV 76146";05666;North Jefferyside;Palestinian Territory;21-03-1975
+23;Daniel;Gardner;"29087 Abigail Stravenue
+South Dennis, RI 57387";84667;Lake Tammy;Finland;03-12-1979
+24;John;Hatfield;"30955 Robinson Bypass
+North Larryburgh, AR 31015";44113;Jonesshire;Comoros;09-01-1984
+25;Deborah;Suarez;"200 Foster Stravenue
+Fernandezside, MI 02308";96143;Smithmouth;Barbados;02-09-1996
+26;Joseph;Lyons;"56262 Williamson Road Apt. 586
+Walkerberg, VA 05861";48413;East Veronicaberg;Iran;11-01-1978
+27;Tina;Sloan;"USNS Case
+FPO AA 17888";97894;Bartonfort;Algeria;30-10-1970
+28;Donald;Harris;"01746 Ashley Drive
+Johnborough, WV 07130";48701;East David;Russian Federation;08-12-1983
+29;Kelly;Garcia;"43625 David Walk
+East Rodney, IL 70866";46820;Willieville;Grenada;26-03-1990
+30;Rachel;Reynolds;"PSC 7753, Box 2390
+APO AP 69231";78488;South Randall;Niue;12-02-1967
+31;Billy;Howard;"89194 Vazquez Alley
+Frankbury, SD 58075";35121;Port Rodney;Philippines;10-09-2000
+32;Dustin;Smith;"85760 Natasha Glen
+Michaelland, CA 94988";97274;Westtown;Costa Rica;19-07-1955
+33;Henry;Henry;"PSC 7210, Box 5035
+APO AA 19527";26863;North Jennifer;Jamaica;13-11-1995
+34;Jeremy;Johnson;"099 Marshall Valley
+South Holly, CO 99745";38305;North Keith;Dominican Republic;27-05-1978
+35;Jim;Campbell;"938 Garza Ferry
+Jacksonfurt, MS 35183";17015;Evansbury;Central African Republic;07-05-1987
+36;Karen;Friedman;"24059 Jessica Drive
+South Alexandria, MN 40783";24015;Brendaburgh;Gambia;06-07-1959
+37;John;Ramirez;"4461 Samantha Estates Apt. 020
+Lake Jasonberg, NY 91656";70246;Petersburgh;Norway;15-08-1985
+38;Jane;Boyle;"425 Hernandez Land Apt. 135
+Matthewfurt, WV 58897";30380;Mariostad;Canada;16-09-1996
+39;Susan;Jones;"4748 Jaime Streets Apt. 267
+Sarahview, NE 76471";82302;New Yolanda;Singapore;18-11-1986
+40;Calvin;Marshall;"674 Simmons Island Apt. 905
+Williamburgh, SD 86485";91320;Lake Davidmouth;Luxembourg;11-08-1959
+41;Michael;Martin;"60696 Patty Crescent
+New Rhondamouth, AL 49451";54862;Feliciafort;Tanzania;20-04-1966
+42;Robert;Wilkins;"57826 Moore Camp
+Carolynshire, LA 06972";59289;Millerton;Lao People's Democratic Republic;28-02-1963
+43;Amanda;Simpson;"16012 Schmidt Parkway
+North Lauramouth, SC 90158";91514;Jordanfurt;Costa Rica;20-10-1966
+44;Jennifer;Mills;"PSC 6519, Box 8079
+APO AE 13565";84482;Lake Elizabethborough;Saint Kitts and Nevis;04-10-1979
+45;Christine;Taylor;"8732 Jones Street
+Alvaradotown, DE 18677";39940;Lisamouth;Slovenia;06-12-1997
+46;Rebecca;Jarvis;"305 Scott Forks
+Welchchester, IN 53210";65186;Robertsfurt;Slovakia (Slovak Republic);27-11-1997
+47;Caroline;Ayala;"61797 Miller Highway Suite 927
+Brianview, WA 08024";13546;Gailburgh;Egypt;01-10-1974
+48;Michael;Middleton;"2460 Whitaker Harbor Suite 158
+Nancyside, WY 57706";63431;Brandonfurt;Latvia;29-06-1974
+49;Ashley;Henson;"9471 Nathan Overpass
+West Karenport, AK 37889";34839;Ianfurt;United Arab Emirates;21-01-1957
+50;Karen;Thompson;"02945 Anderson Square Apt. 873
+Craigshire, MD 80992";33325;West Robert;Japan;07-09-1982

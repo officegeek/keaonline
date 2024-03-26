@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+
+  mysql:
+    image: mysql
+    container_name: mysql_python_demo_kea
+    environment: 
+        MYSQL_ROOT_PASSWORD: MyPassword1234
+    volumes: 
+        - "./db/init.sql:/docker-entrypoint-initdb.d/init.sql"
+    ports:
+        - "3360:3306"

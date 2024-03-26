@@ -1,30 +1,151 @@
----
-layout: default
-title: 4. sem 2024 Forår
-parent: Docker
-grand_parent: 4. Semester
-nav_order: 25
----
-
-<span class="fs-1">
-[HOME](./index.md){: .btn .btn-blue }
-</span>
-
-# Docker 4. semester 2024
 
 
-# Docker eksempel i 6 trin
-To Docker-containere skal kommunikerer med hinanden, via en *simpel* Python applikation, der involverer en **MySQL-database i én container** og en **Python-applikation i en anden**, der tilgår denne database. 
 
-Følgende 6 trin guider dig gennem oprettelsen af dette setup ved brug af **Docker Compose**, som er et værktøj til at definere og køre multi-container Docker-applikationer.
+# Docker Step by Step
 
-## Trin 1 - Installér Docker og Docker Compose
-Docker og Docker Compose skal være installeret på din computer.
 
-Docker Compose følger typisk med når du installere Docker Desktop på Windows og Mac.
+# MySQL
+Denne kommando opretter en Docker container med MySQL. 
 
-## Trin 2 - Opret din projektstruktur
-Mappestruktur for dette projekt.
+Det er port **3360** der "*udstilles*", *internt* i Docker Container er det stadig **3306** der er MySQL porten. Dette gøres med kommandoen: **-p 3360:3306**
+
+```cmd
+docker run --name demo_mysql -p 3360:3306 -e MYSQL_ROOT_PASSWORD=MyPassword1234 -d mysql:8
+```
+- **Navn**: --name demo_mysql
+- **Port**: - p 3360:3306
+- **Password**: -e MYSQL_ROOT_PASSWORD=*MyPassword1234*
+- **Tag/Version**: -d mysql:8
+
+![](./image/docker_run.jpg)
+
+# Docker commands
+Her er nogle af de vigtigste Docker kommandoer:
+
+- **Start Docker**: **docker start navn**
+    - docker start demo_mysql
+- **Stop Docker**: **docker stop navn**
+    - docker stop demo_mysql
+- **Slet Docker container**: **docker rm navn**
+    - docker rm demo_mysql 
+- **Stop og Slet**: **docker stop navn; docker rm navn**
+    - docker stop demo_mysql; docker rm demo_mysql
+
+# MySQL Workbench
+Det er nu muligt at oprette forbindelse til MySQL Docker (**demo_mysql**) fra MySQL Workbench.
+
+![](./image/workbench_1.jpg)
+
+Det vil her være muligt at oprette database osv.
+
+## init.sql
+Du skal oprette et SQL scrip der opretter databasen **dockerdemo**, tabellen **users** og indsætter data i denne.
+
+SQL scriptet skal gemmes som **init.sql** i mappen **db**.
+
+```cmd
+projekt/
+├── db
+│   └── init.sql
+└── docker-compose.yml
+└── Dockerfile
+```
+
+```sql
+CREATE DATABASE if not exists dockerdemo;
+USE dockerdemo;
+
+CREATE TABLE if not exists users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Studerende VARCHAR(50) NOT NULL,
+    klasse VARCHAR(20) NOT NULL
+);
+
+INSERT INTO users (Studerende, klasse) 
+VALUES ('Ole', 'DA4'), ('Lis', 'DA2'), ('Kim', 'DA4');
+```
+
+# docker-compose
+Oprettelse af din Docker Compose-konfiguration. Denne vil sætte både MySQL- og Python-applikationen op til at køre i separate containere.
+
+## Først MySQL
+I MySQL delen bliver dit SQL script **init.sql** afviklet.
+```yml
+version: '3.8'
+
+services:
+
+  mysql:
+    image: mysql
+    container_name: demo_mysql
+    environment: 
+        MYSQL_ROOT_PASSWORD: MyPassword1234
+    volumes: 
+        - "./db/init.sql:/docker-entrypoint-initdb.d/init.sql"
+    ports:
+        - "3360:3306"
+```
+
+Din filer skal nu være placeret på denne måde.
+
+```cmd
+projekt/
+├── db
+│   └── init.sql
+└── docker-compose.yml
+└── Dockerfile
+```
+
+## Test - MySQL container
+Du kan teste dette med denne Docker kommando:
+
+```cmd
+docker-compose up
+```
+
+*Husk*: Din **Docker demon** skal kører - Start Docker desktop.
+
+Du kan forbinde til denne container med din Workbench, husk det er **port 3360**.
+
+![](../docker/image/workbench_2.jpg)
+
+# Python app
+Opret en simpel Python App, **app.py**, der forbinder til MySQL-databasen og udfører en simpel forespørgsel i databasen. Placer den i mappen - **app** 
+
+```python
+import mysql.connector
+
+def connect_to_mysql():
+    while True:
+        try:
+            connection = mysql.connector.connect(
+                host="localhost",
+                port=3360,
+                user="root",
+                password="MyPassword1234",
+                database="dockerdemo"
+            )
+            if connection.is_connected():
+                print("Successfully connected to MySQL database")
+                return connection
+        except mysql.connector.Error as e:
+            print("Error while connecting to MySQL", e)
+            time.sleep(3)
+
+def fetch_data(connection):
+    cursor = connection.cursor()
+    cursor.execute("select * from users;")
+    record = cursor.fetchall()
+
+    for x in record:
+        print(x)
+
+if __name__ == '__main__':
+    conn = connect_to_mysql()
+    fetch_data(conn)
+```
+
+Din filer skal nu være placeret på denne måde.
 
 ```cmd
 projekt/
@@ -33,125 +154,40 @@ projekt/
 ├── app
 │   └── app.py
 └── docker-compose.yml
+└── Dockerfile
 ```
 
-- **db/init.sql** indeholder SQL-kommandoer til at initialisere databasen.
-- **app/app.py** er den Python-applikation, der tilgår MySQL-databasen.
-- **docker-compose.yml** definere, hvordan dine containers skal bygges og interagere.
+# docker-compose
+Din docker-compose fil skal udvides så den starter din Python fil **app.py**
 
-## Trin 3 - Definer MySQL-databasen
-I **db/init.sql**, tilføj SQL-kommandoer til at oprette din database og tabeller.
-
-```sql
-CREATE DATABASE if not exists dockerdemo;
-USE dockerdemo;
-
-CREATE TABLE if not exists users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(50) NOT NULL,
-    klasse VARCHAR(20) NOT NULL
-);
-
-INSERT INTO users (name) 
-VALUES ('Ole', 'DA4'), ('Lis'. 'DA2'), ('Kim', 'DA4');
-```
-
-## Trin 4 - Opret Python-applikation
-I **app/app.py**, skriv en denne Python-applikation, der forbinder til Docker containeren med MySQL-databasen og henter data fra denne:
-
-```Python
-# Install
-#pip install mysql-connector-python
-#<full path to python> -m pip install mysql-connector-python
-
-# Moduler
-import mysql.connector
-import os
-
-# Miljøvariabler for databaseforbindelse
-db_host = os.getenv('DB_HOST', 'localhost') # 127.0.0.1
-db_user = os.getenv('DB_USER', 'root')
-db_password = os.getenv('DB_PASSWORD', 'Naimo6868/?') # MySQL Database password
-db_database = os.getenv('DB_DATABASE', 'dockerdemo')
-
-# Opret databaseforbindelse
-connection = mysql.connector.connect(
-    host=db_host,
-    user=db_user,
-    password=db_password,
-    database=db_database
-)
-
-# Hent data - SQL
-cursor = connection.cursor()
-cursor.execute("SELECT * FROM studerende")
-rows = cursor.fetchall()
-
-for row in rows:
-    print(row)
-
-# Oprydning - Luk forbindelse
-cursor.close()
-connection.close()
-```
-
-**Bemærk** at Database forbindelses oplysninger normalt skal være i en INI fil af sikkerheds årsager.
-
-## Trin 5 - Opret docker-compose.yml
-Definer din **Docker Compose-konfiguration**. Dette vil sætte både MySQL- og Python-applikationen op til at køre i separate containere.
-
-
-docker-compose.yml
 ```yml
 version: '3.8'
+
 services:
+
   mysql:
-    image: mysql:5.7
-    environment:
-      MYSQL_ROOT_PASSWORD: example
-    volumes:
-      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    image: mysql
+    container_name: demo_mysql
+    environment: 
+        MYSQL_ROOT_PASSWORD: MyPassword1234
+    volumes: 
+        - "./db/init.sql:/docker-entrypoint-initdb.d/init.sql"
     ports:
-      - "3306:3306"
+        - "3360:3306"
 
   app:
-    build: ./app
-    depends_on:
+    build: .
+    depends_on: 
       - mysql
-    environment:
-      DB_HOST: mysql
-      DB_USER: root
-      DB_PASSWORD: example
-      DB_DATABASE: dockerdemo
 ```
 
-I app-delen skal build: **./app** angive stien til din applikations mappe. 
 
-Hvis du **ikke** har en Dockerfile i app-mappen, skal du oprette en med følgende indhold.
-
-docker
-```yml
-FROM python:3.8
-WORKDIR /usr/src/app
-COPY . .
-RUN pip install mysql-connector-python
-CMD ["python", "./app.py"]
-```
-
-## Trin 6 - Kør din Docker Compose-konfiguration
-Naviger til din projektmappe i en terminal og kør følgende kommando:
+## Test
+Du kan teste dette med denne Docker kommando:
 
 ```cmd
 docker-compose up
 ```
-
-Dette vil bygge din applikation og starte begge containers. 
-
-![](./image/dockercompose.jpg)
-
-Python-applikationen vil forbinde til MySQL-databasen og vise dataene hentet fra users-tabellen.
-
-Dette eksempel introducerer grundlæggende Docker koncepter, der kommunikerer med hinanden.
 
 # Fejlsøgning
 
@@ -180,3 +216,12 @@ docker-compose up
 ```
 
 Dette vil stoppe og fjerne de eksisterende containers og derefter oprette og starte dem igen.
+
+# Ressourcer
+- [Docker Docs](https://docs.docker.com)
+- [Docker Compose](https://docs.docker.com/compose)
+- [MySQL Docker Image](https://hub.docker.com/_/mysql)
+- [Python Docker Image](https://hub.docker.com/_/python)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Docker installation guide](https://docs.docker.com/engine/install)
+- [Docker Compose installation guide](https://docs.docker.com/compose/install)
