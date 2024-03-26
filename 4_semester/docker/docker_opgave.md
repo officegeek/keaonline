@@ -42,3 +42,110 @@ Opret Flask-applikationen - Flask-applikationen kan have et enkelt endpoint, der
 **Respons Analyse**: Udvid klient-applikationen til at analysere svaret fra Flask-applikationen yderligere. For eksempel, parse en JSON-respons og udskriv specifikke data.
 
 **Fejlhåndtering**: Tilføj fejlhåndtering i både Flask-applikationen og klient-applikationen. For eksempel, håndter scenarier, hvor Flask-applikationen ikke er tilgængelig, eller svaret ikke som forventet.
+
+# Løsning - Flask-webserver - Python
+Her er en vejledende løsning.
+
+## Flask Webserver
+Flask App (**app.py**)
+
+```py
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello from Flask!"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
+```
+
+## Dockerfile for Flask Container
+**Dockerfile**
+
+```cmd
+# Brug et officielt Python runtime som base image
+FROM python:3.8
+
+# Sæt arbejdsdirectory i containeren
+WORKDIR /app
+
+# Kopier den lokale kode til containeren
+COPY . /app
+
+# Installer de nødvendige pakker
+RUN pip install --no-cache-dir flask
+
+# Gør port 5000 tilgængelig til verden udenfor containeren
+EXPOSE 5000
+
+# Kør app.py når containeren lanceres
+CMD ["python", "app.py"]
+```
+
+## Klient Container
+Klient Script (**client.py**)
+
+```py
+import requests
+
+def main():
+    response = requests.get('http://flask:5000/')
+    print(response.text)
+
+if __name__ == '__main__':
+    main()
+```
+
+## Dockerfile for Klient Container
+
+```cmd
+# Brug et officielt Python runtime som base image
+FROM python:3.8
+
+# Sæt arbejdsdirectory i containeren
+WORKDIR /app
+
+# Kopier den lokale kode til containeren
+COPY . /app
+
+# Installer requests pakken
+RUN pip install --no-cache-dir requests
+
+# Kør client.py når containeren lanceres
+CMD ["python", "client.py"]
+```
+
+## Docker Compose File
+**docker-compose.yml** til at køre begge services sammen
+
+```yml
+version: '3'
+
+services:
+  flask:
+    build: ./flask
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./flask:/app
+
+  client:
+    build: ./client
+    depends_on:
+      - flask
+```
+
+## Vejledning til Opsætning
+1. Opret en mappestruktur som følger:
+    - En hovedmappe, under den to undermapper: **flask** og **client**.
+    - Placer **Flask Dockerfile** og **app.py** i flask mappen.
+    - Placer **Klient Dockerfile** og **client.py** i client mappen.
+    - **docker-compose.yml** skal være i hovedmappen.
+
+2. Byg og kør dine containere med Docker Compose:
+    - Åbn en terminal i hovedmappen.
+    - Kør kommandoen **docker-compose up --build**. Dette vil bygge og starte begge dine containere. Flask-applikationen vil være tilgængelig på **http://localhost:5000**, og klient-containeren vil sende en anmodning til denne adresse, når den starter.
+
