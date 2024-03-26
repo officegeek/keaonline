@@ -1,10 +1,48 @@
+---
+layout: default
+title: 4. sem 2024 Forår
+parent: Docker
+grand_parent: 4. Semester
+nav_order: 5
+---
 
+<span class="fs-1">
+[HOME](./index.md){: .btn .btn-blue }
+</span>
 
+# Docker 4. semester 2024
+Docker-containere der kører en MySQL Server og en **Python-applikation**. Når MySQL Docker containeren oprettees skal der afvikles et SQL Script.
 
-# Docker Step by Step
+Python applikationen (*app.py*) skal hente data fra MySQL containeren.
 
+## Installér Docker og Docker Compose
+Først og fremmest skal I have Docker og Docker Compose installeret på jeres computere. 
 
-# MySQL
+Docker Desktop inkluderer begge værktøjer for både Windows og Mac:
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Docker installation guide](https://docs.docker.com/engine/install)
+- [Docker Compose installation guide](https://docs.docker.com/compose/install)
+
+## Projektstruktur
+Mappestruktur for dette projekt.
+
+```cmd
+projekt/
+├── db
+│   └── init.sql
+├── app
+│   └── app.py
+└── docker-compose.yml
+└── Dockerfile
+```
+
+- **db/init.sql** indeholder SQL-kommandoer til at initialisere databasen.
+- **app/app.py** er den Python-applikation, der tilgår MySQL-databasen.
+- **docker-compose.yml** definere, hvordan dine containers skal bygges og interagere.
+- **Dockerfile**  indeholder en samling af kommandoer og instruktioner, som Docker bruger til at bygge et image
+
+# MySQL Docker
 Denne kommando opretter en Docker container med MySQL. 
 
 Det er port **3360** der "*udstilles*", *internt* i Docker Container er det stadig **3306** der er MySQL porten. Dette gøres med kommandoen: **-p 3360:3306**
@@ -36,10 +74,10 @@ Det er nu muligt at oprette forbindelse til MySQL Docker (**demo_mysql**) fra My
 
 ![](./image/workbench_1.jpg)
 
-Det vil her være muligt at oprette database osv.
+Det vil her være muligt at oprette database osv. fra Workbench.
 
 ## init.sql
-Du skal oprette et SQL scrip der opretter databasen **dockerdemo**, tabellen **users** og indsætter data i denne.
+Du skal oprette et SQL script der automatisk opretter databasen **dockerdemo**, tabellen **users** og indsætter data i denne, når Docker containeren startes.
 
 SQL scriptet skal gemmes som **init.sql** i mappen **db**.
 
@@ -51,6 +89,7 @@ projekt/
 └── Dockerfile
 ```
 
+**init.sql**
 ```sql
 CREATE DATABASE if not exists dockerdemo;
 USE dockerdemo;
@@ -66,10 +105,12 @@ VALUES ('Ole', 'DA4'), ('Lis', 'DA2'), ('Kim', 'DA4');
 ```
 
 # docker-compose
-Oprettelse af din Docker Compose-konfiguration. Denne vil sætte både MySQL- og Python-applikationen op til at køre i separate containere.
+Oprettelse af din Docker Compose-konfiguration. Denne vil sætte MySQL op til at køre i en containere.
 
-## Først MySQL
+## MySQL - init.sql
 I MySQL delen bliver dit SQL script **init.sql** afviklet.
+
+**docker-compose.yml**
 ```yml
 version: '3.8'
 
@@ -112,6 +153,7 @@ Du kan forbinde til denne container med din Workbench, husk det er **port 3360**
 # Python app
 Opret en simpel Python App, **app.py**, der forbinder til MySQL-databasen og udfører en simpel forespørgsel i databasen. Placer den i mappen - **app** 
 
+**app.py**
 ```python
 import mysql.connector
 
@@ -157,37 +199,14 @@ projekt/
 └── Dockerfile
 ```
 
-# docker-compose
-Din docker-compose fil skal udvides så den starter din Python fil **app.py**
-
-```yml
-version: '3.8'
-
-services:
-
-  mysql:
-    image: mysql
-    container_name: demo_mysql
-    environment: 
-        MYSQL_ROOT_PASSWORD: MyPassword1234
-    volumes: 
-        - "./db/init.sql:/docker-entrypoint-initdb.d/init.sql"
-    ports:
-        - "3360:3306"
-
-  app:
-    build: .
-    depends_on: 
-      - mysql
-```
-
-
-## Test
-Du kan teste dette med denne Docker kommando:
+## app.py
+Du kan nu afvikle dit Python script.
 
 ```cmd
-docker-compose up
+python ./app/app.py
 ```
+
+![](./image/python_app.jpg)
 
 # Fejlsøgning
 
