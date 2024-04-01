@@ -236,6 +236,11 @@ docker-compose up
 
 Dette vil stoppe og fjerne de eksisterende containers og derefter oprette og starte dem igen.
 
+# Opgave
+
+## Flask opgave
+[Flask opgave](./Opgave_Flask/flask_opgave.md)
+
 # Ressourcer
 - [Docker Docs](https://docs.docker.com)
 - [Docker Compose](https://docs.docker.com/compose)
