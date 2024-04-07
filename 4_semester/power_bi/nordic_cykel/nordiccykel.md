@@ -16,7 +16,7 @@ nav_order: 35
 
 Dette er fiktive data på en virksomhed der sælger cykler i de 4 nordiskelande.
 
-De har 20 cykler fordelt på 4 kategorier:
+De har 20 cykelmodeller fordelt på 4 kategorier:
 
 - Racercykel
 - Mountainbike
@@ -37,7 +37,7 @@ De 5 tabeller har disse relationer og beregnede felter.
 ![](../image/er_diagram_1.jpg)
 
 ## Filer
-Der er to Excel filer, den ene, [nordic_cykel_start.xlsx](./filer/nordic_cykler_start.xlsx), indeholder tomme rækker, dubletter og forkerte dataformater, den anden [nordic_cykel_slut.xlsx](./filer/nordic_cykler_slut.xlsx), er reneset for "problemer".
+Der er to Excel filer, den ene, [nordic_cykel_start.xlsx](./filer/nordic_cykler_start.xlsx), indeholder tomme rækker, dubletter og forkerte dataformater, den anden [nordic_cykel_slut.xlsx](./filer/nordic_cykler_slut.xlsx), er reneset for "*problemer*".
 
 - [nordic_cykel_start.xlsx](./filer/nordic_cykler_start.xlsx)
 - [nordic_cykel_slut.xlsx](./filer/nordic_cykler_slut.xlsx)
@@ -45,11 +45,11 @@ Der er to Excel filer, den ene, [nordic_cykel_start.xlsx](./filer/nordic_cykler_
 # Power BI Services
 Power BI Services er Power BI´s cloud-baseret tjeneste, der giver dig mulighed for at importere data, oprette dashboards, dele dashboards, samarbejde og distribuere Power BI-rapporter og dashboards.
 
-Power BI Services er et cloud baseret alternativ til Power BI Desktop.
+**Power BI Services** er et cloud baseret alternativ til **Power BI Desktop**.
 
-Oprensning af data udfører vi i Power Query Online under et Data Flow. Det er også muligt at gøre det i din lokale version af Power Query i Power BI Desktop, hvis du har Windows.
+Oprensning af data udfører vi i Power Query Online i et **Dataflow**. Det er også muligt at gøre det i din lokale version af Power Query i Power BI Desktop, hvis du har Windows.
 
-Du tilgår Power Query og Data flows via [app.powerbi.com](https://app.powerbi.com)
+Du tilgår Power Query og Dataflows via [app.powerbi.com](https://app.powerbi.com)
 
 ## Opret Workspace
 - Opret et Workspace - *NordicCykel*
@@ -60,7 +60,7 @@ Du tilgår Power Query og Data flows via [app.powerbi.com](https://app.powerbi.c
         - Users can edit data models in the Power BI service (preview)
 
 # Dataflow
-Opret et dataflow der henter data fra Excel filen - [nordic_cykler_start.xlsx](./filer/nordic_cykler_start.xlsx)
+Du skal opret et **dataflow** der henter data fra Excel filen - [nordic_cykler_start.xlsx](./filer/nordic_cykler_start.xlsx)
 
 Upload denne Excel fil til **OneDrive**.
 
@@ -110,14 +110,31 @@ Dem af jer der har Windows PC'er og dermed kan installere Power BI Desktop, kan 
 - Til Power BI Services
     - Workspace - **NordicCykel** 
 
+![](../image/powerbiservicesdashboard.jpg)
 
 # Dashboard Power BI Service
 Åben Power BI Services - [app.powerbi.com](https://app.powerbi.com)
 
-![](../image/powerbiservicesdashboard.jpg)
+## Import af Excel data
+Hvis du **ikke** har Power BI Desktop skal ud oprette en ny Report ud fra Excel filen - [nordic_cykler_slut.xlsx](./filer/nordic_cykler_slut.xlsx).
+
+For at kunne forbinde til denne Excel fil skal du lægge den op på OneDrive.
+
+- Login på **NordicCykel** workspace
+- New - Report
+- Excel (Preview)
+- Browse efter [nordic_cykler_slut.xlsx](./filer/nordic_cykler_slut.xlsx)
+- Vælg de relevante tabeller:
+    - tblAnsatte
+    - tblKunder
+    - tblProdukter
+    - tblSalg
+    - tblSalgsLinjer
+- Klik **Create**
+- Gem
 
 ## Oprettelse af relationer
-- Vælg - **NordicCykelDashboard - Report**
+- Vælg - **dit dashboard**
 - Klik på **Edit**
 - Klik på **Open data model**
 - Opret relationer (*One-To-Many*) mellem tabellerne
