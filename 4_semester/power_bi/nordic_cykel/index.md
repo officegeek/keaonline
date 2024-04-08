@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Nordic Cykel
+title: Nordic Cykel - 2024
 grand_parent: 4. Semester
 parent: Microsoft Power BI
 has_children: false
