@@ -4,7 +4,7 @@ title: Nordic Cykel
 grand_parent: 4. Semester
 parent: Microsoft Power BI
 has_children: false
-nav_order: 35
+nav_order: 05
 ---
 
 <span class="fs-1">
