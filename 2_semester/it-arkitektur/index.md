@@ -13,16 +13,27 @@ nav_order: 50
 # 16-04-2024 - TUEH
 
 - Grundlæggende IT-arkitekturkoncepter
--   Oversigt over arkitekturrammer (F.eks. TOGAF)
+-   Oversigt over arkitekturrammer (*TOGAF*)
 - Information Systems Arkitektur
     - Data
     - Applikation
 
-**Case**: [Analyser en virksomheds IT-arkitektur baseret på en casebeskrivelse](./case_virksomhedsanalyse.md)
+## Slide 16-04-2024
+- [PDF](./slide/it_arkitektur_16042024.pdf)
+- [HTML](./slide/it_arkitektur_16042024.html)
 
-**Case**: Design en simpel database for en start-up virksomhed, inklusiv ER-diagram.
+## Case 1
+[Analyser en virksomheds IT-arkitektur baseret på en casebeskrivelse](./case_virksomhedsanalyse.md)
+
+## Case 2
+Design en simpel database for en start-up virksomhed, inklusiv ER-diagram.
 
 # 22-04-2024 - JENR
+
+## Slide
+- [PDF]()
+- [HTML]()
+
 ## Case
 
 
@@ -37,7 +48,7 @@ nav_order: 50
 # 30-04-2024 - TUHE
 Cloud Computing og IT-Infrastruktur
 
-- Cloud computing modeller (IaaS, PaaS, SaaS)
+- Cloud computing modeller (*IaaS, PaaS, SaaS*)
 - Infrastruktur som kode
 - Skalering og performance optimering
 
