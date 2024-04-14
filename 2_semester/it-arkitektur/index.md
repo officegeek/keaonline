@@ -21,9 +21,8 @@ nav_order: 50
 - [GAP - PDF](./slide/gap.pdf)
 
 # Cases
-## Sundhedspleje System
-[Sundhedspleje System](./case_sundhedsplejesystem/sundhedspleje_system.md)
-
+- [Sundhedspleje System](./case_sundhedsplejesystem/sundhedspleje_system.md)
+- [Smart City Trafikstyringssystem](./case_smartcity/smartcity.md)
 
 # 16-04-2024 - TUEH
 

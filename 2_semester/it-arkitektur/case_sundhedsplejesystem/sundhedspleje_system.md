@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Sundhedspleje System
+grand_parent: 2. Semester
 parent: IT-arkitektur og datahåndtering
 has_children: false
-nav_order: 10
+nav_order: 20
 ---
 
 <span class="fs-1">

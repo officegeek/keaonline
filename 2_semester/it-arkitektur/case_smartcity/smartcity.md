@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Smart City Trafikstyringssystem
+grand_parent: 2. Semester
 parent: IT-arkitektur og datahåndtering
 has_children: false
-nav_order: 10
+nav_order: 30
 ---
 
 <span class="fs-1">
@@ -13,9 +14,9 @@ nav_order: 10
 ![](logo.jpg)
 
 # Smart City Trafikstyringssystem
-Smart City-initiativet ønsker at udvikle et integreret trafikstyringssystem, der optimerer trafikflow og reducerer ventetider ved lyskryds. 
+Smart City-initiativet ønsker at udvikle et integreret trafikstyringssystem, der **optimerer trafikflow** og **reducerer ventetider** ved lyskryds. 
 
-Systemet skal bruge realtidsdata fra trafiksensorer og kameraer til at justere signaler dynamisk og give realtidsopdateringer til bilister via en app.
+Systemet skal bruge **realtidsdata** fra **trafiksensorer** og **kameraer** til at justere signaler dynamisk og give realtidsopdateringer til bilister via en **app**.
 
 ### Krav til dataarkitektur
 - **Sensor Data**: Registrerer trafikdensitet, hastighed og andre relevante målinger.
