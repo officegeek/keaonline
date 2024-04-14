@@ -11,7 +11,7 @@ markdown.marp.enableHtml
 ---
 
 <!-- _class: invert -->
-![bg right:60% 98%](gap_1.jpg)
+![bg right:60% 98%](./image/gap_1.jpg)
 
 # **Gap Analyse**  <!-- fit -->
 En Gap-analyse er en metode, der bruges til at vurdere forskellen mellem en virksomheds **faktiske** præstation og dens **ønskede** præstation. 

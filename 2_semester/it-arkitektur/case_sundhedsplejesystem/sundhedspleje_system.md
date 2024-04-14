@@ -10,6 +10,8 @@ nav_order: 10
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
+![](logo.jpg)
+
 # Sundhedspleje System
 I er en del af IT-teamet i "**HealthTrack**", en fiktiv organisation der tilbyder digitale sundhedsløsninger.
 

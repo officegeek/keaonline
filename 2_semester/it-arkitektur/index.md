@@ -29,13 +29,12 @@ nav_order: 50
 
 - Grundlæggende IT-arkitekturkoncepter
 -   Oversigt over arkitekturrammer (*TOGAF*)
-- Information Systems Arkitektur
+- **Information Systems Arkitektur**
     - Data
     - Applikation
 
 # 22-04-2024 - JENR
 
-## Case
 
 
 # 25-04-2024 (DA2) - TUEH
@@ -49,7 +48,6 @@ I skal læse disse to PDF'er til denne gang:
 - Mikroservices arkitektur og dens betydning for moderne applikationsudvikling
 - Data governance og datakvalitetsstyring
 - Avancerede datalagringsløsninger (*NoSQL databaser, Data Lakes*)
-- Introduktion til dataanalyse og business intelligence
 
 
 # 30-04-2024 - TUHE
@@ -59,8 +57,6 @@ Cloud Computing og IT-Infrastruktur
 - Infrastruktur som kode
 - Skalering og performance optimering
 
-## Case
-Lav en plan for migrering af en applikation til cloud, og diskuter potentielle udfordringer.
 
 # Ressourcer
 - **TOGAF**: En grundig gennemgang af The Open Group Architecture Framework (TOGAF) - https://www.opengroup.org/togaf
