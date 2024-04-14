@@ -10,6 +10,21 @@ nav_order: 50
 [HOME](../index.md){: .btn .btn-blue }
 </span>
 
+# Slide
+- [Information System Arkitektur - HTML](./slide/information_systems_arkitektur.html)
+- [Information System Arkitektur - PDF](./slide/information_systems_arkitektur.pdf)
+- [Data Arkitektur - HTML](./slide/data_arkitektur.html)
+- [Data Arkitektur - PDF](./slide/data_arkitektur.pdf)
+- [Applikation Arkitektur - HTML](./slide/applikations_arkitektur.html)
+- [Applikation Arkitektur - PDF](./slide/applikations_arkitektur.pdf)
+- [GAP - HTML](./slide/gap.html)
+- [GAP - PDF](./slide/gap.pdf)
+
+# Cases
+## Sundhedspleje System
+[Sundhedspleje System](./case_sundhedsplejesystem/sundhedspleje_system.md)
+
+
 # 16-04-2024 - TUEH
 
 - Grundlæggende IT-arkitekturkoncepter
@@ -18,30 +33,22 @@ nav_order: 50
     - Data
     - Applikation
 
-## Slide 16-04-2024
-- [PDF](./slide/it_arkitektur_16042024.pdf)
-- [HTML](./slide/it_arkitektur_16042024.html)
-
-## Case 1
-[Analyser en virksomheds IT-arkitektur baseret på en casebeskrivelse](./case_virksomhedsanalyse.md)
-
-## Case 2
-Design en simpel database for en start-up virksomhed, inklusiv ER-diagram.
-
 # 22-04-2024 - JENR
-
-## Slide
-- [PDF]()
-- [HTML]()
 
 ## Case
 
 
-# 25-04-2024 - TUEH
+# 25-04-2024 (DA2) - TUEH
 
+## PDF
+I skal læse disse to PDF'er til denne gang:
+- [Service mesh or API management?](./pdf/cl-service-mesh-and-api-management.pdf)
+- [Making the Move from Monolithic Architectures to Microservices](./pdf/making-the-move-from-monolithic-architectures-to-microservices.pdf)
+
+## Emner
 - Mikroservices arkitektur og dens betydning for moderne applikationsudvikling
 - Data governance og datakvalitetsstyring
-- Avancerede datalagringsløsninger (NoSQL databaser, Data Lakes)
+- Avancerede datalagringsløsninger (*NoSQL databaser, Data Lakes*)
 - Introduktion til dataanalyse og business intelligence
 
 
@@ -52,7 +59,8 @@ Cloud Computing og IT-Infrastruktur
 - Infrastruktur som kode
 - Skalering og performance optimering
 
-**Case**: Lav en plan for migrering af en applikation til cloud, og diskuter potentielle udfordringer.
+## Case
+Lav en plan for migrering af en applikation til cloud, og diskuter potentielle udfordringer.
 
 # Ressourcer
 - **TOGAF**: En grundig gennemgang af The Open Group Architecture Framework (TOGAF) - https://www.opengroup.org/togaf
@@ -66,3 +74,6 @@ Cloud Computing og IT-Infrastruktur
 - **NoSQL Distilled** af Pramod J. Sadalage og Martin Fowler - En kort guide til den NoSQL-verden.
 - **AWS Data Lake Resource Guide** - https://aws.amazon.com/big-data/datalakes-and-analytics/ - En ressource for at forstå og implementere Data Lakes i AWS.
 - **Data Science for Business** af Foster Provost og Tom Fawcett - Introduktion til de grundlæggende principper i dataanalyse og hvordan de anvendes i forretningsmæssig beslutningstagning.
+- https://www.dataversity.net/conceptual-vs-logical-vs-physical-data-modeling/
+- https://www.gooddata.com/blog/physical-vs-logical-data-model 
+- https://online.visual-paradigm.com/knowledge/visual-modeling/conceptual-vs-logical-vs-physical-data-model
