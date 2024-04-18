@@ -8,17 +8,17 @@
 Jeg brugere dette site til mit undervisnings materiale.
 
 # 1. Semester
-Materialle til 1. semester - [Link](./1_semester/index.md)
+Materiale til 1. semester - [Link](./1_semester/index.md)
 
 # 2. Semester
-Materialle til 2. semester - [Link](./2_semester/index.md)
+Materiale til 2. semester - [Link](./2_semester/index.md)
 
 # 4. Semester
-Materialle til 4. semester - [Link](./4_semester/index.md)
+Materiale til 4. semester - [Link](./4_semester/index.md)
 
 # 5. Semester
 ## Cybersecurity
-Materialle til Cybersecurity - [Link](./cybersecurity/index.md)
+Materiale til Cybersecurity - [Link](./cybersecurity/index.md)
 
 ## Know Your Data
 Materiale til Know Your Data - [Link](./know-your-data/index.md)

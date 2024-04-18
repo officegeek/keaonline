@@ -23,7 +23,7 @@ markdown.marp.enableHtml
 
 <!-- _class: invert -->
 ![bg right:45% 115%](./image/city_4.jpg)
-## I er **arkitekter**, der skal designe en del af en "*data/applikations*-**by**", hvor hver bygning repræsenterer en form for *opbevaring*-**data**, *transport*-**process** eller *funktion*-**applikation**.
+## I er **arkitekter**, der skal designe en del af en "*data/applikations*-**by**", hvor hver bygning repræsenterer en form for *opbevaring*-**data**, *transport*-**proces** eller *funktion*-**applikation**.
 
 ## Hvordan skal disse **bygninger** (*data og applikationer*) **interagerer** og støtter hinanden i en større **infrastruktur**.
 
