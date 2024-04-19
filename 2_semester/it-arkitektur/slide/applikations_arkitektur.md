@@ -72,4 +72,56 @@ markdown.marp.enableHtml
 
 ## **Formål**: Illustrerer organisationen af og forholdet mellem softwarekomponenter, deres interaktioner og grænseflader.
 ## **Anvendelse**: Bruges til detaljeret design og dokumentation af softwarearkitektur, hvilket er essentielt for modulær og genanvendelig kode.
- 
+
+---
+
+<!-- _class: invert -->
+![bg right:50% 112%](./image/hotel_booking.jpg)
+# **Bookingsystem for hoteller**
+### Simpelt online **bookingsystem** for hoteller. 
+
+### Dette system giver brugere mulighed for at **søge** efter **hoteller**, **booke værelser** og administrere deres **bookinger**. 
+
+### Systemet vil **interagere** med **eksterne systemer** for betalinger og hoteldata.
+
+---
+
+# Application Communication Diagram
+Hvordan er de forskellige applikationskomponenter interagerer med hinanden gennem forskellige kommunikationskanaler.
+
+![](./image/hotel_1.jpg)
+
+---
+
+# Application Architecture Diagram
+Viser de vigtigste softwarekomponenter i systemet og deres relationer.
+
+![bg right:52% 100%](./image/hotel_2.jpg)
+
+---
+
+# System Integration Diagram
+Viser integrationen mellem systemet og eksterne tjenester.
+
+![](./image/hotel_3.jpg)
+
+---
+
+# Technology Stack Diagram
+Viser teknologierne anvendt på de forskellige lag af applikationen.
+
+![bg right:44% 65%](./image/hotel_4.jpg)
+
+---
+
+# Deployment Diagram (*UML*)
+UML diagram der viser, hvordan systemkomponenterne deployes på hardware eller cloud-ressourcer.
+
+![](./image/hotel_5.jpg)
+
+---
+
+# Component Diagram (*UML*)
+Dette UML diagram viser de større softwarekomponenter inden for hver applikation, deres grænseflader og relationer.
+
+![](./image/hotel_6.jpg)

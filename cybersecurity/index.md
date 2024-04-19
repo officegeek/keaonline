@@ -9,6 +9,9 @@
 [HOME](./index.md){: .btn .btn-blue }
 </span>
 
+# Links
+- [https://digitallead.dk/viden/nyheder/vaerktoej-til-it-kategorisering-skal-hjaelpe-til-bedre-sikkerhedsloesninger/](https://digitallead.dk/viden/nyheder/vaerktoej-til-it-kategorisering-skal-hjaelpe-til-bedre-sikkerhedsloesninger/)
+
 # Dates
 
 | **Date**                            | **Weekday** | **Emne**                                          |

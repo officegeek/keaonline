@@ -164,3 +164,32 @@ Typisk er det dog kun **de 3 øverste niveauer** der anvendes i praksis.
 ---
 
 ![bg 100%](./image/pdm-for-e-commerce.png)
+
+---
+
+<!-- _class: invert -->
+![bg right:50% 112%](./image/hotel_booking.jpg)
+
+# **Bookingsystem for hoteller**
+### Simpelt online **bookingsystem** for hoteller. 
+
+### Dette system giver brugere mulighed for at **søge** efter **hoteller**, **booke værelser** og administrere deres **bookinger**. 
+
+### Systemet vil **interagere** med **eksterne systemer** for betalinger og hoteldata.
+
+---
+
+![bg 48%](./image/Hotel_data_1_1.jpg)
+
+---
+
+![](./image/Hotel_data_2.jpg)
+
+---
+
+
+![bg 35%](./image/Hotel_data_3.jpg)
+
+---
+
+![bg 30%](./image/Hotel_data_4.jpg)
