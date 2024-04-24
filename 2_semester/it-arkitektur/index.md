@@ -19,6 +19,8 @@ nav_order: 50
 - [Applikation Arkitektur - PDF](./slide/applikations_arkitektur.pdf)
 - [GAP - HTML](./slide/gap.html)
 - [GAP - PDF](./slide/gap.pdf)
+- [Arkitektur Dokumenter - HTML](./slide/dokumenter.html)
+- [Arkitektur Dokumenter - PDF](./slide/dokumenter.pdf)
 
 # Cases
 - [Sundhedspleje System](./case_sundhedsplejesystem/sundhedspleje_system.md)
