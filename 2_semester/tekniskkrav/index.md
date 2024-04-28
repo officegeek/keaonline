@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Teknisk kravspecifikation
-parent: 2. Semester
+grand_parent: 2. Semester
+parent: IT-arkitektur og datahåndtering
 has_children: false
 nav_order: 30
 ---
