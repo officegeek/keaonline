@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Web Service API
-parent: 4. Semester
+title: API
+parent: 2. Semester
 has_children: true
 nav_order: 30
 ---
@@ -9,11 +9,6 @@ nav_order: 30
 <span class="fs-1">
 [HOME](./index.md){: .btn .btn-blue }
 </span>
-
-[Home](../modul-4-2.md)
-# Python, Web Service API
-    - 20-03-2023 - Mandag (DK)
-    - 24-03-2023 - Friday (INT)
 
 # Beskrivelse
 **Introduction to:**

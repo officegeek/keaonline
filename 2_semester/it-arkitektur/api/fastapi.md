@@ -1,8 +1,8 @@
 ---
 layout: default
 title: FastAPI
-grand_parent: 4. Semester
-parent: Web Service API
+grand_parent: 2. Semester
+parent: API
 nav_order: 30
 ---
 
