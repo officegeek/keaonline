@@ -2,7 +2,7 @@
 layout: default
 title: FastAPI ToDo - Demo
 grand_parent: 2. Semester
-parent: API
+parent: IT-arkitektur og datahåndtering
 nav_order: 50
 ---
 

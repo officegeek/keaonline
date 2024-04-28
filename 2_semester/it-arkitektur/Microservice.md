@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Microservice
-parent: IT architecture & Microservice
-grand_parent: 4. Semester
+parent: IT-arkitektur og datahåndtering
+grand_parent: 2. Semester
 nav_order: 20
 ---
 

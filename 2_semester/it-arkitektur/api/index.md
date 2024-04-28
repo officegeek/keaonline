@@ -1,7 +1,8 @@
 ---
 layout: default
 title: API
-parent: 2. Semester
+grand_parent: 2. Semester
+parent: IT-arkitektur og datahåndtering
 has_children: true
 nav_order: 30
 ---
