@@ -18,8 +18,8 @@ nav_order: 30
 - API
 
 # Slides
-- [HTML](./slide/Webservices_API_Slide.html)
-- [PDF](./slide/Webservices_API_Slide.pdf)
+- [HTML](./slide/api.html)
+- [PDF](./slide/api.pdf)
 
 # SOAP Python dialing code
 Use SOAP in Python to get the dialing code using a country code
