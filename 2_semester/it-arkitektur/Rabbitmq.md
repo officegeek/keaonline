@@ -144,7 +144,7 @@ print(" [x] Sent 'Hello KEA!'")
 connection.close()
 ```
 
-Download [send.py](./code/demorabbitmq/send.py)
+Download [send.py](../it-arkitektur/api/demorabbitmq/send.py)
 
 ### Receiving
 Your second program **receive.py** will receive messages from the queue and print them on the screen.
@@ -179,7 +179,8 @@ if __name__ == '__main__':
             os._exit(0)
 ```
 
-Download [receive.py](./code/demorabbitmq/receive.py)
+Download [receive.py](../it-arkitektur/api/demorabbitmq/receive.py)
+
 ### Try out the programs in a terminal.
 **First**, start a consumer (**receive.py**), which will run continuously waiting for deliveries:
 
