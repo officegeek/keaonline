@@ -72,7 +72,7 @@ print("API Status Code: %s", (response.status_code))
 print("JSON: %s", (response.json()))
 ```
 
-![](./_image/vat.jpg)
+![](./image/vat.jpg)
 
 ## API Status Codes
 Status codes are returned with every request that is made to a web server. Status codes indicate information about what happened with a request. Here are some codes that are relevant to GET requests:
