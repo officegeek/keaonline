@@ -21,10 +21,13 @@ nav_order: 50
 - [GAP - PDF](./slide/gap.pdf)
 - [Arkitektur Dokumenter - HTML](./slide/dokumenter.html)
 - [Arkitektur Dokumenter - PDF](./slide/dokumenter.pdf)
+- [Microservives vs SOA - HTML](./slide/microservice_soa.html)
+- [Microservives vs SOA - PDF](./slide/microservice_soa.pdf)
 
 # Cases
 - [Sundhedspleje System](./case_sundhedsplejesystem/sundhedspleje_system.md)
 - [Smart City Trafikstyringssystem](./case_smartcity/smartcity.md)
+- [Digital Bank](./digitalbank/index.md)
 
 # 16-04-2024 - TUEH
 

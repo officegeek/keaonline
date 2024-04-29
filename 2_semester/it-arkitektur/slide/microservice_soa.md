@@ -110,3 +110,56 @@ SOA er en arkitektonisk model, der anvender distribuerede tjenester, som kommuni
 - Microservices og SOA kan succesfuldt integreres for at kombinere deres respektive fordele.
 ## **Anbefalinger**
 - Vurdering af forretningens specifikke behov for at vælge den mest passende arkitektur eller en kombination.
+
+---
+
+<!-- _class: invert -->
+![bg right:30% 160%](./image/micro_2.jpg)
+# **Microservices Diagramtyper**
+## **Component Diagram**
+- Viser hvordan en applikation er opdelt i individuelle services med deres afhængigheder. Det er nyttigt til at illustrere, hvordan services interagerer internt i en microservices arkitektur.
+## Deployment Diagram
+- Skitserer hvordan forskellige microservices deployes på infrastrukturen. Det kan vise relationer mellem services og de underliggende maskiner eller containere.
+
+---
+
+<!-- _class: invert -->
+![bg right:30% 160%](./image/micro_2.jpg)
+# **Microservices Diagramtyper**
+## **Sequence Diagram**
+- Viser hvordan data flows gennem forskellige microservices ved specifikke operationer. Dette er nyttigt for at forstå interaktionerne mellem services under forskellige brugsscenarier.
+## **Network Diagram**
+- Illustrerer det netværkslayout, der understøtter microservices, inklusiv gateways, load balancers og forbindelser mellem services.
+
+---
+
+<!-- _class: invert -->
+![bg right:30% 160%](./image/soa_2.jpg)
+# **SOA Diagramtyper**
+## **Service Component Architecture (SCA) Diagram**
+- Bruges til at fremvise komponenter og deres interaktioner inden for en SOA. Det kan inkludere services, referencer, bindings og komponenter.
+
+## **Integration Flow Diagram**
+- Fremviser, hvordan forskellige services er integreret og kommunikerer med hinanden og med eksterne systemer. Dette er vigtigt for at forstå datastrømme og afhængigheder mellem services.
+
+---
+
+<!-- _class: invert -->
+![bg right:30% 160%](./image/soa_2.jpg)
+# **SOA Diagramtyper**
+## **Enterprise Service Bus (ESB) Diagram**
+- Dette diagram viser, hvordan ESB fungerer som rygraden i en SOA ved at facilitere kommunikation og middleware-løsninger mellem forskellige services.
+## **BPMN (Business Process Model and Notation) Diagram**
+- Illustrerer forretningsprocesser og deres sekvenser, der er implementeret via SOA. BPMN-diagrammer er nyttige til at visualisere høj-niveau processer og hvordan de nedbrydes i individuelle services.
+
+---
+
+<!-- _class: invert -->
+![bg right:30% 215%](./image/micro_soa.jpg)
+# **Fælles Diagramtyper**
+For begge arkitekturer kan følgende diagrammer også være relevante.
+
+## **Architectural Diagram**
+- Viser den overordnede arkitektur og komponenternes placering.
+## **UML Diagrams (såsom Use Case Diagrams)**
+- Bruges til at beskrive systemets funktionaliteter og de aktører, der interagerer med systemet.
