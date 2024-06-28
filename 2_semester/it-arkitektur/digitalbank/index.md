@@ -29,7 +29,7 @@ Der skal udarbejdes dokumenter for:
 ### Applikations-Arkitektur Dokument
 - Design af microservices
     - Beskriv hvilke services der skal være, og hvordan de kommunikerer internt og eksternt.
-- Beskriv hvordan SOA-principper integreres i microservice-arkitekturen
+- Beskriv hvordan SOA-principper kan integreres i microservice-arkitekturen
 - Fremhæv hvordan services skal håndtere transaktioner, autentifikation, og autorisation
 
 ### Teknologi-Arkitektur Dokument
